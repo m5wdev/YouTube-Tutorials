@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-history
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% if history %}
+            <div id="section-company-history">
+                <div id="section-company-history__inner" class="container">
+                    {% for object in history %}
+                        <div class="history-card">
+                            <div class="history-card__year">{{ object.year }}</div>
+                            <div class="history-card__wrap">
+                                <div class="history-card__img">
+                                    {% if object.image %}<img src="{{ object.image.url }}" alt="История ГК Монолит {{ object.year }}">{% endif %}
+                                </div>
+                                {% if object.body %}
+                                    <div class="history-card__descr">
+                                        {{ object.body|safe }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

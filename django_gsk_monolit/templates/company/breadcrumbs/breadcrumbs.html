@@ -1,0 +1,13 @@
+<nav id="breadcrumbs">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="{% url 'homepage' %}">Главная</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="{% url 'company:index' %}">О компании</a>
+            </li>
+            <li class="breadcrumb-item active">{{ page_title }}</li>
+        </ol>
+    </div>
+</nav>

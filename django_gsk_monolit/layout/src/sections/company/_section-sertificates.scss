@@ -1,0 +1,34 @@
+#section-sertificates {
+    &__inner {
+        display: grid;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include media-breakpoint-only(lg) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(xs) {
+            grid-template-columns: 1fr;
+        }
+
+        .certificate {
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+
+            display: block;
+            width: 100%;
+            height: 386px;
+
+            @include media-breakpoint-only(sm) {
+                height: 256px;
+            }
+        }
+    }
+}

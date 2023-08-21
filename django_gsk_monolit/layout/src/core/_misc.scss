@@ -1,0 +1,78 @@
+// Scaled animated line on bottom
+.scale-line {
+    &::after {
+        background-color: #00998f;
+        content: "";
+        display: block;
+        transform: scaleX(1);
+        transition: transform .3s cubic-bezier(.25,.46,.45,.94);
+        width: 100%;
+        height: 2px;
+    }
+
+    &:hover {
+        &::after {
+            transform: scaleX(0);
+        }
+    }
+}
+
+// Stretched link
+.stretched-link {
+    &::after {
+        background-color: rgba(0,0,0,0);
+        content: "";
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        pointer-events: auto;
+    }
+}
+
+// Anchors offset from top
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+// Anchor links
+a.anchor-link {
+    border-bottom: 1px dashed rgba(0, 153, 143, .6);
+    color: #00998f;
+    text-decoration: none;
+    transition: border-bottom-color ease-in-out .2s;
+
+    &:focus,
+    &:hover {
+        border-bottom: 1px dashed rgba(0, 153, 143, 1);
+        text-decoration: none;
+    }
+}
+
+// Edit link
+a.edit-link {
+    background-color: #333;
+    color: white;
+    font-style: italic;
+    padding: 5px 10px;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+        color: #00998f;
+        outline: none;
+        text-decoration: none;
+    }
+}

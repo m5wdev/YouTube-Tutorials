@@ -1,0 +1,4 @@
+<div class="action-card"{% if object.image_card %} style="background-image: url('{{ object.image_card.url }}');"{% endif %}>
+    <div class="action-card__title">{{ object.title }}</div>
+    <a href="{{ object.get_absolute_url }}" class="stretched-link"></a>
+</div>

@@ -1,0 +1,25 @@
+.company-tenders-faq {
+    background-image: url('images/bg-lightgrey-line.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    #section-contacts-page-content {
+        .contact-card__title-wrap {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        .contact-card__descr {
+            grid-row-gap: 0;
+            grid-template-columns: 1fr;
+        }
+
+        &__main-contacts {
+            .h3 {
+                font-size: 2.3rem;
+                font-weight: 800;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} object-page
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <main id="main">
+        {% include 'realty/object_detail-sections/section-object-page-main-info.html' %}
+
+        {% include 'realty/object_detail-sections/section-sites-types.html' %}
+
+        {% include 'realty/object_detail-sections/section-building-progress-and-news.html' %}
+
+        {% include 'realty/object_detail-sections/section-object-description.html' %}
+
+        {% include 'realty/object_detail-sections/section-object-info.html' %}
+
+        {% include 'realty/object_detail-sections/section-object-files.html' %}
+
+        {% include 'realty/object_detail-sections/section-object-video-and-panoram.html' %}
+
+        {# <!-- TODO: insolation scheme --> #}
+
+        {# <!-- {% include 'realty/object_detail-sections/section-object-parking-storages.html' %} --> #}
+
+        {% include 'realty/object_detail-sections/section-object-genplan.html' %}
+
+        {% if object.yandex_map %}
+            <div id="section-object-infrastructure">
+                {{ object.yandex_map|safe }}
+            </div>
+        {% endif %}
+
+        {% include 'realty/object_detail-sections/section-object-special-offers.html' %}
+
+        {% include 'realty/object_detail-sections/section-mortgage.html' %}
+
+        {% include 'realty/object_detail-sections/section-other-objects.html' %}
+
+        {% include 'realty/object_detail-sections/section-object-downloads.html' %}
+    </main>
+{% endblock %}

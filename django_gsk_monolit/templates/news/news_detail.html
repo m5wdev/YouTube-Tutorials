@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} news-page
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'news:list' %}">Новости</a>
+                </li>
+                <li class="breadcrumb-item active">{{ object.title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ object.title }}</h1>
+            {% if object.date %}
+                <div id="page-title-h1__descr">
+                    <em><small>{{ object.date|date:'j F Y' }}</small></em>
+                </div>
+            {% endif %}
+        </div>
+
+        {% if object.body or news_images %}
+            <div id="section-news-page-content" class="container">
+                {% if object.body %}
+                    <div id="section-news-page-content__text">
+                        {{ object.body|safe }}
+                    </div>
+                {% endif %}
+                {% if news_images %}
+                    <div id="section-news-page-content__images">
+                        <div class="news-gallery">
+                            {% if object.main_image %}
+                                <a data-fancybox="news-gallery" href="{{ object.main_image.url }}" class="news-gallery__first-img" style="background-image: url('{{ object.main_image_thumb.url }}');"></a>
+                            {% endif %}
+                            {% if news_images %}
+                                <div class="news-gallery__rest-images">
+                                    {% for image in news_images %}
+                                        <a data-fancybox="news-gallery" href="{{ image.image.url }}" class="news-gallery__img" style="background-image: url('{{ image.image.url }}');"></a>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+    </main>
+
+    {% if other_news %}
+        <section id="section-other-news" class="common-section">
+            <div class="container">
+                <hr>
+            </div>
+            <div class="common-section__title container">
+                <h2>Другие новости</h2>
+            </div>
+            <div id="section-other-news__inner" class="container">
+                {% for object in other_news %}
+                    {% include 'news/cards/news-card.html' %}
+                {% endfor %}
+            </div>
+        </section>
+    {% endif %}
+{% endblock %}

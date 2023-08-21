@@ -1,0 +1,128 @@
+#section-building-progress-and-news {
+    &__inner {
+        #bp-and-news-pills-tabs {
+            &.nav-pills .nav-link.active,
+            &.nav-pills .show > .nav-link {
+                background-color: #00998f;
+                border-radius: 0;
+                color: white;
+            }
+
+            &.nav-pills .nav-link {
+                color: black;
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+
+        #bp-and-news-pills-tabs-content {
+            margin-top: 15px;
+
+            #bp-and-news-pills-building-progress {
+                &__inner {
+                    display: grid;
+                    grid-row-gap: 15px;
+                    grid-column-gap: 15px;
+
+                    @include media-breakpoint-only(xl) {
+                        grid-template-columns: repeat(6, 1fr);
+                    }
+                    @include media-breakpoint-only(lg) {
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                    @include media-breakpoint-only(md) {
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                    @include media-breakpoint-only(sm) {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                    @include media-breakpoint-down(xs) {
+                        grid-template-columns: 1fr;
+                    }
+                }
+
+                .bp-card {
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                    background-size: cover;
+                    border-radius: 7px;
+
+                    display: block;
+                    width: 100%;
+                    height: 150px;
+
+                    position: relative;
+                    transition: all ease-in-out .3s;
+
+                    max-width: 368px;
+                    justify-self: center;
+
+                    // Hide all image cards all after 6th
+                    @include media-breakpoint-only(xl) {
+                        &:nth-child(n+7) {
+                            display: none;
+                        }
+                    }
+                    @include media-breakpoint-only(lg) {
+                        &:nth-child(n+5) {
+                            display: none;
+                        }
+                    }
+                    @include media-breakpoint-only(md) {
+                        &:nth-child(n+4) {
+                            display: none;
+                        }
+                    }
+                    @include media-breakpoint-only(sm) {
+                        &:nth-child(n+3) {
+                            display: none;
+                        }
+                    }
+                    @include media-breakpoint-down(xs) {
+                        &:nth-child(n+2) {
+                            display: none;
+                        }
+                    }
+
+                    // Show date only in first gallery image
+                    &:first-child {
+                        .bp-card__date {
+                            display: block;
+                        }
+                    }
+
+                    &__date {
+                        background-color: #222;
+                        color: white;
+                        display: none;
+                        padding: 3px 10px;
+                        position: absolute;
+                        left: 0;
+                        bottom: 30px;
+                    }
+
+                    &:hover {
+                        opacity: .7;
+                        transform: translate3d(0,-3px,0);
+                    }
+                }
+            }
+
+            #bp-and-news-pills-news {
+                &__inner {
+                    display: grid;
+                    grid-row-gap: 30px;
+                    grid-column-gap: 30px;
+                    grid-template-columns: repeat(3, 1fr);
+
+                    @include media-breakpoint-down(lg) {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                    @include media-breakpoint-down(sm) {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+        }
+    }
+}

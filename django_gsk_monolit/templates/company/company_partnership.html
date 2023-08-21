@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-partnership
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% if partners %}
+            <section id="section-company-partnership-official-partners" class="common-section">
+                <div class="common-section__title container">
+                    <h2>Официальные Партнеры</h2>
+                </div>
+                <div id="section-company-partnership-official-partners__inner" class="container">
+                    {% for object in partners %}
+                        <div class="official-partner">
+                            <div class="official-partner__logo"{% if object.image %} style="background-image: url('{{ object.image.url }}');"{% endif %}></div>
+                            {% if object.url %}
+                                <a href="{{ object.url }}" target="_blank" class="stretched-link" title="Откроется в новой вкладке"></a>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+
+        <section id="section-company-partnership-basic-concepts">
+            <div id="section-company-partnership-basic-concepts__inner" class="container">
+                <h2>Нам клиент, вам &ndash; процент!</h2>
+                <div class="basic-concept">
+                    <div class="basic-concept__number">1</div>
+                    <div class="basic-concept__descr">Приводите клиента</div>
+                </div>
+                <div class="basic-concept">
+                    <div class="basic-concept__number">2</div>
+                    <div class="basic-concept__descr">Клиент совершает сделку</div>
+                </div>
+                <div class="basic-concept">
+                    <div class="basic-concept__number">3</div>
+                    <div class="basic-concept__descr">Получите процент от сделки</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-company-partnership-basic-principles" class="common-section">
+            <div class="common-section__title container">
+                <h2>Официальные Партнеры</h2>
+            </div>
+            <div id="section-company-partnership-basic-principles__inner" class="container">
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Прозрачность</div>
+                    <div class="basic-principle__descr">Сотрудничество по договору. Мы исключаем подмену фактов, скрытые условия и неоднозначные формулировки.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Конкурентоспособность</div>
+                    <div class="basic-principle__descr">Большой выбор объектов. Продажа ликвидных площадей на одном уровне с нашим собственным отделом продаж.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Справедливая цена</div>
+                    <div class="basic-principle__descr">Единая установленная стоимость как у застройщика, так у Партнёра.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Оперативность</div>
+                    <div class="basic-principle__descr">Взаимодействие через выделенного сотрудника. Бронирование и ответы на все вопросы в режиме онлайн.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Честность</div>
+                    <div class="basic-principle__descr">Клиент «закрепляется» за Партнёром. Совместное ведение статистики продаж и ежемесячное подписание актов выполненных работ.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Поддержка</div>
+                    <div class="basic-principle__descr">Совершенствование навыков продаж. В рамках программы: обучение, промомероприятия, печатная продукция, выезды на объекты, презентации.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Сопровождение</div>
+                    <div class="basic-principle__descr">Мы готовы «подхватить» клиента на любом этапе взаимодействия от холодного лида до подписания договора.</div>
+                </div>
+                <div class="basic-principle">
+                    <div class="basic-principle__title">Доходность</div>
+                    <div class="basic-principle__descr">Ориентир на долгосрочное сотрудничество и стабильную прибыль для себя и для Партнёра.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="common-section">
+            <div class="common-section__title container">
+                <h2>Как зарабатывать на партнерской программе?</h2>
+            </div>
+            <div class="container">
+                <h3>&mdash; Будьте активны! Больше сумма проведенных сделок &ndash; больший процент вознаграждения!</h3>
+            </div>
+        </section>
+
+        <section id="section-company-partnership-steps" class="common-section">
+            <div class="common-section__title container">
+                <h2>Этапы получения вознаграждения</h2>
+            </div>
+            <div id="section-company-partnership-steps__inner" class="container">
+                <div class="partnership-step">
+                    <div class="icon icon-doc-star"></div>
+                    <div class="partnership-step__descr">Заключение партнерского договора</div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-people"></div>
+                    <div class="partnership-step__descr">Работа с клиентом</div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-deal"></div>
+                    <div class="partnership-step__descr">Проведение сделки и оплата</div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-hand"></div>
+                    <div class="partnership-step__descr">Получение вознаграждения</div>
+                </div>
+            </div>
+            <div id="section-company-partnership-steps__bottom" class="container">
+                <a href="{% static 'downloads/partnersip_rules.pdf' %}" class="download-link" title="Скачать">
+                    <span class="icon icon-document-white"></span>
+                    <span>Правила взаимодействия и порядок продаж<br><small>.PDF</small></span>
+                </a>
+            </div>
+        </section>
+
+        <div id="section-company-partnership-phone">
+            <div id="section-company-partnership-phone__inner" class="container">
+                <div class="partnership-phone__title">Хотите стать Партнером?</div>
+                <div class="partnership-phone__phone">
+                    <a href="tel:+79788150880" title="Позвонить">+7 (978) 815-08-80</a>
+                </div>
+            </div>
+        </div>
+
+        {% if objects_partnership %}
+            <section id="section-objects-list" class="common-section">
+                <div class="common-section__title container">
+                    <h2>Объекты в программе</h2>
+                </div>
+                <div class="common-section__inner-grid container">
+                    {% for object in objects_partnership %}
+                        {% include 'realty/cards/object-card.html' %}
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+    </main>
+{% endblock %}

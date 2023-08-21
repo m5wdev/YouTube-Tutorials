@@ -1,0 +1,54 @@
+#section-contacts-page-content {
+    margin-bottom: 30px;
+
+    &__main-contacts {
+        margin-top: 30px;
+
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: 1fr;
+        }
+
+        .contact-item {
+            align-self: center;
+
+            .icon {
+                background-color: #00998f;
+                background-size: 24px;
+                border-radius: 100%;
+                width: 48px;
+                height: 48px;
+
+                &:not(:last-child) {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    &__inner {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // &__list {}
+
+    &__map {
+        background-color: #EEE;
+        min-height: 512px;
+
+        .contact-card-map {
+            display: none;
+        }
+    }
+}

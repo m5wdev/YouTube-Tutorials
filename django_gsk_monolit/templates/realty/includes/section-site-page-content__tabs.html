@@ -1,0 +1,56 @@
+{% if object.image_planning %}
+    <div id="section-site-page-content__tabs">
+        <div class="nav nav-pills" id="site-pills-tabs" role="tablist">
+            {% if object.image_planning %}
+                <a class="nav-link active" id="site-pills-layout-tab" data-toggle="pill" href="#site-pills-layout" role="tab" aria-controls="site-pills-layout" aria-selected="true">Планировка</a>
+            {% endif %}
+            {% if object.image_planning3d %}
+                <a class="nav-link" id="site-pills-layout-3d-tab" data-toggle="pill" href="#site-pills-layout-3d" role="tab" aria-controls="site-pills-layout-3d" aria-selected="false">Планировка 3D</a>
+            {% endif %}
+            {% if object.image_floor %}
+                <a class="nav-link" id="site-pills-floor-tab" data-toggle="pill" href="#site-pills-floor" role="tab" aria-controls="site-pills-floor" aria-selected="false">Этаж</a>
+            {% endif %}
+            {% if object.image_section %}
+                <a class="nav-link" id="site-pills-section-tab" data-toggle="pill" href="#site-pills-section" role="tab" aria-controls="site-pills-section" aria-selected="false">Секция</a>
+            {% endif %}
+            {% if object.image_section_in_object %}
+                <a class="nav-link" id="site-pills-house-tab" data-toggle="pill" href="#site-pills-house" role="tab" aria-controls="site-pills-house" aria-selected="false">Здание</a>
+            {% endif %}
+            {% if object.image_genplan %}
+                <a class="nav-link" id="site-pills-genplan-tab" data-toggle="pill" href="#site-pills-genplan" role="tab" aria-controls="site-pills-genplan" aria-selected="false">Генплан</a>
+            {% endif %}
+        </div>
+        <div class="tab-content" id="site-pills-tabs-content">
+            {% if object.image_planning %}
+                <div class="tab-pane fade show active" id="site-pills-layout" role="tabpanel" aria-labelledby="site-pills-layout-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_planning.url }}');"></div>
+                </div>
+            {% endif %}
+            {% if object.image_planning3d %}
+                <div class="tab-pane fade" id="site-pills-layout-3d" role="tabpanel" aria-labelledby="site-pills-layout-3d-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_planning3d.url }}');"></div>
+                </div>
+            {% endif %}
+            {% if object.image_floor %}
+                <div class="tab-pane fade" id="site-pills-floor" role="tabpanel" aria-labelledby="site-pills-floor-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_floor.url }}');"></div>
+                </div>
+            {% endif %}
+            {% if object.image_section %}
+                <div class="tab-pane fade" id="site-pills-section" role="tabpanel" aria-labelledby="site-pills-section-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_section.url }}');"></div>
+                </div>
+            {% endif %}
+            {% if object.image_section_in_object %}
+                <div class="tab-pane fade" id="site-pills-house" role="tabpanel" aria-labelledby="site-pills-house-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_section_in_object.url }}');"></div>
+                </div>
+            {% endif %}
+            {% if object.image_genplan %}
+                <div class="tab-pane fade" id="site-pills-genplan" role="tabpanel" aria-labelledby="site-pills-genplan-tab">
+                    <div class="tab-pane__img" style="background-image: url('{{ object.image_genplan.url }}');"></div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}

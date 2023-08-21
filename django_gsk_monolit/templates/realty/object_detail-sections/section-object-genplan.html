@@ -1,0 +1,36 @@
+{% if object.genplan_svg or object.genplan %}
+    <section id="section-object-genplan" class="common-section">
+        <div class="common-section__title container">
+            <h2>Генплан &laquo;{{ object.object_type }} {{ object.name }}&raquo;</h2>
+            {% comment %}
+            <!-- TODO: Insolation -->
+            <!-- <span class="common-section__title--right" title="Разположение солнца в разное время светового дня относительно объекта">
+                <span class="icon icon-64 icon-day-night"></span>
+                <a href="#" class="scale-line">Схема инсоляции</a>
+            </span> -->
+            {% endcomment %}
+        </div>
+        <div id="section-object-genplan__image">
+            {% if object.genplan %}
+                <img src="{{ object.genplan.url }}" alt="Генплан {{ object.name }}">
+            {% endif %}
+
+            {% if object.genplan_svg %}
+                <div id="section-object-genplan__objects-svg-layer">
+                    {{ object.genplan_svg|safe }}
+
+                    {% comment %}
+                    <!-- <svg version="1.1" x="0" y="0" viewBox="0 0 1800 1354">
+                        <g data-id="72" data-href="/sites/?complex=56&amp;building=72">
+                            <polygon points="874,298 936,298 936,308 962,308 962,318 1014,318 1014,376 1025,376 1025,443 1016,465 1016,505 985,562 983,564 947,564 947,572 926,572 925,578 878,578 876,572 856,572 856,561 819,561 817,556 790,499 790,460 781,440 784,376 795,376 796,320 847,320 847,307 874,307"></polygon>
+                        </g>
+                        <g data-id="73" data-href="/sites/?complex=56&amp;building=73">
+                            <polygon points="1261,220 1301,220 1311,208 1327,208 1335,199 1399,199 1399,207 1426,207 1426,216 1479,216 1484,273 1495,273 1503,337 1494,344 1500,397 1339,483 1339,485 1333,488 1306,488 1296,495 1284,495 1275,501 1227,501 1227,494 1207,494 1207,484 1168,484 1168,440 1160,440 1160,414 1153,414 1153,390 1164,390 1164,352"></polygon>
+                        </g>
+                    </svg> -->
+                    {% endcomment %}
+                </div>
+            {% endif %}
+        </div>
+    </section>
+{% endif %}

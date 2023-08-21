@@ -1,0 +1,35 @@
+{% load custom_filters %}
+
+
+<div class="mortgage-card">
+    {% if object.bank.logo %}
+        <div class="mortgage-card__bank-logo" style="background-image: url('{{ object.bank.logo.url }}');"></div>
+    {% endif %}
+    {% if object.rate_from or object.rate_to %}
+        <div class="mortgage-card__percent">
+            <span>{{ object.rate_display|safe }}</span>
+        </div>
+    {% endif %}
+    <div class="mortgage-card__descr">{{ object.title }}</div>
+    <div class="mortgage-card__info-blocks">
+        {% if object.loan_term_from or object.loan_term_to %}
+            <div class="mortgage-card__info-blocks--block">
+                <div class="mortgage-card__info-blocks--small-title">Срок кредита</div>
+                <div class="mortgage-card__info-blocks--value">
+                    <span>{{ object.loan_term_display|safe }}</span>
+                </div>
+            </div>
+        {% endif %}
+        {% if object.first_payment_from or object.first_payment_to %}
+            <div class="mortgage-card__info-blocks--block">
+                <div class="mortgage-card__info-blocks--small-title">Первый взнос</div>
+                <div class="mortgage-card__info-blocks--value">{{ object.first_payment_dispaly|safe }}</div>
+            </div>
+        {% endif %}
+    </div>
+    <div class="mortgage-card__mortgage-request">
+        <div class="mortgage-card__mortgage-request--inner">
+            <a href="#" data-toggle="modal" data-target="#mortgageModal">Отправить<br>заявку на ипотеку</a>
+        </div>
+    </div>
+</div>

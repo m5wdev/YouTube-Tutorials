@@ -1,0 +1,45 @@
+.homepage {
+    #section-realty-homepage-filters {
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+    }
+
+    #section-objects-list {
+        background-color: #fafafa;
+    }
+
+    #section-news {
+        background-color: #fafafa;
+    }
+
+    #section-compleated-projects {
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+    }
+
+    #section-sites-types {
+        @include media-breakpoint-up(lg) {
+            background: linear-gradient(rgba(0, 0, 0, .2), transparent), #545454;
+        }
+
+        .site-type-card {
+            display: grid;
+        }
+    }
+
+    #section-compleated-projects {
+        @include media-breakpoint-up(lg) {
+            min-height: 256px;
+            height: 256px;
+        }
+
+        &__inner {
+            @include media-breakpoint-up(lg) {
+                height: 384px;
+                top: -64px;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} mortgage
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% include 'mortgage/sections/mortgage-types-and-application.html' %}
+
+        <div class="container">
+            <hr>
+        </div>
+
+        {% if mortgage_offers %}
+            <section id="section-mortgage" class="common-section">
+                <div class="common-section__title container">
+                    <h2>Ипотечные программы</h2>
+                </div>
+                <div id="section-mortgage__inner" class="container">
+                    {% for object in mortgage_offers %}
+                        {% include 'mortgage/cards/mortgage-card.html' %}
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+
+        <div class="section-application-mortgage">
+            <a href="" class="green-button">Подать заявку на ипотеку</a>
+        </div>
+    </main>
+{% endblock %}

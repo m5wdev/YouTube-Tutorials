@@ -1,0 +1,40 @@
+.collapse-block {
+    &__link {
+        display: block;
+        position: relative;
+
+        &[aria-expanded="false"] {
+            &::after {
+                transform: rotate(90deg);
+            }
+        }
+        &[aria-expanded="true"] {
+            &::after {
+                transform: rotate(-90deg);
+            }
+        }
+
+        &::after {
+            background-image: url('images/icons/arrow-right-green.svg');
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 14px;
+
+            content: "";
+
+            display: block;
+            width: 48px;
+            height: 48px;
+
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            transition: all ease-in-out .3s;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

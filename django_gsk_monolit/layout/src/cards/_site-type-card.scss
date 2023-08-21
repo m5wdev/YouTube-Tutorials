@@ -1,0 +1,60 @@
+.site-type-card {
+    display: none;
+    // display: grid;
+    grid-template-columns: 96px 1fr;
+    grid-column-gap: 10px;
+
+    &.active {
+        display: grid;
+    }
+
+    &__icon {
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+
+        display: block;
+        width: 96px;
+        height: 96px;
+    }
+
+    // &__content {}
+
+    &__title {
+        margin-bottom: 10px;
+        white-space: nowrap;
+
+        a {
+            color: black;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+
+            @media (min-width: 1200px) and (max-width: 1420px) {
+                font-size: 1.1rem;
+            }
+            @include media-breakpoint-down(sm) {
+                font-size: 1.3rem;
+            }
+
+            &:hover {
+                color: #0baca2;
+            }
+        }
+    }
+
+    &__info {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 5px;
+
+        &--block {
+            font-size: .8rem;
+        }
+
+        &--title {
+            color: #a6a6a6;
+            margin-bottom: 5px;
+        }
+    }
+}

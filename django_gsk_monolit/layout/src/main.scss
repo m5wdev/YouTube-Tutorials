@@ -1,0 +1,185 @@
+// Bootstrap 4
+@import "./bootstrap/bootstrap";
+
+
+// ===================== Core
+@import "./core/core";
+@import "./core/breadcrumbs";
+@import "./core/buttons";
+@import "./core/collapse-block";
+@import "./core/favorites";
+@import "./core/icons";
+@import "./core/misc";
+@import "./core/pagination";
+// ===================== END Core
+
+
+// ===================== Cards
+@import "./cards/action-card";
+@import "./cards/object-commercial-card";
+@import "./cards/contact-card";
+@import "./cards/site-card";
+@import "./cards/site-type-card";
+@import "./cards/history-card";
+@import "./cards/mortgage-card";
+@import "./cards/mortgage-offer";
+@import "./cards/mortgage-type";
+@import "./cards/mother-capital-case-card";
+@import "./cards/mother-capital-step-card";
+@import "./cards/news-card";
+@import "./cards/object-card";
+@import "./cards/vacancy-card";
+// ===================== END Cards
+
+
+// ===================== Filters
+@import "./filters/filter-family";
+@import "./filters/realty-filters-block";
+// ===================== END Filters
+
+
+// ===================== Menus
+@import "./menu/main-nav";
+// ===================== END Menus
+
+
+// ===================== Sections
+@import "./sections/common-section";
+@import "./sections/section-about";
+@import "./sections/section-compleated-projects";
+@import "./sections/misc";
+
+// Sections [actions]
+@import "./sections/actions/section-actions-list";
+@import "./sections/actions/section-actions-partners";
+
+// Sections [commercial]
+@import "./sections/commercial/section-commercial-how-to-buy";
+
+// Sections [company]
+@import "./sections/company/company-section";
+@import "./sections/company/section-company-about";
+@import "./sections/company/section-company-builders";
+@import "./sections/company/section-company-history";
+@import "./sections/company/section-company-management-description";
+@import "./sections/company/section-company-management";
+@import "./sections/company/section-company-partnership-basic-concepts";
+@import "./sections/company/section-company-partnership-basic-principles";
+@import "./sections/company/section-company-partnership-official-partners";
+@import "./sections/company/section-company-partnership-phone";
+@import "./sections/company/section-company-partnership-steps";
+@import "./sections/company/section-register-in-tender-faq";
+@import "./sections/company/section-register-in-tender";
+@import "./sections/company/section-sertificates";
+@import "./sections/company/section-vacancies-list";
+
+// Sections [site]
+@import "./sections/site/site-page-section";
+@import "./sections/site/section-sites-list";
+@import "./sections/site/section-sites-types";
+@import "./sections/site/section-site-page-content";
+@import "./sections/site/section-site-page-map";
+@import "./sections/site/section-site-page-mortgage";
+@import "./sections/site/section-site-page-simular-sites";
+
+// Sections [mortgage]
+@import "./sections/mortgage/section-application-mortgage";
+@import "./sections/mortgage/section-corporactive-about";
+@import "./sections/mortgage/section-corporactive-advantages";
+@import "./sections/mortgage/section-corporactive-business-solutions";
+@import "./sections/mortgage/section-corporactive-steps";
+@import "./sections/mortgage/section-mortgage-military";
+@import "./sections/mortgage/section-mortgage-mother-cases";
+@import "./sections/mortgage/section-mortgage-mother-steps";
+@import "./sections/mortgage/section-mortgage-mother";
+@import "./sections/mortgage/section-mortgage-types";
+@import "./sections/mortgage/section-mortgage";
+
+// Sections [news]
+@import "./sections/news/section-news";
+@import "./sections/news/section-news-page-content";
+@import "./sections/news/section-other-news";
+
+// Sections [object]
+@import "./sections/objects/section-objects-list";
+@import "./sections/objects/section-building-progress-and-news";
+@import "./sections/objects/section-object-downloads";
+@import "./sections/objects/section-object-genplan";
+@import "./sections/objects/section-object-info";
+@import "./sections/objects/section-object-infrastructure";
+@import "./sections/objects/section-object-page-main-info";
+@import "./sections/objects/section-object-parking-storages";
+@import "./sections/objects/section-object-video-webcam-panoram";
+
+// Sections [pages]
+@import "./sections/pages/section-contacts-page-content";
+
+// Sections Filters
+@import "./filters/sections/section-family-types-filters";
+@import "./filters/sections/section-realty-sites-filters";
+// @import "./filters/sections/section-realty-homepage-filters";
+// ===================== END Sections
+
+
+// ===================== Pages
+@import "./pages/homepage";
+@import "./pages/not-homepage";
+
+// Pages [actions]
+@import "./pages/actions/actions-page";
+@import "./pages/actions/actions";
+
+// Pages [commercial]
+@import "./pages/commercial/commercial-object-page";
+@import "./pages/commercial/commercial-objects";
+
+// Pages [sites]
+@import "./pages/sites/site-page";
+@import "./pages/sites/sites";
+
+// Pages [company]
+@import "./pages/company/company-history";
+@import "./pages/company/company-management";
+@import "./pages/company/company-mission";
+@import "./pages/company/company-partnership";
+@import "./pages/company/company-responsibility";
+@import "./pages/company/company-structure";
+@import "./pages/company/company-tenders-faq";
+@import "./pages/company/company-tenders";
+@import "./pages/company/company-vacancy";
+@import "./pages/company/company";
+
+// Favorites
+@import "./pages/favorites/favorites-page";
+
+// Pages [mortgage]
+@import "./pages/mortgage/mortgage-corporactive";
+@import "./pages/mortgage/mortgage-military";
+@import "./pages/mortgage/mortgage-mother";
+@import "./pages/mortgage/mortgage";
+
+// Pages [news]
+@import "./pages/news/news-page";
+@import "./pages/news/news";
+
+// Pages [objects]
+@import "./pages/objects/object-page";
+@import "./pages/objects/objects";
+
+// Pages [pages]
+@import "./pages/pages/contacts";
+// ===================== END Pages
+
+
+// ===================== Sliders
+@import "./sliders/custom-controls";
+@import "./sliders/compleated-projects-slider";
+@import "./sliders/main-slider";
+// ===================== END Sliders
+
+
+// ===================== Modules
+@import "./modules/fancybox/fancybox";
+@import "./modules/nouislider/nouislider";
+@import "./modules/scroll-to-top/scroll-to-top";
+// ===================== END Modules

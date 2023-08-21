@@ -1,0 +1,31 @@
+{% load static custom_filters %}<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ГК Монолит, {{ object.object.name }}, {{ object.get_site_type_display }} ID: {{ object.crm_id }}</title>
+    {% include 'pdf/includes/styles.html' %}
+</head>
+<body>
+    {% include 'pdf/includes/header_frame.html' %}
+
+    <div id="content_frame">
+        {% include 'pdf/includes/title_and_planning.html' %}
+
+        <div id="site_params">
+            <div>Общая стоимость: {{ object.price_total|floatformat:"-2"|split_thousands }} руб</div>
+            <div>Стоимость за м<sup>2</sup>: {{ object.price_per_square|floatformat:"-2"|split_thousands }} руб</div>
+            <br>
+            <div>Общая площадь: {{ object.site_area|floatformat:"-2" }} м<sup>2</sup></div>
+            <div>Жилая площадь: {{ object.living_area|floatformat:"-2" }} м<sup>2</sup></div>
+            <div>Площадь кухни: {{ object.kitchen_area|floatformat:"-2" }} м<sup>2</sup></div>
+            <br>
+            <div>Этаж: {{ object.floor }} из {{ object.object_section.floor_last }}</div>
+            <div>Высота потолков: {{ object.ceiling_height|floatformat:"-2" }} м</div>
+            <div>Отделка: {{ object.get_finish_type_display }}</div>
+        </div>
+    </div>
+
+    {% include 'pdf/includes/footer_frame.html' %}
+
+</body>
+</html>

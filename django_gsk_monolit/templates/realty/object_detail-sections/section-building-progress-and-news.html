@@ -1,0 +1,55 @@
+{% if object_galleries or object_news %}
+    <div id="section-building-progress-and-news"class="common-section">
+        <div id="section-building-progress-and-news__inner" class="container">
+            <div class="nav nav-pills" id="bp-and-news-pills-tabs" role="tablist">
+                {% if object_galleries %}
+                    <a class="nav-link active" id="bp-and-news-pills-building-progress-tab" data-toggle="pill" href="#bp-and-news-pills-building-progress" role="tab" aria-controls="bp-and-news-pills-building-progress" aria-selected="true">Ход строительства</a>
+                {% endif %}
+                {% if object_news %}
+                    {% if object_galleries and object_news %}
+                        <a class="nav-link" id="bp-and-news-pills-news-tab" data-toggle="pill" href="#bp-and-news-pills-news" role="tab" aria-controls="bp-and-news-pills-news" aria-selected="false">Новости</a>
+                    {% elif object_galleries|length == 0 %}
+                        <a class="nav-link active" id="bp-and-news-pills-news-tab" data-toggle="pill" href="#bp-and-news-pills-news" role="tab" aria-controls="bp-and-news-pills-news" aria-selected="true">Новости</a>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div class="tab-content" id="bp-and-news-pills-tabs-content">
+                {% if object_galleries %}
+                    {% if object_galleries or object_news %}
+                        <div class="tab-pane fade show active" id="bp-and-news-pills-building-progress" role="tabpanel" aria-labelledby="bp-and-news-pills-building-progress-tab">
+                    {% endif %}
+                            {% if object_galleries.count > 1 %}
+                                <select name="object_gallery_id">
+                                    {% for gallery in object_galleries %}
+                                        <option value="{% url 'api:object:gallery' gallery_id=gallery.id %}">{{ gallery }}</option>
+                                    {% endfor %}
+                                </select>
+                                <br><br>
+                            {% endif %}
+                            <div id="bp-and-news-pills-building-progress__inner">
+                                {% for gallery_img in object_galleries_images %}
+                                    <a data-fancybox="bp-gallery" data-caption="{{ gallery_img.gallery.name }}" class="bp-card" href="{{ gallery_img.image.url }}" style="background-image: url('{{ gallery_img.image.url }}');">
+                                        <div class="bp-card__date">{{ gallery_img.gallery.name }}</div>
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                {% endif %}
+
+                {% if object_news %}
+                    {% if object_galleries and object_news %}
+                        <div class="tab-pane fade" id="bp-and-news-pills-news" role="tabpanel" aria-labelledby="bp-and-news-pills-news-tab">
+                    {% elif object_galleries|length == 0 and object_news %}
+                        <div class="tab-pane fade show active" id="bp-and-news-pills-news" role="tabpanel" aria-labelledby="bp-and-news-pills-news-tab">
+                    {% endif %}
+                            <div id="bp-and-news-pills-news__inner">
+                                {% for object in object_news %}
+                                    {% include 'news/cards/news-card.html' %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endif %}

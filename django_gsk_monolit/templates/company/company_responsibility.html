@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-responsibility
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% for object in responsibilities %}
+            <div class="company-section">
+                <div class="company-section__inner container">
+                    <div class="company-section__left">
+                        {% if object.title %}
+                            <div class="company-section__title">
+                                <h2>{{ object.title }}</h2>
+                            </div>
+                        {% endif %}
+                        {% if object.body %}
+                            {{ object.body|safe }}
+                        {% endif %}
+                    </div>
+                    <div class="company-section__right company-section__img"{% if object.image %} style="background-image: url('{{ object.image.url }}')"{% endif %}></div>
+                </div>
+            </div>
+        {% endfor %}
+    </main>
+{% endblock %}

@@ -1,0 +1,103 @@
+#section-object-info {
+    // background-color: #fafafa;
+    background-image: linear-gradient(to right, #fafafa, transparent);
+
+    &__inner {
+        #object-info-pills-tabs {
+            @include media-breakpoint-down(sm) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include media-breakpoint-down(xs) {
+                grid-template-columns: 1fr;
+            }
+
+            &.nav-pills .nav-link.active,
+            &.nav-pills .show > .nav-link {
+                background-color: #00998f;
+                border-radius: 0;
+                color: white;
+            }
+
+            &.nav-pills .nav-link {
+                color: black;
+                font-size: 1.3rem;
+                font-weight: 600;
+                padding: .5rem .9rem;
+            }
+        }
+
+        #object-info-pills-tabs-content {
+            margin-top: 15px;
+
+            .tab-pane {
+                &__inner {
+                    display: grid;
+                    grid-row-gap: 30px;
+                    grid-column-gap: 30px;
+                    grid-template-columns: 1.3fr 1fr;
+
+                    @include media-breakpoint-down(lg) {
+                        grid-template-columns: 1fr;
+                    }
+                }
+
+                &__content {
+                    .icon {
+                        background-color: #e3f4eb;
+                        border-radius: 100%;
+
+                        display: block;
+                        width: 100px;
+                        height: 100px;
+
+                        margin-right: -20px;
+
+                        @include media-breakpoint-down(sm) {
+                            width: 70px;
+                            height: 70px;
+                            margin-right: -15px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 3rem;
+                        font-weight: 400;
+                        margin: 0;
+
+                        @include media-breakpoint-down(sm) {
+                            font-size: 3.5vh;
+                        }
+                    }
+                }
+
+                &__title-group {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+
+                &__descr {
+                    @include media-breakpoint-up(sm) {
+                        padding-left: 80px;
+                    }
+                    @include media-breakpoint-down(xs) {
+                        padding-left: 30px;
+                    }
+                }
+
+                &__img {
+                    background-repeat: no-repeat;
+                    background-position: 50% 0;
+                    background-size: cover;
+                    min-height: 386px;
+
+                    @include media-breakpoint-down(lg) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

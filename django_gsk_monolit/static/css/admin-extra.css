@@ -1,0 +1,21 @@
+/* Remove Recent actions */
+#recent-actions-module {
+    /* display: none; */
+}
+
+/* Hide History button */
+.historylink {
+    display: none !important;
+}
+
+/* Hide selection of ObjectSiteCommercial in TabularInline of ObjectSite */
+.app-realty.model-objectsite .tabular th.column-object_commercial_site,
+.app-realty.model-objectsite .tabular td.field-object_commercial_site {
+    display: none !important;
+}
+
+/* Hide selection of ObjectSite in TabularInline of ObjectSite ObjectSiteCommercial */
+.app-realty.model-objectcommercialsite .tabular th.column-object_site ,
+.app-realty.model-objectcommercialsite .tabular td.field-object_site {
+    display: none !important;
+}

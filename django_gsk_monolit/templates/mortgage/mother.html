@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} mortgage-mother
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'mortgage/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        <div id="section-mortgage-mother" class="common-section container">
+            <div id="section-mortgage-mother__inner">
+                <p>«Материнский (семейный) капитал» — программа государственной поддержки российских семей при рождении или усыновлении второго, третьего или последующего ребенка. Таким семьям предоставляется денежная помощь, которую можно потратить в том числе на улучшение жилищных условий. Материнский капитал можно использовать для приобретения квартиры, а также погашения ипотечного кредита.</p>
+            </div>
+        </div>
+
+        <div id="section-mortgage-mother-cases" class="common-section">
+            <div id="section-mortgage-mother-cases__inner" class="container">
+                <div class="mother-capital-case-card">
+                    <div class="icon icon-blanks"></div>
+                    <div class="mother-capital-case-card__order">1 вариант</div>
+                    <div class="mother-capital-case-card__title">
+                        Стоимость квартиры по договору разбивается на 2 платежа:
+                    </div>
+                    <div class="mother-capital-case-card__descr">
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>1 платёж</strong> &ndash; собственные средства Клиента (сумма договора за минусом материнского капитала)
+                        </div>
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>2 платёж</strong> материнский капитал (остаток по договору)
+                        </div>
+                    </div>
+                </div>
+                <div class="mother-capital-case-card">
+                    <div class="icon icon-money"></div>
+                    <div class="mother-capital-case-card__order">2 вариант</div>
+                    <div class="mother-capital-case-card__title">
+                        Стоимость квартиры по договору разбивается на 3 и более платежей:
+                    </div>
+                    <div class="mother-capital-case-card__descr">
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>1 платёж</strong> &ndash; собственные средства Клиента
+                        </div>
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>2 платёж</strong> материнский капитал
+                        </div>
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>3 и последующие платежи</strong> &ndash; остаток суммы по договору выплачиваемый в рассрочку
+                        </div>
+                    </div>
+                </div>
+                <div class="mother-capital-case-card">
+                    <div class="icon icon-piggy-bank"></div>
+                    <div class="mother-capital-case-card__order">3 вариант</div>
+                    <div class="mother-capital-case-card__title">Стоимость квартиры по договору разбивается на 3 и более платежей:</div>
+                    <div class="mother-capital-case-card__descr">
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>1 платёж</strong> &ndash; собственные средства Клиента (сумма договора за минусом материнского капитала)
+                        </div>
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>2 платёж</strong> материнский капитал (остаток по договору)
+                        </div>
+                        <div class="mother-capital-case-card__descr--item">
+                            <strong>3 и последующие платежи</strong> &ndash; остаток суммы по договору выплачиваемый в рассрочку
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section-mortgage-mother-cases__important">
+                <div id="section-mortgage-mother-cases__important--icon">Важно</div>
+                <div id="section-mortgage-mother-cases__important--text">С 01.01.2015 размер материнского капитала<br>составляет <strong>453 026 руб</strong></div>
+            </div>
+        </div>
+    </main>
+
+    <div id="section-mortgage-mother-steps" class="common-section">
+        <div id="section-mortgage-mother-steps__inner" class="container">
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">1</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Заключение Договора</strong> Долевого Участия собственником Сертификата и его страхование
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">2</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Заключение Договора</strong> Долевого Участия для регистрации в Госкомрегистр
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">3</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Получение договора после регистрации</strong>
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">4</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Оплата первого взноса</strong> за счёт собственных средств клиента
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">5</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Компания выдает справку</strong> о заключении Договора на приобретение квартиры с использованием средств материнского капитала
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">6</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Нотариальное оформление</strong> обязательства о выделении доли в приобретаемой квартире на членов семьи
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">7</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Передача документов</strong> в пенсионный фонд (осуществляется клиентом самостоятельно)
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">8</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Перечисление средств</strong> по сертификату на счет Компании Застройщика
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">9</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>Ожидание</strong> окончания строительства
+                </div>
+            </div>
+            <div class="mother-capital-step-card">
+                <div class="mother-capital-step-card__number">10</div>
+                <div class="mother-capital-step-card__descr">
+                    <strong>НОВОСЕЛЬЕ</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'mortgage/sections/mortgage-types-and-application.html' %}
+{% endblock %}

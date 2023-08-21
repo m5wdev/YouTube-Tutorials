@@ -1,0 +1,202 @@
+.object-commercial-card {
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0,0,0,.15);
+    min-height: 380px;
+    position: relative;
+    transition: transform .3s ease;
+
+    @include media-breakpoint-down(sm) {
+        width: 80%;
+        justify-self: center;
+
+        .object-commercial-card__city {
+            width: 47%;
+        }
+    }
+    @include media-breakpoint-down(xs) {
+        width: 100%;
+    }
+
+    a {
+        &:focus,
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__header {
+        position: relative;
+    }
+
+    &__img {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        width: 100%;
+        // height: 256px;
+        height: 300px;
+    }
+
+    &__header-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    &__living-quarter,
+    &__city,
+    &__put-into-operation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: .7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        height: 32px;
+
+        padding: 7px;
+        position: absolute;
+    }
+
+    &__living-quarter {
+        background-color: white;
+        color: #0baca2;
+        top: 0;
+        right: 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 0;
+            display: block;
+            border-top: 32px solid white;
+            border-left: 20px solid transparent;
+            height: inherit;
+            width: 20px;
+            z-index: -1;
+        }
+    }
+
+    &__city {
+        background-color: white;
+        color: #0baca2;
+        left: 0;
+        bottom: 0;
+
+        width: 44%;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 0;
+            display: block;
+            border-bottom: 32px solid white;
+            border-right: 20px solid transparent;
+            height: inherit;
+            width: 20px;
+            z-index: 1;
+        }
+    }
+
+    &__put-into-operation {
+        background-color: #0baca2;
+        color: white;
+        font-size: .61rem;
+        right: 0;
+        bottom: 0;
+
+        width: 50%;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 0;
+            display: block;
+            border-top: 32px solid #0baca2;
+            border-left: 20px solid transparent;
+            height: inherit;
+            width: 20px;
+            z-index: -1;
+            text-align: center;
+        }
+    }
+
+    &__main {
+        height: 80px;
+        padding-left: 15px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &__footer {
+        height: 60px;
+
+        &--btn {
+            background-color: #0baca2;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            transition: background-color .3s ease-in-out;
+        }
+    }
+
+    &:hover {
+        transform: translate3d(0, -4px, 0);
+
+        .object-commercial-card__footer--btn {
+            background-color: #00998f;
+        }
+    }
+
+    &.sold {
+        min-height: 512px;
+
+        .object-commercial-card__img {
+            filter: grayscale(70%);
+            opacity: .85;
+            transition: all ease-in-out .3s;
+        }
+
+        .object-commercial-card__all-sold {
+            border-top: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaeaea;
+            cursor: default;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+
+            font-size: .9rem;
+            text-align: center;
+            min-height: 72px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        &:hover {
+            .object-commercial-card__img {
+                filter: grayscale(0);
+                opacity: 1;
+            }
+        }
+    }
+}

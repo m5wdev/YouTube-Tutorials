@@ -1,0 +1,75 @@
+#section-company-partnership-basic-concepts {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__inner {
+        display: grid;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        align-items: center;
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(md) {
+            grid-template-columns: 1fr;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 0;
+
+            @include media-breakpoint-down(lg) {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+
+                text-align: center;
+            }
+            @include media-breakpoint-down(md) {
+                grid-column-end: 1;
+            }
+        }
+
+        .basic-concept {
+            cursor: default;
+
+            display: grid;
+            grid-column-gap: 15px;
+            align-items: center;
+            grid-template-columns: 100px 1fr;
+
+            @include media-breakpoint-down(md) {
+                width: 50%;
+                margin: 0 auto;
+            }
+            @include media-breakpoint-down(xs) {
+                width: 80%;
+            }
+
+            &__number {
+                border: 3px solid #18a29b;
+                border-radius: 50%;
+
+                font-size: 3.5rem;
+                font-weight: 600;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 100px;
+                height: 100px;
+            }
+
+            &__descr {
+                font-size: 1.4rem;
+                font-weight: 700;
+                line-height: 1.2;
+            }
+        }
+    }
+}

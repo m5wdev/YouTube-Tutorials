@@ -1,0 +1,97 @@
+#section-family-types-filters {
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
+
+    a {
+        color: white;
+
+        &:focus,
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__top {
+        background-image: linear-gradient(to bottom, #00998f, rgba(0, 153, 143, .9));
+        border-radius: 40px;
+        cursor: pointer;
+        padding: 6px 50px 10px 6px;
+        position: relative;
+
+        display: inline-flex;
+        align-items: center;
+
+        &.ftf-opened {
+            border-radius: 40px 40px 0 0;
+        }
+
+        &::before {
+            background-color: white;
+            background-image: url('images/family-types-filters/family-portrait.png');
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            background-size: 125%;
+            border-radius: 100%;
+
+            content: "";
+            display: block;
+            height: 70px;
+            width: 70px;
+
+            margin-right: 15px;
+        }
+
+        &::after {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid white;
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            right: 15px;
+        }
+
+        span {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+    }
+
+    .display-grid-family-filters {
+        display: grid;
+        width: 90%;
+        z-index: 10;
+        position: absolute;
+
+        @include media-breakpoint-down(sm) {
+            width: 93%;
+        }
+    }
+
+    &__inner {
+        display: none;
+
+        background-image: linear-gradient(to top, #00998f, rgba(0, 153, 143, .9));
+        border-radius: 0 7px 7px 7px;
+        box-shadow: 0 5px 5px rgba(0,0,0,.1);
+        color: white;
+        padding: 40px 15px;
+
+        // display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(8, 1fr);
+        }
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: repeat(2, 1fr);
+            border-radius: 0 0 7px 7px;
+        }
+    }
+}

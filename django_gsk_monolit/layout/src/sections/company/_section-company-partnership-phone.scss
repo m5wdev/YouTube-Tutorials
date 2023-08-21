@@ -1,0 +1,45 @@
+#section-company-partnership-phone {
+    background-color: #333;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    a {
+        color: white;
+        transition: all ease-in-out .3s;
+
+        &:focus,
+        &:hover {
+            opacity: .65;
+            text-decoration: none;
+        }
+    }
+
+    &__inner {
+        font-size: 3rem;
+        display: grid;
+        grid-row-gap: 30px;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        .partnership-phone {
+            &__title {
+                font-weight: 700;
+                line-height: 1.2;
+            }
+
+            &__phone {
+                font-weight: 400;
+
+                @include media-breakpoint-up(md) {
+                    justify-self: right;
+                }
+            }
+        }
+    }
+}

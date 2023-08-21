@@ -1,0 +1,109 @@
+$line-color: #AAA;
+
+.history-card {
+    border-left: 1px solid $line-color;
+
+    @include media-breakpoint-up(lg) {
+        display: grid;
+        grid-template-columns: 1fr 3.5fr;
+        align-items: baseline;
+    }
+
+    &:not(:last-child) {
+        @include media-breakpoint-down(lg) {
+            padding-bottom: 30px;
+        }
+    }
+
+    &:last-child {
+        border-left: none;
+        position: relative;
+
+        &::before {
+            background-image: linear-gradient(to bottom, $line-color, transparent);
+            content: "";
+
+            display: block;
+            width: 1px;
+            height: 100%;
+
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &__year {
+        font-size: 4rem;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+
+        transition: all ease-in-out .3s;
+
+        &::before {
+            background-image: linear-gradient(to right, $line-color, transparent);
+            content: "";
+            width: 100%;
+            height: 1px;
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        &::after {
+            background-image: linear-gradient(45deg, #18a29b, #25d9d0);
+            border-radius: 100%;
+            box-shadow: -2px 5px 25px rgba(0, 0, 0, .25);
+            content: "";
+
+            display: block;
+            width: 24px;
+            height: 24px;
+
+            position: absolute;
+            bottom: -12px;
+            left: -12px;
+        }
+    }
+
+    &__wrap {
+        margin-bottom: 50px;
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        @include media-breakpoint-down(lg) {
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+    }
+
+    &__img {
+        margin-bottom: 30px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__descr {
+        font-size: 1.1rem;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &:hover {
+        .history-card__year {
+            @include media-breakpoint-up(lg) {
+                font-size: 5rem;
+            }
+        }
+    }
+}

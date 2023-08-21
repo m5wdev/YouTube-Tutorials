@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% load custom_filters %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} site-commercial-page
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'sites-commercial:list' %}">Выбор коммерческой недвижимости</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <a href="{% url 'objects-commercial:detail' slug=object.object_commercial.slug %}">{{ object.object_commercial.name }}</a>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="section-site-page-content" class="container" data-object-site="{% url 'api:site:info' site_id=object.id %}">
+            <div id="section-site-page-content__left">
+                {% include 'realty/includes/section-site-page-content__tabs.html' %}
+            </div>
+
+            <div id="section-site-page-content__right">
+                <div id="site-id">ID: {{ object.crm_id }}</div>
+                <div id="page-title-h1">
+                    <h1>{{ page_title }}</h1>
+                </div>
+                <div id="site-params" class="site-content-block">
+                    {% if object.rooms_qty %}
+                        <div class="site-params-block">
+                            <div class="site-params-block__name">Комнат</div>
+                            <div class="site-params-block__val">{{ object.get_rooms_qty_display }}</div>
+                        </div>
+                    {% endif %}
+                    {% if object.floor %}
+                        <div class="site-params-block">
+                            <div class="site-params-block__name">Этаж</div>
+                            <div class="site-params-block__val">
+                                <span class="site-floor">{{ object.floor }}</span>
+                                <span class="last-floor">{% if object.object_section.floor_last %}/{{ object.object_section.floor_last }}{% endif %}</span>
+                            </div>
+                        </div>
+                    {% endif %}
+                    {% if object.ceiling_height %}
+                        <div class="site-params-block">
+                            <div class="site-params-block__name">Высота потолка</div>
+                            <div class="site-params-block__val">{{ object.ceiling_height|floatformat:"-2"|remove_trailing_zero }} м</div>
+                        </div>
+                    {% endif %}
+                    {% if object.site_area %}
+                        <div class="site-params-block">
+                            <div class="site-params-block__name">Общая площадь</div>
+                            <div class="site-params-block__val">{{ object.site_area|floatformat:"-2" }} м<sup>2</sup></div>
+                        </div>
+                    {% endif %}
+                </div>
+
+                <div id="site-params-secondary" class="site-content-block">
+                    <div class="h4">Доп информация</div>
+                    <div id="site-params-secondary__inner">
+                        {% if object.site_number %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">№ помещения</div>
+                                <div class="site-params-block__val">{{ object.site_number }}</div>
+                            </div>
+                        {% endif %}
+                        <div class="site-params-block">
+                            <div class="site-params-block__name">Вход с улицы</div>
+                            <div class="site-params-block__val">{% if object.street_entrance == True %}Да{% else %}Нет{% endif %}</div>
+                        </div>
+                        <!-- {% if object.two_levels %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Два уровня</div>
+                                <div class="site-params-block__val">{% if object.two_levels == True %}Да{% else %}Нет{% endif %}</div>
+                            </div>
+                        {% endif %} -->
+                        <!-- {% if object.finish_type %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Отделка</div>
+                                <div class="site-params-block__val">{{ object.get_finish_type_display }}</div>
+                            </div>
+                        {% endif %} -->
+                        <!-- {% if object.window_view.count > 0 %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Вид</div>
+                                <div class="site-params-block__val">{{ object.window_view.all|join:', ' }}</div>
+                            </div>
+                        {% endif %} -->
+                        <!-- {% if bathrooms %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Сануз{% if bathrooms.count == 1 %}ел{% elif bathrooms.count > 1 %}лы{% endif %}</div>
+                                <div class="site-params-block__val">
+                                    {% for bath in bathrooms %}
+                                        {{ bath.bathroom_qty }} {{ bath.get_bathroom_type_display }}<br>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %} -->
+                        <!-- {% if balconies %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Балкон{% if balconies.count > 1 %}ы{% endif %}</div>
+                                <div class="site-params-block__val">
+                                    {% for balcony in balconies %}
+                                        <div>{{ balcony.balcony_qty }} {{ balcony.get_balcony_type_display }}</div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %} -->
+                        <!-- {% if elevators %}
+                            <div class="site-params-block">
+                                <div class="site-params-block__name">Лифт{% if elevators.count > 1 %}ы{% endif %}</div>
+                                <div class="site-params-block__val">
+                                    {% for elevator in elevators %}
+                                        <div>{{ elevator.elevator_qty }} {{ elevator.get_elevator_type_display }}</div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %} -->
+                    </div>
+                </div>
+
+                {% if object.price_per_square and object.price_total %}
+                    <div id="site-price" class="site-content-block--flex">
+                        <div id="site-price__per-meter" class="site-price-block">
+                            <div class="site-price-block__name">Стоимость м<sup>2</sup></div>
+                            <div class="site-price-block__val">{{ object.price_per_square|floatformat:"-2"|split_thousands }} руб/м<sup>2</sup></div>
+                        </div>
+                        <div id="site-price__total" class="site-price-block">
+                            <div class="site-price-block__name">Стоимость помещения</div>
+                            <div class="site-price-block__val">{{ object.price_total|floatformat:"-2"|split_thousands }} руб</div>
+                        </div>
+                    </div>
+                {% endif %}
+
+                <div id="site-actions" class="site-content-block--grid">
+                    <div id="site-actions__book-site" class="site-actions-block">
+                        <button class="green-button">Забронировать помещение</button>
+                    </div>
+                    <div id="site-actions__actions-panel" class="site-actions-block--flex-end">
+                        <ul>
+                            <li>
+                                {% include "favorites/includes/add_to_favorites.html" with type="object_commercial_site" id=object.id icon_size=32 %}
+                            </li>
+                            <li>
+                                <a href="{% url 'sites-commercial:pdf' pk=object.id %}" target="_blank" title="Откроется в новой вкладке"><span class="icon icon-32 icon-print-solid-green"></span> Распечатать в PDF</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="section-site-page-map" class="site-page-section">
+        <div class="site-page-section__title container">Что находится рядом</div>
+        <div id="section-site-page-map__holder" class="site-page-section__content"></div>
+    </div>
+
+    <!-- TODO: simular commecial sites -->
+    {# include 'realty/objectsite_detail-sections/section-site-page-simular-sites.html' #}
+
+{% endblock %}

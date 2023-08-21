@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% load static custom_filters %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} contacts
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {# include 'company/breadcrumbs/breadcrumbs.html' #}
+
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title|safe }}</h1>
+        </div>
+
+        <div id="section-contacts-page-content">
+            <div id="section-contacts-page-content__inner" class="container">
+                <div id="section-contacts-page-content__list">
+                    {% if contacts_group %}
+                        <div id="contacts-list-accordion">
+                            {% for object in contacts_group %}
+                                <div class="contact-card collapse-block" data-contact-group-id="{{ object.id }}">
+                                    <div class="contact-card__title-wrap">
+                                        <a class="collapse-block__link" data-toggle="collapse" href="#contact-{{ object.id }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="contact-{{ object.id }}">
+                                            <span class="contact-card__title">{{ object.name }}</span>
+                                        </a>
+                                    </div>
+                                    <div id="contact-{{ object.id }}" class="contact-card__descr collapse{% if forloop.first %} show{% endif %}" data-parent="#contacts-list-accordion">
+                                        {% for contact_item in contacts_items %}
+                                            {% if contact_item.сontacts_group.id == object.id %}
+                                                <div class="contact-card__item">
+                                                    <div class="contact-card__item--label">{{ contact_item.contact_description }}</div>
+                                                    <div class="contact-card__item--val">
+                                                        <a href="{% if contact_item.сontact_type == 'phone' %}tel{% elif contact_item.сontact_type == 'email' %}mailto{% endif %}:{{ contact_item.contact }}">{{ contact_item.contact }}</a>
+                                                    </div>
+                                                </div>
+                                            {% endif %}
+                                        {% endfor %}
+
+                                        {% if object.address %}
+                                            <div class="contact-card__item">
+                                                <div class="contact-card__item--label">Адрес</div>
+                                                <div class="contact-card__item--val">
+                                                    <address>{{ object.address|safe }}</address>
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                        {% if object.work_hours %}
+                                            <div class="contact-card__item">
+                                                <div class="contact-card__item--label">График работы</div>
+                                                <div class="contact-card__item--val">{{ object.work_hours|safe }}</div>
+                                            </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    <div id="section-contacts-page-content__main-contacts">
+                        <div class="contact-item">
+                            <a href="" class="green-button">Написать нам</a>
+                        </div>
+                        <div class="contact-item">
+                            {% if settings.site_instagram %}
+                                <a href="{{ settings.site_instagram }}" target="_blank" class="icon icon-instagram footer-icon">Instagram</a>
+                            {% endif %}
+                            {% if settings.site_facebook %}
+                                <a href="{{ settings.site_facebook }}" target="_blank" class="icon icon-facebook footer-icon">Facebook</a>
+                            {% endif %}
+                            {% if settings.site_vk %}
+                                <a href="{{ settings.site_vk }}" target="_blank" class="icon icon-vk footer-icon">Vk</a>
+                            {% endif %}
+                            {% if settings.site_telegram %}
+                                <a href="{{ settings.site_telegram }}" target="_blank" class="icon icon-telegram footer-icon">Telegram</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                {% if contacts_group %}
+                    <div id="section-contacts-page-content__map">
+                        {% for object in contacts_group %}
+                            <div class="contact-card-map" data-map-id="{{ object.id }}">
+                                {# <!-- <div class="h3">{{ object.name }}</div> --> #}
+                                {{ object.yandex_map|safe }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </main>
+{% endblock %}

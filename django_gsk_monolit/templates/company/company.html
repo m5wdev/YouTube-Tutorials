@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        <div id="section-company-about" class="company-section">
+            <div class="company-section__inner container">
+                <div class="company-section__left">
+                    Инвестиционно-строительный холдинг, в активе которого {{ monolit_company_age }} лет опыта в реализации масштабных проектов по строительству жилой недвижимости, объектов рекреационного, коммерческого и социального назначения. «Монолит» – это комплекс предприятий, обеспечивающих полный цикл услуг по проектированию, производству, продажам и маркетингу, управлению жилой и коммерческой недвижимостью и транспорту.
+                </div>
+                <div id="section-company-about__stat" class="company-section__right">
+                    <div class="company-about-stat">
+                        <span class="company-about-stat__big">{{ monolit_company_age }} лет</span>
+                        <span class="company-about-stat__text">опыта</span>
+                    </div>
+                    <div class="company-about-stat">
+                        <span class="company-about-stat__big">240 689 м<sup>2</sup></span>
+                        <span class="company-about-stat__text">недвижимости для жизни и бизнеса</span>
+                    </div>
+                    <div class="company-about-stat">
+                        <span class="company-about-stat__big">10 000</span>
+                        <span class="company-about-stat__text">довольных клиентов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section-company-builders" class="company-section">
+            <div class="company-section__inner container">
+                <div class="company-section__left">
+                    <p>В основе долгосрочной стратегии компании – развитие системного подхода к организации производства и предоставлению услуг, который позволит стабильно обеспечивать наилучший финансовый и репутационный результат.</p>
+                    <p>Партнерами компании являются ведущие национальные производственные предприятия, банки, страховые компании, ведется успешное сотрудничество с надежными поставщиками материалов, оборудования и услуг для максимально эффективной реализации проектов.</p>
+                    <p>На сегодняшний день ГК «Монолит» занимает лидирующие позиции среди застройщиков полуострова, в планах у которой сделать Крым витриной России.</p>
+                </div>
+                <div class="company-section__right company-section__img" style="background-image: url('{% static 'images/company/builders.jpg' %}')"></div>
+            </div>
+        </div>
+
+        {% if certificates %}
+            <section id="section-sertificates" class="common-section">
+                <div class="common-section__title container">
+                    <h2>Сертификаты</h2>
+                </div>
+                <div id="section-sertificates__inner" class="container">
+                    {% for object in certificates %}
+                        <a data-fancybox="certificates-gallery" class="certificate" data-caption="{{ object.title }}" href="{{ object.image.url }}" style="background-image: url('{{ object.image.url }}');"></a>
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+    </main>
+
+    {% include 'sliders/section-compleated-projects.html' %}
+{% endblock %}

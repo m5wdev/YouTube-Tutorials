@@ -1,0 +1,12 @@
+<svg width="47" height="65" viewBox="0 0 47 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 40</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-29868 5861)">
+<g id="Rectangle 40">
+<use xlink:href="#path0_fill" transform="translate(29868 -5861)" fill="#18A29B"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 24.7368 0L 47 0L 22.2632 65L 0 65L 24.7368 0Z"/>
+</defs>
+</svg>

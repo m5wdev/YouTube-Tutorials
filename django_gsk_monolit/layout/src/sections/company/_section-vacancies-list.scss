@@ -1,0 +1,27 @@
+#section-vacancies-list {
+    .common-section__title {
+        flex-direction: column;
+        align-items: normal;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__inner {
+        .vacancy-card,
+        #tenders-pagination {
+            @include media-breakpoint-only(xl) {
+                width: 60%;
+            }
+        }
+
+        select[name="tender_category"] {
+            font-size: 1.2rem;
+        }
+
+        #tenders-pagination {
+            margin-top: 30px;
+        }
+    }
+}

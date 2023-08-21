@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} homepage
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'sliders/main-slider.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1><abbr title="Группа Компаний">ГК</abbr> &laquo;Монолит&raquo; &ndash; Мы строим Крым</h1>
+        </div>
+
+        {% include 'homepage/sections/section-realty-homepage-filters.html' %}
+
+        {% include 'homepage/sections/section-objects-list.html' %}
+
+        {% include 'homepage/sections/section-sites-types.html' %}
+    </main>
+
+    {% include 'homepage/sections/section-mortgage.html' %}
+
+    {% include 'homepage/sections/section-news.html' %}
+
+    {% include 'homepage/sections/section-about.html' %}
+
+    {% include 'sliders/section-compleated-projects.html' %}
+{% endblock %}

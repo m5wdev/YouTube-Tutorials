@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} actions
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% if object_list %}
+            <div id="section-actions-list" class="common-section">
+                <div id="section-actions-list__inner" class="container">
+                    {% for object in object_list %}
+                        {% include 'news/cards/actions-card.html' %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

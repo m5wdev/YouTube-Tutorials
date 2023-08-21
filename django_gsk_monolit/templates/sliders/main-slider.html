@@ -1,0 +1,141 @@
+{% comment %}
+<!-- <div id="main-slider-wrap">
+    <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/realty/complex/rose_banner2/4c7692ef88ad42431e06d1fbf2caf052.jpg');"></div>
+                <div class="carousel-caption">
+                    <div class="caption-legend-big">
+                        <div class="caption-legend-big__type">Семейный квартал</div>
+                        <div class="caption-legend-big__title">Лаванда</div>
+                    </div>
+                    <div class="caption-info">
+                        <div class="caption-info__item caption-info__area">
+                            <div class="caption-info__tiny-title">Площадь</div>
+                            <div class="caption-info__value">
+                                от 62 до 62.4 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <div class="caption-info__item caption-info__price">
+                            <div class="caption-info__tiny-title">Стоимость</div>
+                            <div class="caption-info__value">
+                                от 3 402 702 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/2018/01/31/tavricheskaya_panorama_05_1wawx2w/75b83615f5f10421d9e93f04ce4ad290.jpg');"></div>
+                <div class="carousel-caption">
+                    <div class="caption-legend-big">
+                        <div class="caption-legend-big__type">Семейный квартал</div>
+                        <div class="caption-legend-big__title">Лаванда</div>
+                    </div>
+                    <div class="caption-info">
+                        <div class="caption-info__item caption-info__area">
+                            <div class="caption-info__tiny-title">Площадь</div>
+                            <div class="caption-info__value">
+                                от 62 до 62.4 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <div class="caption-info__item caption-info__price">
+                            <div class="caption-info__tiny-title">Стоимость</div>
+                            <div class="caption-info__value">
+                                от 3 402 702 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/2018/02/26/monolit_evpatoria/af4d85f135491a8d6027ba832ce5d34e.jpg');"></div>
+                <div class="carousel-caption">
+                    <div class="caption-legend-big">
+                        <div class="caption-legend-big__type">Семейный квартал</div>
+                        <div class="caption-legend-big__title">Лаванда</div>
+                    </div>
+                    <div class="caption-info">
+                        <div class="caption-info__item caption-info__area">
+                            <div class="caption-info__tiny-title">Площадь</div>
+                            <div class="caption-info__value">
+                                от 62 до 62.4 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <div class="caption-info__item caption-info__price">
+                            <div class="caption-info__tiny-title">Стоимость</div>
+                            <div class="caption-info__value">
+                                от 3 402 702 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-controls-wrap">
+            <div class="custom-controls">
+                <div class="controls-prev-next">
+                    <a href="#main-slider" class="control-left icon icon-arrow-left-green" role="button" data-slide="prev">prev</a>
+                </div>
+                <div class="carousel-indicators custom-carousel-indicators">
+                    <div class="slider-indicator active" data-target="#main-slider" data-slide-to="0"></div>
+                    <div class="slider-indicator" data-target="#main-slider" data-slide-to="1"></div>
+                    <div class="slider-indicator" data-target="#main-slider" data-slide-to="2"></div>
+                </div>
+                <div class="controls-prev-next">
+                    <a href="#main-slider" class="control-right icon icon-arrow-right-green" role="button" data-slide="next">next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+{% endcomment %}
+<div id="main-slider-wrap">
+    <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            {% for object in objects_for_slider %}
+                {% if object.slider_main_image %}
+                    <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                        <div class="slide"{% if object.slider_main_image %} style="background-image: url('{{ object.slider_main_image.url }}');"{% endif %} data-sites-info-api-url="{% url 'api:object:sites-info' object_id=object.id %}"></div>
+                        <div class="carousel-caption">
+                            <div class="caption-legend-big">
+                                <div class="caption-legend-big__type">{% if object.object_type %}{{ object.object_type }}{% endif %}</div>
+                                <div class="caption-legend-big__title">{{ object.name }}</div>
+                                <a href="{{ object.get_absolute_url }}" class="stretched-link" title="Перейти на страницу объекта"></a>
+                            </div>
+                            <div class="caption-info">
+                                <div class="caption-info__item caption-info__area">
+                                    <div class="caption-info__tiny-title">Площадь</div>
+                                    <div class="caption-info__value"></div>
+                                </div>
+                                <div class="caption-info__item caption-info__price">
+                                    <div class="caption-info__tiny-title">Стоимость</div>
+                                    <div class="caption-info__value"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="custom-controls-wrap">
+            <div class="custom-controls">
+                <div class="controls-prev-next">
+                    <a href="#main-slider" class="control-left icon icon-arrow-left-green" role="button" data-slide="prev">назад</a>
+                </div>
+                <div class="carousel-indicators custom-carousel-indicators">
+                    {% with counter=0 %}
+                        {% for object in objects_for_slider %}
+                            {% if object.slider_main_image %}
+                                <div class="slider-indicator{% if forloop.first %} active{% endif %}" data-target="#main-slider" data-slide-to="{{ forloop.counter0 }}"></div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endwith %}
+                </div>
+                <div class="controls-prev-next">
+                    <a href="#main-slider" class="control-right icon icon-arrow-right-green" role="button" data-slide="next">вперед</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+{% if object_info_tabs %}
+    <div id="section-object-parking-storages" class="common-section">
+        <div id="section-object-parking-storages__inner" class="container">
+            {% for tab in object_info_tabs %}
+                {% if tab.icon_name == 'parking' %}
+                    <div id="section-object-parking">
+                        <div class="section-object__img section-object__img--parking">
+                            <h3>{{ tab.get_icon_name_display }}</h3>
+                        </div>
+                        <div>
+                            {{ tab.description|safe }}
+                        </div>
+                    </div>
+                {% endif %}
+                {% if tab.icon_name == 'storage-room' %}
+                    <div id="section-object-storages">
+                        <div class="section-object__img section-object__img--storage-room">
+                            <h3>{{ tab.get_icon_name_display }}</h3>
+                        </div>
+                        <div>
+                            {{ tab.description|safe }}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

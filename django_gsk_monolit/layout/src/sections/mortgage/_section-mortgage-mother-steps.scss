@@ -1,0 +1,20 @@
+#section-mortgage-mother-steps{
+    &__inner {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include media-breakpoint-only(lg) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

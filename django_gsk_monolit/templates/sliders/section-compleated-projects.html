@@ -1,0 +1,68 @@
+{% if compleated_objects %}
+    <div id="section-compleated-projects" class="container">
+        {% comment %}
+        <!-- <div id="section-compleated-projects__inner">
+            <div id="section-compleated-projects__title">14 завершенных проектов</div>
+            <div id="compleated-projects-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/realty/complex/.png_TNcA42l/b64d73ed315908b734a9fb558ba00aa9.png');"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/realty/complex/.png_TNcA42l/b64d73ed315908b734a9fb558ba00aa9.png');"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide" style="background-image: url('http://monolit.site/media/CACHE/images/realty/complex/.png_TNcA42l/b64d73ed315908b734a9fb558ba00aa9.png');"></div>
+                    </div>
+                </div>
+                <div class="custom-controls-wrap container">
+                    <div class="custom-controls">
+                        <div class="controls-prev-next">
+                            <a href="#compleated-projects-slider" class="control-left icon icon-arrow-left-green" role="button" data-slide="prev">назад</a>
+                        </div>
+                        <div class="carousel-indicators custom-carousel-indicators">
+                            <div class="slider-indicator active" data-target="#compleated-projects-slider" data-slide-to="0"></div>
+                            <div class="slider-indicator" data-target="#compleated-projects-slider" data-slide-to="1"></div>
+                            <div class="slider-indicator" data-target="#compleated-projects-slider" data-slide-to="2"></div>
+                        </div>
+                        <div class="controls-prev-next">
+                            <a href="#compleated-projects-slider" class="control-right icon icon-arrow-right-green" role="button" data-slide="next">вперед</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="compleated-projects-slider__map"></div>
+        </div> -->
+        {% endcomment %}
+        <div id="section-compleated-projects__inner">
+            {% with completed_obj_count=compleated_objects.all.count %}
+                <div id="section-compleated-projects__title">{{ completed_obj_count }} завершенн{{ completed_obj_count|pluralize:"ый,ых" }} проект{{ completed_obj_count|pluralize:",ов" }} </div>
+            {% endwith %}
+            <div id="compleated-projects-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for object in compleated_objects %}
+                        <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                            <div class="slide"{% if object.slider_completed_image %} style="background-image: url('{{ object.slider_completed_image.url }}');"{% endif %}></div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="custom-controls-wrap container">
+                    <div class="custom-controls">
+                        <div class="controls-prev-next">
+                            <a href="#compleated-projects-slider" class="control-left icon icon-arrow-left-green" role="button" data-slide="prev">назад</a>
+                        </div>
+                        <div class="carousel-indicators custom-carousel-indicators">
+                            {% for object in compleated_objects %}
+                                <div class="slider-indicator{% if forloop.first %} active{% endif %}" data-target="#compleated-projects-slider" data-slide-to="{{ forloop.counter0 }}"></div>
+                            {% endfor %}
+                        </div>
+                        <div class="controls-prev-next">
+                            <a href="#compleated-projects-slider" class="control-right icon icon-arrow-right-green" role="button" data-slide="next">вперед</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="compleated-projects-slider__map"></div>
+        </div>
+    </div>
+{% endif %}

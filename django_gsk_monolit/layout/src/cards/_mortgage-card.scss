@@ -1,0 +1,122 @@
+.mortgage-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 15px;
+    position: relative;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 80px repeat(3, 1fr) 0;
+
+    &__bank-logo {
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: auto;
+        min-height: 32px;
+        height: 80px;
+    }
+
+    &__percent {
+        text-align: center;
+        margin-bottom: 20px;
+
+        span {
+            color: #00998f;
+            font-size: 2.4rem;
+            font-weight: 700;
+        }
+    }
+
+    &__descr {
+        color: #00998f;
+        font-size: .9rem;
+        font-weight: 700;
+        line-height: 1.1rem;
+        text-align: center;
+        height: 30px;
+        margin-bottom: 40px;
+        padding: 0 15px;
+    }
+
+    &__info-blocks {
+        border-top: 1px solid #e4e4e4;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        &--block {
+            &:not(:last-child) {
+                border-right: 1px solid #e4e4e4;
+            }
+
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        &--small-title {
+            color: #a6a6a6;
+            font-size: .85rem;
+        }
+
+        &--value {
+            span {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    &__mortgage-request {
+        background-color: #00998f;
+        height: 80px;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        width: 75%;
+        padding-right: 15px;
+        text-align: right;
+
+        transform: translateX(100%);
+        transition: transform .5s ease;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 0;
+            display: block;
+            border-style: solid;
+            border-width: 0 0 80px 35px;
+            border-color: transparent transparent #00998f;
+        }
+
+        a {
+            color: white;
+
+            &:focus,
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        &--inner {
+            color: white;
+            font-size: 1.1rem;
+            line-height: 1.2;
+        }
+    }
+
+    &:hover {
+        .mortgage-card__mortgage-request {
+            transform: translateZ(0);
+        }
+    }
+}

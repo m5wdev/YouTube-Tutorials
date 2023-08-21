@@ -1,0 +1,35 @@
+{% load custom_filters %}
+
+<div class="mortgage-offer" data-api-mortgage-offer="{% url 'api:mortgage:offer' offer_id=object.id %}">
+    <div class="mortgage-offer__bank-logo">
+        {% if forloop.first %}
+            <div class="mortgage-offer__best-offer">Лучшее предложение</div>
+        {% endif %}
+        {% if object.bank.logo %}
+            <div class="bank-logo" style="background-image: url('{{ object.bank.logo.url }}');"></div>
+        {% endif %}
+    </div>
+    <div class="mortgage-offer__descr">{{ object.title }}</div>
+    {% if object.rate_from or object.rate_to %}
+        <div class="mortgage-offer__loan-rate">
+            <div class="mortgage-offer__title">% ставка</div>
+            <div class="mortgage-offer__val">{{ object.rate_display|safe }}</div>
+        </div>
+    {% endif %}
+    {% if object.first_payment_from or object.first_payment_to %}
+        <div class="mortgage-offer__first-payment">
+            <div class="mortgage-offer__title">Первый взнос</div>
+            <div class="mortgage-offer__val">{{ object.first_payment_dispaly|safe }}</div>
+        </div>
+    {% endif %}
+    {% if object.loan_term_from or object.loan_term_to %}
+        <div class="mortgage-offer__pay-off">
+            <div class="mortgage-offer__title">Срок кредита ({{ object.loan_term_display|safe }})</div>
+            <div class="mortgage-offer__val"></div>
+        </div>
+    {% endif %}
+    <div class="mortgage-offer__monthly-payment">
+        <div class="mortgage-offer__title">Ежемесячный платеж</div>
+        <div class="mortgage-offer__val"></div>
+    </div>
+</div>

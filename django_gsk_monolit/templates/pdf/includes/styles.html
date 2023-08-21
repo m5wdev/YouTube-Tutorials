@@ -1,0 +1,70 @@
+{% load static %}
+<style>
+    @page {
+        size: A4 portrait;
+        /* size: A4 landscape; */
+        margin: 1cm;
+
+        @frame header_frame {
+            -pdf-frame-content: header_frame;
+            left: 50pt; width: 512pt; top: 50pt; height: 40pt;
+            /* -pdf-frame-border: 1; */
+        }
+
+        @frame content_frame {
+            left: 50pt; width: 512pt; top: 110pt; height: 632pt;
+            /* -pdf-frame-border: 1; */
+        }
+
+        @frame footer_frame {
+            -pdf-frame-content: footer_frame;
+            left: 50pt; width: 512pt; top: 772pt; height: 40pt;
+            /* -pdf-frame-border: 1; */
+        }
+    }
+
+    @font-face {
+        font-family: 'Roboto Regular', arial;
+        src: url('{{ font_path }}');
+        {% comment %}
+        /* src: url({% static 'fonts/roboto_regular.ttf' %}); */
+        /* src: url('http://127.0.0.1:8000/static/fonts/fonts/roboto_regular.ttf'); */
+        /* src: url('C:\Users\DeN\Dropbox\JOB\monolit.site\monolit\monolit\static\fonts\roboto_regular.ttf'); */
+        {% endcomment %}
+    }
+
+    body {
+        font-family: 'Roboto Regular', arial;
+        font-size: 11pt;
+    }
+
+    #header_frame {
+        text-align: center;
+    }
+
+    /* #content_frame {} */
+
+    #footer_frame {
+        text-align: center;
+    }
+
+    #site_name {
+        font-size: 19pt;
+        font-weight: bolder;
+        line-height: 1.2;
+        margin-bottom: 10pt;
+
+        text-align: center;
+    }
+
+    #image_planning {
+        /* border: 1px solid; */
+        text-align: center;
+        margin-bottom: 25pt;
+    }
+
+    #image_planning img {
+        width: 200pt;
+        height: auto;
+    }
+</style>

@@ -1,0 +1,101 @@
+#section-corporactive-advantages {
+    background-color: #ebf5f4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+    position: relative;
+
+    &::before {
+        background-image: url('images/mortgage/wave-top.svg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        content: "";
+
+        position: absolute;
+        top: -10px;
+        left: 0;
+
+        width: 100%;
+        height: 30px;
+    }
+
+    &::after {
+        background-image: url('images/mortgage/wave-top.svg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        content: "";
+
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+
+        width: 100%;
+        height: 30px;
+
+        transform: scaleY(-1);
+        filter: FlipV;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+
+        h2 {
+            font-weight: 800;
+
+            span {
+                color: #0baca2;
+            }
+        }
+    }
+
+    &__inner {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 60px;
+
+        @include media-breakpoint-up(lg) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        .corporactive-advanage {
+            text-align: center;
+
+            &__icon {
+                background-color: white;
+                border-radius: 50%;
+
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: auto 50%;
+
+                display: block;
+                width: 256px;
+                height: 256px;
+
+                margin: 0 auto 25px;
+
+                &--beach {
+                    background-image: url('images/mortgage/adv-beach.svg');
+                }
+                &--chart {
+                    background-image: url('images/mortgage/adv-chart.svg');
+                }
+                &--desk {
+                    background-image: url('images/mortgage/adv-desk.svg');
+                }
+            }
+
+            &__descr {
+                color: #0baca2;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

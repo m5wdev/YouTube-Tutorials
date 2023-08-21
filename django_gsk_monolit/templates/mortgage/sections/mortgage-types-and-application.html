@@ -1,0 +1,39 @@
+<section id="section-mortgage-types" class="common-section">
+    <div class="common-section__title container">
+        <h2>Способы покупки</h2>
+    </div>
+    <div id="section-mortgage-types__inner" class="container">
+        {% url 'mortgage:military' as mortgage_military_url %}
+        {% if mortgage_military_url == request.path %}
+            <div class="mortgage-type selected">
+                <a href="">Военная<br>ипотека</a>
+            </div>
+        {% else %}
+            <div class="mortgage-type">
+                <a href="{{ mortgage_military_url }}">Военная<br>ипотека</a>
+            </div>
+        {% endif %}
+
+        {% url 'mortgage:mother' as mortgage_mother_url %}
+        {% if mortgage_mother_url == request.path %}
+            <div class="mortgage-type selected">
+                <a href="">Материнский<br>капитал</a>
+            </div>
+        {% else %}
+            <div class="mortgage-type">
+                <a href="{{ mortgage_mother_url }}">Материнский<br>капитал</a>
+            </div>
+        {% endif %}
+
+        {% url 'mortgage:corporactive' as mortgage_corporactive_url %}
+        {% if mortgage_corporactive_url == request.path %}
+            <div class="mortgage-type selected">
+                <a href="">КорпорАКТИВ</a>
+            </div>
+        {% else %}
+            <div class="mortgage-type">
+                <a href="{{ mortgage_corporactive_url }}">КорпорАКТИВ</a>
+            </div>
+        {% endif %}
+    </div>
+</section>

@@ -1,0 +1,26 @@
+#section-news {
+    &__inner {
+        display: grid;
+        grid-gap: 30px;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        .news-card {
+            &:last-child {
+                @include media-breakpoint-down(lg) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // SEE: cards/_news_card.scss
+}

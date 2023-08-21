@@ -1,0 +1,83 @@
+.custom-controls-wrap {
+    position: relative;
+
+    .custom-controls {
+        position: absolute;
+
+        display: flex;
+        align-items: center;
+
+        z-index: 11;
+
+        .controls-prev-next {
+            .control-left,
+            .control-right {
+                background-position: 50% 0;
+
+                display: block;
+                min-width: 31px;
+                height: 31px;
+
+                transition: transform .3s ease;
+                transform: translateZ(0);
+            }
+
+            .control-left {
+                &:hover {
+                    transform: translate3d(-3px, 0, 0);
+                }
+            }
+
+            .control-right {
+                &:hover {
+                    transform: translate3d(3px, 0, 0);
+                }
+            }
+        }
+
+        .carousel-indicators {
+            position: static;
+            margin: 0;
+        }
+
+        .custom-carousel-indicators {
+            .slider-indicator {
+                position: relative;
+                cursor: pointer;
+                height: 21px;
+                width: 2px;
+                padding: 0 9px;
+                transition: transform .4s ease;
+                transform: scaleY(1);
+
+                &::after {
+                    background-color: white;
+                    content: "";
+                    display: block;
+                    width: 2px;
+                    height: 100%;
+
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 50%;
+
+                    transform: translateX(-50%);
+                    transition: background-color .4s ease;
+                }
+
+                &.active {
+                    transform: scaleY(1.52);
+
+                    &::after {
+                        background-color: #00998f !important;
+                    }
+                }
+
+                &:hover {
+                    transform: scaleY(1.2);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} sites-commercial
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'sites-commercial:list' %}">Коммерческая недвижимость</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% if object_list %}
+            <div id="section-sites-list" class="common-section" data-page-url="{{ request.path }}" data-current-pagination-number="{{ page_obj.number }}" data-max-pagination-number="{{ page_obj.paginator.num_pages }}">
+                <div id="section-sites-list__infinate_scroll" class="common-section__inner-grid container">
+                    {% for object in object_list %}
+                        {% include 'realty/cards/site-card.html' %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

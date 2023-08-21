@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} favorites-page
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <h1>{{ page_title }}</h1>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form action="{% url 'favorites:delete' %}" method="post" onsubmit="return confirm('Вы уверены что хотите удалить все из избранного?');">{% csrf_token %}
+                        <input type="hidden" name="url_from" value="{{ request.path }}">
+                        <button type="submit" class="grey-button">Удалить все из избранного</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        {% if request.user.is_superuser %}
+            <!-- <div class="container mb-3">
+                <div class="h3">{{ request.session.keys }}</div>
+                <div>{{ request.session.favorites }}</div>
+            </div> -->
+        {% endif %}
+
+        {% if request.session.favorites %}
+            {% comment %}
+                <!-- <div id="section-sites-list" class="common-section">
+                    <div class="common-section__inner-grid container">
+                        {% for object in sites_all_list %}
+                            {% include 'realty/cards/site-card.html' %}
+                        {% endfor %}
+                    </div>
+                </div> -->
+            {% endcomment %}
+
+            <div id="section-sites-list">
+                {% if sites_list %}
+                    <div class="common-section">
+                        <div class="common-section__title container">
+                            <div class="h2">Жилые помещения</div>
+                        </div>
+                        <div class="common-section__inner-grid container">
+                            {% for object in sites_list %}
+                                {% include 'realty/cards/site-card.html' %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                {% if sites_commercial_list %}
+                    <div class="common-section">
+                        <div class="common-section__title container">
+                            <div class="h2">Коммерческие помещения</div>
+                        </div>
+                        <div class="common-section__inner-grid container">
+                            {% for object in sites_commercial_list %}
+                                {% include 'realty/cards/site-card.html' %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        {% else %}
+            <div class="container">
+                <p>В избранном пусто =(</p>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

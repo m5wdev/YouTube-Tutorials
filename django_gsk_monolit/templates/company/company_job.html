@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-vacancy
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+
+            <div class="mt-3">
+                <a href="#jobs-list" class="h3 anchor-link">Вакансии актуальные на {{ current_month_rus }} {% now "Y" %}</a>
+            </div>
+        </div>
+
+        {% for object in job_blocks %}
+            <div class="company-section">
+                <div class="company-section__inner container">
+                    <div class="company-section__left">
+                        {% if object.title %}
+                            <div class="company-section__title">
+                                <h2>{{ object.title }}</h2>
+                            </div>
+                        {% endif %}
+                        {% if object.body %}{{ object.body|safe }}{% endif %}
+                    </div>
+                    <div class="company-section__right company-section__img"{% if object.image %} style="background-image: url('{{ object.image.url }}')"{% endif %}></div>
+                </div>
+            </div>
+        {% endfor %}
+    </main>
+
+    {% if job_vacancies %}
+        <div class="anchor" id="jobs-list"></div>
+        <section id="section-vacancies-list" class="common-section">
+            <div class="common-section__title container">
+                <h2>Вакансии</h2>
+                <div><em>Актуальные на {{ current_month_rus|title }} {% now "Y" %}</em></div>
+            </div>
+            <div id="section-vacancies-list__inner" class="container">
+                <div id="vacancies-list-accordion">
+                    {% for object in job_vacancies %}
+                        <div class="vacancy-card collapse-block">
+                            <div class="vacancy-card__title-wrap">
+                                <a class="collapse-block__link" data-toggle="collapse" href="#vacancy-{{ object.id }}" aria-expanded="false" aria-controls="vacancy-{{ object.id }}">
+                                    <span class="vacancy-card__title">{{ object.title }}</span>
+                                    {% if object.experience %}
+                                        <span class="vacancy-card__experience"><strong>Опыт:</strong> {{ object.experience }}</span>
+                                    {% endif %}
+                                    {% if object.salary %}
+                                        <span class="vacancy-card__experience">{{ object.salary }}</span>
+                                    {% endif %}
+                                </a>
+                            </div>
+                            <div id="vacancy-{{ object.id }}" class="vacancy-card__descr collapse" data-parent="#vacancies-list-accordion">
+                                {% if object.duties %}
+                                    <div class="mb-3">
+                                        <p><strong>Обязанности:</strong></p>
+                                        <div>{{ object.duties|safe }}</div>
+                                    </div>
+                                {% endif %}
+                                {% if object.requirements %}
+                                    <div class="mb-3">
+                                        <p><strong>Требования:</strong></p>
+                                        <div>{{ object.requirements|safe }}</div>
+                                    </div>
+                                {% endif %}
+                                {% if object.terms %}
+                                    <div class="mb-3">
+                                        <p><strong>Условия:</strong></p>
+                                        <div>{{ object.terms|safe }}</div>
+                                    </div>
+                                {% endif %}
+                                {% if object.contacts %}
+                                    <div>
+                                        <em><p><strong>Контакты:</strong></p>
+                                        <div>{{ object.contacts|safe }}</div></em>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+    <section id="section-job-reserves" class="common-section">
+        <div class="common-section__title container">
+            <h2>Не нашлось подходящей вакансии? Стань частью нашей команды!</h2>
+        </div>
+        <div class="common-section__inner container">
+            <p>В любой высокоразвитой компании ценнейшим ресурсом являются люди.<br>
+                А основой роста, развития и эффективной реализации проектов - действия сплоченной команды.<br>
+                Именно поэтому мы всегда в поиске профессионалов, опытных специалистов, целеустремленных личностей, которые чувствуют в себе силы менять наш полуостров и создавать новый формат жизни для людей.</p>
+            <p>У вас есть уникальная возможность работать в крупнейшем строительном холдинге Крыма, расти рядом с профессионалами.</p>
+            <div class="h4"><strong>Работа в ГК Монолит &ndash; это масштабно!</strong></div>
+            <p>Стань частью нашей команды заполнив анкету или отправив резюме.</p>
+            <div id="vacancy-sign-up">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3TgMEiDhy69AFFUX8WnSBmKloveTEhV00nzJCBa34lfwW5Q/viewform" class="green-button" target="_blank">Заполнить анкету</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSep5JYfuFOEkGGtQgTa1r953SGvwnjX25M2fAbo83LCBnysdA/viewform" class="green-button" target="_blank">Отправить резюме</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

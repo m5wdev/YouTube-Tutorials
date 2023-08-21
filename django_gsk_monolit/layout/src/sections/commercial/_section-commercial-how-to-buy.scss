@@ -1,0 +1,45 @@
+#section-commercial-how-to-buy {
+    background-color: #EEE;
+
+    &__inner {
+        display: grid;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        .commercial-estate-buy-method {
+            display: flex;
+            align-items: center;
+
+            @include media-breakpoint-down(md) {
+                flex-direction: column;
+            }
+
+            &__logo {
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: contain;
+
+                display: block;
+                width: 128px;
+                height: 128px;
+
+                margin-right: 15px;
+            }
+
+            &__descr {
+                font-size: 1.7rem;
+                font-weight: 700;
+                line-height: 1.2;
+
+                @include media-breakpoint-down(md) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

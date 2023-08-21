@@ -1,0 +1,12 @@
+<svg width="8" height="14" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Vector 10</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-23278 11245)">
+<g id="Vector 10">
+<use xlink:href="#path0_stroke" transform="translate(23278.5 -11244.5)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 6.5 6.5L 6.85355 6.85355L 7.20711 6.5L 6.85355 6.14645L 6.5 6.5ZM -0.353553 0.353553L 6.14645 6.85355L 6.85355 6.14645L 0.353553 -0.353553L -0.353553 0.353553ZM 6.14645 6.14645L -0.353553 12.6464L 0.353553 13.3536L 6.85355 6.85355L 6.14645 6.14645Z"/>
+</defs>
+</svg>

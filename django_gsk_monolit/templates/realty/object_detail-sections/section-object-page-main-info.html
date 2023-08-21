@@ -1,0 +1,40 @@
+{% if object.name %}
+    {% spaceless %}
+    <section id="section-object-page-main-info"{% if not object.all_sold %} data-sites-info-api-url="{% url 'api:object:sites-info' object_id=object.id %}"{% else %} class="sold"{% endif %} style="background-image: url('{% spaceless %}
+            {% if object.main_image %}
+                {{ object.main_image.url }}
+            {% else %}
+                https://via.placeholder.com/1920x1080/EEEEEE/555555?text=No+Image
+            {% endif %}{% endspaceless %}');">
+    {% endspaceless %}
+
+        {% if not object.all_sold %}
+            <div id="section-object-page-main-info__stats">
+                <div class="stats-item">
+                    <div class="stats-item__label">Площадь</div>
+                    <div class="stats-item__val">
+                        <span class="obj-area-min"></span>
+                        <span class="obj-area-max"></span>
+                    </div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-item__label">Стоимость</div>
+                    <div class="stats-item__val">
+                        <span class="obj-min-price"></span>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+
+        {% if object.object_type or object.name %}
+            <div id="section-object-page-main-info__h1-title">
+                <h1>
+                    <span id="section-object-page-main-info__h1-title--type">{{ object.object_type }}</span>
+                    {% if object.name %}
+                        <span id="section-object-page-main-info__h1-title--name">{{ object.name }}</span>
+                    {% endif %}
+                </h1>
+            </div>
+        {% endif %}
+    </section>
+{% endif %}

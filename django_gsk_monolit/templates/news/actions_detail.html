@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} actions
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'news:actions:list' %}">Акции</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% if object.description or object.image_detail %}
+            <div class="container">
+                <div class="mb-3">
+                    {% if object.date_start %}
+                        <div><em><strong>Дата начала акции:</strong> {{ object.date_start|date:"d/m/Y" }}</em></div>
+                    {% endif %}
+                    {% if object.date_end %}
+                        <div><em><strong>Завершение акции:</strong> {{ object.date_end|date:"d/m/Y" }}</em></div>
+                    {% else %}
+                        <div><em><strong>Завершение акции:</strong> бессрочно</em></div>
+                    {% endif %}
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-6 order-2 order-xl-1">
+                        {{ object.description|safe }}
+                    </div>
+                    <div class="col-xl-6 order-1 order-xl-2 mb-3 mb-xl-0 text-center text-xl-left">
+                        {% if object.image_detail %}
+                            <img src="{{ object.image_detail.url }}" style="max-width: 100%; height: auto;" alt="{{ page_title }}">
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </main>
+
+    {% if action_partners %}
+        <section id="section-actions-partners" class="common-section">
+            {% if object.partners_title %}
+                <div class="common-section__title container">
+                    <h2>{{ object.partners_title }}</h2>
+                </div>
+            {% endif %}
+            <div id="section-actions-partners__inner" class="container">
+                {% for partner in action_partners %}
+                    <div class="partner-card">
+                        <div class="partner-card__logo"{% if partner.logo %} style="background-image: url('{{ partner.logo.url }}');"{% endif %}></div>
+                        {% if partner.site_url %}
+                            <a href="{{ partner.site_url }}" target="_blank" title="Откроется в новой вкладке" class="stretched-link"></a>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    {% endif %}
+
+    {% if other_actions %}
+        <section id="section-actions-list" class="common-section">
+            <div class="common-section__title container">
+                <h2>Другие акции</h2>
+            </div>
+            <div id="section-actions-list__inner" class="container">
+                {% for object in other_actions %}
+                    {% include 'news/cards/actions-card.html' %}
+                {% endfor %}
+            </div>
+        </section>
+    {% endif %}
+{% endblock %}

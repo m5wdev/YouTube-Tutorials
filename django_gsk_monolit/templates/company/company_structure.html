@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-structure
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        {% for object in structure %}
+            <div class="company-section">
+                <div class="company-section__inner container">
+                    <div class="company-section__left">
+                        {% if object.body %}
+                            <div>{{ object.body|safe }}</div>
+                        {% endif %}
+                        {% if object.url %}
+                            <div class="mt-4">
+                                <a href="{{ object.url }}" class="green-button" target="_blank" title="Откроется в новой вкладке">Перейти на сайт</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="company-section__right company-section__img"{% if object.image %} style="background-image: url('{{ object.image.url }}')"{% endif %}></div>
+                </div>
+            </div>
+        {% endfor %}
+    </main>
+{% endblock %}

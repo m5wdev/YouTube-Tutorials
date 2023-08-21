@@ -1,0 +1,28 @@
+.monolit-pagination {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    ul.pagination {
+        margin-bottom: 0;
+
+        li.page-item {
+            a.page-link {
+                color: #00998f;
+            }
+
+            &.disabled {
+                opacity: .4;
+            }
+
+            &.active {
+                a.page-link {
+                    background-color: #00998f;
+                    border-color: #00998f;
+                    color: white;
+                }
+            }
+        }
+    }
+}

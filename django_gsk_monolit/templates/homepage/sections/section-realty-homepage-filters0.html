@@ -1,0 +1,57 @@
+<div id="section-realty-homepage-filters" class="container">
+    <form id="facet-filters-sites" action="{% url 'sites:list' %}?area_min=34&area_max=118&price_min=1833090&price_max=9846210" method="get">
+        <div id="section-realty-homepage-filters__inner">
+            <div id="section-realty-homepage-filters__rooms-block" class="realty-filters-block">
+                <div class="realty-filters-block__label">Комнат</div>
+                <div class="realty-filters-block__content">
+                    {% comment %}<!-- <button class="circle-site" data-value="0">Ст</button>
+                    <button class="circle-site" data-value="1">1</button>
+                    <button class="circle-site" data-value="2">2</button>
+                    <button class="circle-site" data-value="3">3</button>
+                    <button class="circle-site disabled" data-value="4">4+</button> -->{% endcomment %}
+                    {% for room in facet_filter_sites__rooms|slice:":5" %}
+                        <button class="circle-site" data-value="{{ room.0 }}">
+                            {% if room.0 == '0' %}Ст{% elif room.0 == '4' %}4+{% else %}{{ room.0 }}{% endif %}
+                        </button>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="section-realty-homepage-filters__area-block" class="realty-filters-block">
+                <div class="realty-filters-block__label">Площадь</div>
+                <div class="realty-filters-block__content">
+                    <div id="realty-filter__area-slider"></div>
+                    <div class="realty-filters-block__inputs">
+                        <span>от</span>
+                        {# <!-- <input id="realty-filter__area--input-min" name="area_min" type="number" min="35" max="245" step="1" value=""> --> #}
+                        <input id="realty-filter__area--input-min" name="area_min" type="number" min="{{ facet_filter_sites__summary.min_sites_area }}" max="{{ facet_filter_sites__summary.max_sites_area }}" step="1" value="">
+                        <span>до</span>
+                        {# <!-- <input id="realty-filter__area--input-max" name="area_max" type="number" min="35" max="245" step="1" value=""> --> #}
+                        <input id="realty-filter__area--input-max" name="area_max" type="number" min="{{ facet_filter_sites__summary.min_sites_area }}" max="{{ facet_filter_sites__summary.max_sites_area }}" step="1" value="">
+                        <span>м<sup>2</sup></span>
+                    </div>
+                </div>
+            </div>
+            <div id="section-realty-homepage-filters__price-block" class="realty-filters-block">
+                <div class="realty-filters-block__label">Стоимость</div>
+                <div class="realty-filters-block__content">
+                    <div id="realty-filter__price-slider"></div>
+                    <div class="realty-filters-block__inputs">
+                        <span>от</span>
+                        {# <!-- <input id="realty-filter__price--input-min" name="price_min" type="number" min="2919000" max="18360000" step="1000" value=""> --> #}
+                        {# <!-- <input id="realty-filter__price--input-min" name="price_min" type="text"> --> #}
+                        <input id="realty-filter__price--input-min" name="price_min" type="number" min="{{ facet_filter_sites__summary.min_price }}" max="{{ facet_filter_sites__summary.max_price }}" step="1" value="1833090">
+                        <span>до</span>
+                        {# <!-- <input id="realty-filter__price--input-max" name="price_max" type="number" min="2919000" max="18360000" step="1000" value=""> --> #}
+                        {# <!-- <input id="realty-filter__price--input-max" name="price_max" type="text"> --> #}
+                        <input id="realty-filter__price--input-max" name="price_max" type="number" min="{{ facet_filter_sites__summary.min_price }}" max="{{ facet_filter_sites__summary.max_price }}" step="1" value="9846210">
+                        <span>м<sup>2</sup></span>
+                    </div>
+                </div>
+            </div>
+            <div id="section-realty-homepage-filters__submit-block">
+                {# <!-- <button type="submit" class="green-button">Показать <span class="realty-qty">103 квартиры</span></button> --> #}
+                <button type="submit" class="green-button">Показать <span class="realty-qty">{{ facet_filter_sites__summary.sites_total_qty }} квартиры</span></button>
+            </div>
+        </div>
+    </form>
+</div>

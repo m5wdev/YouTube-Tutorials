@@ -1,0 +1,59 @@
+#section-realty-homepage-filters {
+    cursor: default;
+    margin-bottom: 30px;
+
+    &__inner {
+        border-radius: 5px;
+        background-color: #f6f6f6;
+        box-shadow: 0 5px 5px rgba(0,0,0,.1);
+        padding: 0;
+
+        display: grid;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include media-breakpoint-only(lg) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__rooms-block {
+        @include media-breakpoint-only(lg) {
+            order: 3;
+        }
+
+        .realty-filters-block__content {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    &__area-block {
+        @include media-breakpoint-only(lg) {
+            order: 1;
+        }
+    }
+
+    &__price-block {
+        @include media-breakpoint-only(lg) {
+            order: 2;
+        }
+    }
+
+    &__submit-block {
+        @include media-breakpoint-only(lg) {
+            order: 4;
+        }
+        background-color: #515151;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 15px;
+
+        button {
+            line-height: 1.2;
+        }
+    }
+}

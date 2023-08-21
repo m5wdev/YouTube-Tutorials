@@ -1,0 +1,102 @@
+#section-site-page-simular-sites {
+    &__inner {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        @include media-breakpoint-only(xl) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @include media-breakpoint-only(lg) {
+            grid-template-columns: repeat(3, 1fr);
+
+            .site-card {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        #sites-simular {
+            cursor: default;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &__total {
+                color: #00998f;
+                font-size: 8rem;
+                font-weight: 800;
+                line-height: 1;
+                margin-bottom: 30px;
+            }
+
+            &__simular-objects {
+                color: black;
+                font-size: 1.9rem;
+                font-weight: 700;
+                line-height: 1.1;
+                margin-bottom: 30px;
+            }
+
+            &__see-all {
+                a {
+                    color: #00998f;
+                    font-size: 1.2rem;
+
+                    display: flex;
+                    align-items: center;
+
+                    * {
+                        transition: all ease .3s;
+                    }
+
+                    span {
+                        &::after {
+                            background-color: #00998f;
+                            content: "";
+                            display: block;
+                            height: 1px;
+                            width: 100%;
+                            margin-top: 1px;
+                            transform: scaleX(1);
+                            transition: transform .3s cubic-bezier(.25,.46,.45,.94);
+                        }
+                    }
+
+                    .icon {
+                        background-size: 8px;
+
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, .17);
+                        border-radius: 100%;
+
+                        width: 28px;
+                        height: 28px;
+
+                        margin-left: 15px;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+
+                        .icon {
+                            transform: translate3d(3px,0,0);
+                        }
+
+                        span {
+                            &::after {
+                                transform: scaleX(0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

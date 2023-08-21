@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} news
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">Новости</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+        <div id="section-news">
+            <div id="section-news__inner" class="container">
+                {% for object in object_list %}
+                    {% include 'news/cards/news-card.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+
+    {% if object_list.has_previous or object_list.has_next %}
+        <div id="load-more-news" class="container">
+            <button class="green-button" type="button" name="load-more-news-btn" data-next-page="{% if object_list.has_next %}{{ request.path }}?page={{ object_list.next_page_number }}{% endif %}">Загрузить ещё<span>.</span><span>.</span><span>.</span></button>
+        </div>
+    {% endif %}
+{% endblock %}

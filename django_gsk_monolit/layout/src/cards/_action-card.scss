@@ -1,0 +1,71 @@
+@keyframes bg_animation {
+    0% {
+        background-position: 50% 50%;
+        background-size: 100%;
+    }
+    100% {
+        background-position: 10% 80%;
+        background-size: 115%;
+    }
+}
+
+.action-card {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+
+    position: relative;
+    height: 300px;
+
+    overflow: hidden;
+
+    animation: bg_animation 10s infinite alternate;
+    animation-play-state: paused;
+
+    @include media-breakpoint-down(lg) {
+        min-height: 290px;
+    }
+
+    &::before {
+        content: "";
+        background-color: rgba(0, 0, 0, .5);
+
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        transition: all ease-in-out .6s;
+    }
+
+    &__title {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        padding-left: 20px;
+        padding-right: 10px;
+
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+
+    // .stretched-link {}
+
+    &:hover {
+        animation-play-state: running;
+
+        &::before {
+            background-color: rgba(0, 0, 0, .3);
+        }
+
+        .action-card__title {
+            background-color: rgba(0, 153, 143, .8);
+            font-size: 1.7rem;
+        }
+    }
+}

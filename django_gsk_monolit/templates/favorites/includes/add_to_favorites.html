@@ -1,0 +1,5 @@
+<div class="add-to-favorites" data-type="{{ type }}" data-id="{{ id }}">
+    {% csrf_token %}
+    <div class="icon icon-{% if not icon_size %}18{% else %}{{ icon_size }}{% endif %} icon-heart-contour-green"></div>
+    <div class="add-to-favorites__label">В избранное</div>
+</div>

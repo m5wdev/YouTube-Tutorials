@@ -1,0 +1,15 @@
+{% if other_objects %}
+    <section id="section-objects-list" class="common-section">
+        <div class="common-section__title container">
+            <h2>Другие объекты в продаже</h2>
+        </div>
+        <div class="common-section__inner-grid container">
+            {% for object in other_objects %}
+                {% include 'realty/cards/object-card.html' %}
+            {% endfor %}
+        </div>
+        <div id="section-objects-list__see-all">
+            <a href="{% url 'objects:list' %}" class="green-button">Посмотреть все объекты</a>
+        </div>
+    </section>
+{% endif %}

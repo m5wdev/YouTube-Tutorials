@@ -1,0 +1,119 @@
+.mortgage-offer {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    align-items: center;
+    text-align: center;
+
+    padding: 15px 0;
+    opacity: .75;
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: 256px repeat(5, 1fr);
+    }
+    @include media-breakpoint-down(md) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include media-breakpoint-down(xs) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &:not(:last-child) {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    &__title {
+        color: #a6a6a6;
+        cursor: default;
+        font-size: .8rem;
+    }
+
+    &__val {
+        font-size: 1.1rem;
+        font-weight: 600;
+
+        .noUi-target {
+            margin-top: 10px;
+        }
+    }
+
+    &__best-offer {
+        background-color: #00998f;
+        color: white;
+        cursor: default;
+        font-size: .8rem;
+        line-height: 1;
+        padding: 5px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        top: -20px;
+        left: 0;
+
+        @include media-breakpoint-down(md) {
+            font-size: .75rem;
+            top: -20px;
+        }
+    }
+
+    &__bank-logo {
+        position: relative;
+
+        .bank-logo {
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 70%;
+
+            display: block;
+            width: 256px;
+            height: 64px;
+
+            @include media-breakpoint-down(xs) {
+                background-size: 90%;
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+
+    &__descr {
+        color: #00998f;
+        font-size: .9rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+
+    &__loan-rate {
+        .mortgage-offer__val {
+            color: #00998f;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+    }
+
+    // &__first-payment {}
+
+    // &__pay-off {}
+
+    // &__years {}
+
+    &__monthly-payment {
+        .mortgage-offer__val {
+            color: #00998f;
+            font-weight: 700;
+        }
+    }
+
+    &:hover {
+        background-color: #F0F0F0;
+        opacity: 1;
+
+        .mortgage-offer__best-offer {
+            transform: scale(1.1) rotate(-6deg);
+        }
+    }
+}

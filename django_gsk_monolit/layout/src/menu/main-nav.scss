@@ -1,0 +1,77 @@
+// https://css-tricks.com/snippets/sass/use-sass-variable-selector/
+$main_nav: ".main-nav";
+$main_nav_toggle: "#main-navigation-toggle";
+
+// Common main-nav styles
+#{$main_nav} {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    > ul {
+        display: flex;
+    }
+
+    a {
+        white-space: nowrap;
+    }
+}
+
+.sticky-main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.body-overflow-hidden {
+    @include media-breakpoint-down(lg) {
+        overflow: hidden;
+    }
+}
+
+#main-navigation-wrap {
+    @include media-breakpoint-down(lg) {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    // Menu hamburger
+    #{$main_nav_toggle} {
+        // background-color: #00998f;
+        background-color: rgba(0, 153, 143, 1);
+        background-image: url('images/menu-hamburger.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 80%;
+
+        width: 40px;
+        height: 40px;
+
+        position: absolute;
+        right: 0;
+
+        &.opened {
+            background-image: url('images/menu-close.svg');
+
+            @include media-breakpoint-down(lg) {
+                position: fixed;
+                top: 15px;
+                right: 15px;
+
+                z-index: 201;
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@import "./desktop-nav";
+@import "./mobile-nav";

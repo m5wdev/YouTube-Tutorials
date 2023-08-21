@@ -1,0 +1,95 @@
+#section-about {
+    background-image: url('images/bg-about.jpg');
+    background-repeat: no-repeat;
+    background-position: 25% 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+    text-shadow: 0 0 1px black;
+
+    padding-top: 180px;
+    padding-bottom: 180px;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    &__logo {
+        background-image: url('images/logo-monolit-white.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+
+        width: 172px;
+        height: 60px;
+
+        @include media-breakpoint-down(md) {
+            width: 256px;
+            height: 90px;
+        }
+    }
+
+    &__statistic {
+        cursor: default;
+        display: grid;
+        grid-row-gap: 45px;
+
+        .stat-group {
+            background-image: url('images/trapezia-green-small.svg');
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+
+            display: grid;
+            grid-column-gap: 15px;
+            align-items: center;
+
+            @include media-breakpoint-up(lg) {
+                grid-template-columns: auto 1fr;
+            }
+            @include media-breakpoint-down(md) {
+                background-position: 0 25%;
+
+                grid-template-columns: 1fr;
+                grid-row-gap: 10px;
+            }
+
+            &__big {
+                font-size: 4.1rem;
+                font-weight: 700;
+
+                @include media-breakpoint-down(lg) {
+                    font-size: 3.2rem;
+                }
+            }
+
+            &__muted {
+                color: #c3c3bc;
+                font-weight: 500;
+                font-size: 1.2rem;
+                line-height: 1.1;
+
+                @include media-breakpoint-up(lg) {
+                    max-width: 70%;
+                }
+            }
+        }
+    }
+}

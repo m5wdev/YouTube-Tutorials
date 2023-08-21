@@ -1,0 +1,83 @@
+.contact-card {
+    .collapse-block__link {
+        color: black;
+
+        &:hover {
+            color: #00998f;
+        }
+
+        &[aria-expanded="true"] {
+            color: #00998f;
+        }
+    }
+
+    &__title-wrap {
+        border-bottom: 1px solid #dadada;
+        padding: 15px 0 15px 0;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 1.2;
+        min-height: 48px;
+
+        width: 93%;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.3rem;
+            width: 100%;
+            padding-right: 48px;
+        }
+    }
+
+    &__descr {
+        border-bottom: 1px solid #dadada;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: 1fr;
+        }
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__item {
+        &--label {
+            font-size: .9rem;
+            cursor: default;
+            margin-bottom: 5px;
+        }
+
+        &--val {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+    }
+
+    address {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #00998f;
+
+        &:focus,
+        &:hover {
+            color: #005852;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{% load custom_filters %}
+
+<div class="site-card">
+    <div class="site-card__header">
+        {% if object.object.name %}
+            {% include "favorites/includes/add_to_favorites.html" with type="object_site" id=object.id %}
+        {% endif %}
+        {% if object.object_commercial.name %}
+            {% include "favorites/includes/add_to_favorites.html" with type="object_commercial_site" id=object.id %}
+        {% endif %}
+        <div class="site-card__id">ID: {{ object.crm_id }}</div>
+    </div>
+    <div class="site-card__img" style="background-image: url('{% spaceless %}
+        {% if object.image_planning %}
+            {{ object.image_planning.url }}
+        {% else %}
+            https://via.placeholder.com/386/FFFFFF/555555?text=No+Image
+        {% endif %}
+    {% endspaceless %}');">
+        <a href="{{ object.get_absolute_url }}"></a>
+    </div>
+    <div class="site-card__footer">
+        <div class="site-card__footer--top">
+            <div class="site-card__info">
+                <div class="site-card__label">
+                    {% if object.object.object_type %}{{ object.object.object_type }}{% endif %}
+                    {% if object.object_commercial.object_type %}{{ object.object_commercial.object_type }}{% endif %}
+                </div>
+                <div class="site-card__val site-object-name">
+                    {% if object.object.name %}{{ object.object.name }}{% endif %}
+                    {% if object.object_commercial.name %}{{ object.object_commercial.name }}{% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="site-card__footer--middle">
+            <div class="site-card__info">
+                <div class="site-card__label">{{ object.display_name_card }}</div>
+                <div class="site-card__val">{% if object.site_area %}{{ object.site_area|floatformat:"-2" }} м<sup>2</sup>{% endif %}</div>
+            </div>
+            <div class="site-card__info">
+                <div class="site-card__label">Этаж</div>
+                <div class="site-card__val">
+                    {% if object.floor %}
+                        <span class="site-floor">{{ object.floor }}</span>
+                    {% endif %}
+                    {% if object.object_section.floor_last %}
+                        <span class="last-floor">/{{ object.object_section.floor_last }}</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="site-card__info">
+                <div class="site-card__label">
+                    {% if object.object_section.object_block.name %}Блок{% endif %}
+                    {% if object.object_section.object_block.name and object.object_section.name %} / {% endif %}
+                    {% if object.object_section.name %}Секция{% endif %}
+                </div>
+                <div class="site-card__val site-block-and-secton">
+                    {% if object.object_section.object_block.name %}
+                        {{ object.object_section.object_block.name }}
+                    {% endif %}
+                    {% if object.object_section.object_block.name and object.object_section.name %} / {% endif %}
+                    {% if object.object_section.name %}
+                        {{ object.object_section.name }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="site-card__footer--bottom">
+            <div class="site-card__info">
+                <div class="site-card__price-total">
+                    {% if object.price_total %}
+                        <span>{{ object.price_total|floatformat:"-2"|split_thousands }}</span><small> руб</small>
+                    {% endif %}
+                </div>
+                <div class="site-card__price-per-meter">{% if object.price_per_square %}{{ object.price_per_square|floatformat:"-2"|split_thousands }} руб/м<sup>2</sup>{% endif %}</div>
+            </div>
+        </div>
+    </div>
+</div>

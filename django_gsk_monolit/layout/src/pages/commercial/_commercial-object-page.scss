@@ -1,0 +1,83 @@
+.commercial-object-page {
+    background-image: url('images/bg-lightgrey-line.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    #content {
+        padding-top: 0;
+        position: relative;
+    }
+
+    #section-sites-types {
+        margin-bottom: 0;
+        position: relative;
+        z-index: 2;
+
+        &__bottom {
+            padding: 30px;
+            position: absolute;
+            bottom: -75px;
+
+            grid-template-columns: 1fr 1.5fr 3fr;
+
+            @include media-breakpoint-down(lg) {
+                grid-template-columns: 1fr;
+                bottom: -240px;
+                text-align: center;
+            }
+
+            #commercial-qty-block {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include media-breakpoint-only(xl) {
+                    border-right: 1px solid #CCC;
+                    padding-right: 30px;
+                }
+
+                &__number {
+                    color: block;
+                    font-size: 5rem;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    margin-right: 20px;
+                }
+
+                &__text {
+                    color: #00998f;
+                    font-size: 1.3rem;
+                    font-weight: 800;
+                    line-height: 1.2;
+                    text-align: left !important;
+                }
+            }
+
+            #commercial-text-block {
+                @include media-breakpoint-only(xl) {
+                    padding-left: 50px;
+                }
+            }
+
+            #commercial-phone-block {
+                font-size: 3rem;
+                font-weight: 700;
+
+                @include media-breakpoint-only(xl) {
+                    text-align: right;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: 2.5vh;
+                }
+
+                a {
+                    color: black;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

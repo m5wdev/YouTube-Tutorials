@@ -1,0 +1,171 @@
+#section-company-partnership-steps {
+    background-image: linear-gradient(to right, #18a29b, rgba(24, 162, 155, .8));
+    color: white;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    a {
+        color: white;
+
+        &:focus,
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .common-section__title h2 {
+        @include media-breakpoint-down(sm) {
+            font-size: 3vh;
+        }
+    }
+
+    &__inner {
+        display: grid;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+
+        margin-bottom: 50px;
+
+        @include media-breakpoint-down(lg) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        .partnership-step {
+            cursor: default;
+            position: relative;
+
+            display: grid;
+            grid-column-gap: 10px;
+            grid-template-columns: 128px 1fr;
+            align-items: center;
+
+            @include media-breakpoint-down(sm) {
+                grid-template-columns: 1fr;
+                grid-row-gap: 15px;
+            }
+
+            &:not(:last-child) {
+                &::after {
+                    background-image: url('images/icons/arrow-step.svg');
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                    background-size: contain;
+                    content: "";
+                    display: block;
+                    width: 15px;
+                    height: 50px;
+                    position: absolute;
+                    top: 30%;
+                    right: 0;
+
+                    @include media-breakpoint-down(lg) {
+                        display: none;
+                    }
+                }
+            }
+
+            .icon {
+                background-color: white;
+                border-radius: 50%;
+                background-size: 60%;
+
+                width: 128px;
+                height: 128px;
+
+                @include media-breakpoint-down(sm) {
+                    justify-self: center;
+                }
+            }
+
+            &__descr {
+                font-size: 1.2rem;
+                text-transform: uppercase;
+
+                @include media-breakpoint-down(sm) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: 1fr;
+        }
+
+        a.download-link {
+            display: flex;
+            position: relative;
+
+            @include media-breakpoint-up(sm) {
+                width: 330px;
+            }
+
+            .icon {
+                width: 64px;
+                height: 64px;
+                margin-right: 10px;
+            }
+
+            span {
+                font-size: 1.1rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+
+            small {
+                font-size: .9rem;
+                font-weight: 300;
+                opacity: .8;
+                display: block;
+                margin-top: 10px;
+            }
+        }
+
+        .download-card-two {
+            position: relative;
+            transition: all ease-in-out .3s;
+
+            &__inner {
+                text-align: center;
+
+                .icon {
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &__name {
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 1.2;
+                margin-bottom: 10px;
+
+                @include media-breakpoint-down(md) {
+                    font-size: 1.3rem;
+                }
+            }
+
+            &__size {
+                font-size: .8rem;
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+    }
+}

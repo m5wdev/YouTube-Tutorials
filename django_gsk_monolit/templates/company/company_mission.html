@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-mission
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'company/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+
+        <div class="company-section">
+            <div class="company-section__inner container">
+                <div class="company-section__left">
+                    <p>В своем стремлении создавать новые стандарты жизни для людей, компания так сформулировала свою миссию: «Мы строим дома, в которых комфортно жить, и компанию, в которой комфортно работать».</p>
+                    <p>В свою очередь, миссия подкрепляется такими ценностями как: надежность, забота, команда и эффективное взаимодействие.</p>
+                </div>
+                <div class="company-section__right company-section__img" style="background-image: url('{% static 'images/company/mission.jpg' %}')"></div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

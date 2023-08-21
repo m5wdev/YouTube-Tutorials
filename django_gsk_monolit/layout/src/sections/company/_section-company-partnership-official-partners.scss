@@ -1,0 +1,37 @@
+#section-company-partnership-official-partners {
+    &__inner {
+        display: grid;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-breakpoint-down(xs) {
+            grid-template-columns: 1fr;
+        }
+
+        .official-partner {
+            background-color: white;
+            box-shadow: 0 4px 4px rgba(0,0,0,.1);
+            border-radius: 7px;
+            position: relative;
+
+            @include media-breakpoint-down(xs) {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            &__logo {
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: contain;
+
+                width: 80%;
+                height: 128px;
+                margin: 15px auto;
+            }
+        }
+    }
+}

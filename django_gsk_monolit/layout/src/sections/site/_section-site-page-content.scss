@@ -1,0 +1,345 @@
+#section-site-page-content {
+    display: grid;
+
+    @include media-breakpoint-only(xl) {
+        grid-template-columns: 1.3fr 1fr;
+    }
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr;
+    }
+
+    &__left {
+        @include media-breakpoint-only(xl) {
+            padding-right: 30px;
+        }
+        @include media-breakpoint-down(lg) {
+            order: 2;
+        }
+    }
+
+    &__tabs {
+        #site-pills-tabs {
+            &.nav {
+                @include media-breakpoint-down(lg) {
+                    border-bottom: 1px solid #0baca2;
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    text-align: center;
+                }
+                @include media-breakpoint-down(xs) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+
+            .nav-link {
+                border-radius: 0;
+                color: #333;
+                font-weight: 500;
+                white-space: nowrap;
+
+                @include media-breakpoint-only(xl) {
+                    border-right: 1px solid #e1e1e1;
+                }
+                @include media-breakpoint-up(lg) {
+                    font-size: 1.1rem;
+                }
+
+                &:first-child {
+                    @include media-breakpoint-only(xl) {
+                        border-left: 1px solid #e1e1e1;
+                    }
+
+                    &.active {
+                        @include media-breakpoint-only(xl) {
+                            border-left: none;
+                        }
+                    }
+                }
+
+                &.active {
+                    background-color: #0baca2;
+                    color: white;
+
+                    @include media-breakpoint-only(xl) {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+
+        #site-pills-tabs-content {
+            .tab-pane {
+                padding-top: 15px;
+
+                @include media-breakpoint-only(xl) {
+                    height: 70vh;
+                }
+                @include media-breakpoint-only(lg) {
+                    height: 80vh;
+                }
+                @include media-breakpoint-only(md) {
+                    height: 60vh;
+                }
+                @include media-breakpoint-down(sm) {
+                    height: 45vh;
+                }
+
+                &__img {
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                    background-size: 80%;
+
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    &__right {
+        @include media-breakpoint-only(xl) {
+            border-left: 1px solid #e1e1e1;
+            padding-left: 30px;
+        }
+        @include media-breakpoint-down(lg) {
+            order: 1;
+            margin-bottom: 30px;
+        }
+
+        .site-content-block {
+            padding: 30px 0;
+
+            &--flex {
+                @extend .site-content-block;
+
+                display: flex;
+                align-items: center;
+
+                @include media-breakpoint-only(xl) {
+                    justify-content: space-between;
+                }
+                @include media-breakpoint-down(lg) {
+                    justify-content: space-around;
+                }
+                @include media-breakpoint-down(xs) {
+                    background-color: #fafafa;
+                    border-top: none !important;
+
+                    flex-flow: wrap;
+                    justify-content: space-between;
+                }
+            }
+
+            &--grid {
+                @extend .site-content-block;
+
+                display: grid;
+                grid-row-gap: 15px;
+                align-items: center;
+
+                grid-template-columns: repeat(2, 1fr);
+
+                @include media-breakpoint-down(xs) {
+                    grid-row-gap: 25px;
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+
+        #site-id {
+            color: #a6a6a6;
+            margin-bottom: 10px;
+        }
+
+        #site-params {
+            border-top: 1px solid #e1e1e1;
+            border-bottom: 1px solid #e1e1e1;
+            margin-top: 60px;
+
+            display: grid;
+            grid-row-gap: 30px;
+            align-items: center;
+            grid-template-columns: repeat(3, 1fr);
+
+            @include media-breakpoint-down(sm) {
+                grid-column-gap: 15px;
+            }
+            @include media-breakpoint-down(xs) {
+                grid-row-gap: 15px;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .site-params-block {
+                text-align: center;
+
+                @include media-breakpoint-down(xs) {
+                    flex: 0 0 50%;
+                    margin-bottom: 15px;
+                }
+
+                &__name {
+                    color: #a6a6a6;
+                    line-height: 1.2;
+                    margin-bottom: 7px;
+                }
+
+                &__val {
+                    font-size: 1.3rem;
+                    font-weight: 500;
+
+                    @include media-breakpoint-down(xs) {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                // .site-floor {}
+
+                .last-floor {
+                    font-size: 1rem;
+                    opacity: .5;
+                }
+            }
+        }
+
+        #site-params-secondary {
+            border-bottom: 1px solid #e1e1e1;
+            padding-bottom: 30px;
+
+            .h4 {
+                margin-bottom: 30px;
+            }
+
+            &__inner {
+                display: grid;
+                grid-column-gap: 30px;
+                grid-row-gap: 30px;
+                grid-template-columns: repeat(3, 1fr);
+
+                @include media-breakpoint-down(xs) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .site-params-block {
+                    display: flex;
+                    flex-direction: column;
+
+                    @include media-breakpoint-up(md) {
+                        text-align: center;
+                    }
+
+                    &__name {
+                        font-weight: 600;
+                    }
+
+                    // &__val {}
+                }
+            }
+        }
+
+        #site-price {
+            .site-price-block {
+                @include media-breakpoint-down(xs) {
+                    flex: 0 0 100%;
+                    text-align: center;
+
+                    &:not(:last-child) {
+                        margin-bottom: 30px;
+                    }
+                }
+
+                &__name {
+                    color: #a6a6a6;
+                    margin-bottom: 7px;
+                }
+
+                &__val {
+                    font-weight: 700;
+                }
+            }
+
+            &__per-meter {
+                .site-price-block__val {
+                    font-size: 1.6rem;
+                }
+            }
+
+            &__total {
+                .site-price-block__val {
+                    color: #0baca2;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        #site-actions {
+            margin-top: 30px;
+
+            @include media-breakpoint-only(xl) {
+                font-size: 1.1rem;
+            }
+            @include media-breakpoint-only(lg) {
+                margin: 0 auto;
+                width: 70%;
+            }
+            @include media-breakpoint-down(xs) {
+                margin-top: 0;
+            }
+
+            .site-actions-block {
+                display: flex;
+
+                @include media-breakpoint-down(xs) {
+                    justify-content: center;
+                }
+
+                a {
+                    color: black;
+
+                    display: flex;
+                    align-items: center;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+                &--flex-end {
+                    @extend .site-actions-block;
+
+                    @include media-breakpoint-up(sm) {
+                        justify-content: flex-end;
+                    }
+                }
+
+                .icon {
+                    margin-right: 10px;
+                }
+            }
+
+            &__book-site {
+                .green-button {
+                    padding: 16px 30px;
+
+                    @media (min-width: 1199px) and (max-width: 1330px) {
+                        padding: 16px;
+                    }
+                }
+            }
+
+            &__actions-panel {
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        &:not(:last-child) {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{% if object_info_tabs %}
+    <div id="section-object-info" class="common-section">
+        <div id="section-object-info__inner" class="container">
+            <div class="nav nav-pills" id="object-info-pills-tabs" role="tablist">
+                {% for tab in object_info_tabs %}
+                    <a class="nav-link{% if forloop.first %} active{% endif %}" id="object-info-pills-{{ tab.id }}-tab" data-toggle="pill" href="#object-info-pills-{{ tab.id }}" role="tab" aria-controls="object-info-pills-{{ tab.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ tab.get_icon_name_display }}</a>
+                {% endfor %}
+            </div>
+            <div class="tab-content" id="object-info-pills-tabs-content">
+                {% for tab in object_info_tabs %}
+                    <div class="tab-pane fade{% if forloop.first %} show active{% endif %}" id="object-info-pills-{{ tab.id }}" role="tabpanel" aria-labelledby="object-info-pills-{{ tab.id }}-tab">
+                        <div class="tab-pane__inner">
+                            <div class="tab-pane__content">
+                                <div class="tab-pane__title-group">
+                                    <div class="icon icon-object-{{ tab.icon_name }}"></div>
+                                    <h3>{{ tab.get_icon_name_display }}</h3>
+                                </div>
+                                <div class="tab-pane__descr">
+                                    {{ tab.description|safe }}
+                                </div>
+                            </div>
+                        {% if tab.image %}
+                            <div class="tab-pane__img" style="background-image: url('{{ tab.image.url }}');"></div>
+                        {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}

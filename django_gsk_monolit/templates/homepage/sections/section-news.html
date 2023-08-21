@@ -1,0 +1,12 @@
+{% if news_list %}
+    <section id="section-news" class="common-section">
+        <div class="common-section__title container">
+            <h2>Новости и акции</h2>
+        </div>
+        <div id="section-news__inner" class="container">
+            {% for object in news_list %}
+                {% include 'news/cards/news-card.html' %}
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}

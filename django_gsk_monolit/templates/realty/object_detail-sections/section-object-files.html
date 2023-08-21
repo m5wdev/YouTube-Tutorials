@@ -1,0 +1,28 @@
+{% if object_files %}
+
+    {% load custom_filters %}
+
+    <div id="section-company-partnership-steps" class="common-section">
+        <div id="section-company-partnership-steps__bottom" class="container">
+            {% for file in object_files %}
+                {% if file.file %}
+                    <div class="download-card-two">
+                        <div class="download-card-two__inner">
+                            <div class="icon icon-document-white"></div>
+                            <div class="download-card-two__name">{{ file.name }}</div>
+                            <div class="download-card-two__size">{{ file.file.url|get_file_ext|upper }}, {{ file.file.size|bytes_to_mb }}</div>
+                        </div>
+                        <a href="{{ file.file.url }}" class="stretched-link" target="_blank" title="Скачать"></a>
+                    </div>
+                {% else %}
+                    <div class="download-card-two">
+                        <div class="download-card-two__inner">
+                            <div class="icon icon-document-white"></div>
+                            <div class="download-card-two__name">{{ file.get_name_display }}</div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

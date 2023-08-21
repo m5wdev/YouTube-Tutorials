@@ -1,0 +1,46 @@
+button {
+    &:focus,
+    &:hover {
+        outline: none;
+    }
+}
+
+.green-button {
+    background-image: linear-gradient(to bottom, #00b9ad, #008e84);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    line-height: 1.2;
+    padding: 15px 35px;
+    text-align: center;
+    transition: box-shadow .3s ease, opacity .3s ease;
+
+    &:focus,
+    &:hover {
+        box-shadow: 0 5px 25px rgba(0, 0, 0, .45);
+        color: white;
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+.grey-button {
+    background-color: transparent;
+    border: 3px solid #EEE;
+    cursor: pointer;
+    color: #777;
+    line-height: 1.2;
+    text-align: center;
+    padding: 11px 15px;
+    transition: all ease-in-out .3s;
+
+    &:focus,
+    &:hover {
+        background-color: #EEE;
+        color: black;
+        outline: none;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,32 @@
+#section-compleated-projects {
+    cursor: default;
+    position: relative;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+
+    &__inner {
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+
+        @include media-breakpoint-up(lg) {
+            box-shadow: 0 4px 10px rgba(0,0,0,.4);
+        }
+    }
+
+    &__title {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1.2;
+        width: 300px;
+
+        position: absolute;
+        top: 40px;
+        left: 40px;
+
+        z-index: 2;
+    }
+}

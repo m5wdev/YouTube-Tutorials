@@ -1,0 +1,45 @@
+.mother-capital-step-card {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    grid-column-gap: 15px;
+
+    background-color: #00998f;
+    line-height: 1.2;
+    padding: 30px;
+    width: 100%;
+    min-height: 160px;
+
+    @include media-breakpoint-down(sm) {
+        max-width: 70%;
+        justify-self: center;
+    }
+    @include media-breakpoint-down(xs) {
+        max-width: 350px;
+    }
+
+    &__number {
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 15px;
+
+        width: 45px;
+        height: 45px;
+    }
+
+    &__descr {
+        color: white;
+
+        strong {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+    }
+}

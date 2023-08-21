@@ -1,0 +1,21 @@
+<section id="section-objects-list" class="common-section">
+    <div class="common-section__title container">
+        {% if objects_qty %}
+            {# <!-- TODO: Fix plural forms --> #}
+            <h2>{{ objects_qty }} объект{% if objects_qty >= 2 and objects_qty <= 4 %}а{% elif objects_qty >= 5 and objects_qty <= 20 %}ов{% endif %} в продаже</h2>
+        {% endif %}
+        <span class="common-section__title--right">
+            <a href="#section-compleated-projects" class="scale-line">Завершенные объекты</a>
+        </span>
+    </div>
+    <div class="common-section__inner-grid container">
+        {% if object_list %}
+            {% for object in object_list %}
+                {% include 'realty/cards/object-card.html' %}
+            {% endfor %}
+        {% endif %}
+    </div>
+    <div id="section-objects-list__see-all">
+        <a href="{% url 'objects:list' %}" class="green-button">Посмотреть все объекты</a>
+    </div>
+</section>

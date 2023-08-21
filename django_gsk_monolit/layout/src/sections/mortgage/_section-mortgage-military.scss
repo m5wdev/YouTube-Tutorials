@@ -1,0 +1,13 @@
+#section-mortgage-military {
+    // @include media-breakpoint-down(md) {
+    //     margin-top: 25vh;
+    // }
+
+    &__inner {
+        font-size: 1.2rem;
+
+        @include media-breakpoint-up(lg) {
+            width: 60%;
+        }
+    }
+}

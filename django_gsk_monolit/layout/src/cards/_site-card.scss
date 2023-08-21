@@ -1,0 +1,131 @@
+.site-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+
+    position: relative;
+
+    display: block;
+    height: 560px;
+
+    transform: translateZ(0);
+    transition: opacity .4s ease .1s,
+                transform .6s cubic-bezier(.25,.46,.45,.94) .1s,
+                box-shadow .3s ease;
+
+    &__header {
+        color: #a6a6a6;
+        font-size: .85rem;
+        padding: 20px 25px 15px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__id {
+        text-align: right;
+    }
+
+    &__img {
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+
+        height: 240px;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            &:focus,
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__footer {
+        position: absolute;
+        bottom: 0;
+
+        width: 100%;
+
+        &--top {
+            border-top: 1px solid #e4e4e4;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+        &--middle {
+            border-bottom: 1px solid #e4e4e4;
+
+            display: grid;
+            grid-template-columns: 1fr .7fr 1fr;
+        }
+
+        &--bottom {
+            text-align: center;
+        }
+    }
+
+    &__info {
+        padding: 15px;
+
+        &:not(:last-child) {
+            border-right: 1px solid #e4e4e4;
+        }
+    }
+
+    &__label {
+        color: #a6a6a6;
+        cursor: default;
+        font-size: .79rem;
+        line-height: 1.2;
+        margin-bottom: 3px;
+    }
+
+    &__val {
+        line-height: 1.2;
+
+        &.site-object-name {
+            font-weight: 600;
+        }
+
+        &.site-block-and-secton {
+            font-size: .9rem;
+        }
+
+        .site-floor {
+            font-size: 1.3rem;
+        }
+
+        .last-floor {
+            font-size: .9rem;
+            opacity: .5;
+        }
+    }
+
+    &__price-total {
+        color: #00998f;
+
+        span {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        small {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__price-per-meter {
+        color: #777;
+        font-size: .95rem;
+        font-weight: 600;
+    }
+
+    &:hover {
+        box-shadow: 0 5px 20px rgba(0,0,0,.09);
+        transform: translate3d(0,-4px,0);
+    }
+}

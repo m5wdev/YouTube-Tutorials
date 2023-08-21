@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% load static custom_filters %}
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} company-tenders-faq
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {# include 'company/breadcrumbs/breadcrumbs.html' #}
+
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'company:index' %}">О компании</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{% url 'company:tenders' %}">Тендеры</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title|safe }}</h1>
+        </div>
+
+        {% if tenders_faq %}
+            <div id="section-contacts-page-content">
+                <div id="section-contacts-page-content__inner" class="container">
+                    <div id="section-contacts-page-content__list">
+                        <div id="contacts-list-accordion">
+                            {% for object in tenders_faq %}
+                                <div class="contact-card collapse-block">
+                                    <div class="contact-card__title-wrap">
+                                        <a class="collapse-block__link" data-toggle="collapse" href="#contact-{{ object.id }}" aria-expanded="false" aria-controls="contact-{{ object.id }}">
+                                            <span class="contact-card__title">{{ object.question }}</span>
+                                        </a>
+                                    </div>
+                                    {% if object.answer %}
+                                        <div id="contact-{{ object.id }}" class="contact-card__descr collapse" data-parent="#contacts-list-accordion">
+                                            {{ object.answer|safe }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+
+                            <div class="h3 my-5">
+                                <a href="{% url 'company:tenders' %}" class="green-button">&lt;&lt; Назад к Тендерам</a>
+                            </div>
+                        </div>
+                        <div id="section-contacts-page-content__main-contacts">
+                            <div class="h3">Не нашли ответа на свой вопрос?</div>
+                            <div class="contact-item">
+                                <a href="" class="green-button">Написать нам</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </main>
+{% endblock %}

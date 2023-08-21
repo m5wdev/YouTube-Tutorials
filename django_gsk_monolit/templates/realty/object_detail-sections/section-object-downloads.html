@@ -1,0 +1,76 @@
+{% if object_documents %}
+    {% load custom_filters %}
+    <section id="section-object-downloads" class="common-section">
+        <div class="common-section__title container">
+            <h2>Документы</h2>
+        </div>
+        <div id="section-object-downloads__inner" class="container">
+            {% for document in object_documents %}
+                <div class="doc-download">
+                    <div class="doc-download__t-d-u-wrap">
+                        <div class="doc-download__title">{{ document.title }}</div>
+                        <div class="doc-download__d-u-wrap">
+                            <div class="doc-download__date">Дата: {{ document.date|date:'d/m/Y' }}</div>
+                            {% if document.author %}
+                                <div class="doc-download__user-name">Автор: {{ document.author }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% if document.file %}
+                        <div class="doc-download__size">{{ document.file.url|get_file_ext|upper }}, {{ document.file.size|bytes_to_mb }}</div>
+                        <div class="doc-download__link">
+                            <div class="icon icon-32 icon-download"></div>
+                            <a href="{{ document.file.url }}" class="stretched-link" target="_blank" title="{% if document.file.url|get_file_ext == '.pdf' %}Откроется в новой вкладке{% else %}Скачать{% endif %}"></a>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if object_documents.has_previous or object_documents.has_next %}
+            <nav id="page-docs-pagination" class="monolit-pagination container">
+                <ul class="pagination">
+                    {% if object_documents.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page-docs={{ object_documents.previous_page_number }}">&lt;</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&lt;</a>
+                        </li>
+                    {% endif %}
+                    {% if object_documents.number|add:'-4' > 1 %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page-docs={{ object_documents.number|add:'-5' }}">&hellip;</a>
+                        </li>
+                    {% endif %}
+                    {% for i in object_documents.paginator.page_range %}
+                        {% if object_documents.number == i %}
+                            <li class="page-item active">
+                                <a class="page-link" href="{{ request.path }}?page-docs={{ i }}">{{ i }}</a>
+                            </li>
+                        {% elif i > object_documents.number|add:'-5' and i < object_documents.number|add:'5' %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page-docs={{ i }}">{{ i }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if object_documents.paginator.num_pages > object_documents.number|add:'4' %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page-docs={{ object_documents.number|add:'5' }}">&hellip;</a>
+                        </li>
+                    {% endif %}
+                    {% if object_documents.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page-docs={{ object_documents.next_page_number }}">&gt;</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&gt;</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        {% endif %}
+    </section>
+{% endif %}

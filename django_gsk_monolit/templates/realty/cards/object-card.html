@@ -1,0 +1,48 @@
+{% if not object.all_sold %}
+    <div class="object-card" data-sites-info-api-url="{% url 'api:object:sites-info' object_id=object.id %}" data-sites-url="{% url 'sites:list' %}" data-object-id="{{ object.id }}">
+{% else %}
+    <div class="object-card sold">
+{% endif %}
+        <div class="object-card__header">
+            <div class="object-card__img" style="background-image: url('{% spaceless %}
+                {% if object.main_image %}
+                    {{ object.main_image_thumb.url }}
+                {% else %}
+                    https://via.placeholder.com/512x386/EEEEEE/555555?text=No+Image
+                {% endif %}{% endspaceless %}')"></div>
+            <div class="object-card__header-info">
+                {% if object.object_type %}
+                    <div class="object-card__living-quarter">{{ object.object_type }}</div>
+                {% endif %}
+                {% if object.city %}
+                    <div class="object-card__city">{{ object.city }}</div>
+                {% endif %}
+                {% if object.completed %}
+                    <div class="object-card__put-into-operation">Сдан в эксплуатацию</div>
+                {% endif %}
+            </div>
+            <div class="object-card__emerge"></div>
+        </div>
+        <div class="object-card__main">
+            <div class="object-card__info">
+                <div class="object-card__title">
+                    <a href="{{ object.get_absolute_url }}">{{ object.name }}</a>
+                </div>
+                <div class="object-card__site">
+                    <div class="object-card__site--count"></div>
+                    <div class="object-card__site-types"></div>
+                </div>
+            </div>
+            <div class="object-card__features">
+                {% if object.all_sold %}
+                    <span>нет в продаже</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="object-card__footer">
+            <a href="{{ object.get_absolute_url }}" class="object-card__footer-btn object-card__footer-btn--green object-card__footer-btn--about">О комплексе</a>
+            {% if not object.all_sold %}
+                <a href="/sites/?object={{ object.id }}" class="object-card__footer-btn object-card__footer-btn--dark object-card__footer-btn--choose-site" title="Все квартиры в объекте">Выбрать квартиру</a>
+            {% endif %}
+        </div>
+    </div>

@@ -1,0 +1,148 @@
+.realty-filters-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25px 1fr;
+    grid-row-gap: 10px;
+    align-items: center;
+    padding: 20px 25px;
+
+    &__label {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    .circle-site {
+        background-color: white;
+        border: 1px solid #00998f;
+        border-radius: 100%;
+        color: #00998f;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-weight: 700;
+        font-size: 1.2rem;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        transition: background-color .3s ease, color .2s ease;
+
+        &:hover {
+            background-color: rgba(0, 255, 239, .15);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        // TODO: make active state styles
+        &.active {
+            background-color: #00998f;
+            color: white;
+        }
+
+        &.disabled {
+            cursor: default;
+            opacity: .4;
+        }
+    }
+
+    .noUi-target {
+        background: white;
+        width: 100%;
+        height: 7px;
+
+        &.noUi-horizontal {
+            .noUi-handle {
+                width: 12px;
+                height: 12px;
+
+                top: -4px !important;
+                right: -5px !important;
+            }
+        }
+
+        .noUi-base {
+            .noUi-connects {
+                .noUi-connect {
+                    background: #00998f;
+                }
+            }
+
+            .noUi-origin {
+                .noUi-handle {
+                    background: #020202;
+                    border: none;
+                    border-radius: 100%;
+                    box-shadow: none;
+                    cursor: default;
+
+                    &::after, &::before {
+                        display: none;
+                    }
+
+                    // &.noUi-handle-lower {}
+                    // &.noUi-handle-upper {}
+
+                    &:focus,
+                    &:hover {
+                        cursor: pointer;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &__inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 15px;
+
+        // input {
+        input[type="number"] {
+            padding: 5px;
+            text-align: center;
+
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+            border: none;
+            border-radius: 40px;
+            padding-left: 20px;
+            outline: none;
+            transition: box-shadow .25s ease;
+
+            &:focus {
+                box-shadow: inset 0 1px 4px rgba(0, 0, 0, .4);
+                outline: none;
+            }
+        }
+
+        span {
+            color: #a6a6a6;
+            font-size: .9rem;
+            margin: 0 5px;
+        }
+    }
+
+    &__select {
+        padding: 10px 15px;
+        margin: 0;
+        width: 100%;
+
+        option {
+            // text-indent: 15px;
+            &:disabled {
+                color: black;
+                font-weight: 700;
+            }
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.homepage {
+    #section-realty-sites-filters {
+        &__inner {
+            &-top {
+                display: grid;
+
+                @include media-breakpoint-only(xl) {
+                    grid-template-columns: repeat(4, 1fr);
+                }
+            }
+        }
+    }
+}
+
+.not-homepage {
+    #section-realty-sites-filters {
+        &__inner {
+            &-top {
+                display: grid;
+
+                @include media-breakpoint-only(xl) {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+    }
+}
+
+#section-realty-sites-filters {
+    cursor: default;
+    margin-bottom: 60px;
+    position: relative;
+
+    &__inner {
+        border-radius: 5px;
+        background-color: #f6f6f6;
+        box-shadow: 0 5px 5px rgba(0,0,0,.1);
+        padding: 0;
+
+        &-top {
+            display: grid;
+
+            @include media-breakpoint-only(lg) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        &-bottom {
+            display: grid;
+
+            @include media-breakpoint-only(xl) {
+                grid-template-columns: repeat(4, 1fr) 320px;
+            }
+            @include media-breakpoint-only(lg) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @include media-breakpoint-down(md) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    &__bottom {
+        text-align: center;
+        margin-top: 30px;
+
+        .green-button {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__rooms-block {
+        @include media-breakpoint-only(lg) {
+            order: 3;
+        }
+
+        .realty-filters-block__content {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    &__area-block {
+        @include media-breakpoint-only(lg) {
+            order: 1;
+        }
+    }
+
+    &__price-block {
+        @include media-breakpoint-only(lg) {
+            order: 2;
+        }
+    }
+
+    &__submit-block {
+        background-color: #515151;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 15px;
+
+        button {
+            line-height: 1.2;
+        }
+    }
+}

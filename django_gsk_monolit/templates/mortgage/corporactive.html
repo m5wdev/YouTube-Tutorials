@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} mortgage-corporactive
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <div id="green-wave-bg">
+        {% include 'mortgage/breadcrumbs/breadcrumbs.html' %}
+
+        <main id="main">
+            <div id="page-title-h1" class="container">
+                <h1>{{ page_title }}</h1>
+                <div id="page-title-h1__descr">Курортная недвижимость для мотивации бизнес-команды</div>
+            </div>
+
+            <div id="section-corporactive-steps" class="container">
+                <div id="section-corporactive-steps__inner">
+                    <div class="corporactive-step-item">
+                        <div class="corporactive-step-item__circle">
+                            <div class="corporactive-step-item__number">1</div>
+                        </div>
+                        <div class="corporactive-step-item__descr">квартира в КорпорАКТИВЕ</div>
+                    </div>
+                    <div class="corporactive-step-item">
+                        <div class="corporactive-step-item__circle">
+                            <div class="corporactive-step-item__number">365</div>
+                        </div>
+                        <div class="corporactive-step-item__descr">дней в году</div>
+                    </div>
+                    <div class="corporactive-step-item">
+                        <div class="corporactive-step-item__circle">
+                            <div class="corporactive-step-item__number">50</div>
+                        </div>
+                        <div class="corporactive-step-item__descr">сотрудников в коллективе</div>
+                    </div>
+                    <div class="corporactive-step-item">
+                        <div class="corporactive-step-item__circle">
+                            <div class="corporactive-step-item__number">7</div>
+                        </div>
+                        <div class="corporactive-step-item__descr">дней отдыха в Крыму для каждого сотрудника</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="section-corporactive-about">
+        <div id="section-corporactive-about__descr">
+            <strong>КорпорАКТИВ</strong> &ndash; это специальное предложение для предприятий, программа выгодного приобретения курортной недвижимости и готового решения для ее целевого использования
+        </div>
+        <div id="section-corporactive-about__callback">
+            <a href="" class="green-button">Заказать обратный звонок</a>
+        </div>
+    </div>
+
+    <div id="section-corporactive-advantages">
+        <div id="section-corporactive-advantages__title" class="container">
+            <h2>Приобретая недвижимость в курортных городах Крыма<br>
+            <span>по программе КорпорАКТИВ, вы получаете:</span></h2>
+        </div>
+        <div id="section-corporactive-advantages__inner" class="container">
+            <div class="corporactive-advanage">
+                <div class="corporactive-advanage__icon corporactive-advanage__icon--desk"></div>
+                <div class="corporactive-advanage__descr">
+                    Круглогодичное место проведения корпоративных мероприятий, советов директоров, конференций и т.д.
+                </div>
+            </div>
+            <div class="corporactive-advanage">
+                <div class="corporactive-advanage__icon corporactive-advanage__icon--beach"></div>
+                <div class="corporactive-advanage__descr">
+                    Круглогодичное место отдыха для Вас и сотрудников Вашего предприятия как систему поощрения персонала, повышающую лояльность и дающую дополнительную мотивацию к труду
+                </div>
+            </div>
+            <div class="corporactive-advanage">
+                <div class="corporactive-advanage__icon corporactive-advanage__icon--chart"></div>
+                <div class="corporactive-advanage__descr">
+                    Высоколиквидный актив
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-corporactive-business-solutions">
+        <div class="solutions-title container">Решения для бизнеса любого масштаба</div>
+        <div id="section-corporactive-business-solutions__solutions" class="container">
+            <div class="solution">
+                <div class="solution__icon solution__icon--yacht"></div>
+                <div class="solution__name">Яхта</div>
+                <div class="solution__descr">при покупке курортной недвижимости от 3 до 5 млн. руб. – скидка 3%</div>
+            </div>
+            <div class="solution">
+                <div class="solution__icon solution__icon--brig"></div>
+                <div class="solution__name">Бриг</div>
+                <div class="solution__descr">при покупке курортной недвижимости от 5 до 10 млн. руб. – скидка 5%</div>
+            </div>
+            <div class="solution">
+                <div class="solution__icon solution__icon--fregat"></div>
+                <div class="solution__name">Фрегат</div>
+                <div class="solution__descr">при покупке курортной недвижимости свыше 10 млн. руб. – индивидуальные условия приобретения и сервиса</div>
+            </div>
+        </div>
+
+        <div class="solutions-title container">Дополнительно мы обеспечиваем</div>
+        <div id="section-corporactive-business-solutions__an-additions" class="container">
+            <div class="addition">Юридическое сопровождение сделок</div>
+            <div class="addition">Постпродажное обслуживание и сервис</div>
+            <div class="addition">Помощь в организации проведения корпоративных мероприятий, отдыха, досуга, трансфера</div>
+        </div>
+
+        <!-- <div id="section-corporactive-business-solutions__callback">
+            <a href="" class="green-button">Заказать обратный звонок</a>
+        </div> -->
+    </div>
+
+    {% include 'mortgage/sections/mortgage-types-and-application.html' %}
+{% endblock %}

@@ -1,0 +1,181 @@
+.icon {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    display: inline-block;
+    text-indent: -9999px;
+
+    // Icon sizes
+    &-14 {
+        width: 14px;
+        height: 14px;
+    }
+    &-18 {
+        width: 18px;
+        height: 18px;
+    }
+    &-32 {
+        width: 32px;
+        height: 32px;
+    }
+    &-64 {
+        width: 64px;
+        height: 64px;
+    }
+
+    // Icons
+    &-blanks {
+        background-image: url('images/icons/blanks.svg');
+    }
+    &-callback-white {
+        background-image: url('images/icons/callback-white.svg');
+    }
+    &-callback-green {
+        background-image: url('images/icons/callback-green.svg');
+    }
+    &-heart-solid-green {
+        background-image: url('images/icons/heart-solid-green.svg');
+    }
+    &-heart-solid-white {
+        background-image: url('images/icons/heart-solid-white.svg');
+    }
+    &-heart-contour-green {
+        background-image: url('images/icons/heart-contour-green.svg');
+    }
+    &-search-green {
+        background-image: url('images/icons/search.svg');
+    }
+    &-search-green {
+        background-image: url('images/icons/search.svg');
+    }
+    &-cross-green {
+        background-image: url('images/icons/cross-green.svg');
+    }
+    &-print-solid-green {
+        background-image: url('images/icons/print-solid-green.svg');
+    }
+    &-instagram {
+        background-image: url('images/icons/instagram.svg');
+    }
+    &-money {
+        background-image: url('images/icons/money.svg');
+    }
+    &-piggy-bank {
+        background-image: url('images/icons/piggy-bank.svg');
+    }
+    &-facebook {
+        background-image: url('images/icons/facebook.svg');
+    }
+    &-vk {
+        background-image: url('images/icons/vk.svg');
+    }
+    &-telegram {
+        background-image: url('images/icons/telegram.svg');
+    }
+    &-deal {
+        background-image: url('images/icons/deal.svg');
+    }
+    &-doc-star {
+        background-image: url('images/icons/doc-star.svg');
+    }
+    &-document-white {
+        background-image: url('images/icons/document-white.svg');
+    }
+    &-hand {
+        background-image: url('images/icons/hand.svg');
+    }
+    &-people {
+        background-image: url('images/icons/people.svg');
+    }
+    &-download {
+        background-image: url('images/icons/download.svg');
+    }
+    &-download-doc-white {
+        background-image: url('images/icons/download-doc-white.svg');
+    }
+    &-industry {
+        background-image: url('images/icons/industry.svg');
+    }
+    &-day-night {
+        background-image: url('images/icons/day-night.svg');
+    }
+    &-faq {
+        background-image: url('images/icons/faq.svg');
+    }
+    &-youtube-play {
+        background-image: url('images/icons/youtube-play.svg');
+    }
+
+    &-object-about {
+        background-image: url('images/icons/object-about.svg');
+    }
+    &-object-architecture {
+        background-image: url('images/icons/object-architecture.svg');
+    }
+    &-object-arrangement {
+        background-image: url('images/icons/object-arrangement.svg');
+    }
+    &-object-communications {
+        background-image: url('images/icons/object-communications.svg');
+    }
+    &-object-land-improvement {
+        background-image: url('images/icons/object-land-improvement.svg');
+    }
+    &-object-location {
+        background-image: url('images/icons/object-location.svg');
+    }
+    &-object-storage-room {
+        background-image: url('images/icons/object-storage-room.svg');
+    }
+    &-object-servicing {
+        background-image: url('images/icons/object-servicing.svg');
+    }
+    &-object-parking {
+        background-image: url('images/icons/object-parking.svg');
+    }
+
+
+    // Arrows
+    &-arrow-left-green {
+        background-image: url('images/icons/arrow-left-green.svg');
+    }
+    &-arrow-right-green {
+        background-image: url('images/icons/arrow-right-green.svg');
+    }
+    &-arrow-right-white {
+        background-image: url('images/icons/arrow-right-white.svg');
+    }
+    &-arrow-left-white {
+        background-image: url('images/icons/arrow-left-white.svg');
+    }
+    &-arrow-step {
+        background-image: url('images/icons/arrow-step.svg');
+    }
+}
+
+// Rooms
+.room {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+
+    display: block;
+    width: 96px;
+    height: 96px;
+
+    &_0 {
+        background-image: url('images/icons/room_0.png');
+    }
+    &_1 {
+        background-image: url('images/icons/room_1.png');
+    }
+    &_2 {
+        background-image: url('images/icons/room_2.png');
+    }
+    &_3 {
+        background-image: url('images/icons/room_3.png');
+    }
+    &_4 {
+        background-image: url('images/icons/room_4.png');
+    }
+}

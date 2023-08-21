@@ -1,0 +1,25 @@
+{% if object_special_offers %}
+    <section id="section-site-page-simular-sites" class="common-section">
+        <div class="common-section__title container">
+            <h2>Спецпредложения в &laquo;{{ page_title }}&raquo;</h2>
+        </div>
+        <div id="section-site-page-simular-sites__inner" class="common-section__inner container">
+            {% if object_special_offers_qty %}
+                <div id="sites-simular">
+                    <div id="sites-simular__total">{{ object_special_offers_qty }}</div>
+                    <div id="sites-simular__simular-objects">Спецпредложени{% if object_special_offers_qty < 5 %}я{% else %}й{% endif %}<br>по квартирам</div>
+                    <div id="sites-simular__see-all">
+                        <!-- TODO: link to special offers -->
+                        <a href="">
+                            <span>Смотреть все</span>
+                            <div class="icon icon-arrow-right-green"></div>
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
+            {% for object in object_special_offers %}
+                {% include 'realty/cards/site-card.html' %}
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}

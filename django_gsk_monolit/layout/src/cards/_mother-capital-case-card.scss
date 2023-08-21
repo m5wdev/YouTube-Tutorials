@@ -1,0 +1,47 @@
+.mother-capital-case-card {
+    background-color: white;
+    border: 1px solid #0baca2;
+    max-width: 320px;
+    width: 100%;
+    min-height: 450px;
+    padding: 40px 20px;
+    text-align: center;
+
+    transition: transform ease .3s;
+    justify-self: center;
+
+    .icon {
+        height: 64px;
+        width: 100%;
+    }
+
+    &__order {
+        color: #00998f;
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    &__descr {
+        font-size: 1.1rem;
+        line-height: 1.2;
+
+        &--item {
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}

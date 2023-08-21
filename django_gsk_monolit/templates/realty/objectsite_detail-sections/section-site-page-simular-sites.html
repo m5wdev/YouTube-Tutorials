@@ -1,0 +1,20 @@
+{% if simular_sites %}
+    <div id="section-site-page-simular-sites" class="site-page-section container">
+        <div class="site-page-section__title">Похожие квартиры в <!-- FIXME: Object Type --> {{ object.object.name }}</div>
+        <div id="section-site-page-simular-sites__inner" class="site-page-section__content">
+            <div id="sites-simular">
+                <div id="sites-simular__total">{{ simular_sites_count }}</div>
+                <div id="sites-simular__simular-objects">Похож{% if simular_sites_count < 2 %}ая{% else %}их{% endif %}<br>квартир{% if simular_sites_count < 2 %}а{% elif simular_sites_count < 5 %}ы{% else %}{% endif %}<br>в объекте</div>
+                <div id="sites-simular__see-all">
+                    <a href="">
+                        <span>Смотреть все</span>
+                        <div class="icon icon-arrow-right-green"></div>
+                    </a>
+                </div>
+            </div>
+            {% for object in simular_sites %}
+                {% include 'realty/cards/site-card.html' %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

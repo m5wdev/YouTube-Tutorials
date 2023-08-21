@@ -1,0 +1,15 @@
+{% if mortgage_offers %}
+    <section id="section-mortgage" class="common-section">
+        <div class="common-section__title container">
+            <h2>Ипотека в &laquo;{{ page_title }}&raquo;</h2>
+        </div>
+        <div id="section-mortgage__inner" class="container">
+            {% for object in mortgage_offers %}
+                {% include 'mortgage/cards/mortgage-card.html' %}
+            {% endfor %}
+        </div>
+        <div class="section__request">
+            <a href="" class="green-button">Оформить заявку на ипотеку</a>
+        </div>
+    </section>
+{% endif %}

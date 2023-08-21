@@ -1,0 +1,107 @@
+.vacancy-card {
+    opacity: .7;
+    transition: opacity ease-in-out .3s;
+
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    &__title-wrap {
+        background-color: white;
+        padding: 15px;
+        position: relative;
+    }
+
+    .collapse-block__link {
+        color: black;
+
+        &[aria-expanded="true"] {
+            .vacancy-card__title {
+                color: #00998f;
+            }
+        }
+
+        &:after {
+            @include media-breakpoint-down(sm) {
+                background-size: contain;
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    &__status {
+        display: block;
+        width: 15px;
+        height: 5px;
+
+        position: absolute;
+        top: 5px;
+        left: 0;
+
+        &--active {
+            background-color: #20bb74;
+        }
+
+        &--completed {
+            background-color: #CCC;
+        }
+
+        &:hover {
+            cursor: help;
+        }
+    }
+
+    &__title {
+        display: block;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.2;
+        width: 94%;
+    }
+
+    &__experience {
+        display: block;
+        margin-top: 10px;
+    }
+
+    &__descr {
+        background-color: rgba(255, 255, 255, .5);
+        padding: 15px;
+
+        a {
+            color: #00998f;
+
+            &:focus,
+            &:hover {
+                color: #005852;
+            }
+        }
+    }
+
+    .download-tender-files {
+        // .download-tender-file {}
+
+        a.download-all-tender-files-in-one-archive {
+            background-image: linear-gradient(180deg, #00b9ad, #008e84);
+            color: white;
+            display: inline-block;
+            padding: 5px 10px;
+            line-height: 1.2;
+
+            &:focus,
+            &:hover {
+                background-image: linear-gradient(180deg, #00ccbf, #008e84);
+                text-decoration: none;
+            }
+        }
+    }
+
+    &:hover {
+        opacity: 1;
+
+        .vacancy-card__title {
+            color: #00998f;
+        }
+    }
+}

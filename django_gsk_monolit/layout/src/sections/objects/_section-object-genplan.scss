@@ -1,0 +1,45 @@
+#section-object-genplan {
+    padding-bottom: 0;
+
+    .common-section__title--right {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            margin-right: 15px;
+        }
+    }
+
+    &__image {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__objects-svg-layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        // Genplan SVG
+        svg {
+            g {
+                cursor: pointer;
+                fill: #00998f;
+                opacity: .7;
+                transition: opacity .3s ease;
+
+                &:hover {
+                    opacity: .9;
+                }
+
+                polygon {}
+            }
+        }
+    }
+}

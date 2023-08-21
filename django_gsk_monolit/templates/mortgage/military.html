@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} mortgage-military
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    {% include 'mortgage/breadcrumbs/breadcrumbs.html' %}
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+        </div>
+        <div id="section-mortgage-military" class="common-section container">
+            <div id="section-mortgage-military__inner">
+                <p>Кредит предоставляется военнослужащим, являющимся участниками НИС, имеющим право на получение целевого жилищного займа на основании Федерального закона<br>«О накопительно-ипотечной системе жилищного обеспечения военнослужащих»<br>№117-Ф3 от 20.08.2014 на приобретение квартиры</p>
+            </div>
+        </div>
+
+        {% if objects_military %}
+            <section id="section-objects-list" class="common-section">
+                <div class="common-section__title container">
+                    <h2>Объекты с военной ипотекой</h2>
+                </div>
+                <div class="common-section__inner-grid container">
+                    {% for object in objects_military %}
+                        {% include 'realty/cards/object-card.html' %}
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+    </main>
+
+    {% comment %}
+    <!-- <section id="section-mortgage-military-banks" class="common-section">
+        <div class="common-section__title container">
+            <h2>Банки-партнеры</h2>
+        </div>
+        <div id="section-mortgage-military-banks__inner" class="container">
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="bank-logo bank-logo__rnkb"></div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="bank-logo bank-logo__rossiya"></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    {% endcomment %}
+
+    {% include 'mortgage/sections/mortgage-types-and-application.html' %}
+{% endblock %}

@@ -1,0 +1,10 @@
+{% if object.description %}
+    <section id="section-object-description" class="common-section">
+        <div class="common-section__title container">
+            <h2>Информация о {{ object.object_type }} {{ object.name }}</h2>
+        </div>
+        <div class="container">
+            {{ object.description|safe }}
+        </div>
+    </section>
+{% endif %}

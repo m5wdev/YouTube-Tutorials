@@ -1,0 +1,25 @@
+<div class="object-commercial-card{% if object.all_sold %} sold{% endif %}">
+    <div class="object-commercial-card__header">
+        <div class="object-commercial-card__img" style="background-image: url('https://i.ibb.co/4gK83qK/Lw-VP7-Sj.jpg');"></div>
+        <div class="object-commercial-card__header-info">
+            {% if object.city %}
+                <div class="object-commercial-card__city">{{ object.city }}</div>
+            {% endif %}
+            {% if object.completed %}
+                <div class="object-commercial-card__put-into-operation">Сдан в эксплуатацию</div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="object-commercial-card__main">
+        <div class="object-commercial-card__title">{{ object.name }}</div>
+    </div>
+    <div class="object-commercial-card__footer">
+        {% if object.all_sold %}
+            <div class="object-commercial-card__all-sold">
+                <span>нет в продаже</span>
+            </div>
+        {% endif %}
+        <div class="object-commercial-card__footer--btn">О комплексе</div>
+        <a href="{{ object.get_absolute_url }}" class="stretched-link"></a>
+    </div>
+</div>

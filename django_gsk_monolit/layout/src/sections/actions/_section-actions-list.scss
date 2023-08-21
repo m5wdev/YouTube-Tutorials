@@ -1,0 +1,17 @@
+#section-actions-list {
+    background-color: #FAFAFA;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include media-breakpoint-down(lg) {
+            grid-row-gap: 30px;
+            grid-template-columns: 1fr;
+        }
+
+        * {
+            transition: all ease-in-out .6s;
+        }
+    }
+}

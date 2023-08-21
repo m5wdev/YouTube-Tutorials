@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} commercial-objects
+{% endspaceless %}{% endblock %}
+
+
+{% block content %}
+    <nav id="breadcrumbs">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="{% url 'homepage' %}">Главная</a>
+                </li>
+                <li class="breadcrumb-item active">{{ page_title }}</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="page-title-h1" class="container">
+            <h1>{{ page_title }}</h1>
+            <div id="page-title-h1__descr">Группа компаний «Монолит» предлагает Вам множество вариантов коммерческой недвижимости в разных районах города Симферополя в новых, современных жилых комплексах по выгодной цене</div>
+
+            <!-- TODO: file & get file size -->
+            <div id="download-commercial-catalog">
+                <a href="" title="Скачать">
+                    <span class="icon icon-64 icon-download-doc-white"></span>
+                    <span>Скачать каталог коммерческой недвижимости<br><small>PDF, 258.1 КБ</small></span>
+                </a>
+            </div>
+        </div>
+
+        <section id="section-company-partnership-steps" class="common-section">
+            <div class="common-section__title container">
+                <h2>Что мы предлагаем:</h2>
+            </div>
+            <div id="section-company-partnership-steps__inner" class="container">
+                <div class="partnership-step">
+                    <div class="icon icon-doc-star"></div>
+                    <div class="partnership-step__descr">
+                        Более 20 000 м<sup>2</sup> коммерческой недвижимости
+                    </div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-industry"></div>
+                    <div class="partnership-step__descr">
+                        Более 30-ти оригинальных вариантов планировок
+                    </div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-people"></div>
+                    <div class="partnership-step__descr">
+                        Более 1000 потенциальных клиентов в каждом доме
+                    </div>
+                </div>
+                <div class="partnership-step">
+                    <div class="icon icon-hand"></div>
+                    <div class="partnership-step__descr">
+                        Бесконечные перспективы для успешного развития Вашего бизнеса
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-commercial-how-to-buy" class="common-section">
+            <div class="common-section__title container">
+                <h2>Способы приобретения коммерческой недвижимости</h2>
+            </div>
+            <div id="section-commercial-how-to-buy__inner" class="container">
+                <div class="commercial-estate-buy-method">
+                    <div class="commercial-estate-buy-method__logo" style="background-image: url('https://i.ibb.co/mRJFDP2/monolit-logo.jpg');"></div>
+                    <div class="commercial-estate-buy-method__descr">Рассрочка от компании «Монолит»</div>
+                </div>
+                <div class="commercial-estate-buy-method">
+                    <div class="commercial-estate-buy-method__logo" style="background-image: url('https://irecommend.ru/sites/default/files/product-images/399872/io6t6NJoIMpGH7WcqHNuw.jpg');"></div>
+                    <div class="commercial-estate-buy-method__descr">Коммерческая ипотека от банка РНКБ</div>
+                </div>
+            </div>
+        </section>
+
+        {% if object_list %}
+            <section id="section-sites-list" class="common-section">
+                <div class="common-section__title container">
+                    <h2>{{ objects_commercial_qty }} объект{% if objects_commercial_qty >= 2 and objects_commercial_qty <= 4 %}а{% elif objects_commercial_qty >= 5 and objects_commercial_qty <= 20 %}ов{% endif %} в продаже</h2>
+                </div>
+                <div class="common-section__inner-grid container">
+                    {% for object in object_list %}
+                        {% include 'realty/cards/object-commercial-card.html' %}
+                    {% endfor %}
+                </div>
+            </section>
+        {% endif %}
+    </main>
+
+    {% if objects_commercial_sold %}
+        {# <!-- <div id="compleated-projects" style="padding-top: 90px;"></div> --> #}
+        <div class="common-section">
+            <div class="common-section__title container">
+                <div class="h2">Завершенные объекты</div>
+            </div>
+            <div class="common-section__inner-grid container">
+                {% for object in objects_commercial_sold %}
+                    {% include 'realty/cards/object-commercial-card.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

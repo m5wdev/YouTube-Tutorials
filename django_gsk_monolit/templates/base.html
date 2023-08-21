@@ -1,0 +1,314 @@
+{% load static admin_urls %}<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% url 'sites:list' as sites_list_url %}
+    <title>{% spaceless %}
+        {% if request.path == '/' %}
+            {% if settings.site_title %}{{ settings.site_title }}{% endif %}
+        {# Квартиры #}
+        {% elif sites_list_url in request.path and sites_list_url != request.path and page_title %}
+            {{ page_title }}
+        {% elif request.path != '/' and page_title %}
+            {{ page_title }} | {{ settings.site_title }}
+        {% endif %}
+    {% endspaceless %}</title>
+
+    <meta name="description" content="{% spaceless %}
+        {% if page_meta_description %}
+            {{ page_meta_description }}
+        {% elif not page_meta_description %}
+            {{ settings.site_description }}
+        {% endif %}{% endspaceless %}">
+
+    {% spaceless %}{% include 'includes/favicons.html' %}
+    {% include 'includes/seo/og-tags.html' %}{% endspaceless %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/1.styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% endblock %}
+</head>
+<body class="{% block body_classes %}{% if request.path != '/' %}not-homepage{% endif %}{% endblock %}">
+{% spaceless %}
+    <header id="header">
+        <div id="header__top">
+            <div id="header__top--inner" class="container">
+                <div id="ht-left">
+                    {% url 'sites:list' as sites_list_url %}
+                    {% url 'sites-commercial:list' as sites_commercial_list_url %}
+                    <a href="{{ sites_list_url }}" class="link-green{% if sites_list_url == request.path or sites_list_url in request.path %} active{% endif %}">Жилая недвижимость</a>
+                    <a href="{{ sites_commercial_list_url }}" class="link-green{% if sites_commercial_list_url == request.path or sites_commercial_list_url in request.path %} active{% endif %}">Коммерческая недвижимость</a>
+                </div>
+                <div class="ht-empty"></div>
+                <div id="ht-contacts">
+                    <a id="ht-phone" href="tel:+78003028808" title="Позвонить">
+                        <span class="icon icon-14 icon-callback-white"></span>
+                        <span class="phone-digits">8 800 302-88-08</span>
+                    </a>
+                    <a id="ht-callback" href="#" class="link-green" data-toggle="modal" data-target="#callBackModal">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+        {% include 'includes/main-nav.html' %}
+    </header>
+
+    <div id="content">
+        {% if request.user.is_superuser and opts %}
+            <a class="edit-link" href="{% url opts|admin_urlname:'change' object.id %}" target="_blank">Edit</a>
+        {% endif %}
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer id="footer">
+        <div id="footer__inner" class="container">
+            <div id="footer-projects" class="footer-block">
+                <div class="footer-block__title">
+                    <a href="{% url 'objects:list' %}">Объекты</a>
+                </div>
+                <ul class="footer-block__menu-list">
+                    {% for object in monolit_objects %}
+                        <li class="footer-block__menu-item">
+                            <a href="{{ object.get_absolute_url }}">{{ object.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div id="footer-site-nav" class="footer-block">
+                <div class="footer-block__title">
+                    <a href="{% url 'sites-commercial:list' %}">Коммерческая недвижимость</a>
+                </div>
+                <ul class="footer-block__menu-list">
+                    {% url 'sites:list' as sites_list_url %}
+                    <li class="footer-block__menu-item{% if sites_list_url == request.path %} active{% endif %}">
+                        <a href="{{ sites_list_url }}">Выбор квартиры</a>
+                    </li>
+
+                    {% url 'mortgage:index' as mortgage_index_url %}
+                    <li class="footer-block__menu-item{% if mortgage_index_url == request.path %} active{% endif %}">
+                        <a href="{{ mortgage_index_url }}">Ипотека</a>
+                    </li>
+
+                    <!-- TODO: Дисконт на ремонт -->
+                    <li class="footer-block__menu-item">
+                        <a href="">Дисконт на ремонт</a>
+                    </li>
+
+                    {% url 'company:partnership' as company_partnership_url %}
+                    <li class="footer-block__menu-item{% if company_partnership_url == request.path %} active{% endif %}">
+                        <a href="{{ company_partnership_url }}">Партнерам</a>
+                    </li>
+
+                    {% url 'company:tenders' as company_tenders_url %}
+                    <li class="footer-block__menu-item{% if company_tenders_url == request.path %} active{% endif %}">
+                        <a href="{{ company_tenders_url }}">Тендеры</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer-about" class="footer-block">
+                {% url 'company:index' as company_index_url %}
+                <div class="footer-block__title">
+                    <a href="{{ company_index_url }}">О компании</a>
+                </div>
+                <ul class="footer-block__menu-list">
+                    {% url 'news:list' as news_list_url %}
+                    <li class="footer-block__menu-item{% if news_list_url == request.path or news_list_url in request.path %} active{% endif %}">
+                        <a href="{{ news_list_url }}">Новости</a>
+                    </li>
+
+                    {% url 'news:actions:list' as actions_list_url %}
+                    <li class="footer-block__menu-item{% if actions_list_url == request.path or actions_list_url in request.path %} active{% endif %}">
+                        <a href="{{ actions_list_url }}">Акции</a>
+                    </li>
+
+                    {% url 'company:job' as company_job_url %}
+                    <li class="footer-block__menu-item{% if company_job_url == request.path %} active{% endif %}">
+                        <a href="{{ company_job_url }}">Вакансии</a>
+                    </li>
+                    <li class="footer-block__menu-item">
+                        <a href="{{ company_job_url }}#section-job-reserves">Трудовые резервы</a>
+                    </li>
+
+                    <!-- TODO:  -->
+                    <li class="footer-block__menu-item">
+                        <a href="">Обработка персональных данных</a>
+                    </li>
+
+                    <!-- TODO:  -->
+                    <li class="footer-block__menu-item">
+                        <a href="">Политика конфиденциальности</a>
+                    </li>
+
+                    {% url 'contacts' as contacts_url %}
+                    <li class="footer-block__menu-item{% if contacts_url == request.path %} active{% endif %}">
+                        <a href="{{ contacts_url }}">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer-contacts" class="footer-block">
+                <div id="footer-contacts__phones">
+                    <a href="tel:+78003028808" title="Позвонить">8 800 302-88-08</a>
+                    <a href="tel:+79780887858" title="Позвонить">+7 978 088-78-58</a>
+                    <a href="tel:+73652500500" title="Позвонить">+7 3652 500-500</a>
+                </div>
+                <div id="footer-contacts__social">
+                    {% if settings.site_instagram %}
+                        <a href="{{ settings.site_instagram }}" target="_blank" class="icon icon-instagram footer-icon">Instagram</a>
+                    {% endif %}
+                    {% if settings.site_facebook %}
+                        <a href="{{ settings.site_facebook }}" target="_blank" class="icon icon-facebook footer-icon">Facebook</a>
+                    {% endif %}
+                    {% if settings.site_vk %}
+                        <a href="{{ settings.site_vk }}" target="_blank" class="icon icon-vk footer-icon">Vk</a>
+                    {% endif %}
+                    {% if settings.site_telegram %}
+                        <a href="{{ settings.site_telegram }}" target="_blank" class="icon icon-telegram footer-icon">Telegram</a>
+                    {% endif %}
+                </div>
+                <div id="footer-info-wrap">
+                    <div id="footer-contacts__copyrights">&copy; Группа Компаний &laquo;Монолит&raquo; 2005&ndash;{% now "Y" %}</div>
+                    <div id="footer-contacts__developed-in-m5"></div>
+                    <div id="footer-contacts__disclamer">Вся представленная на сайте информация носит ознакомительный характер и не является публичной офертой в соответствии со ст. 437 Гражданского Кодекса Российской Федерации</div>
+                </div>
+            </div>
+        </div>
+        <noscript>
+            <div id="js-disabled">Сайт не может полноценно функционировать без JavaScript =(</div>
+        </noscript>
+    </footer>{% endspaceless %}
+
+    <!-- Modals -->
+    <div class="modal fade" id="callBackModal" tabindex="-1" role="dialog" aria-labelledby="callBackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="h3 modal-title" id="callBackModalLabel">Заказать звонок</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="form-callback" action="{% url 'forms:callback' %}" method="post">{% csrf_token %}
+                    <input type="hidden" name="url_from" value="{{ request.get_full_path }}">
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="form-callback-name">Ваше имя <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="name" id="form-callback-name" placeholder="Ваше Имя">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="form-callback-phone">Телефон <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="phone" id="form-callback-phone" placeholder="+7 (" aria-describedby="form-callback-phone-help">
+                                <small id="form-callback-phone-help" class="form-text text-muted">Номер телефона в формате: +7 (000) 000-00-00</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-callback-message">Сообщение</label>
+                            <textarea class="form-control form-control-lg" name="message" id="form-callback-message" rows="3"></textarea>
+                        </div>
+                        <div class="form-group mt-4">
+                            <button type="submit" class="green-button">Заказать звонок</button>
+                        </div>
+                    </div>
+                    {% comment %}
+                    <!-- <div class="modal-footer">
+                        <button type="submit" class="green-button">Заказать звонок</button>
+                    </div> -->
+                    {% endcomment %}
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mortgageModal" tabindex="-1" role="dialog" aria-labelledby="mortgageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="h3 modal-title" id="mortgageModalLabel">Заявка на ипотеку</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="form-mortgage" action="{% url 'forms:mortgage' %}" method="post">{% csrf_token %}
+                    <input type="hidden" name="url_from" value="{{ request.get_full_path }}">
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="form-mortgage-name">Ваше имя <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="name" id="form-mortgage-name" placeholder="Ваше Имя">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="form-mortgage-phone">Телефон <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="phone" id="form-mortgage-phone" placeholder="+7 (" aria-describedby="form-mortgage-phone-help">
+                                <small id="form-mortgage-phone-help" class="form-text text-muted">Номер телефона в формате: +7 (000) 000-00-00</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-mortgage-message">Сообщение</label>
+                            <textarea class="form-control form-control-lg" name="message" id="form-mortgage-message" rows="3"></textarea>
+                        </div>
+                        <div class="form-group mt-4">
+                            <button type="submit" class="green-button">Отправить заявку</button>
+                        </div>
+                    </div>
+                    {% comment %}
+                    <!-- <div class="modal-footer">
+                        <button type="submit" class="green-button">Заказать звонок</button>
+                    </div> -->
+                    {% endcomment %}
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bookSiteModal" tabindex="-1" role="dialog" aria-labelledby="bookSiteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="h3 modal-title" id="bookSiteModalLabel">Забронировать квартиру</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="form-book-site" action="{% url 'forms:book-site' %}" method="post">{% csrf_token %}
+                    <input type="hidden" name="url_from" value="{{ request.get_full_path }}">
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="form-book-site-name">Ваше имя <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="name" id="form-book-site-name" placeholder="Ваше Имя">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="form-book-site-phone">Телефон <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-lg" name="phone" id="form-book-site-phone" placeholder="+7 (" aria-describedby="form-book-site-phone-help">
+                                <small id="form-book-site-phone-help" class="form-text text-muted">Номер телефона в формате: +7 (000) 000-00-00</small>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-book-site-message">Сообщение</label>
+                            <textarea class="form-control form-control-lg" name="message" id="form-book-site-message" rows="3"></textarea>
+                        </div>
+                        <div class="form-group mt-4">
+                            <button type="submit" class="green-button">Забронировать квартиру</button>
+                        </div>
+                    </div>
+                    {% comment %}
+                    <!-- <div class="modal-footer">
+                        <button type="submit" class="green-button">Заказать звонок</button>
+                    </div> -->
+                    {% endcomment %}
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END Modals -->
+
+{% block js %}
+    <script src="{% static 'js/vendors~main.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,27 @@
+#scroll-to-top {
+    background-color: rgba(238, 238, 238, 0);
+    background-image: url('images/scroll-top-arrow-green.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 37%;
+    background-size: 50%;
+
+    width: 50px;
+    height: 100vh;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    text-indent: -9999px;
+    z-index: 40;
+    transition: all ease-in-out .2s;
+
+    @include media-breakpoint-down(md) {
+        display: none !important;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(238, 238, 238, .45);
+    }
+}

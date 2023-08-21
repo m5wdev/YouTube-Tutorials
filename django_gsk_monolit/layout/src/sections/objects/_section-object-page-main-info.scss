@@ -1,0 +1,132 @@
+#section-object-page-main-info {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    min-height: 80vh;
+
+    overflow: hidden;
+
+    &::before {
+        background: linear-gradient(1turn, black, transparent);
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 165px;
+        opacity: .8;
+    }
+
+    // &.sold {}
+
+    $h1-bg: rgba(0, 153, 143, .8);
+    $h1-height: 240px;
+
+    &__h1-title {
+        background-color: $h1-bg;
+        padding: 30px 30px 110px;
+
+        display: flex;
+        align-items: center;
+        min-height: $h1-height;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        @include media-breakpoint-down(lg) {
+            min-height: 201px;
+            padding: 30px 30px 50px;
+        }
+
+        &::after {
+            border-style: solid;
+            border-width: $h1-height 80px 0 0;
+            border-color: $h1-bg transparent transparent;
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 0;
+
+            @include media-breakpoint-down(lg) {
+                border-width: 205px 80px 0 0;
+            }
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+
+            span {
+                display: block;
+            }
+        }
+
+        &--type {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        &--name {
+            font-size: 3.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+
+            @include media-breakpoint-only(sm) {
+                font-size: 4.5vh;
+            }
+            @include media-breakpoint-down(xs) {
+                font-size: 3vh;
+                font-weight: 600;
+            }
+        }
+    }
+
+    $stats-bg: rgba(0, 153, 143, .4);
+    $stats-height: 155px;
+
+    &__stats {
+        background-color: $stats-bg;
+        padding: 15px 40px;
+        height: $stats-height;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+
+        &::before {
+            border-color: transparent $stats-bg transparent;
+            border-style: solid;
+            border-width: $stats-height 60px 0 0;
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 0;
+        }
+
+        .stats-item {
+            color: white;
+            text-shadow: 0 0 1px black;
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+
+            &__label {
+                font-size: .9rem;
+            }
+
+            &__val {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

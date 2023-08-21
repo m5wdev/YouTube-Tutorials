@@ -1,0 +1,24 @@
+.add-to-favorites {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .icon {
+        display: block;
+        margin-right: 5px;
+    }
+
+    &__label {
+        transition: color ease-in-out .3s;
+    }
+
+    &.added {
+        color: #00998f;
+    }
+
+    &:hover {
+        .add-to-favorites__label {
+            color: #00998f;
+        }
+    }
+}
