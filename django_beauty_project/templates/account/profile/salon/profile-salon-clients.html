@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} user-profile
+{% endspaceless %}{% endblock %}
+
+
+{% block content_top %}
+    {% include "account/includes/user-profile-salon-nav.html" %}
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        {% for object in salon_clients %}
+            <div class="mb-3">
+                <div>Имя: {{ object.first_name }}</div>
+                <div>Тел.: {{ object.phone }}</div>
+                <div>Салон: {{ object.salon.name }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

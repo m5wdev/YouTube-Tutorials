@@ -1,0 +1,26 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images Upload</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="{% url 'image:homepage' %}">Homepage</a>
+            </li>
+            <li>
+                <a href="{% url 'image:upload' %}">Upload</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        {{ request.session.keys }}
+    </div>
+
+    <h1>{{ page_title }}</h1>
+    {% block content %}{% endblock %}
+</body>
+</html>

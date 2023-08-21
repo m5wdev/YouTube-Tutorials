@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="container">
+        <form action="{% url 'user:registration-by-phone' %}" autocomplete="off" novalidate method="post">{% csrf_token %}
+            <p>
+                {{ form.first_name.label_tag }}
+                {{ form.first_name }}
+
+                {% if form.first_name.help_text %}
+                    <small style="color: grey;">{{ form.help_text }}</small>
+                {% endif %}
+
+                {% for error in form.first_name.errors %}
+                    <div style="color: red; margin-bottom: 5px;">{{ error }}</div>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.phone.label_tag }}
+                {{ form.phone }}
+
+                {% if form.phone.help_text %}
+                    <small style="color: grey;">{{ form.help_text }}</small>
+                {% endif %}
+
+                {% for error in form.phone.errors %}
+                    <div style="color: red; margin-bottom: 5px;">{{ error }}</div>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.agree_terms.label_tag }}
+                {{ form.agree_terms }}
+
+                {% if form.agree_terms.help_text %}
+                    <small style="color: grey;">{{ form.help_text }}</small>
+                {% endif %}
+
+                {% for error in form.agree_terms.errors %}
+                    <div style="color: red; margin-bottom: 5px;">{{ error }}</div>
+                {% endfor %}
+            </p>
+
+
+            {% comment %}
+            <!-- {% for field in form %}
+                <p>
+                    {{ field.label_tag }}
+                    {{ field }}
+
+                    {% if field.help_text %}
+                        <small style="color: grey;">{{ field.help_text }}</small>
+                    {% endif %}
+
+                    {% for error in field.errors %}
+                        <p style="color: red;">{{ error }}</p>
+                    {% endfor %}
+                </p>
+            {% endfor %} -->
+            {% endcomment %}
+
+            <p><a href="{% url 'user:reset-password' %}">Забыли пароль?</a></p>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        {% comment %}
+        <!-- <form action="" autocomplete="off" novalidate method="post">{% csrf_token %}
+            <p>
+                <input type="text" name="first_name" placeholder="Name">
+            </p>
+            <p>
+                <input type="text" name="phone" placeholder="Phone number">
+                <div style="color: #777;">
+                    <small>Укажите в формате: 7 999 000-00-00</small>
+                </div>
+            </p>
+            <p>
+                <label for="agree_terms" style="display: grid; grid-template-columns: auto 1fr; column-gap: 5px;">
+                    <input type="checkbox" id="agree_terms" name="agree_terms" value="false">
+                    <span>
+                        Подтверждаю согласие на обработку персональных данных<br>
+                        С <a href="#" target="_blank">правилами работы</a> сервиса ознакомлен
+                    </span>
+                </label>
+            </p>
+            <button type="submit">Submit</button>
+        </form> -->
+        {% endcomment %}
+    </div>
+{% endblock %}

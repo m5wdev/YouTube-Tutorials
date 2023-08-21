@@ -1,0 +1,179 @@
+{% load static account_groups %}<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% if request.path == '/' %}Beutysputnik{% else %}{% if page_title %}{{ page_title }} | {% endif %}Beutysputnik{% endif %}</title>
+    {% include "includes/favicons.html" %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% endblock %}
+</head>
+<body class="{% block body_classes %}{% if request.path == '/' %}homepage{% else %}not-homepage{% endif %}{% endblock %}">
+    <header id="header">
+        <div id="header__top">
+            <div class="container">
+                <div id="header__top--inner">
+                    <div id="logo">
+                        <a id="logo__link" href="/">Beutysputnik</a>
+                    </div>
+
+                    <div id="select_city">
+                        <span class="icon icon-geomark"></span> Ваш город: <a href="">Москва</a> <span class="icon icon-arrow-down"></span>
+                    </div>
+
+                    <div id="user_zone">
+                        {% if not request.user.is_authenticated %}
+                            <a href="{% url 'user:login' %}" class="btn-solid mr-lg-3">Войти</a>
+                            <a href="{% url 'user:registration-by-phone' %}" class="btn-transparent">Зарегистрироваться</a>
+                        {% endif %}
+                        {% if request.user.is_authenticated %}
+                            <div class="auth">
+                                <a href="{% url 'user:profile' %}">{% spaceless %}
+                                    {% if request.user|has_group:"Salon" %}
+                                        {% if request.user.salon.name %}
+                                            {{ request.user.salon.name }}
+                                        {% endif %}
+                                    {% endif %}
+
+                                    {% if request.user|has_group:"Client" %}
+                                        {% if request.user.first_name %}
+                                            {{ request.user.first_name }}
+                                        {% endif %}
+                                    {% endif %}{% endspaceless %}</a> <span class="icon icon-arrow-down"></span>
+
+                                <a href="{% url 'user:logout' %}" style="text-decoration: none; margin-left: 30px;">Выйти</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if request.path == '/' %}
+            <div id="header__banner">
+                <img src="{% static 'images/tmp/header-banner.jpg' %}" alt="">
+            </div>
+        {% endif %}
+    </header>
+
+    <div id="content">
+        <nav id="main-nav">
+            {% comment %}
+            <!-- {% if not request.user.is_authenticated %}
+                <ul>
+                    <li>
+                        <a href="{% url 'user:registration-by-phone' %}">Registration by phone</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'user:login' %}">Login</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'user:reset-password' %}">Password Reset</a>
+                    </li>
+                </ul>
+            {% endif %} -->
+            {% endcomment %}
+
+            {% if request.user.is_authenticated %}
+                <ul>
+                    <li>
+                        <a href="{% url 'homepage' %}">Homepage</a>
+                    </li>
+                    <li>
+                        Hello, {% if request.user.first_name %}{{ request.user.first_name }}{% else %}{{ request.user }}{% endif %}
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="{% url 'user:profile' %}">Профиль</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'user:change-password' %}">Change password</a>
+                    </li>
+
+                    {# <!-- Client nav --> #}
+                    {% if request.user|has_group:"Client" %}
+                        <li>
+                            <a href="{% url 'user:client-appointments' %}">Записи</a>
+                        </li>
+                        <li>
+                            <a href="">Бонусы</a>
+                        </li>
+                    {% endif %}
+
+                    {# <!-- Salon nav --> #}
+                    {% if request.user|has_group:"Salon" %}
+                        <li>
+                            <a href="{% url 'user:salon-appointments' %}">Журнал записи</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'user:salon-clients' %}">Клиенты</a>
+                            <ul>
+                                <li>
+                                    <a href="{% url 'user:salon-add-client' %}">Добавить Клиента</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Сотрудники</a>
+                        </li>
+                        <li>
+                            <a href="">Акции и бонусы</a>
+                            <ul>
+                                <li>
+                                    <a href="{% url 'user:salon-add-action' %}">Добавить Акцию</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">
+                                Аналитика<br>
+                                <small>(доступна по паролю)</small>
+                            </a>
+                        </li>
+                    {% endif %}
+
+                    <li>
+                        <a href="{% url 'user:logout' %}">Выход</a>
+                    </li>
+                </ul>
+            {% endif %}
+        </nav>
+
+        <div id="app">
+            {% block breadcrumbs %}{% endblock %}
+
+            {% if page_title %}
+                <div id="page_title" class="container">
+                    <h1>{{ page_title }}</h1>
+                </div>
+            {% endif %}
+
+            {% block content_top %}{% endblock %}
+
+            <main id="main">
+                {% block content %}{% endblock %}
+            </main>
+
+            {% block content_bottom %}{% endblock %}
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="copyright" class="container text-center">
+            {% now "Y" as current_year %}
+            &copy Copyrights info {% if current_year != "2020" %}2020 &ndash; {% endif %}{{ current_year }}
+        </div>
+    </footer>
+
+{% block js %}
+    <script src="{% static 'js/vendors~main.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    {% comment %}<!-- <script src="{% static 'js/vendors~2Gis.js' %}"></script>
+    <script src="{% static 'js/2Gis.js' %}"></script>
+    <script src="{% static 'js/search_filters.js' %}"></script> -->{% endcomment %}
+{% endblock %}
+</body>
+</html>

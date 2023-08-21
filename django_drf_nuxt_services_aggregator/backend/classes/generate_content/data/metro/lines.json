@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "Сокольническая",
+        "color": "red",
+        "city_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Замоскворецкая",
+        "color": "green",
+        "city_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Арбатско-Покровская",
+        "color": "dark-blue",
+        "city_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Филевская",
+        "color": "sky",
+        "city_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Кольцевая",
+        "color": "brown",
+        "city_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Калужско-Рижская",
+        "color": "orange",
+        "city_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Таганско-Краснопресненская",
+        "color": "purple",
+        "city_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Калининская",
+        "color": "yellow",
+        "city_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Серпуховско-Тимирязевская",
+        "color": "gray",
+        "city_id": 1
+    },
+    {
+        "id": 10,
+        "name": "Люблинско-Дмитровская",
+        "color": "lime",
+        "city_id": 1
+    },
+    {
+        "id": 11,
+        "name": "Каховская",
+        "color": "wave",
+        "city_id": 1
+    },
+    {
+        "id": 12,
+        "name": "Бутовская",
+        "color": "light-purple",
+        "city_id": 1
+    },
+    {
+        "id": 13,
+        "name": "Московская монорельсовая транспортная система",
+        "color": "blue",
+        "city_id": 1
+    },
+    {
+        "id": 14,
+        "name": "Московское центральное кольцо",
+        "color": "light-pink",
+        "city_id": 1
+    },
+    {
+        "id": 15,
+        "name": "Некрасовская",
+        "color": "pink",
+        "city_id": 1
+    },
+    {
+        "id": 16,
+        "name": "Большая кольцевая линия",
+        "color": "turquoise",
+        "city_id": 1
+    },
+    {
+        "id": 97,
+        "name": "Кировско-Выборгская",
+        "color": "red",
+        "city_id": 88
+    },
+    {
+        "id": 98,
+        "name": "Московско-Петроградская",
+        "color": "dark-blue",
+        "city_id": 88
+    },
+    {
+        "id": 99,
+        "name": "Невско-Василеостровская",
+        "color": "green",
+        "city_id": 88
+    },
+    {
+        "id": 100,
+        "name": "Правобережная",
+        "color": "orange",
+        "city_id": 88
+    },
+    {
+        "id": 101,
+        "name": "Фрунзенско-Приморская",
+        "color": "purple",
+        "city_id": 88
+    },
+    {
+        "id": 102,
+        "name": "Ленинская линия",
+        "color": "red",
+        "city_id": 89
+    },
+    {
+        "id": 103,
+        "name": "Дзержинская линия",
+        "color": "green",
+        "city_id": 89
+    },
+    {
+        "id": 104,
+        "name": "Север-Юг",
+        "color": "green",
+        "city_id": 90
+    },
+    {
+        "id": 105,
+        "name": "Автозаводская",
+        "color": "red",
+        "city_id": 91
+    },
+    {
+        "id": 106,
+        "name": "Сормовско-Мещерская",
+        "color": "dark-blue",
+        "city_id": 91
+    },
+    {
+        "id": 107,
+        "name": "Центральная линия",
+        "color": "red",
+        "city_id": 92
+    },
+    {
+        "id": 108,
+        "name": "Первая",
+        "color": "red",
+        "city_id": 95
+    }
+]

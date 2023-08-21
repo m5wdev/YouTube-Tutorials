@@ -1,0 +1,3260 @@
+[
+    {
+        "id": 1,
+        "name": "Крупная бытовая техника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 2,
+        "name": "Стиральные машины",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 3,
+        "name": "Замена подшипника",
+        "slug": "zamena-podshipnikov-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 4,
+        "name": "Замена уплотнителя",
+        "slug": "zamena-uplotnitelya-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 5,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 6,
+        "name": "Замена стекла",
+        "slug": "zamena-stekla-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 7,
+        "name": "Замена насоса",
+        "slug": "zamena-nasosa-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 8,
+        "name": "Замена электронного модуля",
+        "slug": "zamena-elektronnogo-modulya-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 9,
+        "name": "Замена петель",
+        "slug": "zamena-petel-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 10,
+        "name": "Замена фильтра",
+        "slug": "zamena-filtra-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 11,
+        "name": "Замена щёток",
+        "slug": "zamena-shchetok-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 12,
+        "name": "Ремонт двигателя",
+        "slug": "remont-dvigatelya-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 13,
+        "name": "Замена сливного шланга",
+        "slug": "zamena-slivnogo-shlanga-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 14,
+        "name": "Замена амортизаторов",
+        "slug": "zamena-amortizatorov-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 15,
+        "name": "Замена аквастопа",
+        "slug": "zamena-akvastopa-gidrostopa-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 16,
+        "name": "Чистка сливного насоса",
+        "slug": "chistka-slivnogo-nasosa-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 17,
+        "name": "Замена клапана",
+        "slug": "zamena-klapana-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 18,
+        "name": "Замена конденсатора",
+        "slug": "zamena-kondensatora-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 19,
+        "name": "Ремонт электронного блока",
+        "slug": "remont-elektronnogo-bloka-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 20,
+        "name": "Прошивка электронного блока",
+        "slug": "proshivka-elektronnogo-bloka-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 21,
+        "name": "Замена лицевой панели",
+        "slug": "zamena-litsevoy-paneli-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 22,
+        "name": "Ремонт дозатора",
+        "slug": "remont-dozatora-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 23,
+        "name": "Замена шкива барабана",
+        "slug": "zamena-shkiva-barabana-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 24,
+        "name": "Замена пружин подвески",
+        "slug": "zamena-pruzhin-podveski-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 25,
+        "name": "Замена датчика уровня воды",
+        "slug": "zamena-datchika-urovnya-vody-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 26,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 27,
+        "name": "Замена крестовины",
+        "slug": "zamena-krestoviny-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 28,
+        "name": "Замена сальника",
+        "slug": "zamena-salnika-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 29,
+        "name": "Замена заливного шланга",
+        "slug": "zamena-zalivnogo-shlanga-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 30,
+        "name": "Замена манжеты люка",
+        "slug": "zamena-manzhety-lyuka-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 31,
+        "name": "Замена щёток двигателя",
+        "slug": "zamena-shchetok-dvigatelya-v-stiralnoy-mashine",
+        "parent": 2
+    },
+    {
+        "id": 32,
+        "name": "Замена опоры бака",
+        "slug": "zamena-opory-baka-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 33,
+        "name": "Ремонт помпы",
+        "slug": "remont-pompy-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 34,
+        "name": "Ремонт платы",
+        "slug": "remont-platy-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 35,
+        "name": "Ремонт прессостатов",
+        "slug": "remont-pressostatov-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 36,
+        "name": "Ремонт баков",
+        "slug": "remont-bakov-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 37,
+        "name": "Ремонт отжима",
+        "slug": "remont-otzhima-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 38,
+        "name": "Балансировка",
+        "slug": "balansirovka-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 39,
+        "name": "Диагностика",
+        "slug": "diagnostika-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 40,
+        "name": "Подключение вертикальных стиральных машин",
+        "slug": "podklyuchenie-vertikalnykh-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 41,
+        "name": "Подключение",
+        "slug": "podklyuchenie-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 42,
+        "name": "Ремонт барабанов",
+        "slug": "remont-barabanov-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 43,
+        "name": "Ремонт вертикальных стиральных машин",
+        "slug": "remont-vertikalnykh-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 44,
+        "name": "Ремонт замков",
+        "slug": "remont-zamkov-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 45,
+        "name": "Демонтаж",
+        "slug": "demontazh-stiralnoy-mashiny",
+        "parent": 2
+    },
+    {
+        "id": 46,
+        "name": "Установка встраиваемых стиральных машин",
+        "slug": "ustanovka-vstraivaemykh-stiralnykh-mashin",
+        "parent": 2
+    },
+    {
+        "id": 47,
+        "name": "Холодильники",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 48,
+        "name": "Ремонт компрессора",
+        "slug": "remont-kompressora-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 49,
+        "name": "Ремонт испарителя",
+        "slug": "remont-isparitelya-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 50,
+        "name": "Замена терморегулятора",
+        "slug": "zamena-termoregulyatora-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 51,
+        "name": "Замена реле",
+        "slug": "zamena-rele-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 52,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 53,
+        "name": "Замена клапана",
+        "slug": "zamena-klapana-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 54,
+        "name": "Ремонт вентилятора",
+        "slug": "remont-ventilyatora-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 55,
+        "name": "Ремонт двери",
+        "slug": "remont-dveri-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 56,
+        "name": "Ремонт дисплея",
+        "slug": "remont-displeya-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 57,
+        "name": "Ремонт индикатора",
+        "slug": "remont-indikatora-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 58,
+        "name": "Ремонт полки",
+        "slug": "remont-polki-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 59,
+        "name": "Ремонт модуля управления",
+        "slug": "remont-modulya-upravleniya-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 60,
+        "name": "Ремонт ручки",
+        "slug": "remont-ruchki-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 61,
+        "name": "Ремонт капиллярной трубки",
+        "slug": "remont-kapillyarnoy-trubki-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 62,
+        "name": "Ремонт корпуса",
+        "slug": "remont-korpusa-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 63,
+        "name": "Заправка",
+        "slug": "zapravka-holodilnika",
+        "parent": 47
+    },
+    {
+        "id": 64,
+        "name": "Замена уплотнителя",
+        "slug": "zamena-uplotnitelya-v-kholodilnike",
+        "parent": 47
+    },
+    {
+        "id": 65,
+        "name": "Установка",
+        "slug": "ustanovka-kholodilnika",
+        "parent": 47
+    },
+    {
+        "id": 66,
+        "name": "Диагностика",
+        "slug": "diagnostika-kholodilnikov",
+        "parent": 47
+    },
+    {
+        "id": 67,
+        "name": "Ремонт встроенных холодильников",
+        "slug": "remont-vstroennykh-kholodilnikov",
+        "parent": 47
+    },
+    {
+        "id": 68,
+        "name": "Установка встраиваемых холодильников",
+        "slug": "ustanovka-vstraivaemykh-kholodilnikov",
+        "parent": 47
+    },
+    {
+        "id": 69,
+        "name": "Швейные машины",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 70,
+        "name": "Ремонт ножного привода",
+        "slug": "remont-nozhnogo-privoda-shveynoy-mashiny",
+        "parent": 69
+    },
+    {
+        "id": 71,
+        "name": "Ремонт челночного механизма",
+        "slug": "remont-chelnochnogo-mekhanizma-shveynoy-mashiny",
+        "parent": 69
+    },
+    {
+        "id": 72,
+        "name": "Ремонт двигателя",
+        "slug": "remont-dvigatelya-shveynoy-mashiny",
+        "parent": 69
+    },
+    {
+        "id": 73,
+        "name": "Ремонт игловодителя",
+        "slug": "remont-iglovoditelya-shveynoy-mashiny",
+        "parent": 69
+    },
+    {
+        "id": 74,
+        "name": "Посудомоечные машины",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 75,
+        "name": "Замена двигателя",
+        "slug": "zamena-dvigatelya-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 76,
+        "name": "Замена модуля управления",
+        "slug": "zamena-modulya-upravleniya-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 77,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 78,
+        "name": "Замена датчика температуры",
+        "slug": "zamena-datchika-temperatury-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 79,
+        "name": "Замена сливного насоса",
+        "slug": "zamena-slivnogo-nasosa-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 80,
+        "name": "Замена фильтра",
+        "slug": "zamena-filtra-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 81,
+        "name": "Замена конденсатора",
+        "slug": "zamena-kondensatora-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 82,
+        "name": "Прошивка электронного блока",
+        "slug": "proshivka-elektronnogo-bloka-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 83,
+        "name": "Замена датчика уровня воды",
+        "slug": "zamena-datchika-urovnya-vody-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 84,
+        "name": "Замена циркуляционного насоса",
+        "slug": "zamena-tsirkulyatsionnogo-nasosa-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 85,
+        "name": "Ремонт дверцы",
+        "slug": "remont-dvertsy-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 86,
+        "name": "Демонтаж",
+        "slug": "demontazh-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 87,
+        "name": "Установка встраиваемых посудомоечных машин",
+        "slug": "ustanovka-vstraivaemykh-posudomoechnykh-mashin",
+        "parent": 74
+    },
+    {
+        "id": 88,
+        "name": "Чистка",
+        "slug": "chistka-posudomoechnykh-mashin",
+        "parent": 74
+    },
+    {
+        "id": 89,
+        "name": "Диагностика",
+        "slug": "diagnostika-posudomoechnykh-mashin",
+        "parent": 74
+    },
+    {
+        "id": 90,
+        "name": "Подключение",
+        "slug": "podklyuchenie-posudomoechnoy-mashiny",
+        "parent": 74
+    },
+    {
+        "id": 91,
+        "name": "Электрические плиты",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 92,
+        "name": "Замена конфорки",
+        "slug": "zamena-konforki-u-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 93,
+        "name": "Замена сетевого шнура",
+        "slug": "zamena-setevogo-shnura-v-elektroplite",
+        "parent": 91
+    },
+    {
+        "id": 94,
+        "name": "Замена ручки",
+        "slug": "zamena-ruchki-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 95,
+        "name": "Замена переключателя",
+        "slug": "zamena-pereklyuchatelya-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 96,
+        "name": "Замена вентилятора",
+        "slug": "zamena-ventilyatora-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 97,
+        "name": "Замена таймера",
+        "slug": "zamena-taymera-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 98,
+        "name": "Замена реле",
+        "slug": "zamena-rele-v-elektroplite",
+        "parent": 91
+    },
+    {
+        "id": 99,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 100,
+        "name": "Ремонт электронного модуля",
+        "slug": "remont-elektronnogo-modulya-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 101,
+        "name": "Замена панели управления",
+        "slug": "zamena-paneli-upravleniya-elektroplity",
+        "parent": 91
+    },
+    {
+        "id": 102,
+        "name": "Духовые шкафы",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 103,
+        "name": "Замена лампы подсветки",
+        "slug": "zamena-lampy-podsvetki-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 104,
+        "name": "Замена ручки",
+        "slug": "zamena-ruchki-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 105,
+        "name": "Замена уплотнителя",
+        "slug": "zamena-uplotnitelya-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 106,
+        "name": "Замена стекла",
+        "slug": "zamena-stekla-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 107,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 108,
+        "name": "Замена терморегулятора",
+        "slug": "zamena-termoregulyatora-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 109,
+        "name": "Замена вентилятора",
+        "slug": "zamena-ventilyatora-v-dukhovom-shkafu",
+        "parent": 102
+    },
+    {
+        "id": 110,
+        "name": "Варочные панели",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 111,
+        "name": "Замена конфорки",
+        "slug": "zamena-konforki-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 112,
+        "name": "Замена регулятора",
+        "slug": "zamena-regulyatora-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 113,
+        "name": "Замена сетевого шнура",
+        "slug": "zamena-setevogo-shnura-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 114,
+        "name": "Замена реле",
+        "slug": "zamena-rele-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 115,
+        "name": "Замена панели управления",
+        "slug": "zamena-paneli-upravleniya-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 116,
+        "name": "Замена электронного модуля",
+        "slug": "zamena-elektronnogo-modulya-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 117,
+        "name": "Ремонт электронного модуля",
+        "slug": "remont-elektronnogo-modulya-u-varochnoy-paneli",
+        "parent": 110
+    },
+    {
+        "id": 118,
+        "name": "Замена стекла",
+        "slug": "zamena-stekla-u-varochnoj-paneli",
+        "parent": 110
+    },
+    {
+        "id": 119,
+        "name": "Ремонт трещин и сколов",
+        "slug": "remont-treshin-i-skolov-u-varochnoj-paneli",
+        "parent": 110
+    },
+    {
+        "id": 120,
+        "name": "Пылесосы",
+        "slug": "NULL",
+        "parent": 1
+    },
+    {
+        "id": 121,
+        "name": "Замена сетевого выключателя",
+        "slug": "zamena-setevogo-vyklyuchatelya-u-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 122,
+        "name": "Замена сетевого шнура",
+        "slug": "zamena-setevogo-shnura-u-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 123,
+        "name": "Чистка контактов",
+        "slug": "chistka-kontaktov-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 124,
+        "name": "Ремонт платы управления",
+        "slug": "remont-platy-upravleniya-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 125,
+        "name": "Замена платы управления",
+        "slug": "zamena-platy-upravleniya-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 126,
+        "name": "Замена фильтра",
+        "slug": "zamena-filtra-u-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 127,
+        "name": "Ремонт двигателя",
+        "slug": "remont-dvigatelya-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 128,
+        "name": "Чистка с разбором",
+        "slug": "chistka-s-razborom-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 129,
+        "name": "Чистка без разбора",
+        "slug": "chistka-bez-razbora-pylesosa",
+        "parent": 120
+    },
+    {
+        "id": 129,
+        "name": "Аудио- и видеотехника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 130,
+        "name": "Телевизоры",
+        "slug": "NULL",
+        "parent": 129
+    },
+    {
+        "id": 131,
+        "name": "Замена экрана",
+        "slug": "zamena-ekrana-televizora",
+        "parent": 130
+    },
+    {
+        "id": 132,
+        "name": "Замена блока питания",
+        "slug": "zamena-bloka-pitaniya-v-televizore",
+        "parent": 130
+    },
+    {
+        "id": 133,
+        "name": "Замена ламп подсветки",
+        "slug": "zamena-lamp-podsvetki-televizora",
+        "parent": 130
+    },
+    {
+        "id": 134,
+        "name": "Замена инвертора",
+        "slug": "zamena-invertora-televizora",
+        "parent": 130
+    },
+    {
+        "id": 135,
+        "name": "Перепрошивка",
+        "slug": "pereproshivka-televizora",
+        "parent": 130
+    },
+    {
+        "id": 136,
+        "name": "Ремонт ТВ-тюнера",
+        "slug": "remont-tv-tyunera",
+        "parent": 130
+    },
+    {
+        "id": 137,
+        "name": "Ремонт блока управления",
+        "slug": "remont-bloka-upravleniya-televizora",
+        "parent": 130
+    },
+    {
+        "id": 138,
+        "name": "Ремонт разъёма",
+        "slug": "remont-razema-televizora",
+        "parent": 130
+    },
+    {
+        "id": 139,
+        "name": "Ремонт платы",
+        "slug": "remont-platy-televizora",
+        "parent": 130
+    },
+    {
+        "id": 140,
+        "name": "Настройка телеканалов",
+        "slug": "nastroyka-telekanalov-televizora",
+        "parent": 130
+    },
+    {
+        "id": 141,
+        "name": "Ремонт матрицы",
+        "slug": "remont-matritsy-televizora",
+        "parent": 130
+    },
+    {
+        "id": 142,
+        "name": "Ремонт подсветки",
+        "slug": "remont-podsvetki-televizora",
+        "parent": 130
+    },
+    {
+        "id": 143,
+        "name": "Ремонт антенны",
+        "slug": "remont-antenny-televizora",
+        "parent": 130
+    },
+    {
+        "id": 144,
+        "name": "Игровые приставки",
+        "slug": "NULL",
+        "parent": 129
+    },
+    {
+        "id": 145,
+        "name": "Прошивка",
+        "slug": "proshivka-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 146,
+        "name": "Ремонт джойстиков",
+        "slug": "remont-dzhojstikov-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 147,
+        "name": "Ремонт геймпада",
+        "slug": "remont-gejmpadov-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 148,
+        "name": "Замена жесткого диска",
+        "slug": "zamena-zhestkogo-diska-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 149,
+        "name": "Ремонт блока питания",
+        "slug": "remont-bloka-pitaniya-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 150,
+        "name": "Замена hdmi",
+        "slug": "zamena-hdmi-igrovyh-pristavok",
+        "parent": 144
+    },
+    {
+        "id": 151,
+        "name": "Замена аккумулятора",
+        "slug": "zamena-akkumulyatora-igrovoj-pristavki",
+        "parent": 144
+    },
+    {
+        "id": 152,
+        "name": "Замена термопасты",
+        "slug": "zamena-termopasty-na-igrovoj-pristavke",
+        "parent": 144
+    },
+    {
+        "id": 153,
+        "name": "Ремонт контроллера",
+        "slug": "remont-kontrollera-igrovoj-pristavki",
+        "parent": 144
+    },
+    {
+        "id": 153,
+        "name": "Портативная электроника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 154,
+        "name": "Мобильные телефоны",
+        "slug": "NULL",
+        "parent": 153
+    },
+    {
+        "id": 155,
+        "name": "Замена экрана",
+        "slug": "zamena-ekrana-mobilnykh-telefonov",
+        "parent": 154
+    },
+    {
+        "id": 156,
+        "name": "Замена аккумулятора",
+        "slug": "zamena-akkumulyatora-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 157,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 158,
+        "name": "Прошивка",
+        "slug": "proshivka-mobilnykh-telefonov",
+        "parent": 154
+    },
+    {
+        "id": 159,
+        "name": "Замена кнопок",
+        "slug": "zamena-knopok-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 160,
+        "name": "Замена шлейфа",
+        "slug": "zamena-shleyfa-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 161,
+        "name": "Замена передней камеры",
+        "slug": "zamena-peredney-kamery-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 162,
+        "name": "Замена основной камеры",
+        "slug": "zamena-osnovnoy-kamery-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 163,
+        "name": "Замена внешнего динамика",
+        "slug": "zamena-vneshnego-dinamika-mobilnogo-telefona",
+        "parent": 154
+    },
+    {
+        "id": 164,
+        "name": "Замена внутреннего динамика",
+        "slug": "zamena-vnutrennego-dinamika-mobilnogo-telefona",
+        "parent": 154
+    },
+    {
+        "id": 165,
+        "name": "Замена разъёма питания",
+        "slug": "zamena-razema-pitaniya-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 166,
+        "name": "Замена разъёма SIM-карты",
+        "slug": "zamena-razema-sim-karty-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 167,
+        "name": "Замена микрофона",
+        "slug": "zamena-mikrofona-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 168,
+        "name": "Замена разъёма mini-USB",
+        "slug": "zamena-mini-usb-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 169,
+        "name": "Замена разъёма наушников",
+        "slug": "zamena-razema-naushnikov-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 170,
+        "name": "Замена разъема карты памяти",
+        "slug": "zamena-razema-karty-pamyati-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 171,
+        "name": "Восстановление после залития",
+        "slug": "vosstanovlenie-telefona-posle-zalitiya",
+        "parent": 154
+    },
+    {
+        "id": 172,
+        "name": "Ремонт системной платы",
+        "slug": "remont-sistemnoy-platy-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 173,
+        "name": "Ремонт флеш памяти",
+        "slug": "remont-flesh-pamyati-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 174,
+        "name": "Чистка динамика",
+        "slug": "chistka-dinamika-telefona",
+        "parent": 154
+    },
+    {
+        "id": 175,
+        "name": "Ремонт материнской платы",
+        "slug": "remont-materinskoy-platy-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 176,
+        "name": "Восстановление данных",
+        "slug": "vosstanovlenie-dannykh-s-telefona",
+        "parent": 154
+    },
+    {
+        "id": 177,
+        "name": "Ремонт антенны",
+        "slug": "remont-antenny-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 178,
+        "name": "Ремонт кнопки включения",
+        "slug": "remont-knopki-vklyucheniya-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 179,
+        "name": "Ремонт стекла",
+        "slug": "remont-stekla-na-telefone",
+        "parent": 154
+    },
+    {
+        "id": 180,
+        "name": "Замена гнезда зарядки",
+        "slug": "zamena-gnezda-zaryadki-telefonov",
+        "parent": 154
+    },
+    {
+        "id": 181,
+        "name": "Наклейка защитных стекол",
+        "slug": "nakleyka-zashchitnykh-stekol",
+        "parent": 154
+    },
+    {
+        "id": 182,
+        "name": "Настройка",
+        "slug": "nastroyka-smartfonov",
+        "parent": 154
+    },
+    {
+        "id": 183,
+        "name": "Разблокировка",
+        "slug": "razblokirovka-telefonov",
+        "parent": 154
+    },
+    {
+        "id": 184,
+        "name": "Диагностика",
+        "slug": "diagnostika-telefonov",
+        "parent": 154
+    },
+    {
+        "id": 185,
+        "name": "Наушники",
+        "slug": "NULL",
+        "parent": 153
+    },
+    {
+        "id": 186,
+        "name": "Восстановление провода",
+        "slug": "vosstanovlenie-provoda-naushnikov",
+        "parent": 185
+    },
+    {
+        "id": 187,
+        "name": "Замена провода",
+        "slug": "zamena-provoda-naushnikov",
+        "parent": 185
+    },
+    {
+        "id": 188,
+        "name": "Замена штекера",
+        "slug": "zamena-shtekera-naushnikov",
+        "parent": 185
+    },
+    {
+        "id": 189,
+        "name": "Ремонт штекера",
+        "slug": "remont-shtekera-naushnikov",
+        "parent": 185
+    },
+    {
+        "id": 190,
+        "name": "Замена динамика",
+        "slug": "zamena-dinamika-naushnikov",
+        "parent": 185
+    },
+    {
+        "id": 191,
+        "name": "Электронные книги",
+        "slug": "NULL",
+        "parent": 153
+    },
+    {
+        "id": 192,
+        "name": "Замена матрицы",
+        "slug": "zamena-matritsy-u-elektronnoy-knigi",
+        "parent": 191
+    },
+    {
+        "id": 193,
+        "name": "Ремонт разъема зарядки",
+        "slug": "remont-razema-zaryadki-u-elektronnoy-knigi",
+        "parent": 191
+    },
+    {
+        "id": 194,
+        "name": "Замена аккумулятора",
+        "slug": "zamena-akkumulyatora-u-elektronnoy-knigi",
+        "parent": 191
+    },
+    {
+        "id": 195,
+        "name": "Прошивка",
+        "slug": "proshivka-elektronnoy-knigi",
+        "parent": 191
+    },
+    {
+        "id": 196,
+        "name": "Фотоаппараты",
+        "slug": "NULL",
+        "parent": 153
+    },
+    {
+        "id": 197,
+        "name": "Замена дисплея",
+        "slug": "zamena-displeya-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 198,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 199,
+        "name": "Замена затвора",
+        "slug": "zamena-zatvora-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 200,
+        "name": "Замена матрицы CCD",
+        "slug": "zamena-matritsy-ccd-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 201,
+        "name": "Замена вспышки",
+        "slug": "zamena-vspyshki-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 202,
+        "name": "Замена шлейфа",
+        "slug": "zamena-shleyfa-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 203,
+        "name": "Прошивка",
+        "slug": "proshivka-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 204,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 205,
+        "name": "Настройка матрицы",
+        "slug": "nastroyka-matritsy-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 206,
+        "name": "Замена слота карты памяти",
+        "slug": "zamena-slota-karty-pamyati-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 207,
+        "name": "Замена USB-разъёма",
+        "slug": "zamena-usb-razema-u-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 208,
+        "name": "Ремонт затвора",
+        "slug": "remont-zatvora-fotoapparata",
+        "parent": 196
+    },
+    {
+        "id": 209,
+        "name": "Планшеты",
+        "slug": "NULL",
+        "parent": 153
+    },
+    {
+        "id": 210,
+        "name": "Замена дисплея",
+        "slug": "zamena-displeya-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 211,
+        "name": "Замена аккумулятора",
+        "slug": "zamena-akkumulyatora-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 212,
+        "name": "Замена камеры",
+        "slug": "zamena-kamery-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 213,
+        "name": "Замена вибромотора",
+        "slug": "zamena-vibromotora-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 214,
+        "name": "Замена динамика",
+        "slug": "zamena-dinamika-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 215,
+        "name": "Замена микрофона",
+        "slug": "zamena-mikrofona-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 216,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 217,
+        "name": "Замена материнской платы",
+        "slug": "zamena-materinskoy-platy-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 218,
+        "name": "Замена разъема SIM-карты",
+        "slug": "zamena-razema-sim-karty-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 219,
+        "name": "Замена разъема наушников",
+        "slug": "zamena-razema-naushnikov-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 220,
+        "name": "Замена шлейфа",
+        "slug": "zamena-shleyfa-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 221,
+        "name": "Замена разъема mini-USB",
+        "slug": "zamena-razema-mini-usb-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 222,
+        "name": "Замена слота карты памяти",
+        "slug": "zamena-slota-karty-pamyati-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 223,
+        "name": "Ремонт цепи питания",
+        "slug": "remont-tsepi-pitaniya-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 224,
+        "name": "Замена контроллера заряда",
+        "slug": "zamena-kontrollera-zaryada-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 225,
+        "name": "Русификация",
+        "slug": "rusifikatsiya-plansheta",
+        "parent": 209
+    },
+    {
+        "id": 226,
+        "name": "Замена Wi-Fi модуля",
+        "slug": "zamena-wi-fi-modulya-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 227,
+        "name": "Замена процессора",
+        "slug": "zamena-protsessora-na-planshete",
+        "parent": 209
+    },
+    {
+        "id": 227,
+        "name": "Компьютерная техника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 228,
+        "name": "Ноутбуки",
+        "slug": "NULL",
+        "parent": 227
+    },
+    {
+        "id": 229,
+        "name": "Замена матрицы",
+        "slug": "zamena-matritsy-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 230,
+        "name": "Замена процессора",
+        "slug": "zamena-protsessora-na-noutbuke",
+        "parent": 228
+    },
+    {
+        "id": 231,
+        "name": "Замена клавиатуры",
+        "slug": "zamena-klaviatury-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 232,
+        "name": "Ремонт системы охлаждения",
+        "slug": "remont-sistemy-okhlazhdeniya-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 233,
+        "name": "Замена оперативной памяти",
+        "slug": "zamena-operativnoy-pamyati-na-noutbuke",
+        "parent": 228
+    },
+    {
+        "id": 234,
+        "name": "Замена звуковой карты",
+        "slug": "zamena-zvukovoy-karty-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 235,
+        "name": "Замена материнской платы",
+        "slug": "zamena-materinskoy-platy-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 236,
+        "name": "Замена жесткого диска на SSD",
+        "slug": "zamena-zhestkogo-diska-v-noutbuke-na-ssd",
+        "parent": 228
+    },
+    {
+        "id": 237,
+        "name": "Замена разъёмов",
+        "slug": "zamena-razemov-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 238,
+        "name": "Сушка",
+        "slug": "sushka-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 239,
+        "name": "Замена блока питания",
+        "slug": "zamena-bloka-pitaniya-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 240,
+        "name": "Ремонт видеочипа",
+        "slug": "remont-videochipa-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 241,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 242,
+        "name": "Замена CDDVD-привода",
+        "slug": "zamena-cddvd-privoda-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 243,
+        "name": "Ремонт петель крышки",
+        "slug": "remont-petel-kryshki-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 244,
+        "name": "Ремонт тачпада",
+        "slug": "remont-tachpada-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 245,
+        "name": "Замена жёсткого диска",
+        "slug": "zamena-zhestkogo-diska-na-noutbuke",
+        "parent": 228
+    },
+    {
+        "id": 246,
+        "name": "Замена рамки экрана",
+        "slug": "zamena-ramki-ekrana-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 247,
+        "name": "Ремонт материнской платы",
+        "slug": "remont-materinskoy-platy-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 248,
+        "name": "Замена лампы подсветки",
+        "slug": "zamena-lampy-podsvetki-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 249,
+        "name": "Замена USB-порта",
+        "slug": "zamena-usb-porta-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 250,
+        "name": "Замена SSD-диска",
+        "slug": "zamena-ssd-diska-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 251,
+        "name": "Замена Wi-Fi модуля",
+        "slug": "zamena-wi-fi-modulya-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 252,
+        "name": "Замена встроенного микрофона",
+        "slug": "zamena-vstroennogo-mikrofona-v-noutbuke",
+        "parent": 228
+    },
+    {
+        "id": 253,
+        "name": "Замена термопасты",
+        "slug": "zamena-termopasty-v-noutbuke",
+        "parent": 228
+    },
+    {
+        "id": 254,
+        "name": "Замена сетевой карты",
+        "slug": "zamena-setevoy-karty-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 255,
+        "name": "Замена мультиконтроллера",
+        "slug": "zamena-multikontrollera-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 256,
+        "name": "Ремонт северного моста",
+        "slug": "remont-severnogo-mosta-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 257,
+        "name": "Ремонт цепей питания",
+        "slug": "remont-tsepey-pitaniya-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 258,
+        "name": "Ремонт южного моста",
+        "slug": "remont-yuzhnogo-mosta-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 259,
+        "name": "Чистка от пыли",
+        "slug": "chistka-noutbuka-ot-pyli",
+        "parent": 228
+    },
+    {
+        "id": 260,
+        "name": "Ремонт блока питания",
+        "slug": "remont-bloka-pitaniya-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 261,
+        "name": "Ремонт жесткого диска",
+        "slug": "remont-zhestkogo-diska-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 262,
+        "name": "Ремонт экрана",
+        "slug": "remont-ekrana-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 263,
+        "name": "Ремонт аккумулятора",
+        "slug": "remont-akkumulyatora-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 264,
+        "name": "Ремонт подсветки",
+        "slug": "remont-podsvetki-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 265,
+        "name": "Ремонт контроллера аккумулятора",
+        "slug": "remont-kontrollera-akkumulyatora-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 266,
+        "name": "Замена видеокарты",
+        "slug": "zamena-videokarty-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 267,
+        "name": "Замена шлейфа",
+        "slug": "zamena-shleyfa-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 268,
+        "name": "Замена кулера",
+        "slug": "zamena-kulera-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 269,
+        "name": "Диагностика",
+        "slug": "diagnostika-noutbukov",
+        "parent": 228
+    },
+    {
+        "id": 270,
+        "name": "Настройка",
+        "slug": "nastroyka-noutbukov",
+        "parent": 228
+    },
+    {
+        "id": 271,
+        "name": "Апгрейд",
+        "slug": "apgreyd-noutbukov",
+        "parent": 228
+    },
+    {
+        "id": 272,
+        "name": "Ремонт клавиш",
+        "slug": "remont-klavish-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 273,
+        "name": "Ремонт зарядного устройства",
+        "slug": "remont-zaryadnogo-ustroystva-noutbuka",
+        "parent": 228
+    },
+    {
+        "id": 274,
+        "name": "Компьютеры",
+        "slug": "NULL",
+        "parent": 227
+    },
+    {
+        "id": 275,
+        "name": "Замена оперативной памяти",
+        "slug": "zamena-operativnoy-pamyati-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 276,
+        "name": "Замена жесткого диска",
+        "slug": "zamena-zhestkogo-diska-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 277,
+        "name": "Замена материнской платы",
+        "slug": "zamena-materinskoy-platy-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 278,
+        "name": "Замена звуковой карты",
+        "slug": "zamena-zvukovoy-karty-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 279,
+        "name": "Замена видеокарты",
+        "slug": "zamena-videokarty-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 280,
+        "name": "Замена блока питания",
+        "slug": "zamena-bloka-pitaniya-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 281,
+        "name": "Замена CDDVD",
+        "slug": "zamena-cddvd-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 282,
+        "name": "Замена процессора",
+        "slug": "zamena-protsessora-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 283,
+        "name": "Ремонт кулера",
+        "slug": "remont-kulera-kompyutera",
+        "parent": 274
+    },
+    {
+        "id": 284,
+        "name": "Замена термопасты",
+        "slug": "zamena-termopasty-na-kompyutere",
+        "parent": 274
+    },
+    {
+        "id": 285,
+        "name": "Апгрейд",
+        "slug": "apgreyd-kompyutera",
+        "parent": 274
+    },
+    {
+        "id": 286,
+        "name": "Чистка от вирусов",
+        "slug": "chistka-kompyutera-ot-virusov",
+        "parent": 274
+    },
+    {
+        "id": 287,
+        "name": "Замена батарейки на материнской плате",
+        "slug": "zamena-batareyki-na-materinskoy-plate-kompyutera",
+        "parent": 274
+    },
+    {
+        "id": 288,
+        "name": "Восстановление Windows",
+        "slug": "vosstanovlenie-windows",
+        "parent": 274
+    },
+    {
+        "id": 289,
+        "name": "Восстановление данных с жёсткого диска и флешки",
+        "slug": "vosstanovlenie-dannykh-s-zhestkogo-diska-i-fleshki",
+        "parent": 274
+    },
+    {
+        "id": 290,
+        "name": "Восстановление данных с карт памяти",
+        "slug": "vosstanovlenie-dannykh-s-kart-pamyati",
+        "parent": 274
+    },
+    {
+        "id": 291,
+        "name": "Восстановление операционной системы",
+        "slug": "vosstanovlenie-operatsionnoy-sistemy",
+        "parent": 274
+    },
+    {
+        "id": 292,
+        "name": "Настройка брандмауэров",
+        "slug": "nastroyka-brandmauerov",
+        "parent": 274
+    },
+    {
+        "id": 293,
+        "name": "Настройка резервного копирования данных",
+        "slug": "nastroyka-rezervnogo-kopirovaniya-dannykh",
+        "parent": 274
+    },
+    {
+        "id": 294,
+        "name": "Настройка стрима",
+        "slug": "nastroyka-strima",
+        "parent": 274
+    },
+    {
+        "id": 295,
+        "name": "Прошивка БИОС",
+        "slug": "proshivka-bios",
+        "parent": 274
+    },
+    {
+        "id": 296,
+        "name": "Сборка компьютеров",
+        "slug": "sborka-kompyuterov",
+        "parent": 274
+    },
+    {
+        "id": 297,
+        "name": "Установканастройка программного обеспечения",
+        "slug": "ustanovkanastroyka-programmnogo-obespecheniya",
+        "parent": 274
+    },
+    {
+        "id": 298,
+        "name": "Установка Microsoft Office",
+        "slug": "ustanovka-microsoft-office",
+        "parent": 274
+    },
+    {
+        "id": 299,
+        "name": "Установка RDP",
+        "slug": "ustanovka-rdp",
+        "parent": 274
+    },
+    {
+        "id": 300,
+        "name": "Установка VPN",
+        "slug": "ustanovka-vpn",
+        "parent": 274
+    },
+    {
+        "id": 301,
+        "name": "Установка архиваторов",
+        "slug": "ustanovka-arkhivatorov",
+        "parent": 274
+    },
+    {
+        "id": 302,
+        "name": "Установка и настройка Linux",
+        "slug": "ustanovka-i-nastroyka-linux",
+        "parent": 274
+    },
+    {
+        "id": 303,
+        "name": "Установка и настройка Windows",
+        "slug": "ustanovka-i-nastroyka-windows",
+        "parent": 274
+    },
+    {
+        "id": 304,
+        "name": "Диагностика компьютера",
+        "slug": "diagnostika-kompyutera",
+        "parent": 274
+    },
+    {
+        "id": 305,
+        "name": "Подключение и настройка интернета",
+        "slug": "podklyuchenie-i-nastroyka-interneta",
+        "parent": 274
+    },
+    {
+        "id": 306,
+        "name": "Профилактика компьютера",
+        "slug": "profilaktika-kompyutera",
+        "parent": 274
+    },
+    {
+        "id": 307,
+        "name": "Установка антивируса",
+        "slug": "ustanovka-antivirusa",
+        "parent": 274
+    },
+    {
+        "id": 308,
+        "name": "Установка браузеров",
+        "slug": "ustanovka-brauzerov",
+        "parent": 274
+    },
+    {
+        "id": 309,
+        "name": "Установка драйверов",
+        "slug": "ustanovka-drayverov",
+        "parent": 274
+    },
+    {
+        "id": 310,
+        "name": "Мониторы",
+        "slug": "NULL",
+        "parent": 227
+    },
+    {
+        "id": 311,
+        "name": "Замена разъёма",
+        "slug": "zamena-razema-monitora",
+        "parent": 310
+    },
+    {
+        "id": 312,
+        "name": "Ремонт блока питания",
+        "slug": "remont-bloka-pitaniya-monitora",
+        "parent": 310
+    },
+    {
+        "id": 313,
+        "name": "Замена инвертора",
+        "slug": "zamena-invertora-monitora",
+        "parent": 310
+    },
+    {
+        "id": 314,
+        "name": "Замена лампы подсветки",
+        "slug": "zamena-lampy-podsvetki-monitora",
+        "parent": 310
+    },
+    {
+        "id": 315,
+        "name": "Ремонт системной платы",
+        "slug": "remont-sistemnoy-platy-monitora",
+        "parent": 310
+    },
+    {
+        "id": 316,
+        "name": "Ремонт подсветки",
+        "slug": "remont-podsvetki-monitora",
+        "parent": 310
+    },
+    {
+        "id": 317,
+        "name": "Ремонт матрицы",
+        "slug": "remont-matritsy-monitora",
+        "parent": 310
+    },
+    {
+        "id": 318,
+        "name": "Моноблоки",
+        "slug": "NULL",
+        "parent": 227
+    },
+    {
+        "id": 319,
+        "name": "Замена оперативной памяти",
+        "slug": "zamena-operativnoy-pamyati-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 320,
+        "name": "Замена жесткого диска",
+        "slug": "zamena-zhestkogo-diska-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 321,
+        "name": "Замена материнской платы",
+        "slug": "zamena-materinskoy-platy-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 322,
+        "name": "Замена звуковой карты",
+        "slug": "zamena-zvukovoy-karty-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 323,
+        "name": "Замена видеокарты",
+        "slug": "zamena-videokarty-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 324,
+        "name": "Замена блока питания",
+        "slug": "zamena-bloka-pitaniya-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 325,
+        "name": "Замена CDDVD",
+        "slug": "zamena-cddvd-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 326,
+        "name": "Замена процессора",
+        "slug": "zamena-protsessora-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 327,
+        "name": "Ремонт кулера",
+        "slug": "remont-kulera-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 328,
+        "name": "Замена термопасты",
+        "slug": "zamena-termopasty-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 329,
+        "name": "Апгрейд",
+        "slug": "apgreyd-monobloka",
+        "parent": 318
+    },
+    {
+        "id": 330,
+        "name": "Чистка от вирусов",
+        "slug": "chistka-monobloka-ot-virusov",
+        "parent": 318
+    },
+    {
+        "id": 331,
+        "name": "Замена батарейки на материнской плате",
+        "slug": "zamena-batareyki-na-materinskoy-plate-monobloka",
+        "parent": 318
+    },
+    {
+        "id": 332,
+        "name": "Восстановление Windows",
+        "slug": "vosstanovlenie-windows-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 333,
+        "name": "Восстановление операционной системы",
+        "slug": "vosstanovlenie-operatsionnoy-sistemy-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 334,
+        "name": "Сборка моноблока",
+        "slug": "sborka-monobloka",
+        "parent": 318
+    },
+    {
+        "id": 335,
+        "name": "Установканастройка программного обеспечения",
+        "slug": "ustanovkanastroyka-programmnogo-obespecheniya-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 336,
+        "name": "Установка и настройка Windows",
+        "slug": "ustanovka-i-nastroyka-windows-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 337,
+        "name": "Диагностика моноблока",
+        "slug": "diagnostika-monobloka",
+        "parent": 318
+    },
+    {
+        "id": 338,
+        "name": "Подключение и настройка интернета",
+        "slug": "podklyuchenie-i-nastroyka-interneta-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 339,
+        "name": "Профилактика моноблока",
+        "slug": "profilaktika-monobloka",
+        "parent": 318
+    },
+    {
+        "id": 340,
+        "name": "Установка драйверов",
+        "slug": "ustanovka-drayverov-na-monobloke",
+        "parent": 318
+    },
+    {
+        "id": 340,
+        "name": "Климатическая техника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 341,
+        "name": "Кондиционеры",
+        "slug": "NULL",
+        "parent": 340
+    },
+    {
+        "id": 342,
+        "name": "Заправка",
+        "slug": "zapravka-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 343,
+        "name": "Замена компрессора",
+        "slug": "zamena-kompressora-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 344,
+        "name": "Замена предохранителя",
+        "slug": "zamena-predokhranitelya-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 345,
+        "name": "Ремонт платы управления",
+        "slug": "remont-platy-upravleniya-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 346,
+        "name": "Очистка фильтров",
+        "slug": "ochistka-filtrov-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 347,
+        "name": "Демонтаж",
+        "slug": "demontazh-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 348,
+        "name": "Диагностика",
+        "slug": "diagnostika-konditsionerov",
+        "parent": 341
+    },
+    {
+        "id": 349,
+        "name": "Монтаж",
+        "slug": "montazh-konditsionerov",
+        "parent": 341
+    },
+    {
+        "id": 350,
+        "name": "Чистка",
+        "slug": "chistka-domashnikh-konditsionerov",
+        "parent": 341
+    },
+    {
+        "id": 351,
+        "name": "Демонтаж внутреннего блока",
+        "slug": "demontazh-vnutrennego-bloka-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 352,
+        "name": "Замена помпы",
+        "slug": "zamena-pompy-konditsionera",
+        "parent": 341
+    },
+    {
+        "id": 353,
+        "name": "Обслуживание",
+        "slug": "obsluzhivanie-konditsionerov",
+        "parent": 341
+    },
+    {
+        "id": 354,
+        "name": "Чистка внешних блоков",
+        "slug": "chistka-vneshnikh-blokov-konditsionerov",
+        "parent": 341
+    },
+    {
+        "id": 354,
+        "name": "Отопление и водоснабжение",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 355,
+        "name": "Газовые котлы",
+        "slug": "NULL",
+        "parent": 354
+    },
+    {
+        "id": 356,
+        "name": "Замена насоса",
+        "slug": "zamena-nasosa-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 357,
+        "name": "Замена турбо вентилятора",
+        "slug": "zamena-turbo-ventilyatora-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 358,
+        "name": "Промывка теплообменника",
+        "slug": "promyvka-teploobmennika-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 359,
+        "name": "Замена теплообменника на новый",
+        "slug": "zamena-teploobmennika-na-novyy-gazovyy-kotel",
+        "parent": 355
+    },
+    {
+        "id": 360,
+        "name": "Чистка запальника",
+        "slug": "chistka-zapalnika-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 361,
+        "name": "Чистка горелки",
+        "slug": "chistka-gorelki-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 362,
+        "name": "Замена датчиков",
+        "slug": "zamena-datchikov-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 363,
+        "name": "Замена сальников",
+        "slug": "zamena-salnikov-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 364,
+        "name": "Ремонт блока управления",
+        "slug": "remont-bloka-upravleniya-gazovogo-kotla",
+        "parent": 355
+    },
+    {
+        "id": 365,
+        "name": "Водонагреватели",
+        "slug": "NULL",
+        "parent": 354
+    },
+    {
+        "id": 366,
+        "name": "Замена сетевого шнура",
+        "slug": "zamena-setevogo-shnura-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 367,
+        "name": "Замена анода",
+        "slug": "zamena-anoda-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 368,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 369,
+        "name": "Замена блока управления",
+        "slug": "zamena-bloka-upravleniya-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 370,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 371,
+        "name": "Замена датчика",
+        "slug": "zamena-datchika-v-vodonagrevatele",
+        "parent": 365
+    },
+    {
+        "id": 372,
+        "name": "Чистка бака",
+        "slug": "chistka-baka-vodonagrevatelya",
+        "parent": 365
+    },
+    {
+        "id": 373,
+        "name": "Ремонт бака",
+        "slug": "remont-baka-vodonagrevatelya",
+        "parent": 365
+    },
+    {
+        "id": 373,
+        "name": "Автотехника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 374,
+        "name": "Видеорегистраторы",
+        "slug": "NULL",
+        "parent": 373
+    },
+    {
+        "id": 375,
+        "name": "Замена платы",
+        "slug": "zamena-platy-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 376,
+        "name": "Ремонт слота карты памяти",
+        "slug": "remont-slota-karty-pamyati-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 377,
+        "name": "Перепрошивка",
+        "slug": "pereproshivka-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 378,
+        "name": "Ремонт платы",
+        "slug": "remont-platy-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 379,
+        "name": "Замена разъёма",
+        "slug": "zamena-razema-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 380,
+        "name": "Замена микрофона",
+        "slug": "zamena-mikrofona-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 381,
+        "name": "Ремонт кнопки",
+        "slug": "remont-knopki-u-videoregistratora",
+        "parent": 374
+    },
+    {
+        "id": 382,
+        "name": "Автомагнитолы",
+        "slug": "NULL",
+        "parent": 373
+    },
+    {
+        "id": 383,
+        "name": "Прошивка",
+        "slug": "proshivka-avtomagnitoly",
+        "parent": 382
+    },
+    {
+        "id": 384,
+        "name": "Раскодировка",
+        "slug": "raskodirovka-avtomagnitoly",
+        "parent": 382
+    },
+    {
+        "id": 384,
+        "name": "Мелкая бытовая техника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 385,
+        "name": "Мультиварки",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 386,
+        "name": "Замена вилки",
+        "slug": "zamena-vilki-u-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 387,
+        "name": "Замена шнека",
+        "slug": "zamena-shneka-u-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 388,
+        "name": "Замена шнура",
+        "slug": "zamena-shnura-u-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 389,
+        "name": "Ремонт платы управления",
+        "slug": "remont-platy-upravleniya-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 390,
+        "name": "Замена двигателя",
+        "slug": "zamena-dvigatelya-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 391,
+        "name": "Ремонт двигателя",
+        "slug": "remont-dvigatelya-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 392,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 393,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-u-multivarki",
+        "parent": 385
+    },
+    {
+        "id": 394,
+        "name": "Мясорубки",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 395,
+        "name": "Заточка ножей",
+        "slug": "zatochka-nozhey-myasorubki",
+        "parent": 394
+    },
+    {
+        "id": 396,
+        "name": "Замена шестерни",
+        "slug": "zamena-shesterni-myasorubki",
+        "parent": 394
+    },
+    {
+        "id": 397,
+        "name": "Замена предохранителя",
+        "slug": "zamena-predokhranitelya-myasorubki",
+        "parent": 394
+    },
+    {
+        "id": 398,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-myasorubki",
+        "parent": 394
+    },
+    {
+        "id": 399,
+        "name": "Замена сальника",
+        "slug": "zamena-salnika-myasorubki",
+        "parent": 394
+    },
+    {
+        "id": 400,
+        "name": "Микроволновые печи",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 401,
+        "name": "Замена силового трансформатора",
+        "slug": "zamena-silovogo-transformatora-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 402,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 403,
+        "name": "Ремонт двигателя поддона",
+        "slug": "remont-dvigatelya-poddona-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 404,
+        "name": "Замена предохранителя",
+        "slug": "zamena-predokhranitelya-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 405,
+        "name": "Ремонт магнетрона",
+        "slug": "remont-magnetrona-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 406,
+        "name": "Замена блока управления",
+        "slug": "zamena-bloka-upravleniya-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 407,
+        "name": "Замена вентилятора",
+        "slug": "zamena-ventilyatora-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 408,
+        "name": "Ремонт защёлки двери",
+        "slug": "remont-zashchelki-dveri-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 409,
+        "name": "Замена конденсатора",
+        "slug": "zamena-kondensatora-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 410,
+        "name": "Ремонт волновода",
+        "slug": "remont-volnovoda-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 411,
+        "name": "Ремонт переключателей режимов",
+        "slug": "remont-pereklyuchateley-rezhimov-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 412,
+        "name": "Замена датчиков",
+        "slug": "zamena-datchikov-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 413,
+        "name": "Ремонт платы управления",
+        "slug": "remont-platy-upravleniya-mikrovolnovki",
+        "parent": 400
+    },
+    {
+        "id": 414,
+        "name": "Электрочайники",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 415,
+        "name": "Замена термопредохранителя",
+        "slug": "zamena-termopredokhranitelya-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 416,
+        "name": "Чистка",
+        "slug": "chistka-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 417,
+        "name": "Ремонт термовыключателя",
+        "slug": "remont-termovyklyuchatelya-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 418,
+        "name": "Замена термоавтомата",
+        "slug": "zamena-termoavtomata-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 419,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 420,
+        "name": "Устранение течи",
+        "slug": "ustranenie-techi-u-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 421,
+        "name": "Ремонт подсветки",
+        "slug": "remont-podsvetki-u-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 422,
+        "name": "Ремонт клавиши",
+        "slug": "remont-klavishi-u-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 423,
+        "name": "Ремонт электронного модуля",
+        "slug": "remont-elektronnogo-modulya-u-elektrochaynika",
+        "parent": 414
+    },
+    {
+        "id": 424,
+        "name": "Утюги",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 425,
+        "name": "Замена шнура питания",
+        "slug": "zamena-shnura-pitaniya-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 426,
+        "name": "Замена термостата",
+        "slug": "zamena-termostata-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 427,
+        "name": "Замена клапана пара",
+        "slug": "zamena-klapana-para-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 428,
+        "name": "Замена ТЭНа",
+        "slug": "zamena-tena-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 429,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 430,
+        "name": "Замена регулятора",
+        "slug": "zamena-regulyatora-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 431,
+        "name": "Замена подошвы",
+        "slug": "zamena-podoshvy-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 432,
+        "name": "Замена платы управления",
+        "slug": "zamena-platy-upravleniya-u-utyuga",
+        "parent": 424
+    },
+    {
+        "id": 433,
+        "name": "Хлебопечки",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 434,
+        "name": "Замена термопредохранителя",
+        "slug": "zamena-termopredokhranitelya-khlebopechki",
+        "parent": 433
+    },
+    {
+        "id": 435,
+        "name": "Ремонт крышки",
+        "slug": "remont-kryshki-khlebopechki",
+        "parent": 433
+    },
+    {
+        "id": 436,
+        "name": "Замена ремня",
+        "slug": "zamena-remnya-khlebopechki",
+        "parent": 433
+    },
+    {
+        "id": 437,
+        "name": "Замена термодатчика",
+        "slug": "zamena-termodatchika-khlebopechki",
+        "parent": 433
+    },
+    {
+        "id": 438,
+        "name": "Кофемашины",
+        "slug": "NULL",
+        "parent": 384
+    },
+    {
+        "id": 439,
+        "name": "Чистка",
+        "slug": "chistka-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 440,
+        "name": "Ремонт насоса",
+        "slug": "remont-nasosa-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 441,
+        "name": "Декальцинация",
+        "slug": "dekalcinaciya-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 442,
+        "name": "Замена индикатора",
+        "slug": "zamena-indikatora-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 443,
+        "name": "Замена прокладки",
+        "slug": "zamena-prokladki-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 444,
+        "name": "Замена штуцера",
+        "slug": "zamena-shtutsera-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 445,
+        "name": "Замена трубки",
+        "slug": "zamena-trubki-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 446,
+        "name": "Замена датчика",
+        "slug": "zamena-datchika-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 447,
+        "name": "Замена термоблока",
+        "slug": "zamena-termobloka-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 448,
+        "name": "Замена пароблока",
+        "slug": "zamena-parobloka-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 449,
+        "name": "Замена помпы",
+        "slug": "zamena-pompy-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 450,
+        "name": "Замена клапана",
+        "slug": "zamena-klapana-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 451,
+        "name": "Замена мультиклапана",
+        "slug": "zamena-multiklapana-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 452,
+        "name": "Замена силовой платы",
+        "slug": "zamena-silovoy-platy-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 453,
+        "name": "Замена платы управления",
+        "slug": "zamena-platy-upravleniya-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 454,
+        "name": "Замена жерновов",
+        "slug": "zamena-zhernovov-v-kofemashine",
+        "parent": 438
+    },
+    {
+        "id": 455,
+        "name": "Ремонт бойлера",
+        "slug": "remont-boylera-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 456,
+        "name": "Ремонт капучинатора",
+        "slug": "remont-kapuchinatora-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 457,
+        "name": "Ремонт микровыключателя",
+        "slug": "remont-mikrovyklyuchatelya-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 458,
+        "name": "Очистка от накипи",
+        "slug": "ochistka-ot-nakipi-kofemashiny",
+        "parent": 438
+    },
+    {
+        "id": 458,
+        "name": "Садовая техника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 459,
+        "name": "Газонокосилки",
+        "slug": "NULL",
+        "parent": 458
+    },
+    {
+        "id": 460,
+        "name": "Замена аккумулятора",
+        "slug": "zamena-akkumulyatora-na-gazonokosilke",
+        "parent": 459
+    },
+    {
+        "id": 461,
+        "name": "Замена колеса",
+        "slug": "zamena-kolesa-na-gazonokosilke",
+        "parent": 459
+    },
+    {
+        "id": 462,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 463,
+        "name": "Замена крыльчатки",
+        "slug": "zamena-krylchatki-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 464,
+        "name": "Замена ножа",
+        "slug": "zamena-nozha-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 465,
+        "name": "Замена подшипника",
+        "slug": "zamena-podshipnika-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 466,
+        "name": "Замена ремня",
+        "slug": "zamena-remnya-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 467,
+        "name": "Замена рукоятки",
+        "slug": "zamena-rukoyatki-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 468,
+        "name": "Замена электродвигателя",
+        "slug": "zamena-elektrodvigatelya-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 469,
+        "name": "Замена глушителя",
+        "slug": "zamena-glushitelya-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 470,
+        "name": "Ремонт самохода",
+        "slug": "remont-samokhoda-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 471,
+        "name": "Ремонт двигателя",
+        "slug": "remont-dvigatelya-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 472,
+        "name": "Замена редуктора",
+        "slug": "zamena-reduktora-gazonokosilki",
+        "parent": 459
+    },
+    {
+        "id": 472,
+        "name": "Электроинструменты",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 473,
+        "name": "Перфораторы",
+        "slug": "NULL",
+        "parent": 472
+    },
+    {
+        "id": 474,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 475,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 476,
+        "name": "Замена курка",
+        "slug": "zamena-kurka-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 477,
+        "name": "Замена микросхемы",
+        "slug": "zamena-mikroskhemy-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 478,
+        "name": "Замена подшипника",
+        "slug": "zamena-podshipnika-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 479,
+        "name": "Замена ротора",
+        "slug": "zamena-rotora-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 480,
+        "name": "Замена статора",
+        "slug": "zamena-statora-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 481,
+        "name": "Замена щёток",
+        "slug": "zamena-shchetok-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 482,
+        "name": "Прокаливание щёток",
+        "slug": "prokalivanie-shchetok-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 483,
+        "name": "Замена двигателя",
+        "slug": "zamena-dvigatelya-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 484,
+        "name": "Ремонт коллектора",
+        "slug": "remont-kollektora-u-perforatora",
+        "parent": 473
+    },
+    {
+        "id": 485,
+        "name": "Бензопилы",
+        "slug": "NULL",
+        "parent": 472
+    },
+    {
+        "id": 486,
+        "name": "Ремонт стартера",
+        "slug": "remont-startera-u-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 487,
+        "name": "Ремонт цилиндра с поршнем",
+        "slug": "remont-tsilindra-s-porshnem-u-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 488,
+        "name": "Ремонт карбюратора",
+        "slug": "remont-karbyuratora-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 489,
+        "name": "Замена ведущей звездочки",
+        "slug": "zamena-vedushchey-zvezdochki-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 490,
+        "name": "Ремонт масляного насоса",
+        "slug": "remont-maslyanogo-nasosa-u-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 491,
+        "name": "Ремонт винта натяжителя цепи",
+        "slug": "remont-vinta-natyazhitelya-tsepi-u-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 492,
+        "name": "Заточка цепи",
+        "slug": "zatochka-tsepi-u-benzopily",
+        "parent": 485
+    },
+    {
+        "id": 493,
+        "name": "Шуруповёрты",
+        "slug": "NULL",
+        "parent": 472
+    },
+    {
+        "id": 494,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-shurupovyorte",
+        "parent": 493
+    },
+    {
+        "id": 495,
+        "name": "Замена щёток",
+        "slug": "zamena-shchyotok-shurupovyorte",
+        "parent": 493
+    },
+    {
+        "id": 496,
+        "name": "Замена патрона",
+        "slug": "zamena-patrona-shurupovyorte",
+        "parent": 493
+    },
+    {
+        "id": 496,
+        "name": "Техника для красоты",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 497,
+        "name": "Машинки для стрижки волос",
+        "slug": "NULL",
+        "parent": 496
+    },
+    {
+        "id": 498,
+        "name": "Замена катушки",
+        "slug": "zamena-katushki-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 499,
+        "name": "Заточка ножей",
+        "slug": "zatochka-nozhey-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 500,
+        "name": "Замена каретки",
+        "slug": "zamena-karetki-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 501,
+        "name": "Замена кнопки",
+        "slug": "zamena-knopki-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 502,
+        "name": "Замена сетевого шнура",
+        "slug": "zamena-setevogo-shnura-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 503,
+        "name": "Замена корпуса",
+        "slug": "zamena-korpusa-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 504,
+        "name": "Замена двигателя",
+        "slug": "zamena-dvigatelya-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 505,
+        "name": "Замена щёток",
+        "slug": "zamena-shchetok-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 506,
+        "name": "Замена эксцентрика",
+        "slug": "zamena-ekstsentrika-u-mashinok-dlya-strizhki-volos",
+        "parent": 497
+    },
+    {
+        "id": 506,
+        "name": "Электрика",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 507,
+        "name": "Сварочные аппараты",
+        "slug": "NULL",
+        "parent": 506
+    },
+    {
+        "id": 508,
+        "name": "Замена воздухоотводчика",
+        "slug": "zamena-vozdukhootvodchika-u-svarochnogo-apparata",
+        "parent": 507
+    },
+    {
+        "id": 509,
+        "name": "Ремонт модуля управления",
+        "slug": "remont-modulya-upravleniya-u-svarochnogo-apparata",
+        "parent": 507
+    },
+    {
+        "id": 510,
+        "name": "Ремонт IMS модуля",
+        "slug": "remont-ims-modulya-u-svarochnogo-apparata",
+        "parent": 507
+    },
+    {
+        "id": 511,
+        "name": "Замена вентилятора",
+        "slug": "zamena-ventilyatora-u-svarochnogo-apparata",
+        "parent": 507
+    },
+    {
+        "id": 512,
+        "name": "Замена конденсаторов",
+        "slug": "zamena-kondensatorov-u-svarochnogo-apparata",
+        "parent": 507
+    },
+    {
+        "id": 512,
+        "name": "Оргтехника",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 513,
+        "name": "Принтеры",
+        "slug": "NULL",
+        "parent": 512
+    },
+    {
+        "id": 514,
+        "name": "Ремонт блока питания",
+        "slug": "remont-bloka-pitaniya-printera",
+        "parent": 513
+    },
+    {
+        "id": 515,
+        "name": "Ремонт лазера",
+        "slug": "remont-lazera-printera",
+        "parent": 513
+    },
+    {
+        "id": 516,
+        "name": "Ремонт платы",
+        "slug": "remont-platy-printera",
+        "parent": 513
+    },
+    {
+        "id": 517,
+        "name": "Прошивка",
+        "slug": "proshivka-printera",
+        "parent": 513
+    },
+    {
+        "id": 518,
+        "name": "Замена барабана",
+        "slug": "zamena-barabana-printera",
+        "parent": 513
+    },
+    {
+        "id": 519,
+        "name": "Ремонт редуктора",
+        "slug": "remont-reduktora-printera",
+        "parent": 513
+    },
+    {
+        "id": 520,
+        "name": "Замена фотобарабана",
+        "slug": "zamena-fotobarabana-printera",
+        "parent": 513
+    },
+    {
+        "id": 521,
+        "name": "Ремонт лотка",
+        "slug": "remont-lotka-printera",
+        "parent": 513
+    },
+    {
+        "id": 522,
+        "name": "Заправка картриджа",
+        "slug": "zapravka-kartridzha",
+        "parent": 513
+    },
+    {
+        "id": 523,
+        "name": "Замена печатающей головки",
+        "slug": "zamena-pechatayushchey-golovki-printera",
+        "parent": 513
+    },
+    {
+        "id": 524,
+        "name": "Замена шлейфа",
+        "slug": "zamena-shleyfa-printera",
+        "parent": 513
+    },
+    {
+        "id": 525,
+        "name": "Ремонт катриджа",
+        "slug": "remont-katridzha-printera",
+        "parent": 513
+    },
+    {
+        "id": 525,
+        "name": "Электротранспорт",
+        "slug": "NULL",
+        "parent": "NULL"
+    },
+    {
+        "id": 526,
+        "name": "Электросамокаты",
+        "slug": "NULL",
+        "parent": 525
+    },
+    {
+        "id": 527,
+        "name": "Ремонт контроллера",
+        "slug": "remont-kontrollera-elektrosamokata",
+        "parent": 526
+    },
+    {
+        "id": 528,
+        "name": "Ремонт колеса",
+        "slug": "remont-kolesa-elektrosamokata",
+        "parent": 526
+    },
+    {
+        "id": 529,
+        "name": "Ремонт аккумулятора",
+        "slug": "remont-akkumulyatora-elektrosamokata",
+        "parent": 526
+    },
+    {
+        "id": 530,
+        "name": "Ремонт покрышки",
+        "slug": "remont-pokryshki-na-elektrosamokate",
+        "parent": 526
+    }
+]

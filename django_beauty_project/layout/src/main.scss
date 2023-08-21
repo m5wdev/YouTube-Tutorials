@@ -1,0 +1,27 @@
+// Bootstrap
+@import "./bootstrap/bootstrap";
+
+// Core
+@import "./core/breadcrumbs";
+@import "./core/buttons";
+@import "./core/icons";
+@import "./core/forms";
+@import "./core/form-edit";
+
+@import "./core/core";
+
+// Sections
+@import "./sections/section-type-one";
+@import "./sections/section-search";
+@import "./sections/section-advantages";
+@import "./sections/section-actions";
+@import "./sections/section-map";
+
+// Pages
+@import "./pages/homepage";
+@import "./pages/not-homepage";
+@import "./pages/search-results";
+@import "./pages/user-profile";
+
+// Cards
+@import "./cards/search-res-salon-card";

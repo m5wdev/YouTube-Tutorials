@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+
+{% load widget_tweaks account_groups %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} user-profile
+{% endspaceless %}{% endblock %}
+
+
+{% block content_top %}
+    {% include "account/includes/user-profile-salon-nav.html" %}
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <form id="form-edit-salon" class="form-edit" action="{% url 'user:profile' %}" novalidate method="post">{% csrf_token %}
+            <div class="user-profile__type-one">
+                <div class="user-profile__type-one--left">
+                    <img src="https://via.placeholder.com/256x256" alt="">
+                </div>
+                <div class="user-profile__type-one--right">
+                    <h4>Салон красоты "{{ request.user.salon.name }}"</h4>
+
+                    <div class="form-edit__content">
+                        <div>
+                            <label for="{{ form_edit_salon.name.id_for_label }}">Название</label><br>
+                            {% render_field form_edit_salon.name %}
+                        </div>
+
+                        <div>
+                            <label for="{{ form_edit_salon.phone.id_for_label }}">Телефон</label><br>
+                            {% render_field form_edit_salon.phone %}
+                        </div>
+
+                        <div>
+                            <label for="{{ form_edit_salon.email.id_for_label }}">Email</label><br>
+                            {% render_field form_edit_salon.email %}
+                        </div>
+
+                        <div>
+                            <label for="{{ form_edit_salon.site_url.id_for_label }}">Сайт</label><br>
+                            {% render_field form_edit_salon.site_url %}
+                        </div>
+
+                        <div class="form-edit__w100">
+                            <label for="{{ form_edit_salon.description.id_for_label }}">Описание</label><br>
+                            {% render_field form_edit_salon.description rows="5" class="test" %}
+                        </div>
+                    </div>
+
+                    <button type="submit">Edit Salon</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="user-profile__type-two"></div>
+    </div>
+
+    <div class="container">
+        <div class="h2">Hi, {{ request.user.first_name }} | {{ request.user.salon.name }}</div>
+        <div class="h2">User Group{% if request.user.groups.all.count > 1 %}s{% endif %}: {{ request.user.groups.all|join:", " }}</div>
+
+        <p>Login: {{ request.user }}</p>
+
+        <p>Имя: {{ request.user.first_name }}</p>
+        <p>Город: {{ request.user.city }}</p>
+        <p>Дата рождения: {{ request.user.birth_date }}</p>
+
+        <p>Телефон: {{ request.user.phone }}</p>
+        <p>Email: {{ request.user.email }}</p>
+
+        <hr>
+
+        {% if request.user|has_group:"Client" %}
+            <p style="color: green;">User belongs to Client</p>
+        {% else %}
+            <p style="color: grey;">User doesn't belong to Client</p>
+        {% endif %}
+
+
+        {% if request.user|has_group:"Salon" %}
+            <p style="color: green;">User belongs to Salon</p>
+        {% else %}
+            <p style="color: grey;">User doesn't belong to Salon</p>
+        {% endif %}
+
+
+        {% if request.user|has_group:"Manager" %}
+            <p style="color: green;">User belongs to Manager</p>
+        {% else %}
+            <p style="color: grey;">User doesn't belong to Manager</p>
+        {% endif %}
+
+        <hr>
+
+        <form action="{% url 'user:profile' %}" novalidate method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Edit</button>
+        </form>
+
+        {% if request.user|has_group:"Salon" %}
+            <hr>
+
+            <h2>Edit Salon data</h2>
+            <form action="{% url 'user:profile' %}" novalidate method="post">{% csrf_token %}
+                {{ form_edit_salon.as_p }}
+                <button type="submit">Edit Salon</button>
+            </form>
+
+            <h2>Salon Services</h2>
+            <form action="{% url 'user:profile' %}" novalidate method="post">{% csrf_token %}
+                {{ form_add_salon_services.as_p }}
+                <button type="submit">Add Salon service</button>
+            </form>
+
+            <br><br>
+
+            <h2>Salon Services</h2>
+            <form action="{% url 'user:profile' %}" novalidate method="post">{% csrf_token %}
+                {{ form_edit_salon_services.as_p }}
+                <button type="submit" name="edit_prices">Edit prices</button>
+            </form>
+            <!-- {% for object in salon_services %}
+                <div style="margin-bottom: 15px;">
+                    {{ object.service.name }}<br>
+                    {{ object.price }}<br>
+                </div>
+            {% endfor %} -->
+        {% endif %}
+    </div>
+{% endblock %}

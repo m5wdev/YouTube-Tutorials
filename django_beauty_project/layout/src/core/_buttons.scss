@@ -1,0 +1,39 @@
+.button-style {
+    border-radius: 25px;
+    padding: 7px 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out .2s;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-transparent {
+    @extend .button-style;
+
+    background-color: transparent;
+    border: 1px solid #fbddd3;
+    color: #fbddd3;
+
+    &:focus,
+    &:hover {
+        background-color: #fbddd3;
+        color: #1a2835;
+    }
+}
+
+.btn-solid {
+    @extend .button-style;
+
+    background-color: #fbddd3;
+    color: #1a2835;
+
+    &:focus,
+    &:hover {
+        background-color: #fbddd3;
+        color: #1a2835;
+    }
+}

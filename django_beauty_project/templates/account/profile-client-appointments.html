@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="h1">Записи клиента</div>
+
+        <form action="{% url 'user:client-appointments' %}" novalidate method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Записаться</button>
+        </form>
+
+        {% if appointments %}
+            <hr>
+
+            {% for object in appointments %}
+                <div style="margin-bottom: 30px;">
+                    <h3>Заявка: {{ object.datetime }}</h3>
+                    <div>Имя: {{ object.client.first_name }}</div>
+                    <div>Услуги: {{ object.services }}</div>
+                    <div>Мастер: {{ object.employee.surname }} {{ object.employee.name }} {{ object.employee.patronymic }}</div>
+                    <div>Салон: {{ object.employee.salon.name }}</div>
+
+                    <!-- TODO: изменить время -->
+                    <!-- TODO: записаться  снова -->
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}

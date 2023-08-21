@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <form action="" novalidate method="POST">{% csrf_token %}
+        <img src="{{ request.session.original_img_url }}" style="max-width: 50%; height: auto;" alt="">
+        <br><br>
+        {{ form.as_p }}
+        <button type="submit">Resize</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="get-main">Get Main</button><br><br>
+    <button id="get-users">Get Users</button><br><br>
+    <button id="get-protected">To protected</button><br><br>
+
+    <script>
+        const getMainBtn = document.querySelector('#get-main')
+        const getUsersBtn = document.querySelector('#get-users')
+        const getProtectedBtn = document.querySelector('#get-protected')
+
+        function fetchMain() {
+            console.log('fetchMain')
+
+            fetch("http://localhost:8000/")
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(err => console.error(err))
+        }
+
+        function fetchUsers() {
+            console.log('fetchUsers')
+
+            fetch("http://localhost:8000/users/")
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(err => console.error(err))
+        }
+
+        function fetchProtected() {
+            console.log('fetchProtected')
+
+            fetch("http://localhost:8000/users/protected/", {
+                headers: {
+                    'Authorization': `Basic ${btoa('admin:123')}`
+                }
+            })
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(err => console.error(err))
+        }
+
+        getMainBtn.addEventListener('click', fetchMain)
+        getUsersBtn.addEventListener('click', fetchUsers)
+        getProtectedBtn.addEventListener('click', fetchProtected)
+    </script>
+</body>
+</html>

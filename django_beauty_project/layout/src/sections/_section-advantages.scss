@@ -1,0 +1,25 @@
+#section-advantages {
+    background-color: #293c4d;
+    padding: 30px 0;
+
+    &__inner {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .advantage {
+        text-align: center;
+
+        &__title {
+            color: #fbddd3;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        &__descr {
+            line-height: 1.2;
+        }
+    }
+}

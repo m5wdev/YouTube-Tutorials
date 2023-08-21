@@ -1,0 +1,44 @@
+{
+  "name": "beauty_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress",
+    "clean": "rm -rf ./layout/dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis <jquphp@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.4",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.4.1",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass-loader": "^10.0.1",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "2gis-maps": "^3.6.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.12",
+    "vuejs-datepicker": "^1.6.2"
+  }
+}

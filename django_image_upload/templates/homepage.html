@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    {% for object in objects_list %}
+        <div style="margin-bottom: 30px;">
+            <div>
+                <img src="{{ object.modified_image.url }}" style="max-width: 100%; height: auto;" alt="">
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

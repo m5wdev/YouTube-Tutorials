@@ -1,0 +1,114 @@
+.search-res-salon-card {
+    background-color: #293c4d;
+
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 30% 1fr;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    &__img {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 30%;
+
+        padding: 10px 0;
+
+        &--left {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-gap: 10px;
+        }
+
+        &--salon-name {
+            a {
+                color: white;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+
+        &--description {
+            color: #fbddd3;
+            line-height: 1.2;
+
+            a {
+                color: white;
+                font-weight: 500;
+            }
+        }
+
+        &--address {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            font-size: .9rem;
+        }
+
+        &--street {}
+
+        &--metro {}
+
+        &--right {
+            border-left: 1px solid #efd4cb;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            div {
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        &--rating {}
+
+        &--reviews {
+            font-size: .9rem;
+            text-align: center;
+
+            a {
+                color: #fbddd3;
+
+                // &:focus,
+                // &:hover {
+                // }
+            }
+        }
+
+        &--price {
+            color: white;
+            font-size: 1.7rem;
+            text-align: center;
+        }
+
+        &--sign-up {
+            text-align: center;
+
+            a {
+                background-color: #ff4200;
+                border-radius: 5px;
+                color: white;
+                display: block;
+                font-size: 1.1rem;
+                padding: 5px 15px;
+
+                &:focus,
+                &:hover {
+                    background-color: #b12f00;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

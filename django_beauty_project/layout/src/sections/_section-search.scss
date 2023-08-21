@@ -1,0 +1,164 @@
+#section-search {
+    #search-form {
+        &__services-nav {
+            border: 1px solid #fbddd3;
+            border-radius: 25px;
+            overflow: hidden;
+
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-around;
+
+            a {
+                color: #fbddd3;
+                flex-grow: 1;
+                font-size: 1.1rem;
+                font-weight: 600;
+                padding: 10px 25px;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                transition: all ease-in-out .2s;
+
+                &:focus,
+                &:hover {
+                    background-color: #fbddd3;
+                    color: #1a2835;
+                    outline: none;
+                    text-decoration: none;
+                }
+
+                &.active {
+                    background-color: #fbddd3;
+                    color: #1a2835;
+                }
+            }
+        }
+
+        label {
+            color: #fbddd3;
+            font-weight: 600;
+        }
+
+        &__tiles {
+            .search-tiles-group {
+                &__place-date-time {
+                    display: grid;
+                    grid-gap: 10px;
+                    grid-template-columns: repeat(3, 1fr);
+                    margin-bottom: 10px;
+                }
+
+                .search-tile {
+                    background-color: #293c4d;
+                    padding: 15px 30px;
+                    min-height: 130px;
+
+                    // vuejs-datepicker
+                    .vdp-datepicker__calendar {
+                        color: #333;
+
+                        .today {
+                            background-color: #E2E2E2;
+                        }
+                    }
+
+                    // &.st-4 {
+                    //     grid-column-start: 1;
+                    //     grid-column-end: 3;
+                    // }
+
+                    &.st-5 {
+                        transition: all ease-in-out .2s;
+
+                        &:focus,
+                        &:hover {
+                            background-color: #fbddd3;
+                            cursor: pointer;
+
+                            .search-tile__add-service {
+                                color: #293c4d;
+                            }
+                        }
+                    }
+
+                    &-input {
+                        // background-color: transparent;
+                        // border-color: transparent;
+                        // border-width: 0;
+                        // border-bottom: 2px solid #fbddd3;
+                        // color: white;
+                        // font-size: 1.05rem;
+                        // outline: none;
+                        // padding: 3px 30px 3px 0;
+                        // display: block;
+                        // width: 100%;
+                        // transition: background-color ease-in-out .3s;
+
+                        &__place {
+                            background-image: url("images/icons/icon-arrow-down.png");
+                            background-repeat: no-repeat;
+                            background-position: 99% 50%;
+                            background-size: 12px;
+                        }
+
+                        &__date {
+                            background-image: url("images/icons/icon-calendar.png");
+                            background-repeat: no-repeat;
+                            background-position: 99% 50%;
+                            background-size: 26px;
+                        }
+
+                        // &__time {
+                        // }
+
+                        // &:focus,
+                        // &:hover {
+                        //     background-color: rgba(255, 255, 255, .1);
+                        //     outline: none;
+                        // }
+
+                        // option {
+                        //     color: #1a2835;
+                        // }
+                    }
+
+                    &__add-service {
+                        color: #fbddd3;
+                        text-align: center;
+                    }
+
+                    &__add-service-plus {
+                        font-size: 2rem;
+                        font-weight: 700;
+                    }
+
+                    &__add-service-text {
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+
+        &__submit {
+            button {
+                background-color: #ff4200;
+                border: none;
+                color: white;
+                font-size: 1.3rem;
+                font-weight: 600;
+                display: block;
+                padding: 5px;
+                width: 100%;
+                text-transform: uppercase;
+                transition: all ease-in-out .2s;;
+
+                &:focus,
+                &:hover {
+                    background-color: rgba(255, 66, 0, .8);
+                    outline: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <form id="login-form" method="post">
+        <p>
+            <input type="text" name="username" placeholder="Username">
+        </p>
+        <p>
+            <!-- <input type="text" name="room" placeholder="Room"> -->
+            <select name="room">
+                <option value="" selected disabled>Select room</option>
+                {% for room in rooms %}
+                    <option value="{{ room }}">{{ room }}</option>
+                {% endfor %}
+            </select>
+            <a href="{{ url_for('create_new_room') }}">Create new room</a>
+        </p>
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="errors" class="hidden"></div>
+
+    <div id="user-zone" class="hidden">
+        Hi, <strong><span id="username"></span></strong><br>
+        You in room: <strong><span id="room-name"></span></strong><br>
+        <button id="leave-btn">Leave</button>
+    </div>
+
+    <div id="chat-wrap" class="hidden">
+        <div id="chat"></div>
+        <div id="enter-message">
+            <textarea name="message" id="message" rows="3" placeholder="You message..."></textarea>
+            <button id="add-message-btn">Add message</button>
+        </div>
+    </div>
+{% endblock%}
+
+
+{% block js %}
+    {{ super() }}
+
+    <script>
+        const socket = io()
+
+        const loginForm = document.querySelector('form#login-form')
+        const userZone = document.querySelector('#user-zone')
+        const errorsDiv = document.querySelector('#errors')
+        const chatWrap = document.querySelector('#chat-wrap')
+        const chat = document.querySelector('#chat')
+        const leaveBtn = document.querySelector('#leave-btn')
+        const textareaMessage = document.querySelector('textarea#message')
+        const addMessageBtn = document.querySelector('#add-message-btn')
+
+        const userLogIn = () => {
+            if (localStorage.getItem('username') && localStorage.getItem('room')) {
+                socket.emit('join', { username: localStorage.getItem('username'), room: localStorage.getItem('room') })
+
+                userZone.classList.remove('hidden')
+                chatWrap.classList.remove('hidden')
+                loginForm.classList.add('hidden')
+
+                const usernameSpan = document.querySelector('span#username')
+                usernameSpan.textContent = localStorage.getItem('username')
+
+                const roomNameSpan = document.querySelector('span#room-name')
+                roomNameSpan.textContent = localStorage.getItem('room')
+            }
+        }
+
+        userLogIn()
+
+        loginForm.addEventListener('submit', e => {
+            e.preventDefault()
+            console.log('login form submited')
+
+            errorsDiv.innerHTML = ''
+            errorsDiv.classList.add('hidden')
+
+            const username = document.querySelector('input[name="username"]').value
+            // const room = document.querySelector('input[name="room"]').value
+            const room = document.querySelector('select[name="room"]').options[document.querySelector('select[name="room"]').options.selectedIndex].value
+
+            if (username.length <= 0 || room.length <= 0) {
+                errorsDiv.classList.remove('hidden')
+                errorsDiv.innerHTML = '<div>Username and room can\'t be empty</div>'
+                return
+            }
+
+            localStorage.setItem('username', username)
+            localStorage.setItem('room', room)
+
+            userLogIn()
+        })
+
+        leaveBtn.addEventListener('click', e => {
+            errorsDiv.classList.add('hidden')
+            chatWrap.classList.add('hidden')
+            userZone.classList.add('hidden')
+            loginForm.classList.remove('hidden')
+
+            socket.emit('leave', { username: localStorage.getItem('username'), room: localStorage.getItem('room') })
+            localStorage.removeItem('username')
+            localStorage.removeItem('room')
+        })
+
+        addMessageBtn.addEventListener('click', () => {
+            console.log('Add message btn is clicked')
+            console.log('User typed:', textareaMessage.value)
+
+            socket.emit('message', { message: textareaMessage.value, username: localStorage.getItem('username'), room: localStorage.getItem('room') })
+            textareaMessage.value = ''
+        })
+
+        socket.on('status', data => {
+            console.log(data)
+            const msgService = document.createElement('div')
+            msgService.classList.add('msg', 'msg__service')
+            msgService.innerHTML = data.message
+
+            chat.append(msgService)
+        })
+
+        const newMessage = data => {
+            const newMsg = document.createElement('div')
+            newMsg.classList.add('msg')
+
+            // set class .me or .not-me to message in chat
+            const meOrNot = localStorage.getItem('username') === data['username'] ? 'me' : 'not-me'
+            newMsg.classList.add(meOrNot)
+            newMsg.innerHTML = `<div><small>${data.date}</small></div> ${data.username}: ${data.message}`
+
+            chat.append(newMsg)
+        }
+
+        socket.on('message', data => {
+            console.log(data)
+            newMessage(data)
+        })
+
+        // load previous messages
+        socket.on('previous_messages', data => {
+            console.log(data)
+            chat.innerHTML = ''
+
+            data.forEach(el => {
+                newMessage(el)
+            })
+        })
+    </script>
+{% endblock%}

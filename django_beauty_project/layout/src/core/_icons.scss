@@ -1,0 +1,28 @@
+.icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    &-arrow-down {
+        background-image: url("images/icons/icon-arrow-down.png");
+        width: 9px;
+        height: 7px;
+    }
+
+    &-calendar {
+        background-image: url("images/icons/icon-calendar.png");
+        width: 30px;
+        height: 27px;
+    }
+
+    &-geomark {
+        background-image: url("images/icons/icon-geomark.png");
+        width: 8px;
+        height: 13px;
+    }
+
+    &-metro {
+        background-image: url("images/icons/icon-metro.png");
+        width: 23px;
+        height: 16px;
+    }
+}

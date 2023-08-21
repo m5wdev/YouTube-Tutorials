@@ -1,0 +1,87 @@
+#section-actions {
+    .section-type-one__inner {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .action-card {
+        background-color: #ff4200;
+        border: 3px solid #ff4200;
+        border-radius: 7px;
+        // min-height: 300px;
+        overflow: hidden;
+
+        display: grid;
+        grid-row-gap: 10px;
+        grid-template-rows: 1fr auto auto;
+
+        &__img {
+            img {
+                width: 100%;
+                height: auto;
+                max-height: 256px;
+            }
+        }
+
+        &__mid {
+            font-weight: 700;
+
+            a {
+                color: white;
+            }
+        }
+
+        &__salon-name {
+            font-size: .9rem;
+        }
+
+        &__action-title {
+            font-size: 1.8rem;
+            line-height: 1.2;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 1px #333;
+        }
+
+        &__action-date {
+            font-size: .85rem;
+        }
+
+        &__address {
+            font-size: .7rem;
+        }
+
+        // &__rating {}
+
+        &__bottom {
+            display: grid;
+            grid-column-gap: 5px;
+            grid-template-columns: repeat(2, 1fr);
+
+            &--left {
+                color: black;
+            }
+
+            &--read-more {
+                background-color: #1a2835;
+                border-radius: 7px 0 7px 0;
+                align-self: end;
+
+                a {
+                    color: white;
+                    display: block;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    padding: 10px;
+                    text-decoration: none;
+
+                    &:focus,
+                    &:hover {
+                        outline: none;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="" method="get"> -->
+    <!-- <form action="/" method="get"> -->
+    <!-- <form>
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">Submit GET</button>
+    </form> -->
+
+    <!-- <form method="post">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">Submit POST</button>
+    </form> -->
+
+    <form>
+        <input type="text" name="q" placeholder="Город" value="{% if request.args.get('q') %}{{ request.args.get('q') }}{% endif %}">
+        <button type="submit" name="reset">Очистить</button>
+        <button type="submit">Найти</button>
+    </form>
+
+    {% if has_data %}
+        <div id="weather-data">
+            <h1>{{ weather_data['location']['name'] }}</h1>
+            <div>
+                <img src="{{ weather_data['current']['condition']['icon'] }}" alt=""><br>
+                {{ weather_data['current']['condition']['text'] }}
+            </div>
+            <div>
+                Температура: {{ weather_data['current']['temp_c'] }} С
+            </div>
+            <div>
+                Ветер: {{ weather_data['current']['wind_kph'] }} м\час
+            </div>
+            <div>
+                Влажность: {{ weather_data['current']['humidity'] }} %
+            </div>
+        </div>
+    {% endif %}
+</body>
+</html>

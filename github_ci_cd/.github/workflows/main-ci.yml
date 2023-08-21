@@ -1,0 +1,25 @@
+name: GitHub Actions CI
+
+on:
+  push:
+    branches: [ 'main' ]
+
+jobs:
+  MyFirstCIAction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 'Run tests'
+        run: |
+          pip install -r requirements.txt
+          pytest
+
+      - name: 'Create .env'
+        run: |
+          touch .env
+
+          echo DEBUG=False >> .env
+          echo PASSWORD=${{ secrets.ROOT_PASSWORD }} >> .env
+
+          cat .env

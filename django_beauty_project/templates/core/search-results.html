@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block body_classes %}{% spaceless %}
+    {{ block.super }} search-results
+{% endspaceless %}{% endblock %}
+
+
+{% block breadcrumbs %}
+    <nav id="breadcrumbs" class="container">
+        <ol>
+            <li>
+                <a href="{% url 'homepage' %}">Главная</a>
+            </li>
+            <li>{{ page_title }}</li>
+        </ol>
+    </nav>
+{% endblock %}
+
+
+{% block content_top %}{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <form action="" method="get" onchange="submit()">
+                    <div class="h5">Фильтры услуг</div>
+                    <div>
+                        <div>
+                            <strong>Станции метро ({{ filter_metro.count }})</strong>
+                        </div>
+                        <div id="metroStationsList" style="height: 15vh; overflow: hidden; padding-left: 10px; font-size: .9rem;">
+                            {% for metro in filter_metro %}
+                                <input type="checkbox" name="metro" value="{{ metro.id }}" style="margin-bottom: 3px;"> {{ metro.name }}<br>
+                            {% endfor %}
+                        </div>
+
+                        <div style="cursor: pointer; margin-top: 10px; font-size: .9rem;" onclick="document.getElementById('metroStationsList').style.height= 'auto';">Смотреть все</div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-9">
+                <div class="mb-3">
+                    Вы искали: Классический маникюр в г.Москва 5 августа с 09:00 до 12:00 <a href="">Изменить</a>
+                </div>
+
+                <div class="d-flex justify-content-between mb-4">
+                    <div class="">
+                        <a href="">Посмотреть на карте</a>
+                    </div>
+                    <div class="text-right">
+                        Отсортировать:
+                        <span>Мы рекомендуем</span>
+                        <span>Стоимость <span class="icon icon-arrow-down"></span></span>
+                        <span>Акции</span>
+                        <span>Рейтинг <span class="icon icon-arrow-down"></span></span>
+                    </div>
+                </div>
+
+                <div>
+                    {% if object_list %}
+                        {% for object in object_list %}
+                            <div class="search-res-salon-card">
+                                <div class="search-res-salon-card__img">
+                                    <img src="https://via.placeholder.com/256x200" alt="">
+                                </div>
+                                <div class="search-res-salon-card__content">
+                                    <div class="search-res-salon-card__content--left">
+                                        <div class="search-res-salon-card__content--salon-name">
+                                            <a href="">{{ object.salon.name }}</a>
+                                        </div>
+                                        <div class="search-res-salon-card__content--description">
+                                            {{ object.salon.description|truncatechars_html:150 }} <a href="">подробнее</a>
+                                        </div>
+                                        <div class="search-res-salon-card__content--address">
+                                            <div class="search-res-salon-card__content--street">
+                                                <span class="icon icon-geomark"></span> {{ object.address.display_address }}
+                                            </div>
+                                            <div class="search-res-salon-card__content--metro">
+                                                <span class="icon icon-metro"></span> {{ object.address.metro.name }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search-res-salon-card__content--right">
+                                        <div class="search-res-salon-card__content--rating">stars</div>
+                                        <div class="search-res-salon-card__content--reviews">
+                                            <a href="">Оценки (97)</a>
+                                            <a href="">Отзывы (15)</a>
+                                        </div>
+                                        <div class="search-res-salon-card__content--price">{{ object.price.normalize }} руб.</div>
+                                        <div class="search-res-salon-card__content--sign-up">
+                                            <a href="">Записаться</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content_bottom %}{% endblock %}
+
+
+{% block js %}
+    {{ block.super }}
+    <!-- <script src="{% static 'js/vendors~2Gis.js' %}"></script> -->
+    <!-- <script src="{% static 'js/2Gis.js' %}"></script> -->
+{% endblock %}

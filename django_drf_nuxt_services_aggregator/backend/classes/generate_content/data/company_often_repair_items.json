@@ -1,0 +1,5558 @@
+[
+    {
+        "slug": "apple-iphone",
+        "often_name": "iphone"
+    },
+    {
+        "slug": "acer-noutbuki",
+        "often_name": "ноутбуки acer"
+    },
+    {
+        "slug": "hp-noutbuki",
+        "often_name": "ноутбуки hp"
+    },
+    {
+        "slug": "hp-printery",
+        "often_name": "принтеры hp"
+    },
+    {
+        "slug": "canon-fotoapparaty",
+        "often_name": "фотоаппараты canon"
+    },
+    {
+        "slug": "apple-macbook",
+        "often_name": "macbook"
+    },
+    {
+        "slug": "epson-printery",
+        "often_name": "принтеры epson"
+    },
+    {
+        "slug": "canon-printery",
+        "often_name": "принтеры canon"
+    },
+    {
+        "slug": "apple-ipad",
+        "often_name": "ipad"
+    },
+    {
+        "slug": "msi-noutbuki",
+        "often_name": "ноутбуки msi"
+    },
+    {
+        "slug": "nikon-fotoapparaty",
+        "often_name": "фотоаппараты nikon"
+    },
+    {
+        "slug": "lenovo-noutbuki",
+        "often_name": "ноутбуки lenovo"
+    },
+    {
+        "slug": "apple-imac",
+        "often_name": "imac"
+    },
+    {
+        "slug": "dell-noutbuki",
+        "often_name": "ноутбуки dell"
+    },
+    {
+        "slug": "canon-obektivy",
+        "often_name": "объективы canon"
+    },
+    {
+        "slug": "jbl-naushniki",
+        "often_name": "наушники jbl"
+    },
+    {
+        "slug": "samsung-monitory",
+        "often_name": "мониторы samsung"
+    },
+    {
+        "slug": "sony-fotoapparaty",
+        "often_name": "фотоаппараты sony"
+    },
+    {
+        "slug": "samsung-printery",
+        "often_name": "принтеры samsung"
+    },
+    {
+        "slug": "acer-monitory",
+        "often_name": "мониторы acer"
+    },
+    {
+        "slug": "asus-noutbuki",
+        "often_name": "ноутбуки asus"
+    },
+    {
+        "slug": "sony-noutbuki",
+        "often_name": "ноутбуки sony"
+    },
+    {
+        "slug": "samsung-planshety",
+        "often_name": "планшеты samsung"
+    },
+    {
+        "slug": "kyocera-printery",
+        "often_name": "принтеры kyocera"
+    },
+    {
+        "slug": "toshiba-noutbuki",
+        "often_name": "ноутбуки toshiba"
+    },
+    {
+        "slug": "huawei-planshety",
+        "often_name": "планшеты huawei"
+    },
+    {
+        "slug": "acer-planshety",
+        "often_name": "планшеты acer"
+    },
+    {
+        "slug": "hp-plotteri",
+        "often_name": "плоттеры hp"
+    },
+    {
+        "slug": "lg-monitory",
+        "often_name": "мониторы lg"
+    },
+    {
+        "slug": "brother-printery",
+        "often_name": "принтеры brother"
+    },
+    {
+        "slug": "lenovo-planshety",
+        "often_name": "планшеты lenovo"
+    },
+    {
+        "slug": "epson-skaneri",
+        "often_name": "сканеры epson"
+    },
+    {
+        "slug": "apple-umnie-chasi",
+        "often_name": "apple watch"
+    },
+    {
+        "slug": "nikon-obektivy",
+        "often_name": "объективы nikon"
+    },
+    {
+        "slug": "apple-naushniki",
+        "often_name": "наушники apple"
+    },
+    {
+        "slug": "pocketbook-elektronnye-knigi",
+        "often_name": "электронные книги pocketbook"
+    },
+    {
+        "slug": "dji-kvadrokoptery",
+        "often_name": "квадрокоптеры dji"
+    },
+    {
+        "slug": "xiaomi-naushniki",
+        "often_name": "наушники xiaomi"
+    },
+    {
+        "slug": "beats-naushniki",
+        "often_name": "наушники beats"
+    },
+    {
+        "slug": "sony-naushniki",
+        "often_name": "наушники sony"
+    },
+    {
+        "slug": "huawei-naushniki",
+        "often_name": "наушники huawei"
+    },
+    {
+        "slug": "panasonic-radiotelefony",
+        "often_name": "радиотелефоны panasonic"
+    },
+    {
+        "slug": "sigma-obektivy",
+        "often_name": "объективы sigma"
+    },
+    {
+        "slug": "panasonic-videokameri",
+        "often_name": "видеокамеры panasonic"
+    },
+    {
+        "slug": "samsung-mobilnye-telefony",
+        "often_name": "мобильные телефоны samsung"
+    },
+    {
+        "slug": "olympus-obektivy",
+        "often_name": "объективы olympus"
+    },
+    {
+        "slug": "olympus-diktofoni",
+        "often_name": "диктофоны olympus"
+    },
+    {
+        "slug": "lg-stiralnye-mashiny",
+        "often_name": "стиральные машины lg"
+    },
+    {
+        "slug": "bosch-stiralnye-mashiny",
+        "often_name": "стиральные машины bosch"
+    },
+    {
+        "slug": "lg-kholodilniki",
+        "often_name": "холодильники lg"
+    },
+    {
+        "slug": "liebherr-kholodilniki",
+        "often_name": "холодильники liebherr"
+    },
+    {
+        "slug": "miele-stiralnye-mashiny",
+        "often_name": "стиральные машины miele"
+    },
+    {
+        "slug": "siemens-stiralnye-mashiny",
+        "often_name": "стиральные машины siemens"
+    },
+    {
+        "slug": "bosch-kholodilniki",
+        "often_name": "холодильники bosch"
+    },
+    {
+        "slug": "xiaomi-pylesosy",
+        "often_name": "пылесосы xiaomi"
+    },
+    {
+        "slug": "electrolux-stiralnye-mashiny",
+        "often_name": "стиральные машины electrolux"
+    },
+    {
+        "slug": "indesit-stiralnye-mashiny",
+        "often_name": "стиральные машины indesit"
+    },
+    {
+        "slug": "candy-stiralnye-mashiny",
+        "often_name": "стиральные машины candy"
+    },
+    {
+        "slug": "samsung-kholodilniki",
+        "often_name": "холодильники samsung"
+    },
+    {
+        "slug": "whirlpool-kholodilniki",
+        "often_name": "холодильники whirlpool"
+    },
+    {
+        "slug": "samsung-stiralnye-mashiny",
+        "often_name": "стиральные машины samsung"
+    },
+    {
+        "slug": "indesit-kholodilniki",
+        "often_name": "холодильники indesit"
+    },
+    {
+        "slug": "aeg-stiralnye-mashiny",
+        "often_name": "стиральные машины aeg"
+    },
+    {
+        "slug": "zanussi-stiralnye-mashiny",
+        "often_name": "стиральные машины zanussi"
+    },
+    {
+        "slug": "lg-pylesosy",
+        "often_name": "пылесосы lg"
+    },
+    {
+        "slug": "gorenje-kholodilniki",
+        "often_name": "холодильники gorenje"
+    },
+    {
+        "slug": "whirlpool-stiralnye-mashiny",
+        "often_name": "стиральные машины whirlpool"
+    },
+    {
+        "slug": "xiaomi-noutbuki",
+        "often_name": "ноутбуки xiaomi"
+    },
+    {
+        "slug": "samsung-noutbuki",
+        "often_name": "ноутбуки samsung"
+    },
+    {
+        "slug": "hp-kompyutery",
+        "often_name": "компьютеры hp"
+    },
+    {
+        "slug": "acer-kompyutery",
+        "often_name": "компьютеры acer"
+    },
+    {
+        "slug": "acer-monobloki",
+        "often_name": "моноблоки acer"
+    },
+    {
+        "slug": "msi-monobloki",
+        "often_name": "моноблоки msi"
+    },
+    {
+        "slug": "hp-monobloki",
+        "often_name": "моноблоки hp"
+    },
+    {
+        "slug": "asus-monobloki",
+        "often_name": "моноблоки asus"
+    },
+    {
+        "slug": "lenovo-monobloki",
+        "often_name": "моноблоки lenovo"
+    },
+    {
+        "slug": "asus-kompyutery",
+        "often_name": "компьютеры asus"
+    },
+    {
+        "slug": "saeco-kofemashiny",
+        "often_name": "кофемашины saeco"
+    },
+    {
+        "slug": "jura-kofemashiny",
+        "often_name": "кофемашины jura"
+    },
+    {
+        "slug": "bosch-kofemashiny",
+        "often_name": "кофемашины bosch"
+    },
+    {
+        "slug": "miele-kofemashiny",
+        "often_name": "кофемашины miele"
+    },
+    {
+        "slug": "philips-kofemashiny",
+        "often_name": "кофемашины philips"
+    },
+    {
+        "slug": "starline-avtosignalizacii",
+        "often_name": "автосигнализации starline"
+    },
+    {
+        "slug": "pioneer-avtomagnitoly",
+        "often_name": "автомагнитолы pioneer"
+    },
+    {
+        "slug": "jvc-avtomagnitoly",
+        "often_name": "автомагнитолы jvc"
+    },
+    {
+        "slug": "sony-avtomagnitoly",
+        "often_name": "автомагнитолы sony"
+    },
+    {
+        "slug": "hyundai-avtomagnitoly",
+        "often_name": "автомагнитолы hyundai"
+    },
+    {
+        "slug": "alpine-avtomagnitoly",
+        "often_name": "автомагнитолы alpine"
+    },
+    {
+        "slug": "scher-khan-avtosignalizacii",
+        "often_name": "автосигнализации scher-khan"
+    },
+    {
+        "slug": "prology-avtomagnitoly",
+        "often_name": "автомагнитолы prology"
+    },
+    {
+        "slug": "kenwood-avtomagnitoly",
+        "often_name": "автомагнитолы kenwood"
+    },
+    {
+        "slug": "daystar-avtomagnitoly",
+        "often_name": "автомагнитолы daystar"
+    },
+    {
+        "slug": "phantom-avtomagnitoly",
+        "often_name": "автомагнитолы phantom"
+    },
+    {
+        "slug": "centurion-avtosignalizacii",
+        "often_name": "автосигнализации centurion"
+    },
+    {
+        "slug": "incar-avtomagnitoly",
+        "often_name": "автомагнитолы incar"
+    },
+    {
+        "slug": "pandora-avtosignalizacii",
+        "often_name": "автосигнализации pandora"
+    },
+    {
+        "slug": "mydean-avtomagnitoly",
+        "often_name": "автомагнитолы mydean"
+    },
+    {
+        "slug": "cenmax-avtosignalizacii",
+        "often_name": "автосигнализации cenmax"
+    },
+    {
+        "slug": "swat-avtomagnitoly",
+        "often_name": "автомагнитолы swat"
+    },
+    {
+        "slug": "tomahawk-avtosignalizacii",
+        "often_name": "автосигнализации tomahawk"
+    },
+    {
+        "slug": "mystery-avtomagnitoly",
+        "often_name": "автомагнитолы mystery"
+    },
+    {
+        "slug": "intro-avtomagnitoly",
+        "often_name": "автомагнитолы intro"
+    },
+    {
+        "slug": "lg-televizory",
+        "often_name": "телевизоры lg"
+    },
+    {
+        "slug": "sony-televizory",
+        "often_name": "телевизоры sony"
+    },
+    {
+        "slug": "toshiba-televizory",
+        "often_name": "телевизоры toshiba"
+    },
+    {
+        "slug": "hyundai-televizory",
+        "often_name": "телевизоры hyundai"
+    },
+    {
+        "slug": "olympus-fotoapparaty",
+        "often_name": "фотоаппараты olympus"
+    },
+    {
+        "slug": "sony-videokameri",
+        "often_name": "видеокамеры sony"
+    },
+    {
+        "slug": "msi-videokarty",
+        "often_name": "видеокарты msi"
+    },
+    {
+        "slug": "philips-elektrobritvy",
+        "often_name": "электробритвы philips"
+    },
+    {
+        "slug": "jvc-videokameri",
+        "often_name": "видеокамеры jvc"
+    },
+    {
+        "slug": "asus-klaviatury",
+        "often_name": "клавиатуры asus"
+    },
+    {
+        "slug": "canon-plotteri",
+        "often_name": "плоттеры canon"
+    },
+    {
+        "slug": "canon-kopiri",
+        "often_name": "копиры canon"
+    },
+    {
+        "slug": "acer-proektori",
+        "often_name": "проекторы acer"
+    },
+    {
+        "slug": "canon-skaneri",
+        "often_name": "сканеры canon"
+    },
+    {
+        "slug": "epson-plotteri",
+        "often_name": "плоттеры epson"
+    },
+    {
+        "slug": "epson-proektori",
+        "often_name": "проекторы epson"
+    },
+    {
+        "slug": "panasonic-faksi",
+        "often_name": "факсы panasonic"
+    },
+    {
+        "slug": "viewsonic-proektori",
+        "often_name": "проекторы viewsonic"
+    },
+    {
+        "slug": "optoma-proektori",
+        "often_name": "проекторы optoma"
+    },
+    {
+        "slug": "panasonic-mini-ats",
+        "often_name": "мини атс panasonic"
+    },
+    {
+        "slug": "brother-plotteri",
+        "often_name": "плоттеры brother"
+    },
+    {
+        "slug": "graphtec-plotteri",
+        "often_name": "плоттеры graphtec"
+    },
+    {
+        "slug": "roland-plotteri",
+        "often_name": "плоттеры roland"
+    },
+    {
+        "slug": "lg-proektori",
+        "often_name": "проекторы lg"
+    },
+    {
+        "slug": "mimaki-plotteri",
+        "often_name": "плоттеры mimaki"
+    },
+    {
+        "slug": "silhouette-plotteri",
+        "often_name": "плоттеры silhouette"
+    },
+    {
+        "slug": "lg-mini-ats",
+        "often_name": "мини атс lg"
+    },
+    {
+        "slug": "vicsign-plotteri",
+        "often_name": "плоттеры vicsign"
+    },
+    {
+        "slug": "brother-skaneri",
+        "often_name": "сканеры brother"
+    },
+    {
+        "slug": "al-ko-gazonokosilki",
+        "often_name": "газонокосилки al-ko"
+    },
+    {
+        "slug": "stihl-benzopily",
+        "often_name": "бензопилы stihl"
+    },
+    {
+        "slug": "huter-mojki-vysokogo-davleniya",
+        "often_name": "мойки высокого давления huter"
+    },
+    {
+        "slug": "husqvarna-gazonokosilki",
+        "often_name": "газонокосилки husqvarna"
+    },
+    {
+        "slug": "gardena-gazonokosilki",
+        "often_name": "газонокосилки gardena"
+    },
+    {
+        "slug": "husqvarna-benzopily",
+        "often_name": "бензопилы husqvarna"
+    },
+    {
+        "slug": "viking-gazonokosilki",
+        "often_name": "газонокосилки viking"
+    },
+    {
+        "slug": "tp-link-routery",
+        "often_name": "роутеры tp-link"
+    },
+    {
+        "slug": "echo-benzopily",
+        "often_name": "бензопилы echo"
+    },
+    {
+        "slug": "asus-routery",
+        "often_name": "роутеры asus"
+    },
+    {
+        "slug": "hyundai-gazonokosilki",
+        "often_name": "газонокосилки hyundai"
+    },
+    {
+        "slug": "honda-gazonokosilki",
+        "often_name": "газонокосилки honda"
+    },
+    {
+        "slug": "champion-gazonokosilki",
+        "often_name": "газонокосилки champion"
+    },
+    {
+        "slug": "zte-modemi",
+        "often_name": "модемы zte"
+    },
+    {
+        "slug": "braun-elektrobritvy",
+        "often_name": "электробритвы braun"
+    },
+    {
+        "slug": "craftsman-gazonokosilki",
+        "often_name": "газонокосилки craftsman"
+    },
+    {
+        "slug": "makita-gazonokosilki",
+        "often_name": "газонокосилки makita"
+    },
+    {
+        "slug": "bosch-dreli",
+        "often_name": "дрели bosch"
+    },
+    {
+        "slug": "bosch-lazernye-urovni",
+        "often_name": "лазерные уровни bosch"
+    },
+    {
+        "slug": "hp-skaneri",
+        "often_name": "сканеры hp"
+    },
+    {
+        "slug": "xgimi-proektori",
+        "often_name": "проекторы xgimi"
+    },
+    {
+        "slug": "xiaomi-proektori",
+        "often_name": "проекторы xiaomi"
+    },
+    {
+        "slug": "benq-proektori",
+        "often_name": "проекторы benq"
+    },
+    {
+        "slug": "samsung-televizory",
+        "often_name": "телевизоры samsung"
+    },
+    {
+        "slug": "bosch-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины bosch"
+    },
+    {
+        "slug": "philips-televizory",
+        "often_name": "телевизоры philips"
+    },
+    {
+        "slug": "acer-klaviatury",
+        "often_name": "клавиатуры acer"
+    },
+    {
+        "slug": "logitech-mishki",
+        "often_name": "мышки logitech"
+    },
+    {
+        "slug": "apple-klaviatury",
+        "often_name": "клавиатуры apple"
+    },
+    {
+        "slug": "lenovo-klaviatury",
+        "often_name": "клавиатуры lenovo"
+    },
+    {
+        "slug": "msi-klaviatury",
+        "often_name": "клавиатуры msi"
+    },
+    {
+        "slug": "logitech-klaviatury",
+        "often_name": "клавиатуры logitech"
+    },
+    {
+        "slug": "zyxel-routery",
+        "often_name": "роутеры zyxel"
+    },
+    {
+        "slug": "huawei-modemi",
+        "often_name": "модемы huawei"
+    },
+    {
+        "slug": "keenetic-routery",
+        "often_name": "роутеры keenetic"
+    },
+    {
+        "slug": "d-link-routery",
+        "often_name": "роутеры d-link"
+    },
+    {
+        "slug": "samsung-klaviatury",
+        "often_name": "клавиатуры samsung"
+    },
+    {
+        "slug": "razer-mishki",
+        "often_name": "мышки razer"
+    },
+    {
+        "slug": "dell-klaviatury",
+        "often_name": "клавиатуры dell"
+    },
+    {
+        "slug": "mikrotik-routery",
+        "often_name": "роутеры mikrotik"
+    },
+    {
+        "slug": "xiaomi-routery",
+        "often_name": "роутеры xiaomi"
+    },
+    {
+        "slug": "a4tech-klaviatury",
+        "often_name": "клавиатуры a4tech"
+    },
+    {
+        "slug": "sony-planshety",
+        "often_name": "планшеты sony"
+    },
+    {
+        "slug": "digma-planshety",
+        "often_name": "планшеты digma"
+    },
+    {
+        "slug": "asus-planshety",
+        "often_name": "планшеты asus"
+    },
+    {
+        "slug": "syma-kvadrokoptery",
+        "often_name": "квадрокоптеры syma"
+    },
+    {
+        "slug": "onyx-elektronnye-knigi",
+        "often_name": "электронные книги onyx"
+    },
+    {
+        "slug": "sennheiser-naushniki",
+        "often_name": "наушники sennheiser"
+    },
+    {
+        "slug": "panasonic-fotoapparaty",
+        "often_name": "фотоаппараты panasonic"
+    },
+    {
+        "slug": "bosch-shurupovyorty",
+        "often_name": "шуруповёрты bosch"
+    },
+    {
+        "slug": "thermex-vodonagrevateli",
+        "often_name": "водонагреватели thermex"
+    },
+    {
+        "slug": "electrolux-vodonagrevateli",
+        "often_name": "водонагреватели electrolux"
+    },
+    {
+        "slug": "bosch-perforatory",
+        "often_name": "перфораторы bosch"
+    },
+    {
+        "slug": "aeg-vodonagrevateli",
+        "often_name": "водонагреватели aeg"
+    },
+    {
+        "slug": "aeg-shurupovyorty",
+        "often_name": "шуруповёрты aeg"
+    },
+    {
+        "slug": "vikhr-vodyanye-nasosy",
+        "often_name": "водяные насосы вихрь"
+    },
+    {
+        "slug": "gorenje-vodonagrevateli",
+        "often_name": "водонагреватели gorenje"
+    },
+    {
+        "slug": "haier-vodonagrevateli",
+        "often_name": "водонагреватели haier"
+    },
+    {
+        "slug": "polaris-vodonagrevateli",
+        "often_name": "водонагреватели polaris"
+    },
+    {
+        "slug": "zanussi-vodonagrevateli",
+        "often_name": "водонагреватели zanussi"
+    },
+    {
+        "slug": "huter-benzopily",
+        "often_name": "бензопилы huter"
+    },
+    {
+        "slug": "makita-perforatory",
+        "often_name": "перфораторы makita"
+    },
+    {
+        "slug": "stiebel-eltron-vodonagrevateli",
+        "often_name": "водонагреватели stiebel eltron"
+    },
+    {
+        "slug": "garanterm-vodonagrevateli",
+        "often_name": "водонагреватели garanterm"
+    },
+    {
+        "slug": "bosch-gazonokosilki",
+        "often_name": "газонокосилки bosch"
+    },
+    {
+        "slug": "daewoo-gazonokosilki",
+        "often_name": "газонокосилки daewoo"
+    },
+    {
+        "slug": "mtd-gazonokosilki",
+        "often_name": "газонокосилки mtd"
+    },
+    {
+        "slug": "huter-gazonokosilki",
+        "often_name": "газонокосилки huter"
+    },
+    {
+        "slug": "stiga-gazonokosilki",
+        "often_name": "газонокосилки stiga"
+    },
+    {
+        "slug": "patriot-gazonokosilki",
+        "often_name": "газонокосилки patriot"
+    },
+    {
+        "slug": "baxi-gazovye-kotly",
+        "often_name": "газовые котлы baxi"
+    },
+    {
+        "slug": "dzhileks-vodyanye-nasosy",
+        "often_name": "водяные насосы джилекс"
+    },
+    {
+        "slug": "timberk-vodonagrevateli",
+        "often_name": "водонагреватели timberk"
+    },
+    {
+        "slug": "vaillant-gazovye-kotly",
+        "often_name": "газовые котлы vaillant"
+    },
+    {
+        "slug": "bosch-gazovye-kotly",
+        "often_name": "газовые котлы bosch"
+    },
+    {
+        "slug": "navien-gazovye-kotly",
+        "often_name": "газовые котлы navien"
+    },
+    {
+        "slug": "ferroli-gazovye-kotly",
+        "often_name": "газовые котлы ferroli"
+    },
+    {
+        "slug": "edisson-vodonagrevateli",
+        "often_name": "водонагреватели edisson"
+    },
+    {
+        "slug": "buderus-gazovye-kotly",
+        "often_name": "газовые котлы buderus"
+    },
+    {
+        "slug": "atmor-vodonagrevateli",
+        "often_name": "водонагреватели atmor"
+    },
+    {
+        "slug": "kugoo-elektrosamokaty",
+        "often_name": "электросамокаты kugoo"
+    },
+    {
+        "slug": "electrolux-kholodilniki",
+        "often_name": "холодильники electrolux"
+    },
+    {
+        "slug": "asus-materinskie-platy",
+        "often_name": "материнские платы asus"
+    },
+    {
+        "slug": "seagate-zhestkie-diski",
+        "often_name": "жесткие диски seagate"
+    },
+    {
+        "slug": "msi-materinskie-platy",
+        "often_name": "материнские платы msi"
+    },
+    {
+        "slug": "hp-klaviatury",
+        "often_name": "клавиатуры hp"
+    },
+    {
+        "slug": "gigabyte-videokarty",
+        "often_name": "видеокарты gigabyte"
+    },
+    {
+        "slug": "apc-ibp",
+        "often_name": "ибп apc"
+    },
+    {
+        "slug": "asus-videokarty",
+        "often_name": "видеокарты asus"
+    },
+    {
+        "slug": "xiaomi-elektrosamokaty",
+        "often_name": "электросамокаты xiaomi"
+    },
+    {
+        "slug": "ninebot-elektrosamokaty",
+        "often_name": "электросамокаты ninebot"
+    },
+    {
+        "slug": "iconbit-elektrosamokaty",
+        "often_name": "электросамокаты iconbit"
+    },
+    {
+        "slug": "mijia-elektrosamokaty",
+        "often_name": "электросамокаты mijia"
+    },
+    {
+        "slug": "zaxboard-elektrosamokaty",
+        "often_name": "электросамокаты zaxboard"
+    },
+    {
+        "slug": "airwheel-elektrosamokaty",
+        "often_name": "электросамокаты airwheel"
+    },
+    {
+        "slug": "razor-elektrosamokaty",
+        "often_name": "электросамокаты razor"
+    },
+    {
+        "slug": "yamato-elektrosamokaty",
+        "often_name": "электросамокаты yamato"
+    },
+    {
+        "slug": "ibalance-giroskutery",
+        "often_name": "гироскутеры ibalance"
+    },
+    {
+        "slug": "ninebot-giroskutery",
+        "often_name": "гироскутеры ninebot"
+    },
+    {
+        "slug": "ninebot-sigvei",
+        "often_name": "сигвеи ninebot"
+    },
+    {
+        "slug": "speedroll-elektrosamokaty",
+        "often_name": "электросамокаты speedroll"
+    },
+    {
+        "slug": "hoverbot-giroskutery",
+        "often_name": "гироскутеры hoverbot"
+    },
+    {
+        "slug": "gt-giroskutery",
+        "often_name": "гироскутеры gt"
+    },
+    {
+        "slug": "novatrack-elektrosamokaty",
+        "often_name": "электросамокаты novatrack"
+    },
+    {
+        "slug": "zaxboard-giroskutery",
+        "often_name": "гироскутеры zaxboard"
+    },
+    {
+        "slug": "xiaomi-sigvei",
+        "often_name": "сигвеи xiaomi"
+    },
+    {
+        "slug": "cactus-giroskutery",
+        "often_name": "гироскутеры cactus"
+    },
+    {
+        "slug": "cactus-elektrosamokaty",
+        "often_name": "электросамокаты cactus"
+    },
+    {
+        "slug": "gigabyte-materinskie-platy",
+        "often_name": "материнские платы gigabyte"
+    },
+    {
+        "slug": "wd-zhestkie-diski",
+        "often_name": "жесткие диски wd"
+    },
+    {
+        "slug": "ippon-ibp",
+        "often_name": "ибп ippon"
+    },
+    {
+        "slug": "lg-konditsionery",
+        "often_name": "кондиционеры lg"
+    },
+    {
+        "slug": "daikin-konditsionery",
+        "often_name": "кондиционеры daikin"
+    },
+    {
+        "slug": "general-konditsionery",
+        "often_name": "кондиционеры general"
+    },
+    {
+        "slug": "haier-konditsionery",
+        "often_name": "кондиционеры haier"
+    },
+    {
+        "slug": "panasonic-konditsionery",
+        "often_name": "кондиционеры panasonic"
+    },
+    {
+        "slug": "ballu-konditsionery",
+        "often_name": "кондиционеры ballu"
+    },
+    {
+        "slug": "hitachi-konditsionery",
+        "often_name": "кондиционеры hitachi"
+    },
+    {
+        "slug": "samsung-konditsionery",
+        "often_name": "кондиционеры samsung"
+    },
+    {
+        "slug": "hyundai-konditsionery",
+        "often_name": "кондиционеры hyundai"
+    },
+    {
+        "slug": "electrolux-konditsionery",
+        "often_name": "кондиционеры electrolux"
+    },
+    {
+        "slug": "general-climate-konditsionery",
+        "often_name": "кондиционеры general climate"
+    },
+    {
+        "slug": "fujitsu-konditsionery",
+        "often_name": "кондиционеры fujitsu"
+    },
+    {
+        "slug": "midea-konditsionery",
+        "often_name": "кондиционеры midea"
+    },
+    {
+        "slug": "toshiba-konditsionery",
+        "often_name": "кондиционеры toshiba"
+    },
+    {
+        "slug": "hisense-konditsionery",
+        "often_name": "кондиционеры hisense"
+    },
+    {
+        "slug": "mitsubishi-electric-konditsionery",
+        "often_name": "кондиционеры mitsubishi electric"
+    },
+    {
+        "slug": "dantex-konditsionery",
+        "often_name": "кондиционеры dantex"
+    },
+    {
+        "slug": "gree-konditsionery",
+        "often_name": "кондиционеры gree"
+    },
+    {
+        "slug": "scarlett-ventilyatory",
+        "often_name": "вентиляторы scarlett"
+    },
+    {
+        "slug": "mitsubishi-heavy-konditsionery",
+        "often_name": "кондиционеры mitsubishi heavy"
+    },
+    {
+        "slug": "intel-processory",
+        "often_name": "процессоры intel"
+    },
+    {
+        "slug": "amd-processory",
+        "often_name": "процессоры amd"
+    },
+    {
+        "slug": "apple-pleeri",
+        "often_name": "ipod"
+    },
+    {
+        "slug": "hp-serveri",
+        "often_name": "серверы hp"
+    },
+    {
+        "slug": "asus-monitory",
+        "often_name": "мониторы asus"
+    },
+    {
+        "slug": "dell-monitory",
+        "often_name": "мониторы dell"
+    },
+    {
+        "slug": "benq-monitory",
+        "often_name": "мониторы benq"
+    },
+    {
+        "slug": "xerox-printery",
+        "often_name": "принтеры xerox"
+    },
+    {
+        "slug": "celestron-teleskopi",
+        "often_name": "телескопы celestron"
+    },
+    {
+        "slug": "nikon-binokli",
+        "often_name": "бинокли nikon"
+    },
+    {
+        "slug": "olympus-binokli",
+        "often_name": "бинокли olympus"
+    },
+    {
+        "slug": "levenhuk-binokli",
+        "often_name": "бинокли levenhuk"
+    },
+    {
+        "slug": "celestron-binokli",
+        "often_name": "бинокли celestron"
+    },
+    {
+        "slug": "pentax-binokli",
+        "often_name": "бинокли pentax"
+    },
+    {
+        "slug": "gaggia-kofemashiny",
+        "often_name": "кофемашины gaggia"
+    },
+    {
+        "slug": "krups-kofemashiny",
+        "often_name": "кофемашины krups"
+    },
+    {
+        "slug": "nespresso-kofemashiny",
+        "often_name": "кофемашины nespresso"
+    },
+    {
+        "slug": "siemens-kofemashiny",
+        "often_name": "кофемашины siemens"
+    },
+    {
+        "slug": "nivona-kofemashiny",
+        "often_name": "кофемашины nivona"
+    },
+    {
+        "slug": "saeco-kofevarki",
+        "often_name": "кофеварки saeco"
+    },
+    {
+        "slug": "vitek-kofevarki",
+        "often_name": "кофеварки vitek"
+    },
+    {
+        "slug": "krups-kofevarki",
+        "often_name": "кофеварки krups"
+    },
+    {
+        "slug": "melitta-kofemashiny",
+        "often_name": "кофемашины melitta"
+    },
+    {
+        "slug": "neff-kofemashiny",
+        "often_name": "кофемашины neff"
+    },
+    {
+        "slug": "spidem-kofemashiny",
+        "often_name": "кофемашины spidem"
+    },
+    {
+        "slug": "philips-kofevarki",
+        "often_name": "кофеварки philips"
+    },
+    {
+        "slug": "bork-kofemashiny",
+        "often_name": "кофемашины bork"
+    },
+    {
+        "slug": "gaggia-kofevarki",
+        "often_name": "кофеварки gaggia"
+    },
+    {
+        "slug": "bosch-kofevarki",
+        "often_name": "кофеварки bosch"
+    },
+    {
+        "slug": "siemens-kholodilniki",
+        "often_name": "холодильники siemens"
+    },
+    {
+        "slug": "aeg-kholodilniki",
+        "often_name": "холодильники aeg"
+    },
+    {
+        "slug": "hansa-stiralnye-mashiny",
+        "often_name": "стиральные машины hansa"
+    },
+    {
+        "slug": "miele-kholodilniki",
+        "often_name": "холодильники miele"
+    },
+    {
+        "slug": "samsung-pylesosy",
+        "often_name": "пылесосы samsung"
+    },
+    {
+        "slug": "bresser-binokli",
+        "often_name": "бинокли bresser"
+    },
+    {
+        "slug": "levenhuk-microskopi",
+        "often_name": "микроскопы levenhuk"
+    },
+    {
+        "slug": "veber-binokli",
+        "often_name": "бинокли veber"
+    },
+    {
+        "slug": "veber-teleskopi",
+        "often_name": "телескопы veber"
+    },
+    {
+        "slug": "meade-teleskopi",
+        "often_name": "телескопы meade"
+    },
+    {
+        "slug": "yukon-binokli",
+        "often_name": "бинокли yukon"
+    },
+    {
+        "slug": "haier-kholodilniki",
+        "often_name": "холодильники haier"
+    },
+    {
+        "slug": "gorenje-stiralnye-mashiny",
+        "often_name": "стиральные машины gorenje"
+    },
+    {
+        "slug": "dyson-pylesosy",
+        "often_name": "пылесосы dyson"
+    },
+    {
+        "slug": "beko-stiralnye-mashiny",
+        "often_name": "стиральные машины beko"
+    },
+    {
+        "slug": "electrolux-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины electrolux"
+    },
+    {
+        "slug": "vestfrost-kholodilniki",
+        "often_name": "холодильники vestfrost"
+    },
+    {
+        "slug": "siemens-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины siemens"
+    },
+    {
+        "slug": "daewoo-kholodilniki",
+        "often_name": "холодильники daewoo"
+    },
+    {
+        "slug": "bosch-mojki-vysokogo-davleniya",
+        "often_name": "мойки высокого давления bosch"
+    },
+    {
+        "slug": "hammer-gazonokosilki",
+        "often_name": "газонокосилки hammer"
+    },
+    {
+        "slug": "hitachi-perforatory",
+        "often_name": "перфораторы hitachi"
+    },
+    {
+        "slug": "greenworks-gazonokosilki",
+        "often_name": "газонокосилки greenworks"
+    },
+    {
+        "slug": "dewalt-perforatory",
+        "often_name": "перфораторы dewalt"
+    },
+    {
+        "slug": "hammer-perforatory",
+        "often_name": "перфораторы hammer"
+    },
+    {
+        "slug": "oleo-mac-gazonokosilki",
+        "often_name": "газонокосилки oleo-mac"
+    },
+    {
+        "slug": "champion-benzopily",
+        "often_name": "бензопилы champion"
+    },
+    {
+        "slug": "bbk-televizory",
+        "often_name": "телевизоры bbk"
+    },
+    {
+        "slug": "haier-televizory",
+        "often_name": "телевизоры haier"
+    },
+    {
+        "slug": "sharp-televizory",
+        "often_name": "телевизоры sharp"
+    },
+    {
+        "slug": "supra-televizory",
+        "often_name": "телевизоры supra"
+    },
+    {
+        "slug": "lg-muzykalnye-centry",
+        "often_name": "музыкальные центры lg"
+    },
+    {
+        "slug": "tcl-televizory",
+        "often_name": "телевизоры tcl"
+    },
+    {
+        "slug": "jvc-muzykalnye-centry",
+        "often_name": "музыкальные центры jvc"
+    },
+    {
+        "slug": "mystery-televizory",
+        "often_name": "телевизоры mystery"
+    },
+    {
+        "slug": "sony-muzykalnye-centry",
+        "often_name": "музыкальные центры sony"
+    },
+    {
+        "slug": "daewoo-televizory",
+        "often_name": "телевизоры daewoo"
+    },
+    {
+        "slug": "polar-televizory",
+        "often_name": "телевизоры polar"
+    },
+    {
+        "slug": "samsung-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры samsung"
+    },
+    {
+        "slug": "sony-pleeri",
+        "often_name": "плееры sony"
+    },
+    {
+        "slug": "doffler-televizory",
+        "often_name": "телевизоры doffler"
+    },
+    {
+        "slug": "prestigio-televizory",
+        "often_name": "телевизоры prestigio"
+    },
+    {
+        "slug": "dell-monobloki",
+        "often_name": "моноблоки dell"
+    },
+    {
+        "slug": "apple-monitory",
+        "often_name": "мониторы apple"
+    },
+    {
+        "slug": "powercom-ibp",
+        "often_name": "ибп powercom"
+    },
+    {
+        "slug": "transcend-zhestkie-diski",
+        "often_name": "жесткие диски transcend"
+    },
+    {
+        "slug": "corsair-bloki-pitaniya",
+        "often_name": "блоки питания corsair"
+    },
+    {
+        "slug": "toshiba-zhestkie-diski",
+        "often_name": "жесткие диски toshiba"
+    },
+    {
+        "slug": "aerocool-bloki-pitaniya",
+        "often_name": "блоки питания aerocool"
+    },
+    {
+        "slug": "thermaltake-bloki-pitaniya",
+        "often_name": "блоки питания thermaltake"
+    },
+    {
+        "slug": "asrock-materinskie-platy",
+        "often_name": "материнские платы asrock"
+    },
+    {
+        "slug": "hiper-bloki-pitaniya",
+        "often_name": "блоки питания hiper"
+    },
+    {
+        "slug": "cyberpower-ibp",
+        "often_name": "ибп cyberpower"
+    },
+    {
+        "slug": "eaton-ibp",
+        "often_name": "ибп eaton"
+    },
+    {
+        "slug": "chieftec-bloki-pitaniya",
+        "often_name": "блоки питания chieftec"
+    },
+    {
+        "slug": "zalman-bloki-pitaniya",
+        "often_name": "блоки питания zalman"
+    },
+    {
+        "slug": "xiaomi-televizory",
+        "often_name": "телевизоры xiaomi"
+    },
+    {
+        "slug": "panasonic-televizory",
+        "often_name": "телевизоры panasonic"
+    },
+    {
+        "slug": "jvc-televizory",
+        "often_name": "телевизоры jvc"
+    },
+    {
+        "slug": "thomson-televizory",
+        "often_name": "телевизоры thomson"
+    },
+    {
+        "slug": "erisson-televizory",
+        "often_name": "телевизоры erisson"
+    },
+    {
+        "slug": "loewe-televizory",
+        "often_name": "телевизоры loewe"
+    },
+    {
+        "slug": "shivaki-televizory",
+        "often_name": "телевизоры shivaki"
+    },
+    {
+        "slug": "fusion-televizory",
+        "often_name": "телевизоры fusion"
+    },
+    {
+        "slug": "hitachi-televizory",
+        "often_name": "телевизоры hitachi"
+    },
+    {
+        "slug": "smart-ibp",
+        "often_name": "ибп smart"
+    },
+    {
+        "slug": "dewalt-shurupovyorty",
+        "often_name": "шуруповёрты dewalt"
+    },
+    {
+        "slug": "makita-shurupovyorty",
+        "often_name": "шуруповёрты makita"
+    },
+    {
+        "slug": "metabo-shurupovyorty",
+        "often_name": "шуруповёрты metabo"
+    },
+    {
+        "slug": "hitachi-shurupovyorty",
+        "often_name": "шуруповёрты hitachi"
+    },
+    {
+        "slug": "aeg-perforatory",
+        "often_name": "перфораторы aeg"
+    },
+    {
+        "slug": "honor-noutbuki",
+        "often_name": "ноутбуки honor"
+    },
+    {
+        "slug": "huawei-noutbuki",
+        "often_name": "ноутбуки huawei"
+    },
+    {
+        "slug": "xiaomi-mobilnye-telefony",
+        "often_name": "мобильные телефоны xiaomi"
+    },
+    {
+        "slug": "digma-elektronnye-knigi",
+        "often_name": "электронные книги digma"
+    },
+    {
+        "slug": "prestigio-noutbuki",
+        "often_name": "ноутбуки prestigio"
+    },
+    {
+        "slug": "nokia-mobilnye-telefony",
+        "often_name": "мобильные телефоны nokia"
+    },
+    {
+        "slug": "philips-mobilnye-telefony",
+        "often_name": "мобильные телефоны philips"
+    },
+    {
+        "slug": "lg-mobilnye-telefony",
+        "often_name": "мобильные телефоны lg"
+    },
+    {
+        "slug": "zte-mobilnye-telefony",
+        "often_name": "мобильные телефоны zte"
+    },
+    {
+        "slug": "huawei-mobilnye-telefony",
+        "often_name": "мобильные телефоны huawei"
+    },
+    {
+        "slug": "sony-mobilnye-telefony",
+        "often_name": "мобильные телефоны sony"
+    },
+    {
+        "slug": "asus-mobilnye-telefony",
+        "often_name": "мобильные телефоны asus"
+    },
+    {
+        "slug": "vivo-mobilnye-telefony",
+        "often_name": "мобильные телефоны vivo"
+    },
+    {
+        "slug": "motorola-mobilnye-telefony",
+        "often_name": "мобильные телефоны motorola"
+    },
+    {
+        "slug": "fly-mobilnye-telefony",
+        "often_name": "мобильные телефоны fly"
+    },
+    {
+        "slug": "bq-mobilnye-telefony",
+        "often_name": "мобильные телефоны bq"
+    },
+    {
+        "slug": "blackview-mobilnye-telefony",
+        "often_name": "мобильные телефоны blackview"
+    },
+    {
+        "slug": "alcatel-mobilnye-telefony",
+        "often_name": "мобильные телефоны alcatel"
+    },
+    {
+        "slug": "lenovo-mobilnye-telefony",
+        "often_name": "мобильные телефоны lenovo"
+    },
+    {
+        "slug": "maxvi-mobilnye-telefony",
+        "often_name": "мобильные телефоны maxvi"
+    },
+    {
+        "slug": "beko-kholodilniki",
+        "often_name": "холодильники beko"
+    },
+    {
+        "slug": "toshiba-kholodilniki",
+        "often_name": "холодильники toshiba"
+    },
+    {
+        "slug": "panasonic-kholodilniki",
+        "often_name": "холодильники panasonic"
+    },
+    {
+        "slug": "hansa-kholodilniki",
+        "often_name": "холодильники hansa"
+    },
+    {
+        "slug": "sharp-kholodilniki",
+        "often_name": "холодильники sharp"
+    },
+    {
+        "slug": "hitachi-kholodilniki",
+        "often_name": "холодильники hitachi"
+    },
+    {
+        "slug": "candy-kholodilniki",
+        "often_name": "холодильники candy"
+    },
+    {
+        "slug": "waterpik-irrigatory",
+        "often_name": "ирригаторы waterpik"
+    },
+    {
+        "slug": "bwell-irrigatory",
+        "often_name": "ирригаторы b.well"
+    },
+    {
+        "slug": "braun-epilyatory",
+        "often_name": "эпиляторы braun"
+    },
+    {
+        "slug": "moser-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос moser"
+    },
+    {
+        "slug": "babyliss-feny",
+        "often_name": "фены babyliss"
+    },
+    {
+        "slug": "philips-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос philips"
+    },
+    {
+        "slug": "stihl-gazonokosilki",
+        "often_name": "газонокосилки stihl"
+    },
+    {
+        "slug": "philips-epilyatory",
+        "often_name": "эпиляторы philips"
+    },
+    {
+        "slug": "panasonic-irrigatory",
+        "often_name": "ирригаторы panasonic"
+    },
+    {
+        "slug": "fubag-svarochnye-apparaty",
+        "often_name": "сварочные аппараты fubag"
+    },
+    {
+        "slug": "stihl-mojki-vysokogo-davleniya",
+        "often_name": "мойки высокого давления stihl"
+    },
+    {
+        "slug": "revyline-irrigatory",
+        "often_name": "ирригаторы revyline"
+    },
+    {
+        "slug": "dexp-televizory",
+        "often_name": "телевизоры dexp"
+    },
+    {
+        "slug": "janome-shveynye-mashiny",
+        "often_name": "швейные машины janome"
+    },
+    {
+        "slug": "brother-shveynye-mashiny",
+        "often_name": "швейные машины brother"
+    },
+    {
+        "slug": "pfaff-shveynye-mashiny",
+        "often_name": "швейные машины pfaff"
+    },
+    {
+        "slug": "jaguar-shveynye-mashiny",
+        "often_name": "швейные машины jaguar"
+    },
+    {
+        "slug": "singer-shveynye-mashiny",
+        "often_name": "швейные машины singer"
+    },
+    {
+        "slug": "husqvarna-shveynye-mashiny",
+        "often_name": "швейные машины husqvarna"
+    },
+    {
+        "slug": "brother-vyshivalnye-mashiny",
+        "often_name": "вышивальные машины brother"
+    },
+    {
+        "slug": "astralux-shveynye-mashiny",
+        "often_name": "швейные машины astralux"
+    },
+    {
+        "slug": "janome-overloki",
+        "often_name": "оверлоки janome"
+    },
+    {
+        "slug": "veritas-shveynye-mashiny",
+        "often_name": "швейные машины veritas"
+    },
+    {
+        "slug": "juki-shveynye-mashiny",
+        "often_name": "швейные машины juki"
+    },
+    {
+        "slug": "bernina-shveynye-mashiny",
+        "often_name": "швейные машины bernina"
+    },
+    {
+        "slug": "merrylock-overloki",
+        "often_name": "оверлоки merrylock"
+    },
+    {
+        "slug": "jack-shveynye-mashiny",
+        "often_name": "швейные машины jack"
+    },
+    {
+        "slug": "family-shveynye-mashiny",
+        "often_name": "швейные машины family"
+    },
+    {
+        "slug": "juki-overloki",
+        "often_name": "оверлоки juki"
+    },
+    {
+        "slug": "comfort-shveynye-mashiny",
+        "often_name": "швейные машины comfort"
+    },
+    {
+        "slug": "janome-vyshivalnye-mashiny",
+        "often_name": "вышивальные машины janome"
+    },
+    {
+        "slug": "new-home-shveynye-mashiny",
+        "often_name": "швейные машины new home"
+    },
+    {
+        "slug": "elna-shveynye-mashiny",
+        "often_name": "швейные машины elna"
+    },
+    {
+        "slug": "samsung-naushniki",
+        "often_name": "наушники samsung"
+    },
+    {
+        "slug": "honor-mobilnye-telefony",
+        "often_name": "мобильные телефоны honor"
+    },
+    {
+        "slug": "htc-mobilnye-telefony",
+        "often_name": "мобильные телефоны htc"
+    },
+    {
+        "slug": "meizu-mobilnye-telefony",
+        "often_name": "мобильные телефоны meizu"
+    },
+    {
+        "slug": "acer-mobilnye-telefony",
+        "often_name": "мобильные телефоны acer"
+    },
+    {
+        "slug": "levenhuk-teleskopi",
+        "often_name": "телескопы levenhuk"
+    },
+    {
+        "slug": "yukon-pribory-nochnogo-videniya",
+        "often_name": "приборы ночного видения yukon"
+    },
+    {
+        "slug": "zebra-printery",
+        "often_name": "принтеры zebra"
+    },
+    {
+        "slug": "zanussi-kholodilniki",
+        "often_name": "холодильники zanussi"
+    },
+    {
+        "slug": "vitek-ventilyatory",
+        "often_name": "вентиляторы vitek"
+    },
+    {
+        "slug": "zanussi-konditsionery",
+        "often_name": "кондиционеры zanussi"
+    },
+    {
+        "slug": "lessar-konditsionery",
+        "often_name": "кондиционеры lessar"
+    },
+    {
+        "slug": "bosch-pylesosy",
+        "often_name": "пылесосы bosch"
+    },
+    {
+        "slug": "philips-pylesosy",
+        "often_name": "пылесосы philips"
+    },
+    {
+        "slug": "ilife-pylesosy",
+        "often_name": "пылесосы ilife"
+    },
+    {
+        "slug": "irobot-pylesosy",
+        "often_name": "пылесосы irobot"
+    },
+    {
+        "slug": "electrolux-pylesosy",
+        "often_name": "пылесосы electrolux"
+    },
+    {
+        "slug": "miele-pylesosy",
+        "often_name": "пылесосы miele"
+    },
+    {
+        "slug": "bork-pylesosy",
+        "often_name": "пылесосы bork"
+    },
+    {
+        "slug": "zelmer-pylesosy",
+        "often_name": "пылесосы zelmer"
+    },
+    {
+        "slug": "polaris-pylesosy",
+        "often_name": "пылесосы polaris"
+    },
+    {
+        "slug": "philips-utyugi",
+        "often_name": "утюги philips"
+    },
+    {
+        "slug": "lg-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи lg"
+    },
+    {
+        "slug": "redmond-multivarki",
+        "often_name": "мультиварки redmond"
+    },
+    {
+        "slug": "alligator-avtosignalizacii",
+        "often_name": "автосигнализации alligator"
+    },
+    {
+        "slug": "sheriff-avtosignalizacii",
+        "often_name": "автосигнализации sheriff"
+    },
+    {
+        "slug": "davinci-avtosignalizacii",
+        "often_name": "автосигнализации davinci"
+    },
+    {
+        "slug": "mongoose-avtosignalizacii",
+        "often_name": "автосигнализации mongoose"
+    },
+    {
+        "slug": "pharaon-avtosignalizacii",
+        "often_name": "автосигнализации pharaon"
+    },
+    {
+        "slug": "zont-avtosignalizacii",
+        "often_name": "автосигнализации zont"
+    },
+    {
+        "slug": "royal-clima-konditsionery",
+        "often_name": "кондиционеры royal clima"
+    },
+    {
+        "slug": "bimatek-ventilyatory",
+        "often_name": "вентиляторы bimatek"
+    },
+    {
+        "slug": "dexp-planshety",
+        "often_name": "планшеты dexp"
+    },
+    {
+        "slug": "prestigio-planshety",
+        "often_name": "планшеты prestigio"
+    },
+    {
+        "slug": "irbis-planshety",
+        "often_name": "планшеты irbis"
+    },
+    {
+        "slug": "viewsonic-monitory",
+        "often_name": "мониторы viewsonic"
+    },
+    {
+        "slug": "gorenje-gazovye-plity",
+        "often_name": "газовые плиты gorenje"
+    },
+    {
+        "slug": "hansa-gazovye-plity",
+        "often_name": "газовые плиты hansa"
+    },
+    {
+        "slug": "protherm-gazovye-kotly",
+        "often_name": "газовые котлы protherm"
+    },
+    {
+        "slug": "viessmann-gazovye-kotly",
+        "often_name": "газовые котлы viessmann"
+    },
+    {
+        "slug": "beretta-gazovye-kotly",
+        "often_name": "газовые котлы beretta"
+    },
+    {
+        "slug": "gefest-gazovye-plity",
+        "often_name": "газовые плиты gefest"
+    },
+    {
+        "slug": "electrolux-gazovye-plity",
+        "often_name": "газовые плиты electrolux"
+    },
+    {
+        "slug": "daewoo-gazovye-kotly",
+        "often_name": "газовые котлы daewoo"
+    },
+    {
+        "slug": "indesit-gazovye-plity",
+        "often_name": "газовые плиты indesit"
+    },
+    {
+        "slug": "rinnai-gazovye-kotly",
+        "often_name": "газовые котлы rinnai"
+    },
+    {
+        "slug": "wolf-gazovye-kotly",
+        "often_name": "газовые котлы wolf"
+    },
+    {
+        "slug": "acv-gazovye-kotly",
+        "often_name": "газовые котлы acv"
+    },
+    {
+        "slug": "electrolux-gazovye-kotly",
+        "often_name": "газовые котлы electrolux"
+    },
+    {
+        "slug": "kaiser-gazovye-plity",
+        "often_name": "газовые плиты kaiser"
+    },
+    {
+        "slug": "ardo-stiralnye-mashiny",
+        "often_name": "стиральные машины ardo"
+    },
+    {
+        "slug": "haier-stiralnye-mashiny",
+        "often_name": "стиральные машины haier"
+    },
+    {
+        "slug": "kaiser-kholodilniki",
+        "often_name": "холодильники kaiser"
+    },
+    {
+        "slug": "ricoh-printery",
+        "often_name": "принтеры ricoh"
+    },
+    {
+        "slug": "oki-printery",
+        "often_name": "принтеры oki"
+    },
+    {
+        "slug": "panasonic-printery",
+        "often_name": "принтеры panasonic"
+    },
+    {
+        "slug": "citizen-printery",
+        "often_name": "принтеры citizen"
+    },
+    {
+        "slug": "lexmark-printery",
+        "often_name": "принтеры lexmark"
+    },
+    {
+        "slug": "sharp-printery",
+        "often_name": "принтеры sharp"
+    },
+    {
+        "slug": "konica-minolta-printery",
+        "often_name": "принтеры konica minolta"
+    },
+    {
+        "slug": "dymo-printery",
+        "often_name": "принтеры dymo"
+    },
+    {
+        "slug": "honeywell-printery",
+        "often_name": "принтеры honeywell"
+    },
+    {
+        "slug": "efco-gazonokosilki",
+        "often_name": "газонокосилки efco"
+    },
+    {
+        "slug": "dde-gazonokosilki",
+        "often_name": "газонокосилки dde"
+    },
+    {
+        "slug": "ryobi-gazonokosilki",
+        "often_name": "газонокосилки ryobi"
+    },
+    {
+        "slug": "karcher-mojki-vysokogo-davleniya",
+        "often_name": "мойки высокого давления karcher"
+    },
+    {
+        "slug": "tefal-parogeneratory",
+        "often_name": "парогенераторы tefal"
+    },
+    {
+        "slug": "bosch-kuhonnye-kombajny",
+        "often_name": "кухонные комбайны bosch"
+    },
+    {
+        "slug": "honor-naushniki",
+        "often_name": "наушники honor"
+    },
+    {
+        "slug": "tefal-pylesosy",
+        "often_name": "пылесосы tefal"
+    },
+    {
+        "slug": "philips-parogeneratory",
+        "often_name": "парогенераторы philips"
+    },
+    {
+        "slug": "bosch-vodonagrevateli",
+        "often_name": "водонагреватели bosch"
+    },
+    {
+        "slug": "aquarius-monobloki",
+        "often_name": "моноблоки aquarius"
+    },
+    {
+        "slug": "and-ingolyatori",
+        "often_name": "ингаляторы and"
+    },
+    {
+        "slug": "omron-tonometry",
+        "often_name": "тонометры omron"
+    },
+    {
+        "slug": "bwell-tonometry",
+        "often_name": "тонометры b.well"
+    },
+    {
+        "slug": "microlife-tonometry",
+        "often_name": "тонометры microlife"
+    },
+    {
+        "slug": "phonak-sluhovye-apparaty",
+        "often_name": "слуховые аппараты phonak"
+    },
+    {
+        "slug": "nissei-tonometry",
+        "often_name": "тонометры nissei"
+    },
+    {
+        "slug": "widex-sluhovye-apparaty",
+        "often_name": "слуховые аппараты widex"
+    },
+    {
+        "slug": "doctor-tonometry",
+        "often_name": "тонометры doctor"
+    },
+    {
+        "slug": "siemens-sluhovye-apparaty",
+        "often_name": "слуховые аппараты siemens"
+    },
+    {
+        "slug": "tensoval-tonometry",
+        "often_name": "тонометры tensoval"
+    },
+    {
+        "slug": "bwell-ingolyatori",
+        "often_name": "ингаляторы b.well"
+    },
+    {
+        "slug": "beurer-tonometry",
+        "often_name": "тонометры beurer"
+    },
+    {
+        "slug": "accu-chek-glukometri",
+        "often_name": "глюкометры accu-chek"
+    },
+    {
+        "slug": "omron-ingolyatori",
+        "often_name": "ингаляторы omron"
+    },
+    {
+        "slug": "drivesafe-alkotesteri",
+        "often_name": "алкотестеры drivesafe"
+    },
+    {
+        "slug": "onetouch-glukometri",
+        "often_name": "глюкометры onetouch"
+    },
+    {
+        "slug": "axon-sluhovye-apparaty",
+        "often_name": "слуховые аппараты axon"
+    },
+    {
+        "slug": "contour-glukometri",
+        "often_name": "глюкометры contour"
+    },
+    {
+        "slug": "polaris-ventilyatory",
+        "often_name": "вентиляторы polaris"
+    },
+    {
+        "slug": "elitech-mojki-vysokogo-davleniya",
+        "often_name": "мойки высокого давления elitech"
+    },
+    {
+        "slug": "condtrol-lazernye-urovni",
+        "often_name": "лазерные уровни condtrol"
+    },
+    {
+        "slug": "carver-benzopily",
+        "often_name": "бензопилы carver"
+    },
+    {
+        "slug": "sturm-perforatory",
+        "often_name": "перфораторы sturm"
+    },
+    {
+        "slug": "iek-stabilizatory-napryazheniya",
+        "often_name": "стабилизаторы напряжения iek"
+    },
+    {
+        "slug": "elitech-gazonokosilki",
+        "often_name": "газонокосилки elitech"
+    },
+    {
+        "slug": "alpina-gazonokosilki",
+        "often_name": "газонокосилки alpina"
+    },
+    {
+        "slug": "fiolent-shtroborezy",
+        "often_name": "штроборезы фиолент"
+    },
+    {
+        "slug": "elmos-gazonokosilki",
+        "often_name": "газонокосилки elmos"
+    },
+    {
+        "slug": "neff-kholodilniki",
+        "often_name": "холодильники neff"
+    },
+    {
+        "slug": "sho-me-videoregistratory",
+        "often_name": "видеорегистраторы sho-me"
+    },
+    {
+        "slug": "mio-videoregistratory",
+        "often_name": "видеорегистраторы mio"
+    },
+    {
+        "slug": "sho-me-radar-detektory",
+        "often_name": "радар-детекторы sho-me"
+    },
+    {
+        "slug": "neoline-videoregistratory",
+        "often_name": "видеорегистраторы neoline"
+    },
+    {
+        "slug": "roadgid-videoregistratory",
+        "often_name": "видеорегистраторы roadgid"
+    },
+    {
+        "slug": "blackvue-videoregistratory",
+        "often_name": "видеорегистраторы blackvue"
+    },
+    {
+        "slug": "garmin-gps-navigatory",
+        "often_name": "gps-навигаторы garmin"
+    },
+    {
+        "slug": "artway-videoregistratory",
+        "often_name": "видеорегистраторы artway"
+    },
+    {
+        "slug": "ritmix-videoregistratory",
+        "often_name": "видеорегистраторы ritmix"
+    },
+    {
+        "slug": "prestigio-videoregistratory",
+        "often_name": "видеорегистраторы prestigio"
+    },
+    {
+        "slug": "advocam-videoregistratory",
+        "often_name": "видеорегистраторы advocam"
+    },
+    {
+        "slug": "playme-videoregistratory",
+        "often_name": "видеорегистраторы playme"
+    },
+    {
+        "slug": "inspector-videoregistratory",
+        "often_name": "видеорегистраторы inspector"
+    },
+    {
+        "slug": "eplutus-videoregistratory",
+        "often_name": "видеорегистраторы eplutus"
+    },
+    {
+        "slug": "mcculloch-gazonokosilki",
+        "often_name": "газонокосилки mcculloch"
+    },
+    {
+        "slug": "hansa-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины hansa"
+    },
+    {
+        "slug": "miele-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины miele"
+    },
+    {
+        "slug": "hotpoint-ariston-stiralnye-mashiny",
+        "often_name": "стиральные машины hotpoint-ariston"
+    },
+    {
+        "slug": "beko-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины beko"
+    },
+    {
+        "slug": "whirlpool-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины whirlpool"
+    },
+    {
+        "slug": "brandt-stiralnye-mashiny",
+        "often_name": "стиральные машины brandt"
+    },
+    {
+        "slug": "asko-stiralnye-mashiny",
+        "often_name": "стиральные машины asko"
+    },
+    {
+        "slug": "zanussi-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины zanussi"
+    },
+    {
+        "slug": "hp-monitory",
+        "often_name": "мониторы hp"
+    },
+    {
+        "slug": "feya-stiralnye-mashiny",
+        "often_name": "стиральные машины фея"
+    },
+    {
+        "slug": "bosch-blendery",
+        "often_name": "блендеры bosch"
+    },
+    {
+        "slug": "samsung-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи samsung"
+    },
+    {
+        "slug": "panasonic-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи panasonic"
+    },
+    {
+        "slug": "midea-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи midea"
+    },
+    {
+        "slug": "whirlpool-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи whirlpool"
+    },
+    {
+        "slug": "gorenje-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи gorenje"
+    },
+    {
+        "slug": "sharp-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи sharp"
+    },
+    {
+        "slug": "bosch-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи bosch"
+    },
+    {
+        "slug": "daewoo-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи daewoo"
+    },
+    {
+        "slug": "smeg-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи smeg"
+    },
+    {
+        "slug": "vitek-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи vitek"
+    },
+    {
+        "slug": "candy-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи candy"
+    },
+    {
+        "slug": "bork-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи bork"
+    },
+    {
+        "slug": "electrolux-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи electrolux"
+    },
+    {
+        "slug": "supra-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи supra"
+    },
+    {
+        "slug": "zanussi-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи zanussi"
+    },
+    {
+        "slug": "mystery-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи mystery"
+    },
+    {
+        "slug": "bbk-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи bbk"
+    },
+    {
+        "slug": "miele-mikrovolnovye-pechi",
+        "often_name": "микроволновые печи miele"
+    },
+    {
+        "slug": "suzuki-konditsionery",
+        "often_name": "кондиционеры suzuki"
+    },
+    {
+        "slug": "carrier-konditsionery",
+        "often_name": "кондиционеры carrier"
+    },
+    {
+        "slug": "chigo-konditsionery",
+        "often_name": "кондиционеры chigo"
+    },
+    {
+        "slug": "mystery-ventilyatory",
+        "often_name": "вентиляторы mystery"
+    },
+    {
+        "slug": "wilo-vodyanye-nasosy",
+        "often_name": "водяные насосы wilo"
+    },
+    {
+        "slug": "grundfos-vodyanye-nasosy",
+        "often_name": "водяные насосы grundfos"
+    },
+    {
+        "slug": "dab-vodyanye-nasosy",
+        "often_name": "водяные насосы dab"
+    },
+    {
+        "slug": "pedrollo-vodyanye-nasosy",
+        "often_name": "водяные насосы pedrollo"
+    },
+    {
+        "slug": "silverstone-videoregistratory",
+        "often_name": "видеорегистраторы silverstone"
+    },
+    {
+        "slug": "xiaomi-videoregistratory",
+        "often_name": "видеорегистраторы xiaomi"
+    },
+    {
+        "slug": "intego-videoregistratory",
+        "often_name": "видеорегистраторы intego"
+    },
+    {
+        "slug": "hikvision-videoregistratory",
+        "often_name": "видеорегистраторы hikvision"
+    },
+    {
+        "slug": "little-tonometry",
+        "often_name": "тонометры little"
+    },
+    {
+        "slug": "resound-sluhovye-apparaty",
+        "often_name": "слуховые аппараты resound"
+    },
+    {
+        "slug": "ritmix-alkotesteri",
+        "often_name": "алкотестеры ritmix"
+    },
+    {
+        "slug": "thomas-pylesosy",
+        "often_name": "пылесосы thomas"
+    },
+    {
+        "slug": "karcher-pylesosy",
+        "often_name": "пылесосы karcher"
+    },
+    {
+        "slug": "zanussi-pylesosy",
+        "often_name": "пылесосы zanussi"
+    },
+    {
+        "slug": "siemens-pylesosy",
+        "often_name": "пылесосы siemens"
+    },
+    {
+        "slug": "sony-radiopriemnik",
+        "often_name": "радиоприемники sony"
+    },
+    {
+        "slug": "max-radiopriemnik",
+        "often_name": "радиоприемники max"
+    },
+    {
+        "slug": "baofeng-racii",
+        "often_name": "рации baofeng"
+    },
+    {
+        "slug": "yaesu-racii",
+        "often_name": "рации yaesu"
+    },
+    {
+        "slug": "vector-racii",
+        "often_name": "рации vector"
+    },
+    {
+        "slug": "motorola-racii",
+        "often_name": "рации motorola"
+    },
+    {
+        "slug": "ritmix-radiopriemnik",
+        "often_name": "радиоприемники ritmix"
+    },
+    {
+        "slug": "harper-radiopriemnik",
+        "often_name": "радиоприемники harper"
+    },
+    {
+        "slug": "degen-radiopriemnik",
+        "often_name": "радиоприемники degen"
+    },
+    {
+        "slug": "icom-racii",
+        "often_name": "рации icom"
+    },
+    {
+        "slug": "midland-racii",
+        "often_name": "рации midland"
+    },
+    {
+        "slug": "sangean-radiopriemnik",
+        "often_name": "радиоприемники sangean"
+    },
+    {
+        "slug": "tecsun-radiopriemnik",
+        "often_name": "радиоприемники tecsun"
+    },
+    {
+        "slug": "alan-racii",
+        "often_name": "рации alan"
+    },
+    {
+        "slug": "telefunken-radiopriemnik",
+        "often_name": "радиоприемники telefunken"
+    },
+    {
+        "slug": "supra-radiopriemnik",
+        "often_name": "радиоприемники supra"
+    },
+    {
+        "slug": "vertex-racii",
+        "often_name": "рации vertex"
+    },
+    {
+        "slug": "hyundai-radiopriemnik",
+        "often_name": "радиоприемники hyundai"
+    },
+    {
+        "slug": "sven-radiopriemnik",
+        "often_name": "радиоприемники sven"
+    },
+    {
+        "slug": "vitek-radiopriemnik",
+        "often_name": "радиоприемники vitek"
+    },
+    {
+        "slug": "philips-blendery",
+        "often_name": "блендеры philips"
+    },
+    {
+        "slug": "braun-blendery",
+        "often_name": "блендеры braun"
+    },
+    {
+        "slug": "bosch-parogeneratory",
+        "often_name": "парогенераторы bosch"
+    },
+    {
+        "slug": "lg-khlebopechki",
+        "often_name": "хлебопечки lg"
+    },
+    {
+        "slug": "xiaomi-planshety",
+        "often_name": "планшеты xiaomi"
+    },
+    {
+        "slug": "xiaomi-kvadrokoptery",
+        "often_name": "квадрокоптеры xiaomi"
+    },
+    {
+        "slug": "cowon-pleeri",
+        "often_name": "плееры cowon"
+    },
+    {
+        "slug": "fiio-pleeri",
+        "often_name": "плееры fiio"
+    },
+    {
+        "slug": "digma-pleeri",
+        "often_name": "плееры digma"
+    },
+    {
+        "slug": "iriver-pleeri",
+        "often_name": "плееры iriver"
+    },
+    {
+        "slug": "benjie-pleeri",
+        "often_name": "плееры benjie"
+    },
+    {
+        "slug": "fujitsu-kompyutery",
+        "often_name": "ремонт компьютеров fujitsu"
+    },
+    {
+        "slug": "samsung-kompyutery",
+        "often_name": "ремонт компьютеров samsung"
+    },
+    {
+        "slug": "deko-lazernye-urovni",
+        "often_name": "лазерные уровни deko"
+    },
+    {
+        "slug": "huter-elektrogeneratory",
+        "often_name": "электрогенераторы huter"
+    },
+    {
+        "slug": "hitachi-benzopily",
+        "often_name": "бензопилы hitachi"
+    },
+    {
+        "slug": "bort-perforatory",
+        "often_name": "перфораторы bort"
+    },
+    {
+        "slug": "elitech-perforatory",
+        "often_name": "перфораторы elitech"
+    },
+    {
+        "slug": "oleo-mac-benzopily",
+        "often_name": "бензопилы oleo-mac"
+    },
+    {
+        "slug": "mcculloch-benzopily",
+        "often_name": "бензопилы mcculloch"
+    },
+    {
+        "slug": "fujida-videoregistratory",
+        "often_name": "видеорегистраторы fujida"
+    },
+    {
+        "slug": "panasonic-muzykalnye-centry",
+        "often_name": "музыкальные центры panasonic"
+    },
+    {
+        "slug": "telefunken-televizory",
+        "often_name": "телевизоры telefunken"
+    },
+    {
+        "slug": "ballu-vodonagrevateli",
+        "often_name": "водонагреватели ballu"
+    },
+    {
+        "slug": "clage-vodonagrevateli",
+        "often_name": "водонагреватели clage"
+    },
+    {
+        "slug": "drazice-vodonagrevateli",
+        "often_name": "водонагреватели drazice"
+    },
+    {
+        "slug": "energy-polotencesushiteli",
+        "often_name": "полотенцесушители energy"
+    },
+    {
+        "slug": "thermona-gazovye-kotly",
+        "often_name": "газовые котлы thermona"
+    },
+    {
+        "slug": "remeza-vozdushnye-kompressory",
+        "often_name": "воздушные компрессоры remeza"
+    },
+    {
+        "slug": "arderia-gazovye-kotly",
+        "often_name": "газовые котлы arderia"
+    },
+    {
+        "slug": "vaillant-vodonagrevateli",
+        "often_name": "водонагреватели vaillant"
+    },
+    {
+        "slug": "siberia-gazovye-kotly",
+        "often_name": "газовые котлы siberia"
+    },
+    {
+        "slug": "fsp-bloki-pitaniya",
+        "often_name": "блоки питания fsp"
+    },
+    {
+        "slug": "hp-videokarty",
+        "often_name": "видеокарты hp"
+    },
+    {
+        "slug": "samsung-zhestkie-diski",
+        "often_name": "жесткие диски samsung"
+    },
+    {
+        "slug": "powerman-ibp",
+        "often_name": "ибп powerman"
+    },
+    {
+        "slug": "focusrite-zvukovye-karty",
+        "often_name": "звуковые карты focusrite"
+    },
+    {
+        "slug": "creative-zvukovye-karty",
+        "often_name": "звуковые карты creative"
+    },
+    {
+        "slug": "fsp-ibp",
+        "often_name": "ибп fsp"
+    },
+    {
+        "slug": "foxconn-bloki-pitaniya",
+        "often_name": "блоки питания foxconn"
+    },
+    {
+        "slug": "razer-klaviatury",
+        "often_name": "клавиатуры razer"
+    },
+    {
+        "slug": "logitech-veb-kameri",
+        "often_name": "веб-камеры logitech"
+    },
+    {
+        "slug": "genius-klaviatury",
+        "often_name": "клавиатуры genius"
+    },
+    {
+        "slug": "steelseries-mishki",
+        "often_name": "мышки steelseries"
+    },
+    {
+        "slug": "microsoft-klaviatury",
+        "often_name": "клавиатуры microsoft"
+    },
+    {
+        "slug": "oklick-klaviatury",
+        "often_name": "клавиатуры oklick"
+    },
+    {
+        "slug": "toshiba-klaviatury",
+        "often_name": "клавиатуры toshiba"
+    },
+    {
+        "slug": "a4tech-mishki",
+        "often_name": "мышки a4tech"
+    },
+    {
+        "slug": "qumo-klaviatury",
+        "often_name": "клавиатуры qumo"
+    },
+    {
+        "slug": "motospeed-klaviatury",
+        "often_name": "клавиатуры motospeed"
+    },
+    {
+        "slug": "defender-veb-kameri",
+        "often_name": "веб-камеры defender"
+    },
+    {
+        "slug": "defender-klaviatury",
+        "often_name": "клавиатуры defender"
+    },
+    {
+        "slug": "steelseries-klaviatury",
+        "often_name": "клавиатуры steelseries"
+    },
+    {
+        "slug": "junker-gazovye-kotly",
+        "often_name": "газовые котлы junker"
+    },
+    {
+        "slug": "kentatsu-gazovye-kotly",
+        "often_name": "газовые котлы kentatsu"
+    },
+    {
+        "slug": "royal-thermo-gazovye-kotly",
+        "often_name": "газовые котлы royal thermo"
+    },
+    {
+        "slug": "koreastar-gazovye-kotly",
+        "often_name": "газовые котлы koreastar"
+    },
+    {
+        "slug": "fondital-gazovye-kotly",
+        "often_name": "газовые котлы fondital"
+    },
+    {
+        "slug": "aiwa-muzykalnye-centry",
+        "often_name": "музыкальные центры aiwa"
+    },
+    {
+        "slug": "pioneer-usiliteli",
+        "often_name": "усилители pioneer"
+    },
+    {
+        "slug": "lg-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры lg"
+    },
+    {
+        "slug": "technics-muzykalnye-centry",
+        "often_name": "музыкальные центры technics"
+    },
+    {
+        "slug": "kicx-usiliteli",
+        "often_name": "усилители kicx"
+    },
+    {
+        "slug": "sony-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры sony"
+    },
+    {
+        "slug": "jbl-usiliteli",
+        "often_name": "усилители jbl"
+    },
+    {
+        "slug": "blue-microfoni",
+        "often_name": "микрофоны blue"
+    },
+    {
+        "slug": "shure-microfoni",
+        "often_name": "микрофоны shure"
+    },
+    {
+        "slug": "bbk-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры bbk"
+    },
+    {
+        "slug": "sennheiser-microfoni",
+        "often_name": "микрофоны sennheiser"
+    },
+    {
+        "slug": "sony-kassetnie-deki",
+        "often_name": "кассетные деки sony"
+    },
+    {
+        "slug": "akai-kassetnie-deki",
+        "often_name": "кассетные деки akai"
+    },
+    {
+        "slug": "lg-pulty-du",
+        "often_name": "пульты ду lg"
+    },
+    {
+        "slug": "panasonic-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры panasonic"
+    },
+    {
+        "slug": "jbl-portativnye-kolonki",
+        "often_name": "портативные колонки jbl"
+    },
+    {
+        "slug": "fubag-vozdushnye-kompressory",
+        "often_name": "воздушные компрессоры fubag"
+    },
+    {
+        "slug": "aquario-vodyanye-nasosy",
+        "often_name": "водяные насосы aquario"
+    },
+    {
+        "slug": "garage-vozdushnye-kompressory",
+        "often_name": "воздушные компрессоры garage"
+    },
+    {
+        "slug": "aurora-vozdushnye-kompressory",
+        "often_name": "воздушные компрессоры aurora"
+    },
+    {
+        "slug": "unipump-vodyanye-nasosy",
+        "often_name": "водяные насосы unipump"
+    },
+    {
+        "slug": "neoline-radar-detektory",
+        "often_name": "радар-детекторы neoline"
+    },
+    {
+        "slug": "hotfrost-kulery-vody",
+        "often_name": "кулеры для воды hotfrost"
+    },
+    {
+        "slug": "ael-kulery-vody",
+        "often_name": "кулеры для воды ael"
+    },
+    {
+        "slug": "ecotronic-kulery-vody",
+        "often_name": "кулеры для воды ecotronic"
+    },
+    {
+        "slug": "vatten-kulery-vody",
+        "often_name": "кулеры для воды vatten"
+    },
+    {
+        "slug": "lesoto-kulery-vody",
+        "often_name": "кулеры для воды lesoto"
+    },
+    {
+        "slug": "oasis-kulery-vody",
+        "often_name": "кулеры для воды oasis"
+    },
+    {
+        "slug": "renova-kulery-vody",
+        "often_name": "кулеры для воды renova"
+    },
+    {
+        "slug": "fellowes-laminatori",
+        "often_name": "ламинаторы fellowes"
+    },
+    {
+        "slug": "renault-avtomagnitoly",
+        "often_name": "автомагнитолы renault"
+    },
+    {
+        "slug": "supra-avtomagnitoly",
+        "often_name": "автомагнитолы supra"
+    },
+    {
+        "slug": "redpower-avtomagnitoly",
+        "often_name": "автомагнитолы redpower"
+    },
+    {
+        "slug": "digma-avtomagnitoly",
+        "often_name": "автомагнитолы digma"
+    },
+    {
+        "slug": "profioffice-laminatori",
+        "often_name": "ламинаторы profioffice"
+    },
+    {
+        "slug": "fujitsu-skaneri",
+        "often_name": "сканеры fujitsu"
+    },
+    {
+        "slug": "geleos-laminatori",
+        "often_name": "ламинаторы гелеос"
+    },
+    {
+        "slug": "mustek-skaneri",
+        "often_name": "сканеры mustek"
+    },
+    {
+        "slug": "panasonic-skaneri",
+        "often_name": "сканеры panasonic"
+    },
+    {
+        "slug": "bulros-laminatori",
+        "often_name": "ламинаторы bulros"
+    },
+    {
+        "slug": "avision-skaneri",
+        "often_name": "сканеры avision"
+    },
+    {
+        "slug": "gbc-laminatori",
+        "often_name": "ламинаторы gbc"
+    },
+    {
+        "slug": "efco-benzopily",
+        "often_name": "бензопилы efco"
+    },
+    {
+        "slug": "patriot-benzopily",
+        "often_name": "бензопилы patriot"
+    },
+    {
+        "slug": "pit-benzopily",
+        "often_name": "бензопилы pit"
+    },
+    {
+        "slug": "makita-benzopily",
+        "often_name": "бензопилы makita"
+    },
+    {
+        "slug": "hammer-benzopily",
+        "often_name": "бензопилы hammer"
+    },
+    {
+        "slug": "ryobi-benzopily",
+        "often_name": "бензопилы ryobi"
+    },
+    {
+        "slug": "maxcut-benzopily",
+        "often_name": "бензопилы maxcut"
+    },
+    {
+        "slug": "dde-benzopily",
+        "often_name": "бензопилы dde"
+    },
+    {
+        "slug": "redverg-benzopily",
+        "often_name": "бензопилы redverg"
+    },
+    {
+        "slug": "elitech-benzopily",
+        "often_name": "бензопилы elitech"
+    },
+    {
+        "slug": "al-ko-benzopily",
+        "often_name": "бензопилы al-ko"
+    },
+    {
+        "slug": "solo-benzopily",
+        "often_name": "бензопилы solo"
+    },
+    {
+        "slug": "sunerzha-polotencesushiteli",
+        "often_name": "полотенцесушители сунержа"
+    },
+    {
+        "slug": "margaroli-polotencesushiteli",
+        "often_name": "полотенцесушители margaroli"
+    },
+    {
+        "slug": "ballu-teplovye-pushki",
+        "often_name": "тепловые пушки ballu"
+    },
+    {
+        "slug": "terminus-polotencesushiteli",
+        "often_name": "полотенцесушители terminus"
+    },
+    {
+        "slug": "oso-vodonagrevateli",
+        "often_name": "водонагреватели oso"
+    },
+    {
+        "slug": "trugor-polotencesushiteli",
+        "often_name": "полотенцесушители тругор"
+    },
+    {
+        "slug": "dvin-polotencesushiteli",
+        "often_name": "полотенцесушители двин"
+    },
+    {
+        "slug": "sime-gazovye-kotly",
+        "often_name": "газовые котлы sime"
+    },
+    {
+        "slug": "master-teplovye-pushki",
+        "often_name": "тепловые пушки master"
+    },
+    {
+        "slug": "ibox-radar-detektory",
+        "often_name": "радар-детекторы ibox"
+    },
+    {
+        "slug": "carcam-videoregistratory",
+        "often_name": "видеорегистраторы carcam"
+    },
+    {
+        "slug": "hitachi-svarochnye-apparaty",
+        "often_name": "сварочные аппараты hitachi"
+    },
+    {
+        "slug": "wester-svarochnye-apparaty",
+        "often_name": "сварочные аппараты wester"
+    },
+    {
+        "slug": "foxweld-svarochnye-apparaty",
+        "often_name": "сварочные аппараты foxweld"
+    },
+    {
+        "slug": "aurora-svarochnye-apparaty",
+        "often_name": "сварочные аппараты aurora"
+    },
+    {
+        "slug": "blueweld-svarochnye-apparaty",
+        "often_name": "сварочные аппараты blueweld"
+    },
+    {
+        "slug": "wert-svarochnye-apparaty",
+        "often_name": "сварочные аппараты wert"
+    },
+    {
+        "slug": "brima-svarochnye-apparaty",
+        "often_name": "сварочные аппараты brima"
+    },
+    {
+        "slug": "ewm-svarochnye-apparaty",
+        "often_name": "сварочные аппараты ewm"
+    },
+    {
+        "slug": "telwin-svarochnye-apparaty",
+        "often_name": "сварочные аппараты telwin"
+    },
+    {
+        "slug": "helvi-svarochnye-apparaty",
+        "often_name": "сварочные аппараты helvi"
+    },
+    {
+        "slug": "maxcut-svarochnye-apparaty",
+        "often_name": "сварочные аппараты maxcut"
+    },
+    {
+        "slug": "elitech-svarochnye-apparaty",
+        "often_name": "сварочные аппараты elitech"
+    },
+    {
+        "slug": "sturm-svarochnye-apparaty",
+        "often_name": "сварочные аппараты sturm"
+    },
+    {
+        "slug": "triton-svarochnye-apparaty",
+        "often_name": "сварочные аппараты triton"
+    },
+    {
+        "slug": "edon-svarochnye-apparaty",
+        "often_name": "сварочные аппараты edon"
+    },
+    {
+        "slug": "hp-zhestkie-diski",
+        "often_name": "жесткие диски hp"
+    },
+    {
+        "slug": "hitachi-zhestkie-diski",
+        "often_name": "жесткие диски hitachi"
+    },
+    {
+        "slug": "lacie-zhestkie-diski",
+        "often_name": "жесткие диски lacie"
+    },
+    {
+        "slug": "dell-zhestkie-diski",
+        "often_name": "жесткие диски dell"
+    },
+    {
+        "slug": "sven-microfoni",
+        "often_name": "микрофоны sven"
+    },
+    {
+        "slug": "akira-pulty-du",
+        "often_name": "пульты ду akira"
+    },
+    {
+        "slug": "inter-m-usiliteli",
+        "often_name": "усилители inter-m"
+    },
+    {
+        "slug": "behringer-usiliteli",
+        "often_name": "усилители behringer"
+    },
+    {
+        "slug": "onkyo-usiliteli",
+        "often_name": "усилители onkyo"
+    },
+    {
+        "slug": "wester-gazovye-kotly",
+        "often_name": "газовые котлы wester"
+    },
+    {
+        "slug": "fiolent-elektrolobziki",
+        "often_name": "электролобзики фиолент"
+    },
+    {
+        "slug": "elitech-teplovye-pushki",
+        "often_name": "тепловые пушки elitech"
+    },
+    {
+        "slug": "msi-kompyutery",
+        "often_name": "компьютеры msi"
+    },
+    {
+        "slug": "dell-kompyutery",
+        "often_name": "компьютеры dell"
+    },
+    {
+        "slug": "lenovo-kompyutery",
+        "often_name": "компьютеры lenovo"
+    },
+    {
+        "slug": "fujifilm-fotoapparaty",
+        "often_name": "фотоаппараты fujifilm"
+    },
+    {
+        "slug": "sony-obektivy",
+        "often_name": "объективы sony"
+    },
+    {
+        "slug": "samsung-fotoapparaty",
+        "often_name": "фотоаппараты samsung"
+    },
+    {
+        "slug": "canon-fotovspyshki",
+        "often_name": "вспышки canon"
+    },
+    {
+        "slug": "kodak-fotoapparaty",
+        "often_name": "фотоаппараты kodak"
+    },
+    {
+        "slug": "tamron-obektivy",
+        "often_name": "объективы tamron"
+    },
+    {
+        "slug": "leica-fotoapparaty",
+        "often_name": "фотоаппараты leica"
+    },
+    {
+        "slug": "fujifilm-obektivy",
+        "often_name": "объективы fujifilm"
+    },
+    {
+        "slug": "polaroid-fotoapparaty",
+        "often_name": "фотоаппараты polaroid"
+    },
+    {
+        "slug": "sony-ekshn-kamery",
+        "often_name": "экшн-камеры sony"
+    },
+    {
+        "slug": "sjcam-ekshn-kamery",
+        "often_name": "экшн-камеры sjcam"
+    },
+    {
+        "slug": "samsung-videokameri",
+        "often_name": "видеокамеры samsung"
+    },
+    {
+        "slug": "ricoh-fotoapparaty",
+        "often_name": "фотоаппараты ricoh"
+    },
+    {
+        "slug": "oasis-vodonagrevateli",
+        "often_name": "водонагреватели oasis"
+    },
+    {
+        "slug": "sonyplaystation-igrovye-pristavki",
+        "often_name": "игровые приставки sony playstation"
+    },
+    {
+        "slug": "bq-planshety",
+        "often_name": "планшеты bq"
+    },
+    {
+        "slug": "xbox-igrovye-pristavki",
+        "often_name": "игровые приставки xbox"
+    },
+    {
+        "slug": "4good-planshety",
+        "often_name": "планшеты 4good"
+    },
+    {
+        "slug": "hiwatch-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения hiwatch"
+    },
+    {
+        "slug": "hikvision-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения hikvision"
+    },
+    {
+        "slug": "vstarcam-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения vstarcam"
+    },
+    {
+        "slug": "dahua-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения dahua"
+    },
+    {
+        "slug": "trassir-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения trassir"
+    },
+    {
+        "slug": "xiaomi-kamery-videonablyudeniya",
+        "often_name": "камеры видеонаблюдения xiaomi"
+    },
+    {
+        "slug": "sony-elektronnye-knigi",
+        "often_name": "электронные книги sony"
+    },
+    {
+        "slug": "texet-elektronnye-knigi",
+        "often_name": "электронные книги texet"
+    },
+    {
+        "slug": "ritmix-elektronnye-knigi",
+        "often_name": "электронные книги ritmix"
+    },
+    {
+        "slug": "amazon-elektronnye-knigi",
+        "often_name": "электронные книги amazon"
+    },
+    {
+        "slug": "gmini-elektronnye-knigi",
+        "often_name": "электронные книги gmini"
+    },
+    {
+        "slug": "prestigio-elektronnye-knigi",
+        "often_name": "электронные книги prestigio"
+    },
+    {
+        "slug": "unic-proektori",
+        "often_name": "проекторы unic"
+    },
+    {
+        "slug": "explay-elektronnye-knigi",
+        "often_name": "электронные книги explay"
+    },
+    {
+        "slug": "qumo-elektronnye-knigi",
+        "often_name": "электронные книги qumo"
+    },
+    {
+        "slug": "tefal-utyugi",
+        "often_name": "утюги tefal"
+    },
+    {
+        "slug": "rowenta-epilyatory",
+        "often_name": "эпиляторы rowenta"
+    },
+    {
+        "slug": "oster-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос oster"
+    },
+    {
+        "slug": "babyliss-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос babyliss"
+    },
+    {
+        "slug": "remington-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос remington"
+    },
+    {
+        "slug": "wahl-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос wahl"
+    },
+    {
+        "slug": "panasonic-epilyatory",
+        "often_name": "эпиляторы panasonic"
+    },
+    {
+        "slug": "vitek-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос vitek"
+    },
+    {
+        "slug": "hairway-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос hairway"
+    },
+    {
+        "slug": "panasonic-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос panasonic"
+    },
+    {
+        "slug": "scarlett-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос scarlett"
+    },
+    {
+        "slug": "marathon-apparaty-manikyura-pedikyura",
+        "often_name": "аппараты для маникюра и педикюра marathon"
+    },
+    {
+        "slug": "rowenta-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос rowenta"
+    },
+    {
+        "slug": "braun-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос braun"
+    },
+    {
+        "slug": "runail-apparaty-manikyura-pedikyura",
+        "often_name": "аппараты для маникюра и педикюра runail"
+    },
+    {
+        "slug": "fubag-elektrogeneratory",
+        "often_name": "электрогенераторы fubag"
+    },
+    {
+        "slug": "hyundai-elektrogeneratory",
+        "often_name": "электрогенераторы hyundai"
+    },
+    {
+        "slug": "etalon-vodonagrevateli",
+        "often_name": "водонагреватели etalon"
+    },
+    {
+        "slug": "vestel-stiralnye-mashiny",
+        "often_name": "стиральные машины vestel"
+    },
+    {
+        "slug": "smeg-stiralnye-mashiny",
+        "often_name": "стиральные машины smeg"
+    },
+    {
+        "slug": "gaggenau-stiralnye-mashiny",
+        "often_name": "стиральные машины gaggenau"
+    },
+    {
+        "slug": "kuppersbusch-stiralnye-mashiny",
+        "often_name": "стиральные машины kuppersbusch"
+    },
+    {
+        "slug": "bissell-pylesosy",
+        "often_name": "пылесосы bissell"
+    },
+    {
+        "slug": "midea-pylesosy",
+        "often_name": "пылесосы midea"
+    },
+    {
+        "slug": "asus-zvukovye-karty",
+        "often_name": "звуковые карты asus"
+    },
+    {
+        "slug": "hubsan-kvadrokoptery",
+        "often_name": "квадрокоптеры hubsan"
+    },
+    {
+        "slug": "mjx-kvadrokoptery",
+        "often_name": "квадрокоптеры mjx"
+    },
+    {
+        "slug": "xiro-kvadrokoptery",
+        "often_name": "квадрокоптеры xiro"
+    },
+    {
+        "slug": "fimi-kvadrokoptery",
+        "often_name": "квадрокоптеры fimi"
+    },
+    {
+        "slug": "elari-umnie-chasi",
+        "often_name": "умные часы elari"
+    },
+    {
+        "slug": "geozon-umnie-chasi",
+        "often_name": "умные часы geozon"
+    },
+    {
+        "slug": "huawei-umnie-chasi",
+        "often_name": "умные часы huawei"
+    },
+    {
+        "slug": "jet-umnie-chasi",
+        "often_name": "умные часы jet"
+    },
+    {
+        "slug": "samsung-umnie-chasi",
+        "often_name": "умные часы samsung"
+    },
+    {
+        "slug": "stihl-vozduhoduvki",
+        "often_name": "воздуходувки stihl"
+    },
+    {
+        "slug": "digma-noutbuki",
+        "often_name": "ноутбуки digma"
+    },
+    {
+        "slug": "packard-bell-noutbuki",
+        "often_name": "ноутбуки packard bell"
+    },
+    {
+        "slug": "irbis-noutbuki",
+        "often_name": "ноутбуки irbis"
+    },
+    {
+        "slug": "hyundai-vodonagrevateli",
+        "often_name": "водонагреватели hyundai"
+    },
+    {
+        "slug": "aeg-ventilyatory",
+        "often_name": "вентиляторы aeg"
+    },
+    {
+        "slug": "electrolux-ventilyatory",
+        "often_name": "вентиляторы electrolux"
+    },
+    {
+        "slug": "first-ventilyatory",
+        "often_name": "вентиляторы first"
+    },
+    {
+        "slug": "midea-ventilyatory",
+        "often_name": "вентиляторы midea"
+    },
+    {
+        "slug": "ballu-ventilyatory",
+        "often_name": "вентиляторы ballu"
+    },
+    {
+        "slug": "centek-ventilyatory",
+        "often_name": "вентиляторы centek"
+    },
+    {
+        "slug": "zanussi-ventilyatory",
+        "often_name": "вентиляторы zanussi"
+    },
+    {
+        "slug": "tefal-ventilyatory",
+        "often_name": "вентиляторы tefal"
+    },
+    {
+        "slug": "delta-ventilyatory",
+        "often_name": "вентиляторы delta"
+    },
+    {
+        "slug": "binatone-ventilyatory",
+        "often_name": "вентиляторы binatone"
+    },
+    {
+        "slug": "maxwell-ventilyatory",
+        "often_name": "вентиляторы maxwell"
+    },
+    {
+        "slug": "energy-ventilyatory",
+        "often_name": "вентиляторы energy"
+    },
+    {
+        "slug": "timberk-ventilyatory",
+        "often_name": "вентиляторы timberk"
+    },
+    {
+        "slug": "vents-ventilyatory",
+        "often_name": "вентиляторы vents"
+    },
+    {
+        "slug": "lumme-ventilyatory",
+        "often_name": "вентиляторы lumme"
+    },
+    {
+        "slug": "htc-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос htc"
+    },
+    {
+        "slug": "maxwell-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос maxwell"
+    },
+    {
+        "slug": "polaris-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос polaris"
+    },
+    {
+        "slug": "wagner-kraskopulty",
+        "often_name": "краскопульты wagner"
+    },
+    {
+        "slug": "pit-perforatory",
+        "often_name": "перфораторы pit"
+    },
+    {
+        "slug": "subini-videoregistratory",
+        "often_name": "видеорегистраторы subini"
+    },
+    {
+        "slug": "dod-videoregistratory",
+        "often_name": "видеорегистраторы dod"
+    },
+    {
+        "slug": "digma-videoregistratory",
+        "often_name": "видеорегистраторы digma"
+    },
+    {
+        "slug": "garmin-videoregistratory",
+        "often_name": "видеорегистраторы garmin"
+    },
+    {
+        "slug": "datakam-videoregistratory",
+        "often_name": "видеорегистраторы datakam"
+    },
+    {
+        "slug": "dunobil-videoregistratory",
+        "often_name": "видеорегистраторы dunobil"
+    },
+    {
+        "slug": "kentatsu-konditsionery",
+        "often_name": "кондиционеры kentatsu"
+    },
+    {
+        "slug": "pioneer-videoregistratory",
+        "often_name": "видеорегистраторы pioneer"
+    },
+    {
+        "slug": "slimtec-videoregistratory",
+        "often_name": "видеорегистраторы slimtec"
+    },
+    {
+        "slug": "microsoft-mishki",
+        "often_name": "мышки microsoft"
+    },
+    {
+        "slug": "corsair-klaviatury",
+        "often_name": "клавиатуры corsair"
+    },
+    {
+        "slug": "gembird-klaviatury",
+        "often_name": "клавиатуры gembird"
+    },
+    {
+        "slug": "asus-mishki",
+        "often_name": "мышки asus"
+    },
+    {
+        "slug": "sven-klaviatury",
+        "often_name": "клавиатуры sven"
+    },
+    {
+        "slug": "diacont-glukometri",
+        "often_name": "глюкометры diacont"
+    },
+    {
+        "slug": "citizen-tonometry",
+        "often_name": "тонометры citizen"
+    },
+    {
+        "slug": "alcohunter-alkotesteri",
+        "often_name": "алкотестеры alcohunter"
+    },
+    {
+        "slug": "carver-gazonokosilki",
+        "often_name": "газонокосилки carver"
+    },
+    {
+        "slug": "yota-modemi",
+        "often_name": "модемы yota"
+    },
+    {
+        "slug": "huawei-routery",
+        "often_name": "роутеры huawei"
+    },
+    {
+        "slug": "tenda-routery",
+        "often_name": "роутеры tenda"
+    },
+    {
+        "slug": "zyxel-modemi",
+        "often_name": "модемы zyxel"
+    },
+    {
+        "slug": "d-link-modemi",
+        "often_name": "модемы d-link"
+    },
+    {
+        "slug": "mercusys-routery",
+        "often_name": "роутеры mercusys"
+    },
+    {
+        "slug": "cansonic-videoregistratory",
+        "often_name": "видеорегистраторы cansonic"
+    },
+    {
+        "slug": "supra-videoregistratory",
+        "often_name": "видеорегистраторы supra"
+    },
+    {
+        "slug": "trendvision-videoregistratory",
+        "often_name": "видеорегистраторы trendvision"
+    },
+    {
+        "slug": "viper-videoregistratory",
+        "often_name": "видеорегистраторы viper"
+    },
+    {
+        "slug": "incar-videoregistratory",
+        "often_name": "видеорегистраторы incar"
+    },
+    {
+        "slug": "recxon-videoregistratory",
+        "often_name": "видеорегистраторы recxon"
+    },
+    {
+        "slug": "xpx-videoregistratory",
+        "often_name": "видеорегистраторы xpx"
+    },
+    {
+        "slug": "stonelock-videoregistratory",
+        "often_name": "видеорегистраторы stonelock"
+    },
+    {
+        "slug": "bosch-utyugi",
+        "often_name": "утюги bosch"
+    },
+    {
+        "slug": "philips-otparivateli",
+        "often_name": "отпариватели philips"
+    },
+    {
+        "slug": "braun-utyugi",
+        "often_name": "утюги braun"
+    },
+    {
+        "slug": "rucelf-stabilizatory-napryazheniya",
+        "often_name": "стабилизаторы напряжения rucelf"
+    },
+    {
+        "slug": "powerman-stabilizatory-napryazheniya",
+        "often_name": "стабилизаторы напряжения powerman"
+    },
+    {
+        "slug": "sven-stabilizatory-napryazheniya",
+        "often_name": "стабилизаторы напряжения sven"
+    },
+    {
+        "slug": "electrolux-varochnye-poverkhnosti",
+        "often_name": "варочные панели electrolux"
+    },
+    {
+        "slug": "bosch-varochnye-poverkhnosti",
+        "often_name": "варочные панели bosch"
+    },
+    {
+        "slug": "bosch-dukhovye-shkafy",
+        "often_name": "духовые шкафы bosch"
+    },
+    {
+        "slug": "gigaset-radiotelefony",
+        "often_name": "радиотелефоны gigaset"
+    },
+    {
+        "slug": "philips-radiotelefony",
+        "often_name": "радиотелефоны philips"
+    },
+    {
+        "slug": "senao-radiotelefony",
+        "often_name": "радиотелефоны senao"
+    },
+    {
+        "slug": "ballu-obogrevateli",
+        "often_name": "обогреватели ballu"
+    },
+    {
+        "slug": "electrolux-obogrevateli",
+        "often_name": "обогреватели electrolux"
+    },
+    {
+        "slug": "baxi-vodonagrevateli",
+        "often_name": "водонагреватели baxi"
+    },
+    {
+        "slug": "lemax-gazovye-kotly",
+        "often_name": "газовые котлы lemax"
+    },
+    {
+        "slug": "jax-konditsionery",
+        "often_name": "кондиционеры jax"
+    },
+    {
+        "slug": "beko-konditsionery",
+        "often_name": "кондиционеры beko"
+    },
+    {
+        "slug": "airwell-konditsionery",
+        "often_name": "кондиционеры airwell"
+    },
+    {
+        "slug": "roda-konditsionery",
+        "often_name": "кондиционеры roda"
+    },
+    {
+        "slug": "vertex-konditsionery",
+        "often_name": "кондиционеры vertex"
+    },
+    {
+        "slug": "ballu-osushiteli-vozduha",
+        "often_name": "осушители воздуха ballu"
+    },
+    {
+        "slug": "apple-mishki",
+        "often_name": "мышки apple"
+    },
+    {
+        "slug": "cougar-klaviatury",
+        "often_name": "клавиатуры cougar"
+    },
+    {
+        "slug": "oklick-mishki",
+        "often_name": "мышки oklick"
+    },
+    {
+        "slug": "sven-veb-kameri",
+        "often_name": "веб-камеры sven"
+    },
+    {
+        "slug": "sega-igrovye-pristavki",
+        "often_name": "игровые приставки sega"
+    },
+    {
+        "slug": "bbk-muzykalnye-centry",
+        "often_name": "музыкальные центры bbk"
+    },
+    {
+        "slug": "denon-usiliteli",
+        "often_name": "усилители denon"
+    },
+    {
+        "slug": "marshall-naushniki",
+        "often_name": "наушники marshall"
+    },
+    {
+        "slug": "razer-naushniki",
+        "often_name": "наушники razer"
+    },
+    {
+        "slug": "mis-naushniki",
+        "often_name": "наушники mis"
+    },
+    {
+        "slug": "sven-naushniki",
+        "often_name": "наушники sven"
+    },
+    {
+        "slug": "logitech-naushniki",
+        "often_name": "наушники logitech"
+    },
+    {
+        "slug": "philips-naushniki",
+        "often_name": "наушники philips"
+    },
+    {
+        "slug": "air-naushniki",
+        "often_name": "наушники air"
+    },
+    {
+        "slug": "jabra-naushniki",
+        "often_name": "наушники jabra"
+    },
+    {
+        "slug": "bose-naushniki",
+        "often_name": "наушники bose"
+    },
+    {
+        "slug": "elari-naushniki",
+        "often_name": "наушники elari"
+    },
+    {
+        "slug": "akg-naushniki",
+        "often_name": "наушники akg"
+    },
+    {
+        "slug": "aquajet-irrigatory",
+        "often_name": "ирригаторы aquajet"
+    },
+    {
+        "slug": "donfeel-irrigatory",
+        "often_name": "ирригаторы donfeel"
+    },
+    {
+        "slug": "oral-b-irrigatory",
+        "often_name": "ирригаторы oral-b"
+    },
+    {
+        "slug": "redmond-pylesosy",
+        "often_name": "пылесосы redmond"
+    },
+    {
+        "slug": "kitfort-pylesosy",
+        "often_name": "пылесосы kitfort"
+    },
+    {
+        "slug": "vax-pylesosy",
+        "often_name": "пылесосы vax"
+    },
+    {
+        "slug": "aeg-pylesosy",
+        "often_name": "пылесосы aeg"
+    },
+    {
+        "slug": "inspector-radar-detektory",
+        "often_name": "радар-детекторы inspector"
+    },
+    {
+        "slug": "intego-radar-detektory",
+        "often_name": "радар-детекторы intego"
+    },
+    {
+        "slug": "navitel-gps-navigatory",
+        "often_name": "gps-навигаторы navitel"
+    },
+    {
+        "slug": "artway-radar-detektory",
+        "often_name": "радар-детекторы artway"
+    },
+    {
+        "slug": "sony-portativnye-kolonki",
+        "often_name": "портативные колонки sony"
+    },
+    {
+        "slug": "kiturami-gazovye-kotly",
+        "often_name": "газовые котлы kiturami"
+    },
+    {
+        "slug": "chaffoteaux-gazovye-kotly",
+        "often_name": "газовые котлы chaffoteaux"
+    },
+    {
+        "slug": "hansa-elektricheskie-plity",
+        "often_name": "электрические плиты hansa"
+    },
+    {
+        "slug": "gorenje-elektricheskie-plity",
+        "often_name": "электрические плиты gorenje"
+    },
+    {
+        "slug": "aeg-elektricheskie-plity",
+        "often_name": "электрические плиты aeg"
+    },
+    {
+        "slug": "zanussi-elektricheskie-plity",
+        "often_name": "электрические плиты zanussi"
+    },
+    {
+        "slug": "bosch-elektricheskie-plity",
+        "often_name": "электрические плиты bosch"
+    },
+    {
+        "slug": "beko-elektricheskie-plity",
+        "often_name": "электрические плиты beko"
+    },
+    {
+        "slug": "haier-elektricheskie-plity",
+        "often_name": "электрические плиты haier"
+    },
+    {
+        "slug": "electrolux-elektricheskie-plity",
+        "often_name": "электрические плиты electrolux"
+    },
+    {
+        "slug": "flama-elektricheskie-plity",
+        "often_name": "электрические плиты flama"
+    },
+    {
+        "slug": "siemens-elektricheskie-plity",
+        "often_name": "электрические плиты siemens"
+    },
+    {
+        "slug": "de-luxe-elektricheskie-plity",
+        "often_name": "электрические плиты de luxe"
+    },
+    {
+        "slug": "gefest-elektricheskie-plity",
+        "often_name": "электрические плиты gefest"
+    },
+    {
+        "slug": "indesit-elektricheskie-plity",
+        "often_name": "электрические плиты indesit"
+    },
+    {
+        "slug": "kaiser-elektricheskie-plity",
+        "often_name": "электрические плиты kaiser"
+    },
+    {
+        "slug": "leran-elektricheskie-plity",
+        "often_name": "электрические плиты leran"
+    },
+    {
+        "slug": "vestel-elektricheskie-plity",
+        "often_name": "электрические плиты vestel"
+    },
+    {
+        "slug": "whirlpool-elektricheskie-plity",
+        "often_name": "электрические плиты whirlpool"
+    },
+    {
+        "slug": "endever-elektricheskie-plity",
+        "often_name": "электрические плиты endever"
+    },
+    {
+        "slug": "soundmax-avtomagnitoly",
+        "often_name": "автомагнитолы soundmax"
+    },
+    {
+        "slug": "telefunken-avtomagnitoly",
+        "often_name": "автомагнитолы telefunken"
+    },
+    {
+        "slug": "acv-avtomagnitoly",
+        "often_name": "автомагнитолы acv"
+    },
+    {
+        "slug": "nintendo-igrovye-pristavki",
+        "often_name": "игровые приставки nintendo"
+    },
+    {
+        "slug": "neff-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины neff"
+    },
+    {
+        "slug": "aic-ochistiteli-uvlazhniteli-vozduha",
+        "often_name": "очистители и увлажнители воздуха aic"
+    },
+    {
+        "slug": "archos-planshety",
+        "often_name": "планшеты archos"
+    },
+    {
+        "slug": "ginzzu-planshety",
+        "often_name": "планшеты ginzzu"
+    },
+    {
+        "slug": "turbo-planshety",
+        "often_name": "планшеты turbo"
+    },
+    {
+        "slug": "haier-planshety",
+        "often_name": "планшеты haier"
+    },
+    {
+        "slug": "polaris-kofevarki",
+        "often_name": "кофеварки polaris"
+    },
+    {
+        "slug": "smeg-kofemashiny",
+        "often_name": "кофемашины smeg"
+    },
+    {
+        "slug": "polaris-kofemashiny",
+        "often_name": "кофемашины polaris"
+    },
+    {
+        "slug": "cremesso-kofemashiny",
+        "often_name": "кофемашины cremesso"
+    },
+    {
+        "slug": "wmf-kofemashiny",
+        "often_name": "кофемашины wmf"
+    },
+    {
+        "slug": "hansa-dukhovye-shkafy",
+        "often_name": "духовые шкафы hansa"
+    },
+    {
+        "slug": "gorenje-dukhovye-shkafy",
+        "often_name": "духовые шкафы gorenje"
+    },
+    {
+        "slug": "hansa-varochnye-poverkhnosti",
+        "often_name": "варочные панели hansa"
+    },
+    {
+        "slug": "gorenje-varochnye-poverkhnosti",
+        "often_name": "варочные панели gorenje"
+    },
+    {
+        "slug": "neff-varochnye-poverkhnosti",
+        "often_name": "варочные панели neff"
+    },
+    {
+        "slug": "miele-varochnye-poverkhnosti",
+        "often_name": "варочные панели miele"
+    },
+    {
+        "slug": "siemens-varochnye-poverkhnosti",
+        "often_name": "варочные панели siemens"
+    },
+    {
+        "slug": "aeg-varochnye-poverkhnosti",
+        "often_name": "варочные панели aeg"
+    },
+    {
+        "slug": "korting-varochnye-poverkhnosti",
+        "often_name": "варочные панели korting"
+    },
+    {
+        "slug": "neff-dukhovye-shkafy",
+        "often_name": "духовые шкафы neff"
+    },
+    {
+        "slug": "zanussi-dukhovye-shkafy",
+        "often_name": "духовые шкафы zanussi"
+    },
+    {
+        "slug": "daewoo-svarochnye-apparaty",
+        "often_name": "сварочные аппараты daewoo"
+    },
+    {
+        "slug": "nec-monitory",
+        "often_name": "мониторы nec"
+    },
+    {
+        "slug": "philips-monitory",
+        "often_name": "мониторы philips"
+    },
+    {
+        "slug": "aoc-monitory",
+        "often_name": "мониторы aoc"
+    },
+    {
+        "slug": "msi-monitory",
+        "often_name": "мониторы msi"
+    },
+    {
+        "slug": "cas-vesi",
+        "often_name": "весы cas"
+    },
+    {
+        "slug": "liebherr-morozilniki",
+        "often_name": "морозильники liebherr"
+    },
+    {
+        "slug": "smeg-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины smeg"
+    },
+    {
+        "slug": "daewoo-stiralnye-mashiny",
+        "often_name": "стиральные машины daewoo"
+    },
+    {
+        "slug": "midea-stiralnye-mashiny",
+        "often_name": "стиральные машины midea"
+    },
+    {
+        "slug": "kettler-trenazhyory",
+        "often_name": "тренажёры kettler"
+    },
+    {
+        "slug": "torneo-trenazhyory",
+        "often_name": "тренажёры torneo"
+    },
+    {
+        "slug": "unixfit-begovye-dorozhki",
+        "often_name": "беговые дорожки unixfit"
+    },
+    {
+        "slug": "torneo-begovye-dorozhki",
+        "often_name": "беговые дорожки torneo"
+    },
+    {
+        "slug": "housefit-trenazhyory",
+        "often_name": "тренажёры housefit"
+    },
+    {
+        "slug": "oxygen-begovye-dorozhki",
+        "often_name": "беговые дорожки oxygen"
+    },
+    {
+        "slug": "proform-begovye-dorozhki",
+        "often_name": "беговые дорожки proform"
+    },
+    {
+        "slug": "dfc-begovye-dorozhki",
+        "often_name": "беговые дорожки dfc"
+    },
+    {
+        "slug": "nordictrack-begovye-dorozhki",
+        "often_name": "беговые дорожки nordictrack"
+    },
+    {
+        "slug": "cardiopower-begovye-dorozhki",
+        "often_name": "беговые дорожки cardiopower"
+    },
+    {
+        "slug": "kettler-begovye-dorozhki",
+        "often_name": "беговые дорожки kettler"
+    },
+    {
+        "slug": "nordictrack-trenazhyory",
+        "often_name": "тренажёры nordictrack"
+    },
+    {
+        "slug": "dantherm-osushiteli-vozduha",
+        "often_name": "осушители воздуха dantherm"
+    },
+    {
+        "slug": "calorex-osushiteli-vozduha",
+        "often_name": "осушители воздуха calorex"
+    },
+    {
+        "slug": "master-osushiteli-vozduha",
+        "often_name": "осушители воздуха master"
+    },
+    {
+        "slug": "neoclima-osushiteli-vozduha",
+        "often_name": "осушители воздуха neoclima"
+    },
+    {
+        "slug": "danvex-osushiteli-vozduha",
+        "often_name": "осушители воздуха danvex"
+    },
+    {
+        "slug": "champion-elektrogeneratory",
+        "often_name": "электрогенераторы champion"
+    },
+    {
+        "slug": "strong-apparaty-manikyura-pedikyura",
+        "often_name": "аппараты для маникюра и педикюра strong"
+    },
+    {
+        "slug": "delta-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос delta"
+    },
+    {
+        "slug": "galaxy-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос galaxy"
+    },
+    {
+        "slug": "hotpoint-ariston-kholodilniki",
+        "often_name": "холодильники hotpoint-ariston"
+    },
+    {
+        "slug": "smeg-kholodilniki",
+        "often_name": "холодильники smeg"
+    },
+    {
+        "slug": "general-electric-kholodilniki",
+        "often_name": "холодильники general electric"
+    },
+    {
+        "slug": "ownice-avtomagnitoly",
+        "often_name": "автомагнитолы ownice"
+    },
+    {
+        "slug": "miele-sushilnye-mashiny",
+        "often_name": "сушильные машины miele"
+    },
+    {
+        "slug": "panasonic-elektrobritvy",
+        "often_name": "электробритвы panasonic"
+    },
+    {
+        "slug": "hotpoint-ariston-gazovye-plity",
+        "often_name": "газовые плиты hotpoint-ariston"
+    },
+    {
+        "slug": "darina-gazovye-plity",
+        "often_name": "газовые плиты darina"
+    },
+    {
+        "slug": "nobo-obogrevateli",
+        "often_name": "обогреватели nobo"
+    },
+    {
+        "slug": "ricoh-kopiri",
+        "often_name": "копиры ricoh"
+    },
+    {
+        "slug": "sony-akusticheskie-sistemy",
+        "often_name": "акустические системы sony"
+    },
+    {
+        "slug": "jbl-akusticheskie-sistemy",
+        "often_name": "акустические системы jbl"
+    },
+    {
+        "slug": "yamaha-akusticheskie-sistemy",
+        "often_name": "акустические системы yamaha"
+    },
+    {
+        "slug": "bosch-kraskopulty",
+        "often_name": "краскопульты bosch"
+    },
+    {
+        "slug": "dewalt-dreli",
+        "often_name": "дрели dewalt"
+    },
+    {
+        "slug": "rgk-lazernye-urovni",
+        "often_name": "лазерные уровни rgk"
+    },
+    {
+        "slug": "bosch-elektrolobziki",
+        "often_name": "электролобзики bosch"
+    },
+    {
+        "slug": "makita-dreli",
+        "often_name": "дрели makita"
+    },
+    {
+        "slug": "rebir-dreli",
+        "often_name": "дрели rebir"
+    },
+    {
+        "slug": "hammer-dreli",
+        "often_name": "дрели hammer"
+    },
+    {
+        "slug": "bort-dreli",
+        "often_name": "дрели bort"
+    },
+    {
+        "slug": "philips-feny",
+        "often_name": "фены philips"
+    },
+    {
+        "slug": "rowenta-feny",
+        "often_name": "фены rowenta"
+    },
+    {
+        "slug": "braun-feny",
+        "often_name": "фены braun"
+    },
+    {
+        "slug": "fiolent-dreli",
+        "often_name": "дрели фиолент"
+    },
+    {
+        "slug": "metabo-dreli",
+        "often_name": "дрели metabo"
+    },
+    {
+        "slug": "pentax-fotoapparaty",
+        "often_name": "фотоаппараты pentax"
+    },
+    {
+        "slug": "sven-portativnye-kolonki",
+        "often_name": "портативные колонки sven"
+    },
+    {
+        "slug": "hammer-kraskopulty",
+        "often_name": "краскопульты hammer"
+    },
+    {
+        "slug": "elitech-kraskopulty",
+        "often_name": "краскопульты elitech"
+    },
+    {
+        "slug": "digma-portativnye-kolonki",
+        "often_name": "портативные колонки digma"
+    },
+    {
+        "slug": "defender-portativnye-kolonki",
+        "often_name": "портативные колонки defender"
+    },
+    {
+        "slug": "bose-portativnye-kolonki",
+        "often_name": "портативные колонки bose"
+    },
+    {
+        "slug": "hotpoint-ariston-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины hotpoint-ariston"
+    },
+    {
+        "slug": "beko-gazovye-plity",
+        "often_name": "газовые плиты beko"
+    },
+    {
+        "slug": "flama-gazovye-plity",
+        "often_name": "газовые плиты flama"
+    },
+    {
+        "slug": "hotpoint-ariston-sushilnye-mashiny",
+        "often_name": "сушильные машины hotpoint-ariston"
+    },
+    {
+        "slug": "hotpoint-ariston-kuhonnye-vytyazhki",
+        "often_name": "кухонные вытяжки hotpoint-ariston"
+    },
+    {
+        "slug": "asko-sushilnye-mashiny",
+        "often_name": "сушильные машины asko"
+    },
+    {
+        "slug": "asko-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины asko"
+    },
+    {
+        "slug": "asko-varochnye-poverkhnosti",
+        "often_name": "варочные панели asko"
+    },
+    {
+        "slug": "blast-radiopriemnik",
+        "often_name": "радиоприемники blast"
+    },
+    {
+        "slug": "philips-radiopriemnik",
+        "often_name": "радиоприемники philips"
+    },
+    {
+        "slug": "signal-radiopriemnik",
+        "often_name": "радиоприемники signal"
+    },
+    {
+        "slug": "termotechnik-gazovye-kotly",
+        "often_name": "газовые котлы termotechnik"
+    },
+    {
+        "slug": "philips-domashnie-kinoteatry",
+        "often_name": "домашние кинотеатры philips"
+    },
+    {
+        "slug": "hotter-aerogril",
+        "often_name": "аэрогрили hotter"
+    },
+    {
+        "slug": "bosch-myasorubki",
+        "often_name": "мясорубки bosch"
+    },
+    {
+        "slug": "panasonic-obektivy",
+        "often_name": "объективы panasonic"
+    },
+    {
+        "slug": "gopro-videokameri",
+        "often_name": "видеокамеры gopro"
+    },
+    {
+        "slug": "tokina-obektivy",
+        "often_name": "объективы tokina"
+    },
+    {
+        "slug": "yongnuo-obektivy",
+        "often_name": "объективы yongnuo"
+    },
+    {
+        "slug": "zenit-obektivy",
+        "often_name": "объективы зенит"
+    },
+    {
+        "slug": "samyang-obektivy",
+        "often_name": "объективы samyang"
+    },
+    {
+        "slug": "casio-fotoapparaty",
+        "often_name": "фотоаппараты casio"
+    },
+    {
+        "slug": "nikon-fotovspyshki",
+        "often_name": "вспышки nikon"
+    },
+    {
+        "slug": "sigma-fotoapparaty",
+        "often_name": "фотоаппараты sigma"
+    },
+    {
+        "slug": "yongnuo-fotovspyshki",
+        "often_name": "вспышки yongnuo"
+    },
+    {
+        "slug": "everycom-proektori",
+        "often_name": "проекторы everycom"
+    },
+    {
+        "slug": "de-dietrich-gazovye-kotly",
+        "often_name": "газовые котлы de dietrich"
+    },
+    {
+        "slug": "vitek-kofemashiny",
+        "often_name": "кофемашины vitek"
+    },
+    {
+        "slug": "delonghi-kofemashiny",
+        "often_name": "кофемашины de'longhi"
+    },
+    {
+        "slug": "braun-parogeneratory",
+        "often_name": "парогенераторы braun"
+    },
+    {
+        "slug": "lelit-parogeneratory",
+        "often_name": "парогенераторы lelit"
+    },
+    {
+        "slug": "mie-parogeneratory",
+        "often_name": "парогенераторы mie"
+    },
+    {
+        "slug": "laurastar-parogeneratory",
+        "often_name": "парогенераторы laurastar"
+    },
+    {
+        "slug": "rowenta-parogeneratory",
+        "often_name": "парогенераторы rowenta"
+    },
+    {
+        "slug": "kitfort-parogeneratory",
+        "often_name": "парогенераторы kitfort"
+    },
+    {
+        "slug": "rotondi-parogeneratory",
+        "often_name": "парогенераторы rotondi"
+    },
+    {
+        "slug": "polaris-parogeneratory",
+        "often_name": "парогенераторы polaris"
+    },
+    {
+        "slug": "de-luxe-vodonagrevateli",
+        "often_name": "водонагреватели de luxe"
+    },
+    {
+        "slug": "yamaha-muzykalnye-centry",
+        "often_name": "музыкальные центры yamaha"
+    },
+    {
+        "slug": "euronova-stiralnye-mashiny",
+        "often_name": "стиральные машины euronova"
+    },
+    {
+        "slug": "flir-teplovizory",
+        "often_name": "тепловизоры flir"
+    },
+    {
+        "slug": "testo-teplovizory",
+        "often_name": "тепловизоры testo"
+    },
+    {
+        "slug": "pulsar-teplovizory",
+        "often_name": "тепловизоры pulsar"
+    },
+    {
+        "slug": "testo-pirometry",
+        "often_name": "пирометры testo"
+    },
+    {
+        "slug": "fluke-teplovizory",
+        "often_name": "тепловизоры fluke"
+    },
+    {
+        "slug": "craftsman-benzopily",
+        "often_name": "бензопилы craftsman"
+    },
+    {
+        "slug": "samsung-dukhovye-shkafy",
+        "often_name": "духовые шкафы samsung"
+    },
+    {
+        "slug": "samsung-varochnye-poverkhnosti",
+        "often_name": "варочные панели samsung"
+    },
+    {
+        "slug": "bork-utyugi",
+        "often_name": "утюги bork"
+    },
+    {
+        "slug": "einhell-perforatory",
+        "often_name": "перфораторы einhell"
+    },
+    {
+        "slug": "apacer-usb-flashki",
+        "often_name": "usb-флешки apacer"
+    },
+    {
+        "slug": "qumo-usb-flashki",
+        "often_name": "usb-флешки qumo"
+    },
+    {
+        "slug": "sandisk-usb-flashki",
+        "often_name": "usb-флешки sandisk"
+    },
+    {
+        "slug": "smartbuy-usb-flashki",
+        "often_name": "usb-флешки smartbuy"
+    },
+    {
+        "slug": "leader-shveynye-mashiny",
+        "often_name": "швейные машины leader"
+    },
+    {
+        "slug": "brother-overloki",
+        "often_name": "оверлоки brother"
+    },
+    {
+        "slug": "dewal-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос dewal"
+    },
+    {
+        "slug": "nozomi-vibromassazhery",
+        "often_name": "вибромассажеры nozomi"
+    },
+    {
+        "slug": "texet-radiotelefony",
+        "often_name": "радиотелефоны texet"
+    },
+    {
+        "slug": "polaris-obogrevateli",
+        "often_name": "обогреватели polaris"
+    },
+    {
+        "slug": "renova-stiralnye-mashiny",
+        "often_name": "стиральные машины renova"
+    },
+    {
+        "slug": "hisense-stiralnye-mashiny",
+        "often_name": "стиральные машины hisense"
+    },
+    {
+        "slug": "hoover-stiralnye-mashiny",
+        "often_name": "стиральные машины hoover"
+    },
+    {
+        "slug": "korting-stiralnye-mashiny",
+        "often_name": "стиральные машины korting"
+    },
+    {
+        "slug": "kuppersberg-stiralnye-mashiny",
+        "often_name": "стиральные машины kuppersberg"
+    },
+    {
+        "slug": "neoclima-obogrevateli",
+        "often_name": "обогреватели neoclima"
+    },
+    {
+        "slug": "timberk-obogrevateli",
+        "often_name": "обогреватели timberk"
+    },
+    {
+        "slug": "hyundai-obogrevateli",
+        "often_name": "обогреватели hyundai"
+    },
+    {
+        "slug": "harper-televizory",
+        "often_name": "телевизоры harper"
+    },
+    {
+        "slug": "akira-televizory",
+        "often_name": "телевизоры akira"
+    },
+    {
+        "slug": "starwind-televizory",
+        "often_name": "телевизоры starwind"
+    },
+    {
+        "slug": "skyworth-televizory",
+        "often_name": "телевизоры skyworth"
+    },
+    {
+        "slug": "digma-televizory",
+        "often_name": "телевизоры digma"
+    },
+    {
+        "slug": "nec-televizory",
+        "often_name": "телевизоры nec"
+    },
+    {
+        "slug": "kivi-televizory",
+        "often_name": "телевизоры kivi"
+    },
+    {
+        "slug": "hartens-televizory",
+        "often_name": "телевизоры hartens"
+    },
+    {
+        "slug": "irbis-televizory",
+        "often_name": "телевизоры irbis"
+    },
+    {
+        "slug": "laurastar-gladilnye-sistemy",
+        "often_name": "гладильные системы laurastar"
+    },
+    {
+        "slug": "miele-gladilnye-sistemy",
+        "often_name": "гладильные системы miele"
+    },
+    {
+        "slug": "mie-gladilnye-sistemy",
+        "often_name": "гладильные системы mie"
+    },
+    {
+        "slug": "philips-gladilnye-sistemy",
+        "often_name": "гладильные системы philips"
+    },
+    {
+        "slug": "dreamfan-ventilyatory",
+        "often_name": "вентиляторы dreamfan"
+    },
+    {
+        "slug": "xiaomi-ventilyatory",
+        "often_name": "вентиляторы xiaomi"
+    },
+    {
+        "slug": "boneco-ventilyatory",
+        "often_name": "вентиляторы boneco"
+    },
+    {
+        "slug": "blauberg-ventilyatory",
+        "often_name": "вентиляторы blauberg"
+    },
+    {
+        "slug": "stadler-ventilyatory",
+        "often_name": "вентиляторы stadler"
+    },
+    {
+        "slug": "vitesse-ventilyatory",
+        "often_name": "вентиляторы vitesse"
+    },
+    {
+        "slug": "lenovo-monitory",
+        "often_name": "мониторы lenovo"
+    },
+    {
+        "slug": "indesit-morozilniki",
+        "often_name": "морозильники indesit"
+    },
+    {
+        "slug": "pozis-morozilniki",
+        "often_name": "морозильники pozis"
+    },
+    {
+        "slug": "atlant-morozilniki",
+        "often_name": "морозильники atlant"
+    },
+    {
+        "slug": "beko-morozilniki",
+        "often_name": "морозильники beko"
+    },
+    {
+        "slug": "stinol-morozilniki",
+        "often_name": "морозильники stinol"
+    },
+    {
+        "slug": "stinol-kholodilniki",
+        "often_name": "холодильники stinol"
+    },
+    {
+        "slug": "vestel-kholodilniki",
+        "often_name": "холодильники vestel"
+    },
+    {
+        "slug": "makita-gajkoverty",
+        "often_name": "гайковерты makita"
+    },
+    {
+        "slug": "makita-shlifovalnye-mashiny",
+        "often_name": "шлифовальные машины makita"
+    },
+    {
+        "slug": "makita-elektrolobziki",
+        "often_name": "электролобзики makita"
+    },
+    {
+        "slug": "makita-elektrorubanki",
+        "often_name": "электрорубанки makita"
+    },
+    {
+        "slug": "makita-frezery",
+        "often_name": "фрезеры makita"
+    },
+    {
+        "slug": "makita-stroitelnye-feny",
+        "often_name": "строительные фены makita"
+    },
+    {
+        "slug": "pioneer-muzykalnye-centry",
+        "often_name": "музыкальные центры pioneer"
+    },
+    {
+        "slug": "mystery-muzykalnye-centry",
+        "often_name": "музыкальные центры mystery"
+    },
+    {
+        "slug": "hyundai-muzykalnye-centry",
+        "often_name": "музыкальные центры hyundai"
+    },
+    {
+        "slug": "denon-muzykalnye-centry",
+        "often_name": "музыкальные центры denon"
+    },
+    {
+        "slug": "whirlpool-varochnye-poverkhnosti",
+        "often_name": "варочные панели whirlpool"
+    },
+    {
+        "slug": "miele-dukhovye-shkafy",
+        "often_name": "духовые шкафы miele"
+    },
+    {
+        "slug": "moser-feny",
+        "often_name": "фены moser"
+    },
+    {
+        "slug": "3cott-ibp",
+        "often_name": "ибп 3cott"
+    },
+    {
+        "slug": "sven-ibp",
+        "often_name": "ибп sven"
+    },
+    {
+        "slug": "crown-ibp",
+        "often_name": "ибп crown"
+    },
+    {
+        "slug": "emerson-ibp",
+        "often_name": "ибп emerson"
+    },
+    {
+        "slug": "drager-alkotesteri",
+        "often_name": "алкотестеры drager"
+    },
+    {
+        "slug": "mie-otparivateli",
+        "often_name": "отпариватели mie"
+    },
+    {
+        "slug": "vitek-utyugi",
+        "often_name": "утюги vitek"
+    },
+    {
+        "slug": "oasis-gazovye-kotly",
+        "often_name": "газовые котлы oasis"
+    },
+    {
+        "slug": "roda-gazovye-kotly",
+        "often_name": "газовые котлы roda"
+    },
+    {
+        "slug": "redmond-utyugi",
+        "often_name": "утюги redmond"
+    },
+    {
+        "slug": "kitfort-otparivateli",
+        "often_name": "отпариватели kitfort"
+    },
+    {
+        "slug": "rowenta-utyugi",
+        "often_name": "утюги rowenta"
+    },
+    {
+        "slug": "polaris-utyugi",
+        "often_name": "утюги polaris"
+    },
+    {
+        "slug": "tefal-otparivateli",
+        "often_name": "отпариватели tefal"
+    },
+    {
+        "slug": "polaris-otparivateli",
+        "often_name": "отпариватели polaris"
+    },
+    {
+        "slug": "bosch-tostery",
+        "often_name": "тостеры bosch"
+    },
+    {
+        "slug": "kenwood-myasorubki",
+        "often_name": "мясорубки kenwood"
+    },
+    {
+        "slug": "zelmer-myasorubki",
+        "often_name": "мясорубки zelmer"
+    },
+    {
+        "slug": "moulinex-myasorubki",
+        "often_name": "мясорубки moulinex"
+    },
+    {
+        "slug": "redmond-myasorubki",
+        "often_name": "мясорубки redmond"
+    },
+    {
+        "slug": "scarlett-myasorubki",
+        "often_name": "мясорубки scarlett"
+    },
+    {
+        "slug": "bork-myasorubki",
+        "often_name": "мясорубки bork"
+    },
+    {
+        "slug": "lifan-avtomagnitoly",
+        "often_name": "автомагнитолы lifan"
+    },
+    {
+        "slug": "polaris-blendery",
+        "often_name": "блендеры polaris"
+    },
+    {
+        "slug": "vitek-blendery",
+        "often_name": "блендеры vitek"
+    },
+    {
+        "slug": "ritmix-microfoni",
+        "often_name": "микрофоны ritmix"
+    },
+    {
+        "slug": "audio-technica-microfoni",
+        "often_name": "микрофоны audio-technica"
+    },
+    {
+        "slug": "samson-microfoni",
+        "often_name": "микрофоны samson"
+    },
+    {
+        "slug": "razer-microfoni",
+        "often_name": "микрофоны razer"
+    },
+    {
+        "slug": "defender-microfoni",
+        "often_name": "микрофоны defender"
+    },
+    {
+        "slug": "hammer-shlifovalnye-mashiny",
+        "often_name": "шлифовальные машины hammer"
+    },
+    {
+        "slug": "sturm-shlifovalnye-mashiny",
+        "often_name": "шлифовальные машины sturm"
+    },
+    {
+        "slug": "elitech-frezery",
+        "often_name": "фрезеры elitech"
+    },
+    {
+        "slug": "supra-pulty-du",
+        "often_name": "пульты ду supra"
+    },
+    {
+        "slug": "philips-pulty-du",
+        "often_name": "пульты ду philips"
+    },
+    {
+        "slug": "jvc-pulty-du",
+        "often_name": "пульты ду jvc"
+    },
+    {
+        "slug": "panasonic-pulty-du",
+        "often_name": "пульты ду panasonic"
+    },
+    {
+        "slug": "sharp-pulty-du",
+        "often_name": "пульты ду sharp"
+    },
+    {
+        "slug": "anet-3d-prenteri",
+        "often_name": "3d-принтеры anet"
+    },
+    {
+        "slug": "wanhao-3d-prenteri",
+        "often_name": "3d-принтеры wanhao"
+    },
+    {
+        "slug": "flashforge-3d-prenteri",
+        "often_name": "3d-принтеры flashforge"
+    },
+    {
+        "slug": "laurastar-utyugi",
+        "often_name": "утюги laurastar"
+    },
+    {
+        "slug": "centek-utyugi",
+        "often_name": "утюги centek"
+    },
+    {
+        "slug": "scarlett-utyugi",
+        "often_name": "утюги scarlett"
+    },
+    {
+        "slug": "galaxy-utyugi",
+        "often_name": "утюги galaxy"
+    },
+    {
+        "slug": "miele-kuhonnye-vytyazhki",
+        "often_name": "кухонные вытяжки miele"
+    },
+    {
+        "slug": "anycubic-3d-prenteri",
+        "often_name": "3d-принтеры anycubic"
+    },
+    {
+        "slug": "bosch-sushilnye-mashiny",
+        "often_name": "сушильные машины bosch"
+    },
+    {
+        "slug": "bosch-kuhonnye-vytyazhki",
+        "often_name": "кухонные вытяжки bosch"
+    },
+    {
+        "slug": "polaris-myasorubki",
+        "often_name": "мясорубки polaris"
+    },
+    {
+        "slug": "supra-myasorubki",
+        "often_name": "мясорубки supra"
+    },
+    {
+        "slug": "panasonic-myasorubki",
+        "often_name": "мясорубки panasonic"
+    },
+    {
+        "slug": "philips-tostery",
+        "often_name": "тостеры philips"
+    },
+    {
+        "slug": "hurakan-myasorubki",
+        "often_name": "мясорубки hurakan"
+    },
+    {
+        "slug": "braun-myasorubki",
+        "often_name": "мясорубки braun"
+    },
+    {
+        "slug": "leran-myasorubki",
+        "often_name": "мясорубки leran"
+    },
+    {
+        "slug": "philips-parovarki",
+        "often_name": "пароварки philips"
+    },
+    {
+        "slug": "redmond-tostery",
+        "often_name": "тостеры redmond"
+    },
+    {
+        "slug": "vitek-myasorubki",
+        "often_name": "мясорубки vitek"
+    },
+    {
+        "slug": "dauken-myasorubki",
+        "often_name": "мясорубки dauken"
+    },
+    {
+        "slug": "intel-materinskie-platy",
+        "often_name": "материнские платы intel"
+    },
+    {
+        "slug": "supermicro-materinskie-platy",
+        "often_name": "материнские платы supermicro"
+    },
+    {
+        "slug": "elitech-lazernye-urovni",
+        "often_name": "лазерные уровни elitech"
+    },
+    {
+        "slug": "kapro-lazernye-urovni",
+        "often_name": "лазерные уровни kapro"
+    },
+    {
+        "slug": "instrumax-lazernye-urovni",
+        "often_name": "лазерные уровни instrumax"
+    },
+    {
+        "slug": "matrix-lazernye-urovni",
+        "often_name": "лазерные уровни matrix"
+    },
+    {
+        "slug": "dewalt-lazernye-urovni",
+        "often_name": "лазерные уровни dewalt"
+    },
+    {
+        "slug": "fuji-fotoapparaty",
+        "often_name": "фотоаппараты fuji"
+    },
+    {
+        "slug": "gopro-ekshn-kamery",
+        "often_name": "экшн-камеры gopro"
+    },
+    {
+        "slug": "atlantic-vodonagrevateli",
+        "often_name": "водонагреватели atlantic"
+    },
+    {
+        "slug": "zerten-vodonagrevateli",
+        "often_name": "водонагреватели zerten"
+    },
+    {
+        "slug": "nova-florida-gazovye-kotly",
+        "often_name": "газовые котлы nova florida"
+    },
+    {
+        "slug": "noirot-obogrevateli",
+        "often_name": "обогреватели noirot"
+    },
+    {
+        "slug": "oysters-planshety",
+        "often_name": "планшеты oysters"
+    },
+    {
+        "slug": "explay-planshety",
+        "often_name": "планшеты explay"
+    },
+    {
+        "slug": "dell-planshety",
+        "often_name": "планшеты dell"
+    },
+    {
+        "slug": "alcatel-planshety",
+        "often_name": "планшеты alcatel"
+    },
+    {
+        "slug": "hisense-televizory",
+        "often_name": "телевизоры hisense"
+    },
+    {
+        "slug": "soundmax-televizory",
+        "often_name": "телевизоры soundmax"
+    },
+    {
+        "slug": "econ-televizory",
+        "often_name": "телевизоры econ"
+    },
+    {
+        "slug": "candy-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины candy"
+    },
+    {
+        "slug": "gorenje-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины gorenje"
+    },
+    {
+        "slug": "aeg-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины aeg"
+    },
+    {
+        "slug": "korting-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины korting"
+    },
+    {
+        "slug": "indesit-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины indesit"
+    },
+    {
+        "slug": "midea-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины midea"
+    },
+    {
+        "slug": "gaggenau-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины gaggenau"
+    },
+    {
+        "slug": "samsung-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины samsung"
+    },
+    {
+        "slug": "kaiser-posudomoechnye-mashiny",
+        "often_name": "посудомоечные машины kaiser"
+    },
+    {
+        "slug": "vitek-elektrobritvy",
+        "often_name": "электробритвы vitek"
+    },
+    {
+        "slug": "xiaomi-elektrobritvy",
+        "often_name": "электробритвы xiaomi"
+    },
+    {
+        "slug": "sinbo-elektrobritvy",
+        "often_name": "электробритвы sinbo"
+    },
+    {
+        "slug": "centek-elektrobritvy",
+        "often_name": "электробритвы centek"
+    },
+    {
+        "slug": "remington-elektrobritvy",
+        "often_name": "электробритвы remington"
+    },
+    {
+        "slug": "zerowatt-stiralnye-mashiny",
+        "often_name": "стиральные машины zerowatt"
+    },
+    {
+        "slug": "bosch-feny",
+        "often_name": "фены bosch"
+    },
+    {
+        "slug": "coifin-feny",
+        "often_name": "фены coifin"
+    },
+    {
+        "slug": "grovers-svarochnye-apparaty",
+        "often_name": "сварочные аппараты grovers"
+    },
+    {
+        "slug": "nad-usiliteli",
+        "often_name": "усилители nad"
+    },
+    {
+        "slug": "crown-usiliteli",
+        "often_name": "усилители crown"
+    },
+    {
+        "slug": "peavey-usiliteli",
+        "often_name": "усилители peavey"
+    },
+    {
+        "slug": "luxman-usiliteli",
+        "often_name": "усилители luxman"
+    },
+    {
+        "slug": "soundking-usiliteli",
+        "often_name": "усилители soundking"
+    },
+    {
+        "slug": "invotone-usiliteli",
+        "often_name": "усилители invotone"
+    },
+    {
+        "slug": "volta-usiliteli",
+        "often_name": "усилители volta"
+    },
+    {
+        "slug": "parkcity-videoregistratory",
+        "often_name": "видеорегистраторы parkcity"
+    },
+    {
+        "slug": "hyundai-pleeri",
+        "often_name": "плееры hyundai"
+    },
+    {
+        "slug": "ritmix-pleeri",
+        "often_name": "плееры ritmix"
+    },
+    {
+        "slug": "mdv-konditsionery",
+        "often_name": "кондиционеры mdv"
+    },
+    {
+        "slug": "aux-konditsionery",
+        "often_name": "кондиционеры aux"
+    },
+    {
+        "slug": "akai-televizory",
+        "often_name": "телевизоры akai"
+    },
+    {
+        "slug": "rst-meteostancii",
+        "often_name": "метеостанции rst"
+    },
+    {
+        "slug": "ea2-meteostancii",
+        "often_name": "метеостанции ea2"
+    },
+    {
+        "slug": "hama-meteostancii",
+        "often_name": "метеостанции hama"
+    },
+    {
+        "slug": "maxion-ionizatory-vozduha",
+        "often_name": "ионизаторы воздуха maxion"
+    },
+    {
+        "slug": "ibm-serveri",
+        "often_name": "серверы ibm"
+    },
+    {
+        "slug": "andis-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос andis"
+    },
+    {
+        "slug": "harizma-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос harizma"
+    },
+    {
+        "slug": "leben-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос leben"
+    },
+    {
+        "slug": "metabo-perforatory",
+        "often_name": "перфораторы metabo"
+    },
+    {
+        "slug": "greenworks-shurupovyorty",
+        "often_name": "шуруповёрты greenworks"
+    },
+    {
+        "slug": "sparky-shurupovyorty",
+        "often_name": "шуруповёрты sparky"
+    },
+    {
+        "slug": "vikhr-stroitelnye-feny",
+        "often_name": "строительные фены вихрь"
+    },
+    {
+        "slug": "bosch-stroitelnye-feny",
+        "often_name": "строительные фены bosch"
+    },
+    {
+        "slug": "bosch-elektrorubanki",
+        "often_name": "электрорубанки bosch"
+    },
+    {
+        "slug": "pari-ingolyatori",
+        "often_name": "ингаляторы pari"
+    },
+    {
+        "slug": "samsung-ssd-disk",
+        "often_name": "ssd диски samsung"
+    },
+    {
+        "slug": "intel-ssd-disk",
+        "often_name": "ssd диски intel"
+    },
+    {
+        "slug": "kingston-ssd-disk",
+        "often_name": "ssd диски kingston"
+    },
+    {
+        "slug": "adata-ssd-disk",
+        "often_name": "ssd диски adata"
+    },
+    {
+        "slug": "philips-elektricheskie-zubnye-shchetki",
+        "often_name": "электрические зубные щетки philips"
+    },
+    {
+        "slug": "soocas-irrigatory",
+        "often_name": "ирригаторы soocas"
+    },
+    {
+        "slug": "braun-elektricheskie-zubnye-shchetki",
+        "often_name": "электрические зубные щетки braun"
+    },
+    {
+        "slug": "philips-irrigatory",
+        "often_name": "ирригаторы philips"
+    },
+    {
+        "slug": "jetpik-irrigatory",
+        "often_name": "ирригаторы jetpik"
+    },
+    {
+        "slug": "colgate-elektricheskie-zubnye-shchetki",
+        "often_name": "электрические зубные щетки colgate"
+    },
+    {
+        "slug": "rotel-usiliteli",
+        "often_name": "усилители rotel"
+    },
+    {
+        "slug": "roxton-usiliteli",
+        "often_name": "усилители roxton"
+    },
+    {
+        "slug": "necchi-shveynye-mashiny",
+        "often_name": "швейные машины necchi"
+    },
+    {
+        "slug": "aurora-shveynye-mashiny",
+        "often_name": "швейные машины aurora"
+    },
+    {
+        "slug": "redmond-blendery",
+        "often_name": "блендеры redmond"
+    },
+    {
+        "slug": "redmond-khlebopechki",
+        "often_name": "хлебопечки redmond"
+    },
+    {
+        "slug": "blackview-videoregistratory",
+        "often_name": "видеорегистраторы blackview"
+    },
+    {
+        "slug": "soteco-pylesosy",
+        "often_name": "пылесосы soteco"
+    },
+    {
+        "slug": "gorenje-pylesosy",
+        "often_name": "пылесосы gorenje"
+    },
+    {
+        "slug": "cleaner-pylesosy",
+        "often_name": "пылесосы cleaner"
+    },
+    {
+        "slug": "tefal-vesi",
+        "often_name": "весы tefal"
+    },
+    {
+        "slug": "massa-k-vesi",
+        "often_name": "весы massa-k"
+    },
+    {
+        "slug": "soehnle-vesi",
+        "often_name": "весы soehnle"
+    },
+    {
+        "slug": "polaris-vesi",
+        "often_name": "весы polaris"
+    },
+    {
+        "slug": "redmond-vesi",
+        "often_name": "весы redmond"
+    },
+    {
+        "slug": "scarlett-vesi",
+        "often_name": "весы scarlett"
+    },
+    {
+        "slug": "beurer-vesi",
+        "often_name": "весы beurer"
+    },
+    {
+        "slug": "tanita-vesi",
+        "often_name": "весы tanita"
+    },
+    {
+        "slug": "salter-vesi",
+        "often_name": "весы salter"
+    },
+    {
+        "slug": "picooc-vesi",
+        "often_name": "весы picooc"
+    },
+    {
+        "slug": "delta-vesi",
+        "often_name": "весы delta"
+    },
+    {
+        "slug": "bosch-vesi",
+        "often_name": "весы bosch"
+    },
+    {
+        "slug": "bork-vesi",
+        "often_name": "весы bork"
+    },
+    {
+        "slug": "maman-vesi",
+        "often_name": "весы maman"
+    },
+    {
+        "slug": "supra-vesi",
+        "often_name": "весы supra"
+    },
+    {
+        "slug": "atlanta-vesi",
+        "often_name": "весы atlanta"
+    },
+    {
+        "slug": "leran-vesi",
+        "often_name": "весы leran"
+    },
+    {
+        "slug": "rainbow-pylesosy",
+        "often_name": "пылесосы rainbow"
+    },
+    {
+        "slug": "stealth-videoregistratory",
+        "often_name": "видеорегистраторы stealth"
+    },
+    {
+        "slug": "dewal-feny",
+        "often_name": "фены dewal"
+    },
+    {
+        "slug": "parlux-feny",
+        "often_name": "фены parlux"
+    },
+    {
+        "slug": "delta-feny",
+        "often_name": "фены delta"
+    },
+    {
+        "slug": "redmond-feny",
+        "often_name": "фены redmond"
+    },
+    {
+        "slug": "riff-feny",
+        "often_name": "фены riff"
+    },
+    {
+        "slug": "scarlett-feny",
+        "often_name": "фены scarlett"
+    },
+    {
+        "slug": "centek-feny",
+        "often_name": "фены centek"
+    },
+    {
+        "slug": "g-teq-feny",
+        "often_name": "фены g-teq"
+    },
+    {
+        "slug": "energy-feny",
+        "often_name": "фены energy"
+    },
+    {
+        "slug": "aeg-feny",
+        "often_name": "фены aeg"
+    },
+    {
+        "slug": "leben-feny",
+        "often_name": "фены leben"
+    },
+    {
+        "slug": "beurer-feny",
+        "often_name": "фены beurer"
+    },
+    {
+        "slug": "transcend-videoregistratory",
+        "often_name": "видеорегистраторы transcend"
+    },
+    {
+        "slug": "iroad-videoregistratory",
+        "often_name": "видеорегистраторы iroad"
+    },
+    {
+        "slug": "steelseries-naushniki",
+        "often_name": "наушники steelseries"
+    },
+    {
+        "slug": "karcher-stekloochistiteli",
+        "often_name": "стеклоочистители karcher"
+    },
+    {
+        "slug": "karcher-elektroveniki",
+        "often_name": "электровеники karcher"
+    },
+    {
+        "slug": "texet-videoregistratory",
+        "often_name": "видеорегистраторы texet"
+    },
+    {
+        "slug": "rowenta-kofemashiny",
+        "often_name": "кофемашины rowenta"
+    },
+    {
+        "slug": "zelmer-kofevarki",
+        "often_name": "кофеварки zelmer"
+    },
+    {
+        "slug": "supermicro-serveri",
+        "often_name": "серверы supermicro"
+    },
+    {
+        "slug": "dell-serveri",
+        "often_name": "серверы dell"
+    },
+    {
+        "slug": "intel-serveri",
+        "often_name": "серверы intel"
+    },
+    {
+        "slug": "fujitsu-serveri",
+        "often_name": "серверы fujitsu"
+    },
+    {
+        "slug": "brand-multivarki",
+        "often_name": "мультиварки brand"
+    },
+    {
+        "slug": "panasonic-multivarki",
+        "often_name": "мультиварки panasonic"
+    },
+    {
+        "slug": "bork-multivarki",
+        "often_name": "мультиварки bork"
+    },
+    {
+        "slug": "vitek-multivarki",
+        "often_name": "мультиварки vitek"
+    },
+    {
+        "slug": "element-multivarki",
+        "often_name": "мультиварки element"
+    },
+    {
+        "slug": "moulinex-multivarki",
+        "often_name": "мультиварки moulinex"
+    },
+    {
+        "slug": "cuckoo-multivarki",
+        "often_name": "мультиварки cuckoo"
+    },
+    {
+        "slug": "stadler-form-multivarki",
+        "often_name": "мультиварки stadler form"
+    },
+    {
+        "slug": "oursson-multivarki",
+        "often_name": "мультиварки oursson"
+    },
+    {
+        "slug": "bosch-multivarki",
+        "often_name": "мультиварки bosch"
+    },
+    {
+        "slug": "philips-multivarki",
+        "often_name": "мультиварки philips"
+    },
+    {
+        "slug": "supra-multivarki",
+        "often_name": "мультиварки supra"
+    },
+    {
+        "slug": "scarlett-multivarki",
+        "often_name": "мультиварки scarlett"
+    },
+    {
+        "slug": "steba-multivarki",
+        "often_name": "мультиварки steba"
+    },
+    {
+        "slug": "tefal-multivarki",
+        "often_name": "мультиварки tefal"
+    },
+    {
+        "slug": "unit-multivarki",
+        "often_name": "мультиварки unit"
+    },
+    {
+        "slug": "mystery-multivarki",
+        "often_name": "мультиварки mystery"
+    },
+    {
+        "slug": "centek-aerogril",
+        "often_name": "аэрогрили centek"
+    },
+    {
+        "slug": "hitachi-dreli",
+        "often_name": "дрели hitachi"
+    },
+    {
+        "slug": "elitech-dreli",
+        "often_name": "дрели elitech"
+    },
+    {
+        "slug": "bort-svarochnye-apparaty",
+        "often_name": "сварочные аппараты bort"
+    },
+    {
+        "slug": "eurolux-svarochnye-apparaty",
+        "often_name": "сварочные аппараты eurolux"
+    },
+    {
+        "slug": "bosch-frezery",
+        "often_name": "фрезеры bosch"
+    },
+    {
+        "slug": "bosch-shlifovalnye-mashiny",
+        "often_name": "шлифовальные машины bosch"
+    },
+    {
+        "slug": "bosch-gajkoverty",
+        "often_name": "гайковерты bosch"
+    },
+    {
+        "slug": "bosch-steplery",
+        "often_name": "степлеры bosch"
+    },
+    {
+        "slug": "navitel-videoregistratory",
+        "often_name": "видеорегистраторы navitel"
+    },
+    {
+        "slug": "pozis-kholodilniki",
+        "often_name": "холодильники pozis"
+    },
+    {
+        "slug": "bomann-kholodilniki",
+        "often_name": "холодильники bomann"
+    },
+    {
+        "slug": "frigidaire-kholodilniki",
+        "often_name": "холодильники frigidaire"
+    },
+    {
+        "slug": "shivaki-kholodilniki",
+        "often_name": "холодильники shivaki"
+    },
+    {
+        "slug": "de-dietrich-kholodilniki",
+        "often_name": "холодильники de dietrich"
+    },
+    {
+        "slug": "bompani-kholodilniki",
+        "often_name": "холодильники bompani"
+    },
+    {
+        "slug": "mitsubishi-kholodilniki",
+        "often_name": "холодильники mitsubishi"
+    },
+    {
+        "slug": "don-kholodilniki",
+        "often_name": "холодильники don"
+    },
+    {
+        "slug": "leran-kholodilniki",
+        "often_name": "холодильники leran"
+    },
+    {
+        "slug": "midea-kholodilniki",
+        "often_name": "холодильники midea"
+    },
+    {
+        "slug": "energolux-konditsionery",
+        "often_name": "кондиционеры energolux"
+    },
+    {
+        "slug": "atlant-stiralnye-mashiny",
+        "often_name": "стиральные машины atlant"
+    },
+    {
+        "slug": "kaiser-stiralnye-mashiny",
+        "often_name": "стиральные машины kaiser"
+    },
+    {
+        "slug": "zil-kholodilniki",
+        "often_name": "холодильники зил"
+    },
+    {
+        "slug": "remington-feny",
+        "often_name": "фены remington"
+    },
+    {
+        "slug": "galaxy-feny",
+        "often_name": "фены galaxy"
+    },
+    {
+        "slug": "supra-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос supra"
+    },
+    {
+        "slug": "sinbo-mashinki-dlya-strizhki-volos",
+        "often_name": "машинки для стрижки волос sinbo"
+    },
+    {
+        "slug": "neff-stiralnye-mashiny",
+        "often_name": "стиральные машины neff"
+    }
+]

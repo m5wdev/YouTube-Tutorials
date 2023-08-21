@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+    background-color: #1a2835;
+    color: white;
+}
+
+#header {
+    &__top {
+        background-color: #062544;
+        padding: 10px 0;
+
+        &--inner {
+            display: grid;
+            grid-gap: 30px;
+            align-items: center;
+            grid-template-columns: 30% 1fr auto;
+        }
+
+        #logo {
+            &__link {
+                background-image: url("images/logo.svg");
+                background-position: 0 50%;
+                background-repeat: no-repeat;
+                background-size: contain;
+
+                display: block;
+                width: 100%;
+                max-width: 318px;
+                height: 88px;
+
+                text-indent: -9999px;
+            }
+        }
+
+        #select_city,
+        #user_zone {
+            @include media-breakpoint-up(lg) {
+                text-align: right;
+            }
+
+            a {
+                text-decoration: none;
+
+                &:focus,
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        #select_city {
+            color: #ffc7b5;
+
+            a {
+                color: #fbddd3;
+                text-decoration: underline;
+
+                &:focus,
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        #user_zone {
+            .auth {
+                @extend #select_city;
+            }
+        }
+    }
+
+    &__banner {
+        background-image: linear-gradient(to right, #ffcb02, #e89f02);
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+#page_title {
+    margin-bottom: 30px;
+
+    h1 {
+        color: #fbddd3;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+}
+
+// #content {
+//     #main {}
+// }
+
+#footer {
+    cursor: default;
+    min-height: 15vh;
+
+    display: flex;
+    align-items: center;
+
+    opacity: .8;
+    transition: all ease-in-out .3s;
+
+    &:hover {
+        opacity: 1;
+    }
+}

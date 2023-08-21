@@ -1,0 +1,35 @@
+#breadcrumbs {
+    color: #fbddd3;
+    cursor: default;
+    margin-bottom: 30px;
+
+    ol {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            &:not(:first-child) {
+                padding-left: .5rem;
+
+                &::before {
+                    content: "/";
+                    padding-right: .5rem;
+                }
+            }
+        }
+    }
+
+    a {
+        color: #fbddd3;
+        font-weight: 500;
+        transition: color ease-in-out .3s;
+
+        &:focus,
+        &:hover {
+            color: #caa89d;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+asgiref==3.3.0
+Django==3.1.2
+django-appconf==1.0.4
+django-cleanup==5.1.0
+django-environ==0.4.5
+django-imagekit==4.0.2
+django-js-asset==1.2.2
+django-mptt==0.11.0
+django-unused-media==0.2.2
+django-widget-tweaks==1.4.8
+pilkit==2.0
+Pillow==8.0.1
+pytz==2020.1
+six==1.15.0
+sqlparse==0.4.1

@@ -1,0 +1,18 @@
+<nav id="user-profile-salon-nav">
+    <div class="container">
+        {% url 'user:profile' as user_profile_url %}
+        <a href="{{ user_profile_url }}"{% if user_profile_url == request.path %} class="active"{% endif %}>Профиль</a>
+
+        {% url 'user:salon-appointments' as user_salon_appointments_url %}
+        <a href="{{ user_salon_appointments_url }}"{% if user_salon_appointments_url == request.path %} class="active"{% endif %}>Журнал записи</a>
+
+        {% url 'user:salon-clients' as user_salon_clients_url %}
+        <a href="{{ user_salon_clients_url }}"{% if user_salon_clients_url == request.path %} class="active"{% endif %}>Клиенты</a>
+
+        <a href="">Сотрудники</a>
+        <a href="">Акции и Бонусы</a>
+        <a href="">Прайс-лист</a>
+        <a href="">Аналитика</a>
+        <a href="">Отзывы</a>
+    </div>
+</nav>

@@ -1,0 +1,13 @@
+.form-edit {
+    &__content {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__w100 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+}

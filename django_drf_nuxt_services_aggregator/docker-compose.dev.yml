@@ -1,0 +1,65 @@
+version: '3'
+
+services:
+  db_service:
+    container_name: db_service
+    restart: always
+    image: postgres:14.3-alpine
+    volumes:
+        - ./postgres_data:/var/lib/postgresql/data
+    environment:
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+        - 5431:5432
+
+  backend:
+    container_name: backend
+    restart: always
+    env_file:
+      - .env
+    depends_on:
+      - db_service
+    build: ./backend
+    # command: bash -c "python manage.py collectstatic --no-input &&
+    #                   python manage.py makemigrations &&
+    #                   python manage.py migrate &&
+    #                   python manage.py generate_content -q 10 &&
+    #                   python manage.py runserver 0.0.0.0:8000"
+
+    command: bash -c "python manage.py collectstatic --no-input &&
+                      python manage.py makemigrations &&
+                      python manage.py migrate &&
+                      python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./backend:/app/backend
+      - ./backend/static:/app/backend/static
+      - ./backend/media:/app/backend/media
+    ports:
+      - 8001:8000
+
+  frontend:
+    restart: always
+    build: ./frontend
+    environment:
+      - API_BASE_URL
+      - FRONTURL
+    volumes:
+      - ./frontend:/app
+    ports:
+      - 3001:3000
+    command: ["npm", "run", "dev"]
+
+  nginx:
+    image: nginx:1.21.6-alpine
+    restart: always
+    volumes:
+      - ./nginx/dev:/etc/nginx/conf.d
+    depends_on:
+      - backend
+      - frontend
+    ports:
+      - 8000:8080
+    #   - 3000:3000

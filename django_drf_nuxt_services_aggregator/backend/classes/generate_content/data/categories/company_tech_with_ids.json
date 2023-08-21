@@ -1,0 +1,2466 @@
+[
+    {
+        "id": 5797,
+        "name": "Винные шкафы",
+        "slug": "vinnye-shkafy",
+        "category_id": 1,
+        "declension_one_p": "винных шкафов"
+    },
+    {
+        "id": 5798,
+        "name": "Вытяжки",
+        "slug": "vytyazhki",
+        "category_id": 1,
+        "declension_one_p": "вытяжек"
+    },
+    {
+        "id": 5799,
+        "name": "Газовые плиты",
+        "slug": "gazovye-plity",
+        "category_id": 1,
+        "declension_one_p": "газовых плит"
+    },
+    {
+        "id": 5800,
+        "name": "Комбинированные плиты",
+        "slug": "kombinirovannye-plity",
+        "category_id": 1,
+        "declension_one_p": "комбинированных плит"
+    },
+    {
+        "id": 5801,
+        "name": "Морозильники",
+        "slug": "morozilniki",
+        "category_id": 1,
+        "declension_one_p": "морозильников"
+    },
+    {
+        "id": 5802,
+        "name": "Посудомоечные машины",
+        "slug": "posudomoechnye-mashiny",
+        "category_id": 1,
+        "declension_one_p": "посудомоечных машин"
+    },
+    {
+        "id": 5803,
+        "name": "СВЧ-печи",
+        "slug": "svchpechi",
+        "category_id": 1,
+        "declension_one_p": "свч-печей"
+    },
+    {
+        "id": 5804,
+        "name": "Холодильники",
+        "slug": "holodilniki",
+        "category_id": 1,
+        "declension_one_p": "холодильников"
+    },
+    {
+        "id": 5805,
+        "name": "Электрические плиты",
+        "slug": "elektricheskie-plity",
+        "category_id": 1,
+        "declension_one_p": "электрических плит"
+    },
+    {
+        "id": 5806,
+        "name": "Встраиваемые СВЧ-печи",
+        "slug": "vstraivaemye-svchpechi",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых свч-печей"
+    },
+    {
+        "id": 5807,
+        "name": "Встраиваемые винные шкафы",
+        "slug": "vstraivaemye-vinnye-shkafy",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых винных шкафов"
+    },
+    {
+        "id": 5808,
+        "name": "Встраиваемые кофемашины",
+        "slug": "vstraivaemye-kofemashiny",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых кофемашин"
+    },
+    {
+        "id": 5809,
+        "name": "Встраиваемые морозильники",
+        "slug": "vstraivaemye-morozilniki",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых морозильников"
+    },
+    {
+        "id": 5810,
+        "name": "Встраиваемые пароварки",
+        "slug": "vstraivaemye-parovarki",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых пароварок"
+    },
+    {
+        "id": 5811,
+        "name": "Встраиваемые посудомойки",
+        "slug": "vstraivaemye-posudomoiki",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых посудомоек"
+    },
+    {
+        "id": 5812,
+        "name": "Встраиваемые стирально-сушильные машины",
+        "slug": "vstraivaemye-stiralnosushilnye-mashiny",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых стирально-сушильных машин"
+    },
+    {
+        "id": 5813,
+        "name": "Встраиваемые стиральные машины",
+        "slug": "vstraivaemye-stiralnye-mashiny",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых стиральных машин"
+    },
+    {
+        "id": 5814,
+        "name": "Встраиваемые сушильные автоматы",
+        "slug": "vstraivaemye-sushilnye-avtomaty",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых сушильных автоматов"
+    },
+    {
+        "id": 5815,
+        "name": "Встраиваемые холодильники",
+        "slug": "vstraivaemye-holodilniki",
+        "category_id": 2,
+        "declension_one_p": "встраиваемых холодильников"
+    },
+    {
+        "id": 5816,
+        "name": "Газовые духовки",
+        "slug": "gazovye-duhovki",
+        "category_id": 2,
+        "declension_one_p": "газовых духовок"
+    },
+    {
+        "id": 5817,
+        "name": "Газовые панели",
+        "slug": "gazovye-paneli",
+        "category_id": 2,
+        "declension_one_p": "газовых варочных панелей"
+    },
+    {
+        "id": 5818,
+        "name": "Комбинированные панели",
+        "slug": "kombinirovannye-paneli",
+        "category_id": 2,
+        "declension_one_p": "комбинированных варочных панелей"
+    },
+    {
+        "id": 5819,
+        "name": "Комплекты: панель и духовка",
+        "slug": "komplekty-panel-i-duhovka",
+        "category_id": 2,
+        "declension_one_p": "комплектов: варочных панелей и духовок"
+    },
+    {
+        "id": 5820,
+        "name": "Паровые шкафы",
+        "slug": "parovye-shkafy",
+        "category_id": 2,
+        "declension_one_p": "паровых шкафов"
+    },
+    {
+        "id": 5821,
+        "name": "Электрические духовки",
+        "slug": "elektricheskie-duhovki",
+        "category_id": 2,
+        "declension_one_p": "электрических духовок"
+    },
+    {
+        "id": 5822,
+        "name": "Электрические панели",
+        "slug": "elektricheskie-paneli",
+        "category_id": 2,
+        "declension_one_p": "электрических варочных панелей"
+    },
+    {
+        "id": 5823,
+        "name": "Аэрогрили",
+        "slug": "aerogrili",
+        "category_id": 3,
+        "declension_one_p": "аэрогрилей"
+    },
+    {
+        "id": 5824,
+        "name": "Блинницы",
+        "slug": "blinnicy",
+        "category_id": 3,
+        "declension_one_p": "блинниц"
+    },
+    {
+        "id": 5825,
+        "name": "Вафельницы",
+        "slug": "vafelnicy",
+        "category_id": 3,
+        "declension_one_p": "вафельниц"
+    },
+    {
+        "id": 5826,
+        "name": "Йогуртницы",
+        "slug": "iogurtnicy",
+        "category_id": 3,
+        "declension_one_p": "йогуртниц"
+    },
+    {
+        "id": 5827,
+        "name": "Кексницы",
+        "slug": "keksnicy",
+        "category_id": 3,
+        "declension_one_p": "кексниц"
+    },
+    {
+        "id": 5828,
+        "name": "Мини-печи",
+        "slug": "minipechi",
+        "category_id": 3,
+        "declension_one_p": "мини-печей"
+    },
+    {
+        "id": 5829,
+        "name": "Мороженицы",
+        "slug": "morozhenicy",
+        "category_id": 3,
+        "declension_one_p": "морожениц"
+    },
+    {
+        "id": 5830,
+        "name": "Мультиварки",
+        "slug": "multivarki",
+        "category_id": 3,
+        "declension_one_p": "мультиварок"
+    },
+    {
+        "id": 5831,
+        "name": "Настольные электроплитки",
+        "slug": "nastolnye-elektroplitki",
+        "category_id": 3,
+        "declension_one_p": "настольных электроплиток"
+    },
+    {
+        "id": 5832,
+        "name": "Орешницы",
+        "slug": "oreshnicy",
+        "category_id": 3,
+        "declension_one_p": "орешниц"
+    },
+    {
+        "id": 5833,
+        "name": "Пароварки",
+        "slug": "parovarki",
+        "category_id": 3,
+        "declension_one_p": "пароварок"
+    },
+    {
+        "id": 5834,
+        "name": "Пончик-мейкеры",
+        "slug": "ponchikmeikery",
+        "category_id": 3,
+        "declension_one_p": "пончик-мейкеров"
+    },
+    {
+        "id": 5835,
+        "name": "Попкорницы",
+        "slug": "popkornicy",
+        "category_id": 3,
+        "declension_one_p": "попкорниц"
+    },
+    {
+        "id": 5836,
+        "name": "Раклетница",
+        "slug": "rakletnica",
+        "category_id": 3,
+        "declension_one_p": "раклетниц"
+    },
+    {
+        "id": 5837,
+        "name": "Сэндвичницы",
+        "slug": "sendvichnicy-",
+        "category_id": 3,
+        "declension_one_p": "сэндвичниц"
+    },
+    {
+        "id": 5838,
+        "name": "Тостеры",
+        "slug": "tostery",
+        "category_id": 3,
+        "declension_one_p": "тостеов"
+    },
+    {
+        "id": 5839,
+        "name": "Фритюрницы",
+        "slug": "friturnicy",
+        "category_id": 3,
+        "declension_one_p": "фритюрниц"
+    },
+    {
+        "id": 5840,
+        "name": "Хлебопечки",
+        "slug": "hlebopechki",
+        "category_id": 3,
+        "declension_one_p": "хлебопечек"
+    },
+    {
+        "id": 5841,
+        "name": "Электрогрили",
+        "slug": "elektrogrili",
+        "category_id": 3,
+        "declension_one_p": "электрогрилей"
+    },
+    {
+        "id": 5842,
+        "name": "Электросковороды",
+        "slug": "elektroskovorody",
+        "category_id": 3,
+        "declension_one_p": "электросковород"
+    },
+    {
+        "id": 5843,
+        "name": "Яйцеварки",
+        "slug": "yaicevarki",
+        "category_id": 3,
+        "declension_one_p": "яйцеварок"
+    },
+    {
+        "id": 5844,
+        "name": "Безмены",
+        "slug": "bezmeny",
+        "category_id": 4,
+        "declension_one_p": "безменов"
+    },
+    {
+        "id": 5845,
+        "name": "Блендер-суповарки",
+        "slug": "blendersupovarki",
+        "category_id": 4,
+        "declension_one_p": "блендеров-суповарок"
+    },
+    {
+        "id": 5846,
+        "name": "Блендеры",
+        "slug": "blendery",
+        "category_id": 4,
+        "declension_one_p": "блендеров"
+    },
+    {
+        "id": 5847,
+        "name": "Вакуумный упаковщик",
+        "slug": "vakuumnyi-upakovschik",
+        "category_id": 4,
+        "declension_one_p": "вакуумных упаковщиков"
+    },
+    {
+        "id": 5848,
+        "name": "Измельчители",
+        "slug": "izmelchiteli",
+        "category_id": 4,
+        "declension_one_p": "измельчителей"
+    },
+    {
+        "id": 5849,
+        "name": "Кухонные весы",
+        "slug": "kuhonnye-vesy",
+        "category_id": 4,
+        "declension_one_p": "кухонных весов"
+    },
+    {
+        "id": 5850,
+        "name": "Кухонные процессоры",
+        "slug": "kuhonnye-processory",
+        "category_id": 4,
+        "declension_one_p": "кухонных процессоров"
+    },
+    {
+        "id": 5851,
+        "name": "Ломтерезки",
+        "slug": "lomterezki",
+        "category_id": 4,
+        "declension_one_p": "ломтерезок"
+    },
+    {
+        "id": 5852,
+        "name": "Маринаторы",
+        "slug": "marinatory",
+        "category_id": 4,
+        "declension_one_p": "маринаторов"
+    },
+    {
+        "id": 5853,
+        "name": "Миксеры",
+        "slug": "miksery",
+        "category_id": 4,
+        "declension_one_p": "миксеров"
+    },
+    {
+        "id": 5854,
+        "name": "Мясорубки",
+        "slug": "myasorubki",
+        "category_id": 4,
+        "declension_one_p": "мясорубок"
+    },
+    {
+        "id": 5855,
+        "name": "Ножеточки",
+        "slug": "nozhetochki",
+        "category_id": 4,
+        "declension_one_p": "ножеточек"
+    },
+    {
+        "id": 5856,
+        "name": "Перечницы",
+        "slug": "perechnicy",
+        "category_id": 4,
+        "declension_one_p": "перечниц"
+    },
+    {
+        "id": 5857,
+        "name": "Сушилки для продуктов",
+        "slug": "sushilki-dlya-produktov",
+        "category_id": 4,
+        "declension_one_p": "сушилок для продуктов"
+    },
+    {
+        "id": 5858,
+        "name": "Дистиляторы",
+        "slug": "distilyatory",
+        "category_id": 5,
+        "declension_one_p": "дистиляторов"
+    },
+    {
+        "id": 5859,
+        "name": "Домашние пивоварни",
+        "slug": "domashnie-pivovarni",
+        "category_id": 5,
+        "declension_one_p": "домашних пивоварен"
+    },
+    {
+        "id": 5860,
+        "name": "Кофеварки",
+        "slug": "kofevarki",
+        "category_id": 5,
+        "declension_one_p": "кофеварок"
+    },
+    {
+        "id": 5861,
+        "name": "Кофемашины",
+        "slug": "kofemashiny",
+        "category_id": 5,
+        "declension_one_p": "кофемашин"
+    },
+    {
+        "id": 5862,
+        "name": "Кофемолки",
+        "slug": "kofemolki",
+        "category_id": 5,
+        "declension_one_p": "кофемолок"
+    },
+    {
+        "id": 5863,
+        "name": "Самовары",
+        "slug": "samovary",
+        "category_id": 5,
+        "declension_one_p": "самоваров"
+    },
+    {
+        "id": 5864,
+        "name": "Соковыжималки",
+        "slug": "sokovyzhimalki",
+        "category_id": 5,
+        "declension_one_p": "соковыжималок"
+    },
+    {
+        "id": 5865,
+        "name": "Термопоты",
+        "slug": "termopoty",
+        "category_id": 5,
+        "declension_one_p": "термопотов"
+    },
+    {
+        "id": 5866,
+        "name": "Термосы",
+        "slug": "termosy",
+        "category_id": 5,
+        "declension_one_p": "термосов"
+    },
+    {
+        "id": 5867,
+        "name": "Электрочайники",
+        "slug": "elektrochainiki",
+        "category_id": 5,
+        "declension_one_p": "электрочайников"
+    },
+    {
+        "id": 5868,
+        "name": "Автомобильные пылесосы",
+        "slug": "avtomobilnye-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "автомобильных пылесосов"
+    },
+    {
+        "id": 5869,
+        "name": "Вертикальные пылесосы",
+        "slug": "vertikalnye-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "вертикальных пылесосов"
+    },
+    {
+        "id": 5870,
+        "name": "Моющие пылесосы",
+        "slug": "mouschie-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "моющих пылесосов"
+    },
+    {
+        "id": 5871,
+        "name": "Пароочистители",
+        "slug": "paroochistiteli",
+        "category_id": 6,
+        "declension_one_p": "пароочистителей"
+    },
+    {
+        "id": 5872,
+        "name": "Паропылесосы",
+        "slug": "paropylesosy",
+        "category_id": 6,
+        "declension_one_p": "паропылесосов"
+    },
+    {
+        "id": 5873,
+        "name": "Промышленные пылесосы",
+        "slug": "promyshlennye-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "промышленных пылесосов"
+    },
+    {
+        "id": 5874,
+        "name": "Пылесосы для сухой уборки",
+        "slug": "pylesosy-dlya-suhoi-uborki",
+        "category_id": 6,
+        "declension_one_p": "пылесосов для сухой уборки"
+    },
+    {
+        "id": 5875,
+        "name": "Ранцевые пылесосы",
+        "slug": "rancevye-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "ранцевых пылесосов"
+    },
+    {
+        "id": 5876,
+        "name": "Роботы-пылесосы",
+        "slug": "robotypylesosy",
+        "category_id": 6,
+        "declension_one_p": "роботов-пылесосов"
+    },
+    {
+        "id": 5877,
+        "name": "Ручные пылесосы",
+        "slug": "ruchnye-pylesosy",
+        "category_id": 6,
+        "declension_one_p": "ручных пылесосов"
+    },
+    {
+        "id": 5878,
+        "name": "Гладильные доски",
+        "slug": "gladilnye-doski",
+        "category_id": 7,
+        "declension_one_p": "гладильных досок"
+    },
+    {
+        "id": 5879,
+        "name": "Гладильные системы",
+        "slug": "gladilnye-sistemy",
+        "category_id": 7,
+        "declension_one_p": "гладильных систем"
+    },
+    {
+        "id": 5880,
+        "name": "Машинки для удаления катышков",
+        "slug": "mashinki-dlya-udaleniya-katyshkov",
+        "category_id": 7,
+        "declension_one_p": "машинок для удаления катышков"
+    },
+    {
+        "id": 5881,
+        "name": "Отпариватели",
+        "slug": "otparivateli",
+        "category_id": 7,
+        "declension_one_p": "отпаривателей"
+    },
+    {
+        "id": 5882,
+        "name": "Стирально-сушильные машины",
+        "slug": "stiralnosushilnye-mashiny",
+        "category_id": 7,
+        "declension_one_p": "стирально-сушильных машин"
+    },
+    {
+        "id": 5883,
+        "name": "Стиральные машины",
+        "slug": "stiralnye-mashiny",
+        "category_id": 7,
+        "declension_one_p": "стиральных машин"
+    },
+    {
+        "id": 5884,
+        "name": "Сушильные автоматы",
+        "slug": "sushilnye-avtomaty",
+        "category_id": 7,
+        "declension_one_p": "сушильных автоматов"
+    },
+    {
+        "id": 5885,
+        "name": "Утюги",
+        "slug": "utugi",
+        "category_id": 7,
+        "declension_one_p": "утюгов"
+    },
+    {
+        "id": 5886,
+        "name": "Утюги на паровой станции",
+        "slug": "utugi-na-parovoi-stancii",
+        "category_id": 7,
+        "declension_one_p": "утюгов на паровой станции"
+    },
+    {
+        "id": 5887,
+        "name": "Весы напольные",
+        "slug": "vesy-napolnye",
+        "category_id": 8,
+        "declension_one_p": "весов напольных"
+    },
+    {
+        "id": 5888,
+        "name": "Выпрямители для волос",
+        "slug": "vypryamiteli-dlya-volos",
+        "category_id": 8,
+        "declension_one_p": "выпрямителей для волос"
+    },
+    {
+        "id": 5889,
+        "name": "Гидромассажные ванночки",
+        "slug": "gidromassazhnye-vannochki",
+        "category_id": 8,
+        "declension_one_p": "гидромассажных ванночек"
+    },
+    {
+        "id": 5890,
+        "name": "Электрические зубные щетки",
+        "slug": "zubnye-schetki",
+        "category_id": 8,
+        "declension_one_p": "электрических зубных щеток"
+    },
+    {
+        "id": 5891,
+        "name": "Машинки для стрижки",
+        "slug": "mashinki-dlya-strizhki",
+        "category_id": 8,
+        "declension_one_p": "машинок для стрижки"
+    },
+    {
+        "id": 5892,
+        "name": "Наборы для маникюра",
+        "slug": "nabory-dlya-manikura",
+        "category_id": 8,
+        "declension_one_p": "наборов для маникюра"
+    },
+    {
+        "id": 5893,
+        "name": "Наборы для педикюра",
+        "slug": "nabory-dlya-pedikura",
+        "category_id": 8,
+        "declension_one_p": "наборов для педикюра"
+    },
+    {
+        "id": 5894,
+        "name": "Ручные массажеры",
+        "slug": "ruchnye-massazhery",
+        "category_id": 8,
+        "declension_one_p": "ручных массажеров"
+    },
+    {
+        "id": 5895,
+        "name": "Триммеры",
+        "slug": "trimmery",
+        "category_id": 8,
+        "declension_one_p": "триммеров"
+    },
+    {
+        "id": 5896,
+        "name": "Фены",
+        "slug": "feny",
+        "category_id": 8,
+        "declension_one_p": "фенов"
+    },
+    {
+        "id": 5897,
+        "name": "Фены-щетки",
+        "slug": "fenyschetki",
+        "category_id": 8,
+        "declension_one_p": "фенов-щеток"
+    },
+    {
+        "id": 5898,
+        "name": "Щипцы для волос",
+        "slug": "schipcy-dlya-volos",
+        "category_id": 8,
+        "declension_one_p": "щипцов для волос"
+    },
+    {
+        "id": 5899,
+        "name": "Электробритвы",
+        "slug": "elektrobritvy",
+        "category_id": 8,
+        "declension_one_p": "электробритв"
+    },
+    {
+        "id": 5900,
+        "name": "Эпиляторы",
+        "slug": "epilyatory",
+        "category_id": 8,
+        "declension_one_p": "эпиляторов"
+    },
+    {
+        "id": 5901,
+        "name": "Вентиляторы",
+        "slug": "ventilyatory",
+        "category_id": 9,
+        "declension_one_p": "вентиляторов"
+    },
+    {
+        "id": 5902,
+        "name": "Накопительные водонагреватели",
+        "slug": "vodonagrevateli-nakopitelnye",
+        "category_id": 9,
+        "declension_one_p": "накопительных водонагревателей"
+    },
+    {
+        "id": 5903,
+        "name": "Проточные водонагреватели",
+        "slug": "vodonagrevateli-protochnye",
+        "category_id": 9,
+        "declension_one_p": "проточных водонагревателей"
+    },
+    {
+        "id": 5904,
+        "name": "Воздухоочистители",
+        "slug": "vozduhoochistiteli",
+        "category_id": 9,
+        "declension_one_p": "воздухоочистителей"
+    },
+    {
+        "id": 5905,
+        "name": "Газовые обогреватели",
+        "slug": "gazovye-obogrevateli",
+        "category_id": 9,
+        "declension_one_p": "газовых обогревателей"
+    },
+    {
+        "id": 5906,
+        "name": "Инфракрасные обогреватели",
+        "slug": "infrakrasnye-obogrevateli",
+        "category_id": 9,
+        "declension_one_p": "инфракрасных обогревателей"
+    },
+    {
+        "id": 5907,
+        "name": "Климатические комплексы",
+        "slug": "klimaticheskie-kompleksy",
+        "category_id": 9,
+        "declension_one_p": "климатических комплексов"
+    },
+    {
+        "id": 5908,
+        "name": "Конвекторы",
+        "slug": "konvektory",
+        "category_id": 9,
+        "declension_one_p": "конвекторов"
+    },
+    {
+        "id": 5909,
+        "name": "Кондиционеры",
+        "slug": "kondicionery",
+        "category_id": 9,
+        "declension_one_p": "кондиционеров"
+    },
+    {
+        "id": 5910,
+        "name": "Масленных радиаторы",
+        "slug": "maslennyh-radiatory",
+        "category_id": 9,
+        "declension_one_p": "масленных радиаторов"
+    },
+    {
+        "id": 5911,
+        "name": "Метеостанция",
+        "slug": "meteostanciya",
+        "category_id": 9,
+        "declension_one_p": "метеостанций"
+    },
+    {
+        "id": 5912,
+        "name": "Мойки воздуха",
+        "slug": "moiki-vozduha",
+        "category_id": 9,
+        "declension_one_p": "моек воздуха"
+    },
+    {
+        "id": 5913,
+        "name": "Тепловентиляторы",
+        "slug": "teploventilyatory",
+        "category_id": 9,
+        "declension_one_p": "тепловентиляторов"
+    },
+    {
+        "id": 5914,
+        "name": "Тепловые завесы",
+        "slug": "teplovye-zavesy",
+        "category_id": 9,
+        "declension_one_p": "тепловых завес"
+    },
+    {
+        "id": 5915,
+        "name": "Тепловые пушки",
+        "slug": "teplovye-pushki",
+        "category_id": 9,
+        "declension_one_p": "тепловых пушек"
+    },
+    {
+        "id": 5916,
+        "name": "Увлажнители воздуха",
+        "slug": "uvlazhniteli-vozduha",
+        "category_id": 9,
+        "declension_one_p": "увлажнителей воздуха"
+    },
+    {
+        "id": 5917,
+        "name": "Электрокамины",
+        "slug": "elektrokaminy",
+        "category_id": 9,
+        "declension_one_p": "электрокаминов"
+    },
+    {
+        "id": 5918,
+        "name": "Газовые котлы напольные",
+        "slug": "gazovye-kotly-napolnye",
+        "category_id": 10,
+        "declension_one_p": "газовых котлов напольных"
+    },
+    {
+        "id": 5919,
+        "name": "Газовые котлы настенные",
+        "slug": "gazovye-kotly-nastennye",
+        "category_id": 10,
+        "declension_one_p": "газовых котлов настенных"
+    },
+    {
+        "id": 5920,
+        "name": "Дизельные котлы",
+        "slug": "dizelnye-kotly",
+        "category_id": 10,
+        "declension_one_p": "дизельных котлов"
+    },
+    {
+        "id": 5921,
+        "name": "Конденсационные котлы",
+        "slug": "kondensacionnye-kotly",
+        "category_id": 10,
+        "declension_one_p": "конденсационных котлов"
+    },
+    {
+        "id": 5922,
+        "name": "Твердотопливные котлы",
+        "slug": "tverdotoplivnye-kotly",
+        "category_id": 10,
+        "declension_one_p": "твердотопливных котлов"
+    },
+    {
+        "id": 5923,
+        "name": "Универсальные котлы",
+        "slug": "universalnye-kotly",
+        "category_id": 10,
+        "declension_one_p": "универсальных котлов"
+    },
+    {
+        "id": 5924,
+        "name": "Электрические котлы",
+        "slug": "elektricheskie-kotly",
+        "category_id": 10,
+        "declension_one_p": "электрических котлов"
+    },
+    {
+        "id": 5925,
+        "name": "Беззеркальные фотоаппараты",
+        "slug": "bezzerkalnye-fotoapparaty",
+        "category_id": 11,
+        "declension_one_p": "беззеркальных фотоаппаратов"
+    },
+    {
+        "id": 5926,
+        "name": "Видеокамеры",
+        "slug": "videokamery",
+        "category_id": 11,
+        "declension_one_p": "видеокамер"
+    },
+    {
+        "id": 5927,
+        "name": "Вспышки",
+        "slug": "vspyshki",
+        "category_id": 11,
+        "declension_one_p": "вспышек"
+    },
+    {
+        "id": 5928,
+        "name": "Зеркальные фотоаппараты",
+        "slug": "zerkalnye-fotoapparaty",
+        "category_id": 11,
+        "declension_one_p": "зеркальных фотоаппаратов"
+    },
+    {
+        "id": 5929,
+        "name": "Компактные фотоаппараты",
+        "slug": "kompaktnye-fotoapparaty",
+        "category_id": 11,
+        "declension_one_p": "компактных фотоаппаратов"
+    },
+    {
+        "id": 5930,
+        "name": "Фотообъективы",
+        "slug": "fotoobektivy",
+        "category_id": 11,
+        "declension_one_p": "фотообъективов"
+    },
+    {
+        "id": 5931,
+        "name": "Штативы",
+        "slug": "shtativy",
+        "category_id": 11,
+        "declension_one_p": "штативов"
+    },
+    {
+        "id": 5932,
+        "name": "Экшн-камеры",
+        "slug": "ekshnkamery",
+        "category_id": 11,
+        "declension_one_p": "экшн-камер"
+    },
+    {
+        "id": 5933,
+        "name": "Клавиатура",
+        "slug": "klaviatura",
+        "category_id": 12,
+        "declension_one_p": "клавиатур"
+    },
+    {
+        "id": 5934,
+        "name": "Компьютерная гарнитура",
+        "slug": "komputernaya-garnitura",
+        "category_id": 12,
+        "declension_one_p": "компьютерных гарнитур"
+    },
+    {
+        "id": 5935,
+        "name": "Компьютерная мышь",
+        "slug": "komputernaya-mysh",
+        "category_id": 12,
+        "declension_one_p": "компьютерных мышей"
+    },
+    {
+        "id": 5936,
+        "name": "МФУ",
+        "slug": "mfu",
+        "category_id": 12,
+        "declension_one_p": "мфу"
+    },
+    {
+        "id": 5937,
+        "name": "Мини ПК",
+        "slug": "mini-pk",
+        "category_id": 12,
+        "declension_one_p": "мини пк"
+    },
+    {
+        "id": 5938,
+        "name": "Мониторы",
+        "slug": "monitory",
+        "category_id": 12,
+        "declension_one_p": "мониторов"
+    },
+    {
+        "id": 5939,
+        "name": "Ноутбуки",
+        "slug": "noutbuki",
+        "category_id": 12,
+        "declension_one_p": "ноутбуков"
+    },
+    {
+        "id": 5940,
+        "name": "Планшеты",
+        "slug": "planshety",
+        "category_id": 12,
+        "declension_one_p": "планшетов"
+    },
+    {
+        "id": 5941,
+        "name": "Принтеры",
+        "slug": "printery",
+        "category_id": 12,
+        "declension_one_p": "принтеров"
+    },
+    {
+        "id": 5942,
+        "name": "Роутеры",
+        "slug": "routery",
+        "category_id": 12,
+        "declension_one_p": "роутеров"
+    },
+    {
+        "id": 5943,
+        "name": "Фотопринтер",
+        "slug": "fotoprinter",
+        "category_id": 12,
+        "declension_one_p": "фотопринтеров"
+    },
+    {
+        "id": 5944,
+        "name": "Электронные книги",
+        "slug": "elektronnye-knigi",
+        "category_id": 12,
+        "declension_one_p": "электронных книг"
+    },
+    {
+        "id": 5945,
+        "name": "Видеокарты",
+        "slug": "videokarty",
+        "category_id": 13,
+        "declension_one_p": "видеокарт"
+    },
+    {
+        "id": 5946,
+        "name": "Корпусные вентиляторы",
+        "slug": "korpusnye-ventilyatory",
+        "category_id": 13,
+        "declension_one_p": "корпусных вентиляторов"
+    },
+    {
+        "id": 5947,
+        "name": "Системы охлаждения",
+        "slug": "sistemy-ohlazhdeniya",
+        "category_id": 13,
+        "declension_one_p": "систем охлаждения"
+    },
+    {
+        "id": 5948,
+        "name": "Blu-ray-видеоплееры",
+        "slug": "blurayvideopleery",
+        "category_id": 14,
+        "declension_one_p": "blu-ray-видеоплееров"
+    },
+    {
+        "id": 5949,
+        "name": "DVD-видеоплееры",
+        "slug": "dvdvideopleery",
+        "category_id": 14,
+        "declension_one_p": "dvd-видеоплееров"
+    },
+    {
+        "id": 5950,
+        "name": "Видеопроекторы",
+        "slug": "videoproektory",
+        "category_id": 14,
+        "declension_one_p": "видеопроекторов"
+    },
+    {
+        "id": 5951,
+        "name": "Медиацентры",
+        "slug": "mediacentry",
+        "category_id": 14,
+        "declension_one_p": "медиацентров"
+    },
+    {
+        "id": 5952,
+        "name": "Телевизоры",
+        "slug": "televizory",
+        "category_id": 14,
+        "declension_one_p": "телевизоров"
+    },
+    {
+        "id": 5953,
+        "name": "AV-Усилители",
+        "slug": "avusiliteli",
+        "category_id": 15,
+        "declension_one_p": "av-усилителей"
+    },
+    {
+        "id": 5954,
+        "name": "AV-процессор",
+        "slug": "avprocessor",
+        "category_id": 15,
+        "declension_one_p": "av-процессоров"
+    },
+    {
+        "id": 5955,
+        "name": "AV-ресивер",
+        "slug": "avresiver",
+        "category_id": 15,
+        "declension_one_p": "av-ресиверов"
+    },
+    {
+        "id": 5956,
+        "name": "CD-проигрыватели",
+        "slug": "cdproigryvateli",
+        "category_id": 15,
+        "declension_one_p": "cd-проигрывателей"
+    },
+    {
+        "id": 5957,
+        "name": "Аудиоплееры",
+        "slug": "audiopleery",
+        "category_id": 15,
+        "declension_one_p": "аудиоплееров"
+    },
+    {
+        "id": 5958,
+        "name": "Всепогодная акустика",
+        "slug": "vsepogodnaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "всепогодной акустики"
+    },
+    {
+        "id": 5959,
+        "name": "Встраиваемая акустика",
+        "slug": "vstraivaemaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "встраиваемой акустики"
+    },
+    {
+        "id": 5960,
+        "name": "Интегральные усилители",
+        "slug": "integralnye-usiliteli",
+        "category_id": 15,
+        "declension_one_p": "интегральных усилителей"
+    },
+    {
+        "id": 5961,
+        "name": "Концертная акустика",
+        "slug": "koncertnaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "концертных акустик"
+    },
+    {
+        "id": 5962,
+        "name": "Магнитолы",
+        "slug": "magnitoly",
+        "category_id": 15,
+        "declension_one_p": "магнитол"
+    },
+    {
+        "id": 5963,
+        "name": "Микросистемы",
+        "slug": "mikrosistemy",
+        "category_id": 15,
+        "declension_one_p": "микросистем"
+    },
+    {
+        "id": 5964,
+        "name": "Микрофоны",
+        "slug": "mikrofony",
+        "category_id": 15,
+        "declension_one_p": "микрофонов"
+    },
+    {
+        "id": 5965,
+        "name": "Минисистемы",
+        "slug": "minisistemy",
+        "category_id": 15,
+        "declension_one_p": "минисистем"
+    },
+    {
+        "id": 5966,
+        "name": "Мониторные громкоговорители",
+        "slug": "monitornye-gromkogovoriteli",
+        "category_id": 15,
+        "declension_one_p": "мониторных громкоговорителей"
+    },
+    {
+        "id": 5967,
+        "name": "Навесная акустика",
+        "slug": "navesnaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "навесных акустик"
+    },
+    {
+        "id": 5968,
+        "name": "Напольная акустика",
+        "slug": "napolnaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "напольной акустик"
+    },
+    {
+        "id": 5969,
+        "name": "Наушники",
+        "slug": "naushniki",
+        "category_id": 15,
+        "declension_one_p": "наушников"
+    },
+    {
+        "id": 5970,
+        "name": "Полочная акустика",
+        "slug": "polochnaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "полочной акустики"
+    },
+    {
+        "id": 5971,
+        "name": "Предварительные усилители",
+        "slug": "predvaritelnye-usiliteli",
+        "category_id": 15,
+        "declension_one_p": "предварительных усилителей"
+    },
+    {
+        "id": 5972,
+        "name": "Радиоприемник",
+        "slug": "radiopriemnik",
+        "category_id": 15,
+        "declension_one_p": "радиоприемников"
+    },
+    {
+        "id": 5973,
+        "name": "Ресиверы",
+        "slug": "resivery",
+        "category_id": 15,
+        "declension_one_p": "ресиверов"
+    },
+    {
+        "id": 5974,
+        "name": "Сабвуферы",
+        "slug": "sabvufery",
+        "category_id": 15,
+        "declension_one_p": "сабвуферов"
+    },
+    {
+        "id": 5975,
+        "name": "Тыловая акустика",
+        "slug": "tylovaya-akustika",
+        "category_id": 15,
+        "declension_one_p": "тыловой акустики"
+    },
+    {
+        "id": 5976,
+        "name": "Усилители для наушников",
+        "slug": "usiliteli-dlya-naushnikov",
+        "category_id": 15,
+        "declension_one_p": "усилителей для наушников"
+    },
+    {
+        "id": 5977,
+        "name": "Усилители мощности",
+        "slug": "usiliteli-moschnosti",
+        "category_id": 15,
+        "declension_one_p": "усилителей мощности"
+    },
+    {
+        "id": 5978,
+        "name": "Фонокорректоры",
+        "slug": "fonokorrektory",
+        "category_id": 15,
+        "declension_one_p": "фонокорректоров"
+    },
+    {
+        "id": 5979,
+        "name": "Цифро-аналоговые преобразователи",
+        "slug": "cifroanalogovye-preobrazovateli",
+        "category_id": 15,
+        "declension_one_p": "цифро-аналоговых преобразователей"
+    },
+    {
+        "id": 5980,
+        "name": "Bloototh-гарнитура",
+        "slug": "blootothgarnitura",
+        "category_id": 16,
+        "declension_one_p": "bloototh-гарнитур"
+    },
+    {
+        "id": 5981,
+        "name": "Мобильные телефоны",
+        "slug": "mobilnye-telefony",
+        "category_id": 16,
+        "declension_one_p": "мобильных телефонов"
+    },
+    {
+        "id": 5982,
+        "name": "Радиотелефоны",
+        "slug": "radiotelefony",
+        "category_id": 16,
+        "declension_one_p": "радиотелефонов"
+    },
+    {
+        "id": 5983,
+        "name": "Смартфоны",
+        "slug": "smartfony",
+        "category_id": 16,
+        "declension_one_p": "смартфонов"
+    },
+    {
+        "id": 5984,
+        "name": "Спортивные часы",
+        "slug": "sportivnye-chasy",
+        "category_id": 17,
+        "declension_one_p": "спортивных часов"
+    },
+    {
+        "id": 5985,
+        "name": "Умные часы",
+        "slug": "umnye-chasy",
+        "category_id": 17,
+        "declension_one_p": "умных часов"
+    },
+    {
+        "id": 5986,
+        "name": "Фитнес-браслеты",
+        "slug": "fitnesbraslety",
+        "category_id": 17,
+        "declension_one_p": "фитнес-браслетов"
+    },
+    {
+        "id": 5987,
+        "name": "Видеорегистраторы",
+        "slug": "videoregistratory",
+        "category_id": 18,
+        "declension_one_p": "видеорегистраторов"
+    },
+    {
+        "id": 5988,
+        "name": "Дренажные насосы",
+        "slug": "drenazhnye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "дренажных насосов"
+    },
+    {
+        "id": 5989,
+        "name": "Канализационные установки",
+        "slug": "kanalizacionnye-ustanovki",
+        "category_id": 19,
+        "declension_one_p": "канализационных установок"
+    },
+    {
+        "id": 5990,
+        "name": "Колодезные насосы",
+        "slug": "kolodeznye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "колодезных насосов"
+    },
+    {
+        "id": 5991,
+        "name": "Мотопомпы",
+        "slug": "motopompy",
+        "category_id": 19,
+        "declension_one_p": "мотопомп"
+    },
+    {
+        "id": 5992,
+        "name": "Насосные станции",
+        "slug": "nasosnye-stancii",
+        "category_id": 19,
+        "declension_one_p": "насосных станций"
+    },
+    {
+        "id": 5993,
+        "name": "Садовые насосы",
+        "slug": "sadovye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "садовых насосов"
+    },
+    {
+        "id": 5994,
+        "name": "Скважинные насосы",
+        "slug": "skvazhinnye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "скважинных насосов"
+    },
+    {
+        "id": 5995,
+        "name": "Фекальные насосы",
+        "slug": "fekalnye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "фекальных насосов"
+    },
+    {
+        "id": 5996,
+        "name": "Фонтанные насосы",
+        "slug": "fontannye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "фонтанных насосов"
+    },
+    {
+        "id": 5997,
+        "name": "Циркуляционные насосы",
+        "slug": "cirkulyacionnye-nasosy",
+        "category_id": 19,
+        "declension_one_p": "циркуляционных насосов"
+    },
+    {
+        "id": 5998,
+        "name": "Болгарки (УШМ)",
+        "slug": "bolgarki-ushm",
+        "category_id": 20,
+        "declension_one_p": "болгарок (ушм)"
+    },
+    {
+        "id": 5999,
+        "name": "Вибрационные шлифмашины",
+        "slug": "vibracionnye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "вибрационных шлифмашин"
+    },
+    {
+        "id": 6000,
+        "name": "Гайковерты",
+        "slug": "gaikoverty",
+        "category_id": 20,
+        "declension_one_p": "гайковертов"
+    },
+    {
+        "id": 6001,
+        "name": "Дельтовидные шлифмашины",
+        "slug": "deltovidnye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "дельтовидных шлифмашин"
+    },
+    {
+        "id": 6002,
+        "name": "Дрели",
+        "slug": "dreli",
+        "category_id": 20,
+        "declension_one_p": "дрелей"
+    },
+    {
+        "id": 6003,
+        "name": "Ленточные шлифмашины",
+        "slug": "lentochnye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "ленточных шлифмашин"
+    },
+    {
+        "id": 6004,
+        "name": "Многофункциональный инструмент",
+        "slug": "mnogofunkcionalnyi-instrument",
+        "category_id": 20,
+        "declension_one_p": "многофункционального инструмента"
+    },
+    {
+        "id": 6005,
+        "name": "Отбойный молоток",
+        "slug": "otboinyi-molotok",
+        "category_id": 20,
+        "declension_one_p": "отбойных молотков"
+    },
+    {
+        "id": 6006,
+        "name": "Отрезные пилы по металлу",
+        "slug": "otreznye-pily-po-metallu",
+        "category_id": 20,
+        "declension_one_p": "отрезных пил по металлу"
+    },
+    {
+        "id": 6007,
+        "name": "Перфораторы",
+        "slug": "perforatory",
+        "category_id": 20,
+        "declension_one_p": "перфораторов"
+    },
+    {
+        "id": 6008,
+        "name": "Полировальные машины",
+        "slug": "polirovalnye-mashiny",
+        "category_id": 20,
+        "declension_one_p": "полировальных машин"
+    },
+    {
+        "id": 6009,
+        "name": "Прямые шлифмашины",
+        "slug": "pryamye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "прямых шлифмашин"
+    },
+    {
+        "id": 6010,
+        "name": "Сабельные пилы",
+        "slug": "sabelnye-pily",
+        "category_id": 20,
+        "declension_one_p": "сабельных пил"
+    },
+    {
+        "id": 6011,
+        "name": "Торцовочные пилы",
+        "slug": "torcovochnye-pily",
+        "category_id": 20,
+        "declension_one_p": "торцовочных пил"
+    },
+    {
+        "id": 6012,
+        "name": "Фрезерные машины",
+        "slug": "frezernye-mashiny",
+        "category_id": 20,
+        "declension_one_p": "фрезерных машины"
+    },
+    {
+        "id": 6013,
+        "name": "Циркулярная пила",
+        "slug": "cirkulyarnaya-pila",
+        "category_id": 20,
+        "declension_one_p": "циркулярных пил"
+    },
+    {
+        "id": 6014,
+        "name": "Шлифмашины для бетона",
+        "slug": "shlifmashiny-dlya-betona",
+        "category_id": 20,
+        "declension_one_p": "шлифмашин для бетона"
+    },
+    {
+        "id": 6015,
+        "name": "Шуруповерты",
+        "slug": "shurupoverty",
+        "category_id": 20,
+        "declension_one_p": "шуруповертов"
+    },
+    {
+        "id": 6016,
+        "name": "Щеточные шлифмашины",
+        "slug": "schetochnye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "щеточных шлифмашин"
+    },
+    {
+        "id": 6017,
+        "name": "Эксцентриковые шлифмашины",
+        "slug": "ekscentrikovye-shlifmashiny",
+        "category_id": 20,
+        "declension_one_p": "эксцентриковых шлифмашин"
+    },
+    {
+        "id": 6018,
+        "name": "Электролобзики",
+        "slug": "elektrolobziki",
+        "category_id": 20,
+        "declension_one_p": "электролобзиков"
+    },
+    {
+        "id": 6019,
+        "name": "Электроножницы",
+        "slug": "elektronozhnicy",
+        "category_id": 20,
+        "declension_one_p": "электроножниц"
+    },
+    {
+        "id": 6020,
+        "name": "Электроотвертки",
+        "slug": "elektrootvertki",
+        "category_id": 20,
+        "declension_one_p": "электроотверток"
+    },
+    {
+        "id": 6021,
+        "name": "Электрорубанки",
+        "slug": "elektrorubanki",
+        "category_id": 20,
+        "declension_one_p": "электрорубанков"
+    },
+    {
+        "id": 6022,
+        "name": "Бензопилы",
+        "slug": "benzopily",
+        "category_id": 21,
+        "declension_one_p": "бензопил"
+    },
+    {
+        "id": 6023,
+        "name": "Газонокосилки",
+        "slug": "gazonokosilki",
+        "category_id": 21,
+        "declension_one_p": "газонокосилок"
+    },
+    {
+        "id": 6024,
+        "name": "Землебуры",
+        "slug": "zemlebury",
+        "category_id": 21,
+        "declension_one_p": "землебуров"
+    },
+    {
+        "id": 6025,
+        "name": "Культиваторы",
+        "slug": "kultivatory",
+        "category_id": 21,
+        "declension_one_p": "культиваторов"
+    },
+    {
+        "id": 6026,
+        "name": "Ледорубы",
+        "slug": "ledoruby",
+        "category_id": 21,
+        "declension_one_p": "ледорубов"
+    },
+    {
+        "id": 6027,
+        "name": "Мини-тракторы",
+        "slug": "minitraktory",
+        "category_id": 21,
+        "declension_one_p": "мини-тракторов"
+    },
+    {
+        "id": 6028,
+        "name": "Мойки высокого давления",
+        "slug": "moiki-vysokogo-davleniya",
+        "category_id": 21,
+        "declension_one_p": "моек высокого давления / минимоек"
+    },
+    {
+        "id": 6029,
+        "name": "Мотоблоки",
+        "slug": "motobloki",
+        "category_id": 21,
+        "declension_one_p": "мотоблоков"
+    },
+    {
+        "id": 6030,
+        "name": "Садовые аэраторы",
+        "slug": "sadovye-aeratory",
+        "category_id": 21,
+        "declension_one_p": "садовых аэраторов"
+    },
+    {
+        "id": 6031,
+        "name": "Садовые измельчители",
+        "slug": "sadovye-izmelchiteli",
+        "category_id": 21,
+        "declension_one_p": "садовых измельчителей"
+    },
+    {
+        "id": 6032,
+        "name": "Садовые триммеры",
+        "slug": "sadovye-trimmery",
+        "category_id": 21,
+        "declension_one_p": "садовыех триммеров"
+    },
+    {
+        "id": 6033,
+        "name": "Снегоуборщики",
+        "slug": "snegouborschiki",
+        "category_id": 21,
+        "declension_one_p": "снегоуборщиков"
+    },
+    {
+        "id": 6034,
+        "name": "Цепных электропил",
+        "slug": "cepnye-elektropily",
+        "category_id": 21,
+        "declension_one_p": "цепных электропил"
+    },
+    {
+        "id": 6035,
+        "name": "Виброплиты",
+        "slug": "vibroplity",
+        "category_id": 22,
+        "declension_one_p": "виброплит"
+    },
+    {
+        "id": 6036,
+        "name": "Швонарезчики",
+        "slug": "shvonarezchiki",
+        "category_id": 22,
+        "declension_one_p": "швонарезчиков"
+    },
+    {
+        "id": 6037,
+        "name": "Бензорезы",
+        "slug": "benzorezy",
+        "category_id": 22,
+        "declension_one_p": "бензорезов"
+    },
+    {
+        "id": 6038,
+        "name": "Мотобуры",
+        "slug": "motobury",
+        "category_id": 22,
+        "declension_one_p": "мотобуров"
+    },
+    {
+        "id": 6039,
+        "name": "Электросамокаты",
+        "slug": "elektrosamokaty",
+        "category_id": 23,
+        "declension_one_p": "электросамокатов"
+    },
+    {
+        "id": 6040,
+        "name": "Гироскутеры",
+        "slug": "giroskutery",
+        "category_id": 23,
+        "declension_one_p": "гироскутеров"
+    },
+    {
+        "id": 6041,
+        "name": "Моноколеса",
+        "slug": "monokolesa",
+        "category_id": 23,
+        "declension_one_p": "моноколес"
+    },
+    {
+        "id": 6042,
+        "name": "Электробайки",
+        "slug": "elektrobaikov",
+        "category_id": 23,
+        "declension_one_p": "электробайков"
+    },
+    {
+        "id": 6043,
+        "name": "Мопеды",
+        "slug": "mopedov",
+        "category_id": 23,
+        "declension_one_p": "мопедов"
+    },
+    {
+        "id": 6044,
+        "name": "Электростанции",
+        "slug": "elektrostancyi",
+        "category_id": 24,
+        "declension_one_p": "электростанций"
+    },
+    {
+        "id": 6045,
+        "name": "Воздушные компрессоры",
+        "slug": "vozdushnyh-kompressorov",
+        "category_id": 24,
+        "declension_one_p": "воздушных компрессоров"
+    },
+    {
+        "id": 6046,
+        "name": "Бензогенераторы",
+        "slug": "benzogeneratory",
+        "category_id": 24,
+        "declension_one_p": "бензогенераторов"
+    },
+    {
+        "id": 6047,
+        "name": "Дизель-генераторы",
+        "slug": "dizel-generatory",
+        "category_id": 24,
+        "declension_one_p": "дизель-генераторов"
+    },
+    {
+        "id": 6048,
+        "name": "Сварочные аппараты",
+        "slug": "svarochnye-apparaty",
+        "category_id": 24,
+        "declension_one_p": "сварочных аппаратов"
+    },
+    {
+        "id": 7777,
+        "name": "iPhone",
+        "slug": "iphone",
+        "category_id": 16,
+        "declension_one_p": "iphone"
+    },
+    {
+        "id": 7778,
+        "name": "iMac",
+        "slug": "imac",
+        "category_id": 12,
+        "declension_one_p": "imac"
+    },
+    {
+        "id": 7779,
+        "name": "MacBook",
+        "slug": "macbook",
+        "category_id": 12,
+        "declension_one_p": "macbook"
+    },
+    {
+        "id": 7780,
+        "name": "iPad",
+        "slug": "ipad",
+        "category_id": 12,
+        "declension_one_p": "ipad"
+    },
+    {
+        "id": 99106,
+        "name": "Домашние кинотеатры",
+        "slug": "domashnie-kinoteatry",
+        "category_id": 15,
+        "declension_one_p": "домашних кинотеатров"
+    },
+    {
+        "id": 99107,
+        "name": "Музыкальные центры",
+        "slug": "muzykalnye-centry",
+        "category_id": 15,
+        "declension_one_p": "музыкальных центров"
+    },
+    {
+        "id": 99108,
+        "name": "Акустические системы",
+        "slug": "akusticheskie-sistemy",
+        "category_id": 15,
+        "declension_one_p": "акустических систем"
+    },
+    {
+        "id": 99109,
+        "name": "ТВ-ресиверы",
+        "slug": "tv-resivery",
+        "category_id": 14,
+        "declension_one_p": "тв-ресиверов"
+    },
+    {
+        "id": 99110,
+        "name": "Антенны",
+        "slug": "anteny",
+        "category_id": 14,
+        "declension_one_p": "антен"
+    },
+    {
+        "id": 99111,
+        "name": "Кассетные деки",
+        "slug": "kassetnye-deki",
+        "category_id": 15,
+        "declension_one_p": "кассетных дек"
+    },
+    {
+        "id": 99112,
+        "name": "Караоке",
+        "slug": "karaoke",
+        "category_id": 15,
+        "declension_one_p": "караоке"
+    },
+    {
+        "id": 99113,
+        "name": "Медиаплееры",
+        "slug": "mediapleery",
+        "category_id": 15,
+        "declension_one_p": "медиаплееров"
+    },
+    {
+        "id": 99114,
+        "name": "Диктофоны",
+        "slug": "diktofony",
+        "category_id": 15,
+        "declension_one_p": "диктофонов"
+    },
+    {
+        "id": 99115,
+        "name": "Плееры",
+        "slug": "pleery",
+        "category_id": 15,
+        "declension_one_p": "плееров"
+    },
+    {
+        "id": 99116,
+        "name": "Видеоняни и радионяни",
+        "slug": "video-audio-nyani",
+        "category_id": 15,
+        "declension_one_p": "видео и аудио нянь"
+    },
+    {
+        "id": 99117,
+        "name": "Сушилки для рук",
+        "slug": "sushilki-dlya-ruk",
+        "category_id": 9,
+        "declension_one_p": "сушилок для рук"
+    },
+    {
+        "id": 99118,
+        "name": "Серверы",
+        "slug": "servery",
+        "category_id": 12,
+        "declension_one_p": "серверов"
+    },
+    {
+        "id": 99119,
+        "name": "Квадрокоптеры",
+        "slug": "kvadrokoptery",
+        "category_id": 25,
+        "declension_one_p": "квадрокоптеров"
+    },
+    {
+        "id": 99120,
+        "name": "Радар-детекторы",
+        "slug": "radar-detektory",
+        "category_id": 18,
+        "declension_one_p": "радар-детекторов"
+    },
+    {
+        "id": 99121,
+        "name": "GPS-навигаторы",
+        "slug": "gps-navigatory",
+        "category_id": 18,
+        "declension_one_p": "gps-навигаторов"
+    },
+    {
+        "id": 99122,
+        "name": "Оверлоки",
+        "slug": "overloki",
+        "category_id": 26,
+        "declension_one_p": "оверлоков"
+    },
+    {
+        "id": 99123,
+        "name": "Вышивальные машины",
+        "slug": "vyshyvalnye-mashyny",
+        "category_id": 26,
+        "declension_one_p": "вышивальных машин"
+    },
+    {
+        "id": 99124,
+        "name": "Вязальные машины",
+        "slug": "vyazalnye-mashiny",
+        "category_id": 26,
+        "declension_one_p": "вязальных машин"
+    },
+    {
+        "id": 99125,
+        "name": "ИБП (источники бесперебойного питания)",
+        "slug": "ibp",
+        "category_id": 12,
+        "declension_one_p": "ибп"
+    },
+    {
+        "id": 99126,
+        "name": "Звуковые карты",
+        "slug": "zvukovye-karty",
+        "category_id": 13,
+        "declension_one_p": "звуковых карт"
+    },
+    {
+        "id": 99127,
+        "name": "Процессоры",
+        "slug": "processory",
+        "category_id": 13,
+        "declension_one_p": "процессоров"
+    },
+    {
+        "id": 99128,
+        "name": "SSD диски",
+        "slug": "ssd-diski",
+        "category_id": 13,
+        "declension_one_p": "ssd дисков"
+    },
+    {
+        "id": 99129,
+        "name": "Оперативная память",
+        "slug": "operativnaya-pamyat",
+        "category_id": 13,
+        "declension_one_p": "оперативной памяти"
+    },
+    {
+        "id": 99130,
+        "name": "Карты памяти",
+        "slug": "karty-pamyati",
+        "category_id": 13,
+        "declension_one_p": "карт памяти"
+    },
+    {
+        "id": 99131,
+        "name": "USB-флешки",
+        "slug": "usb-fleshki",
+        "category_id": 12,
+        "declension_one_p": "usb-флешек"
+    },
+    {
+        "id": 99132,
+        "name": "ТВ-тюнеры",
+        "slug": "tv-tunery",
+        "category_id": 13,
+        "declension_one_p": "тв-тюнеров"
+    },
+    {
+        "id": 99133,
+        "name": "Веб-камеры",
+        "slug": "web-kamery",
+        "category_id": 12,
+        "declension_one_p": "веб-камер"
+    },
+    {
+        "id": 99134,
+        "name": "Джойстики и геймпады",
+        "slug": "djoistiki-i-geimpady",
+        "category_id": 12,
+        "declension_one_p": "джойстиков и геймпадов"
+    },
+    {
+        "id": 99135,
+        "name": "Сканеры",
+        "slug": "skanery",
+        "category_id": 12,
+        "declension_one_p": "сканеров"
+    },
+    {
+        "id": 99136,
+        "name": "Проекторы",
+        "slug": "proektory",
+        "category_id": 14,
+        "declension_one_p": "проекторов"
+    },
+    {
+        "id": 99137,
+        "name": "Копировальные аппараты",
+        "slug": "kopirovalnye-apparaty",
+        "category_id": 12,
+        "declension_one_p": "копировальных аппаратов"
+    },
+    {
+        "id": 99138,
+        "name": "Ламинаторы",
+        "slug": "laminatory",
+        "category_id": 12,
+        "declension_one_p": "ламинаторов"
+    },
+    {
+        "id": 99139,
+        "name": "3D-принтеры",
+        "slug": "3d-printery",
+        "category_id": 12,
+        "declension_one_p": "3d-printerov"
+    },
+    {
+        "id": 99140,
+        "name": "Шредеры",
+        "slug": "shredery",
+        "category_id": 12,
+        "declension_one_p": "шредеров"
+    },
+    {
+        "id": 99141,
+        "name": "Плоттеры",
+        "slug": "plottery",
+        "category_id": 12,
+        "declension_one_p": "плотерров"
+    },
+    {
+        "id": 99142,
+        "name": "Воздуходувки",
+        "slug": "vozduhovki",
+        "category_id": 21,
+        "declension_one_p": "воздуховок"
+    },
+    {
+        "id": 99143,
+        "name": "Электрогенераторы",
+        "slug": "elektrogeneratory",
+        "category_id": 24,
+        "declension_one_p": "электрогенераторов"
+    },
+    {
+        "id": 99144,
+        "name": "Краскопульты",
+        "slug": "kraskopulty",
+        "category_id": 20,
+        "declension_one_p": "краскопультов"
+    },
+    {
+        "id": 99145,
+        "name": "Штроборезы",
+        "slug": "shtroborezy",
+        "category_id": 20,
+        "declension_one_p": "штроборезов"
+    },
+    {
+        "id": 99146,
+        "name": "Строительные фены",
+        "slug": "stroitelnye-feny",
+        "category_id": 22,
+        "declension_one_p": "строительных фенов"
+    },
+    {
+        "id": 99147,
+        "name": "Пирометры",
+        "slug": "pirometry",
+        "category_id": 22,
+        "declension_one_p": "пирометров"
+    },
+    {
+        "id": 99148,
+        "name": "Тепловизоры",
+        "slug": "teplovizory",
+        "category_id": 22,
+        "declension_one_p": "тепловизоров"
+    },
+    {
+        "id": 99149,
+        "name": "Степлеры",
+        "slug": "steplery",
+        "category_id": 20,
+        "declension_one_p": "степлеров"
+    },
+    {
+        "id": 99150,
+        "name": "Лазерные уровни/нивелиры",
+        "slug": "lazernye-urovni-niveliry",
+        "category_id": 20,
+        "declension_one_p": "лазерных уровней/нивелиров"
+    },
+    {
+        "id": 99151,
+        "name": "Полотенцесушители",
+        "slug": "polotencesushiteli",
+        "category_id": 7,
+        "declension_one_p": "полотенцесушителей"
+    },
+    {
+        "id": 99152,
+        "name": "Стабилизаторы напряжения",
+        "slug": "stabilizatory-napryajeniya",
+        "category_id": 12,
+        "declension_one_p": "стабилизаторов напряжения"
+    },
+    {
+        "id": 99153,
+        "name": "Трансформаторы",
+        "slug": "transformatory",
+        "category_id": 24,
+        "declension_one_p": "трансформаторов"
+    },
+    {
+        "id": 99154,
+        "name": "Модемы",
+        "slug": "modemy",
+        "category_id": 12,
+        "declension_one_p": "модемов"
+    },
+    {
+        "id": 99155,
+        "name": "Трансиверы",
+        "slug": "transivery",
+        "category_id": 14,
+        "declension_one_p": "трансиверов"
+    },
+    {
+        "id": 99156,
+        "name": "Глюкометры",
+        "slug": "glukometry",
+        "category_id": 27,
+        "declension_one_p": "глюкометров"
+    },
+    {
+        "id": 99157,
+        "name": "Ингаляторы",
+        "slug": "ingalyatory",
+        "category_id": 27,
+        "declension_one_p": "ингаляторов"
+    },
+    {
+        "id": 99158,
+        "name": "Слуховые аппараты",
+        "slug": "sluhovye-apparaty",
+        "category_id": 27,
+        "declension_one_p": "слуховых аппаратов"
+    },
+    {
+        "id": 99159,
+        "name": "Алкотестеры",
+        "slug": "alkotestery",
+        "category_id": 27,
+        "declension_one_p": "алкотестеров"
+    },
+    {
+        "id": 99160,
+        "name": "Аппараты измерения давления",
+        "slug": "apparaty-izmereniya-davleniya",
+        "category_id": 27,
+        "declension_one_p": "аппаратов измерения давления"
+    },
+    {
+        "id": 99161,
+        "name": "Бинокли",
+        "slug": "binokli",
+        "category_id": 28,
+        "declension_one_p": "биноклей"
+    },
+    {
+        "id": 99162,
+        "name": "Микроскопы",
+        "slug": "mikroskopy",
+        "category_id": 28,
+        "declension_one_p": "микроскопов"
+    },
+    {
+        "id": 99163,
+        "name": "Телескопы",
+        "slug": "teleskopy",
+        "category_id": 28,
+        "declension_one_p": "телескопов"
+    },
+    {
+        "id": 99164,
+        "name": "Приборы ночного видения",
+        "slug": "pribory-nochnogo-videniya",
+        "category_id": 28,
+        "declension_one_p": "приборов ночного видения"
+    },
+    {
+        "id": 99165,
+        "name": "Рации",
+        "slug": "racii",
+        "category_id": 16,
+        "declension_one_p": "раций"
+    },
+    {
+        "id": 99166,
+        "name": "Сигвеи",
+        "slug": "sigvei",
+        "category_id": 23,
+        "declension_one_p": "сигвеев"
+    },
+    {
+        "id": 99167,
+        "name": "Эндоскопическое оборудование",
+        "slug": "endoskopicheskoe-oborudovanie",
+        "category_id": 27,
+        "declension_one_p": "эндоскопического оборудования"
+    },
+    {
+        "id": 99168,
+        "name": "Моноблоки",
+        "slug": "monobloki",
+        "category_id": 12,
+        "declension_one_p": "моноблоков"
+    },
+    {
+        "id": 99169,
+        "name": "Швейные машины",
+        "slug": "shveinye-mashiny",
+        "category_id": 26,
+        "declension_one_p": "швейных машин"
+    },
+    {
+        "id": 99170,
+        "name": "Духовые шкафы",
+        "slug": "duhovye-shkafy",
+        "category_id": 2,
+        "declension_one_p": "духовых шкафов"
+    },
+    {
+        "id": 99171,
+        "name": "Варочные панели",
+        "slug": "varochnye-paneli",
+        "category_id": 2,
+        "declension_one_p": "варочных панелей"
+    },
+    {
+        "id": 99172,
+        "name": "Компьютеры",
+        "slug": "komputery",
+        "category_id": 12,
+        "declension_one_p": "компьютеров"
+    },
+    {
+        "id": 99173,
+        "name": "Газовые котлы",
+        "slug": "gazovye-kotly",
+        "category_id": 7,
+        "declension_one_p": "газовых котлов"
+    },
+    {
+        "id": 99174,
+        "name": "Водонагреватели",
+        "slug": "vodonagrevateli",
+        "category_id": 7,
+        "declension_one_p": "водонагревателей"
+    },
+    {
+        "id": 99175,
+        "name": "Автомагнитолы",
+        "slug": "avtomagnitoly",
+        "category_id": 18,
+        "declension_one_p": "атомагнитол"
+    },
+    {
+        "id": 99176,
+        "name": "Микроволновые печи",
+        "slug": "mikrovolnovye-pechi",
+        "category_id": 3,
+        "declension_one_p": "микроволновых печей"
+    },
+    {
+        "id": 99177,
+        "name": "Машинки для стрижки волос",
+        "slug": "mashinki-dlya-strizshki",
+        "category_id": 8,
+        "declension_one_p": "машинок для стрижек волос"
+    },
+    {
+        "id": 99178,
+        "name": "Тонометры",
+        "slug": "tonometry",
+        "category_id": 27,
+        "declension_one_p": "тонометров"
+    },
+    {
+        "id": 99179,
+        "name": "Жесткие диски HDD",
+        "slug": "zshoskie-diski-hdd",
+        "category_id": 13,
+        "declension_one_p": "жестких дисков hdd"
+    },
+    {
+        "id": 99180,
+        "name": "Материнские платы",
+        "slug": "materinskie-platy",
+        "category_id": 13,
+        "declension_one_p": "материнских плат"
+    },
+    {
+        "id": 99181,
+        "name": "Автосигнализации",
+        "slug": "avtosignalizacyi",
+        "category_id": 18,
+        "declension_one_p": "автосигнализаций"
+    },
+    {
+        "id": 99182,
+        "name": "Весы",
+        "slug": "vesy",
+        "category_id": 27,
+        "declension_one_p": "весов"
+    },
+    {
+        "id": 99183,
+        "name": "Блоки питания",
+        "slug": "bloki-pitaniya",
+        "category_id": 13,
+        "declension_one_p": "блоков питания"
+    },
+    {
+        "id": 99184,
+        "name": "Портативные колонки",
+        "slug": "portativnye-kolonki",
+        "category_id": 15,
+        "declension_one_p": "портативных колонок"
+    },
+    {
+        "id": 99185,
+        "name": "Пульты ДУ",
+        "slug": "pulty-du",
+        "category_id": 14,
+        "declension_one_p": "пультов ду"
+    },
+    {
+        "id": 99186,
+        "name": "Игровые приставки",
+        "slug": "igrovye-pristavki",
+        "category_id": 14,
+        "declension_one_p": "игровых приставок"
+    },
+    {
+        "id": 99187,
+        "name": "Камеры видеонаблюдения",
+        "slug": "kamery-videonabludeniya",
+        "category_id": 7,
+        "declension_one_p": "камер видеонаблюдения"
+    },
+    {
+        "id": 99188,
+        "name": "Кулеры для воды",
+        "slug": "kulery-dlya-vody",
+        "category_id": 7,
+        "declension_one_p": "кулеров для воды"
+    },
+    {
+        "id": 99189,
+        "name": "Парогенераторы",
+        "slug": "parogeneratory",
+        "category_id": 7,
+        "declension_one_p": "парогенераторов"
+    },
+    {
+        "id": 99190,
+        "name": "Электровеники",
+        "slug": "elektroveniki",
+        "category_id": 7,
+        "declension_one_p": "электровеников"
+    },
+    {
+        "id": 99191,
+        "name": "Обогреватели",
+        "slug": "obogrevateli",
+        "category_id": 9,
+        "declension_one_p": "обогревателей"
+    },
+    {
+        "id": 99192,
+        "name": "Осушители воздуха",
+        "slug": "osushiteli-vozduha",
+        "category_id": 9,
+        "declension_one_p": "осушителей воздуха"
+    },
+    {
+        "id": 99193,
+        "name": "Ионизаторы воздуха",
+        "slug": "ionizatory-vozduha",
+        "category_id": 9,
+        "declension_one_p": "ионизаторов воздуха"
+    },
+    {
+        "id": 99194,
+        "name": "Кухонные комбайны",
+        "slug": "kuhonnye-kombainy",
+        "category_id": 3,
+        "declension_one_p": "кухонных комбайнов"
+    },
+    {
+        "id": 99195,
+        "name": "Измельчители пищевых отходов",
+        "slug": "izmelchiteli-pischevyh-othodov",
+        "category_id": 2,
+        "declension_one_p": "измельчителей пищевых отходов"
+    },
+    {
+        "id": 99196,
+        "name": "Ирригаторы",
+        "slug": "irrigatory",
+        "category_id": 27,
+        "declension_one_p": "ирригаторов"
+    },
+    {
+        "id": 99197,
+        "name": "Вибромассажеры",
+        "slug": "vibromassajery",
+        "category_id": 27,
+        "declension_one_p": "вибромассажеров"
+    },
+    {
+        "id": 99198,
+        "name": "Миостимуляторы",
+        "slug": "miostimulyatory",
+        "category_id": 27,
+        "declension_one_p": "миостимуляторов"
+    },
+    {
+        "id": 99199,
+        "name": "Беговые дорожки",
+        "slug": "begovye-dorojki",
+        "category_id": 27,
+        "declension_one_p": "беговых дорожек"
+    },
+    {
+        "id": 99200,
+        "name": "Тренажёры",
+        "slug": "trenajery",
+        "category_id": 27,
+        "declension_one_p": "тренажеров"
+    },
+    {
+        "id": 99201,
+        "name": "Автокондиционеры",
+        "slug": "avtokondicionery",
+        "category_id": 18,
+        "declension_one_p": "автокондиционеров"
+    }
+]

@@ -1,0 +1,39 @@
+form {
+    h4, .h4 {
+        color: #fbddd3;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    label {
+        color: #fbddd3;
+        font-size: .9rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    textarea {
+        background-color: transparent;
+        border-color: transparent;
+        border-width: 0;
+        border-bottom: 2px solid #fbddd3;
+        color: white;
+        font-size: 1.05rem;
+        font-weight: 500;
+        outline: none;
+        padding: 3px 0;
+        display: block;
+        width: 100%;
+        transition: background-color ease-in-out .3s;
+
+        &:focus,
+        &:hover {
+            background-color: rgba(255, 255, 255, .1);
+        }
+    }
+
+    option {
+        color: #1a2835;
+    }
+}

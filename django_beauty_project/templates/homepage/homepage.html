@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content_top %}{% endblock %}
+
+
+{% block content %}
+    <div id="section-search" class="section-type-one">
+        <div class="section-type-one__title container">
+            <div class="h2">Что будем искать?</div>
+        </div>
+
+        <div class="section-type-one__inner container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab dicta cumque similique aspernatur veniam fugit iure odit. Reiciendis praesentium itaque eaque provident culpa laboriosam placeat blanditiis eos alias quia, odio nihil. Autem modi qui commodi ipsam ex ducimus distinctio neque eius sequi numquam veniam consequuntur temporibus dolores, culpa aliquam. Ut veritatis quaerat eveniet odio tempora voluptatibus facilis, reiciendis provident fugiat similique a eligendi dolore magni nihil unde beatae itaque.</p>
+
+            <search-component />
+        </div>
+    </div>
+
+    <div id="section-advantages">
+        <div id="section-advantages__inner" class="container">
+            <div class="advantage">
+                <div class="advantage__title">1234</div>
+                <div class="advantage__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet cumque aliquid vel veniam saepe, eum deleniti minima fugiat maxime</div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__title">1234</div>
+                <div class="advantage__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet cumque aliquid vel veniam saepe, eum deleniti minima fugiat maxime</div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__title">1234</div>
+                <div class="advantage__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet cumque aliquid vel veniam saepe, eum deleniti minima fugiat maxime</div>
+            </div>
+            <div class="advantage">
+                <div class="advantage__title">1234</div>
+                <div class="advantage__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet cumque aliquid vel veniam saepe, eum deleniti minima fugiat maxime</div>
+            </div>
+        </div>
+    </div>
+
+    {% if actions %}
+        <div id="section-actions" class="section-type-one">
+            <div class="section-type-one__title container">
+                <div class="h2">Акции</div>
+            </div>
+            <div class="section-type-one__inner container">
+                {% for object in actions %}
+                    <div class="action-card">
+                        <div class="action-card__img">
+                            <a href="">
+                                {% if object.image %}
+                                    <img src="{{ object.image.url }}" alt="{{ object.title }}">
+                                {% else %}
+                                    <img src="{% static 'images/tmp/action.jpg' %}" alt="">
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="action-card__mid">
+                            <div class="action-card__salon-name">{{ object.salon.name }}</div>
+                            <div class="action-card__action-title">{{ object.title }}</div>
+                            <div class="action-card__action-date">Акция действует до 1 августа 2020</div>
+                        </div>
+                        <div class="action-card__bottom">
+                            <div class="action-card__bottom--left">
+                                <div class="action-card__address">г. Москва, Даниловская наб. 55</div>
+                                <div class="action-card__rating"></div>
+                            </div>
+                            <div class="action-card__bottom--read-more">
+                                <a href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
+
+
+{% block content_bottom %}
+    <div id="section-map" class="section-type-one">
+        <div class="section-type-one__title container">
+            <div class="h2">Все салоны на карте</div>
+        </div>
+        <div class="section-type-one__inner">
+            <div id="section-map__legend"class="container">
+                <div class="row">
+                    <div id="section-map__legend--filters" class="col-5">
+                        <!-- <a id="section-map__legend--show-opened" class="active" href="">Открыты сейчас</a>
+                        <a id="section-map__legend--show-actions" href="">Акции</a>
+                        <a id="section-map__legend--show-all" href="">Все салоны</a> -->
+
+                        <button id="section-map__legend--show-opened" class="active" type="button">Открыты сейчас</button>
+                        <button id="section-map__legend--show-actions" type="button">Акции</button>
+                        <button id="section-map__legend--show-all" type="button">Все салоны</button>
+
+                        <button id="hide" type="button">Hide</button>
+                    </div>
+                    <div class="col-2"></div>
+                    <div id="section-map__legend--icons" class="col-5">
+                        <span class="legend-icon legend-icon__open">Открыто</span>
+                        <span class="legend-icon legend-icon__closed">Закрыто</span>
+                        <span class="legend-icon legend-icon__action">Акция</span>
+                        <span class="legend-icon legend-icon__not-icluded">Не подключен</span>
+                    </div>
+                </div>
+            </div>
+            <div id="section-map__map"></div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block js %}
+    {{ block.super }}
+    <script src="{% static 'js/vendors~2Gis.js' %}"></script>
+    <script src="{% static 'js/2Gis.js' %}"></script>
+{% endblock %}
