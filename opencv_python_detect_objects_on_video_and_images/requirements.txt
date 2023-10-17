@@ -1,0 +1,4 @@
+opencv-python==4.8.1.78
+setuptools==68.2.2
+vidgear==0.3.2
+yt-dlp==2023.10.13
