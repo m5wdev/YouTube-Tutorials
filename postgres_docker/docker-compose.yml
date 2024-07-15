@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: no
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    # image: dpage/pgadmin4:latest
+    image: elestio/pgadmin:latest
+    restart: no
+    environment:
+      PGADMIN_DEFAULT_EMAIL: postgres@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: postgres
+      PGADMIN_LISTEN_PORT: 8080
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+
+  adminer:
+    image: adminer
+    ports:
+      - 8081:8080
+    depends_on:
+      - db
